@@ -6,47 +6,70 @@ services:
     rootDir: backend
     buildCommand: "pip install -r requirements.txt && alembic upgrade head"
     startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+
     envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.0"
+
       - key: ENVIRONMENT
         value: production
+
       - key: DEBUG
         value: "false"
+
       - key: DB_SSLMODE
         value: require
+
       - key: REQUEST_TIMEOUT
         value: "30"
+
       - key: MAX_RETRIES
         value: "3"
+
       - key: RETRY_DELAY
         value: "2"
+
       - key: LIVE_SCORE_SYNC_ENABLED
         value: "true"
+
       - key: LIVE_SCORE_SYNC_INTERVAL_MINUTES
         value: "10"
+
       - key: FUTURE_FIXTURE_SYNC_DAYS
         value: "90"
+
       - key: FUTURE_FIXTURE_SYNC_INTERVAL_HOURS
         value: "24"
+
       - key: WATCHLIST_NOTIFICATION_INTERVAL_MINUTES
         value: "5"
+
       - key: NOTIFICATIONS_EMAIL_ENABLED
         value: "false"
-      # Fill these in in the Render dashboard (never commit real values):
+
       - key: DB_HOST
         sync: false
+
       - key: DB_PORT
         sync: false
+
       - key: DB_NAME
         sync: false
+
       - key: DB_USER
         sync: false
+
       - key: DB_PASSWORD
         sync: false
+
       - key: FOOTBALL_API_KEY
         sync: false
+
       - key: FOOTBALL_API_BASE_URL
         value: https://api.football-data.org/v4
+
       - key: AUTH_SECRET_KEY
         generateValue: true
+
       - key: CORS_ORIGINS
         sync: false

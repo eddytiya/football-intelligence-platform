@@ -25,3 +25,7 @@ tenacity
 loguru
 
 pytest
+
+
+
+lightgbm==4.7.0
