@@ -1,0 +1,68 @@
+# Python
+.venv/
+venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+!backend/.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Node / frontend build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Generated CatBoost training files
+backend/catboost_info/
+catboost_info/
+
+# Oversized training models
+# These remain on the local computer but are not uploaded to GitHub.
+# They are not directly referenced by the deployed prediction code.
+backend/models/trained_models/random_forest.joblib
+backend/models/trained_models/extra_trees.joblib
+
+# Historical prediction exports
+backend/reports/historical_predictions_*.csv
+
+# Large local datasets
+data/
+backend/data/
+datasets/
+historical_data/
+
+# Database exports and local databases
+*.sql
+*.dump
+*.backup
+*.sqlite
+*.sqlite3
+*.db
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,207 @@
+/* ==========================================================
+   Live Predictions Section
+========================================================== */
+
+.live-predictions {
+    max-width: 1280px;
+    margin: 80px auto;
+    padding: 0 24px;
+}
+
+/* ==========================================================
+   Prediction Header
+========================================================== */
+
+.prediction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
+    margin-bottom: 32px;
+}
+
+.prediction-header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.prediction-header-content h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.prediction-header-content p {
+    margin-top: 8px;
+    color: #9ca3af;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.prediction-header-badge {
+    padding: 8px 18px;
+
+    background: linear-gradient(135deg, #198754, #20c997);
+
+    color: #ffffff;
+
+    border-radius: 999px;
+
+    font-size: 0.85rem;
+    font-weight: 600;
+
+    white-space: nowrap;
+}
+
+/* ==========================================================
+   Prediction Grid
+========================================================== */
+
+.prediction-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 24px;
+}
+
+/* ==========================================================
+   Empty State
+========================================================== */
+
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 360px;
+
+    padding: 60px 40px;
+
+    background: #111827;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+.empty-state-icon {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.empty-state h3 {
+    margin-bottom: 14px;
+
+    color: #ffffff;
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.empty-state p {
+    max-width: 560px;
+
+    margin: 0;
+
+    color: #9ca3af;
+
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* ==========================================================
+   Loading
+========================================================== */
+
+.live-predictions-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 300px;
+
+    color: #9ca3af;
+
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* ==========================================================
+   Error
+========================================================== */
+
+.live-predictions-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 300px;
+
+    text-align: center;
+}
+
+.live-predictions-error h3 {
+    margin-bottom: 10px;
+
+    color: #ef4444;
+
+    font-size: 1.6rem;
+}
+
+.live-predictions-error p {
+    margin: 0;
+
+    color: #9ca3af;
+}
+
+/* ==========================================================
+   Responsive
+========================================================== */
+
+@media (max-width: 992px) {
+    .prediction-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .live-predictions {
+        margin: 60px auto;
+        padding: 0 16px;
+    }
+
+    .prediction-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .prediction-header-content h2 {
+        font-size: 1.7rem;
+    }
+
+    .prediction-header-content p {
+        font-size: 0.95rem;
+    }
+
+    .empty-state {
+        padding: 40px 24px;
+    }
+
+    .empty-state-icon {
+        font-size: 52px;
+    }
+
+    .empty-state h3 {
+        font-size: 1.6rem;
+    }
+
+    .empty-state p {
+        font-size: 0.95rem;
+    }
+}

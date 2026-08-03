@@ -1,0 +1,12 @@
+{
+    "model_name": "logistic_regression",
+    "accuracy": 0.5463917525773195,
+    "balanced_accuracy": 0.48051282051282057,
+    "precision": 0.5417716685757924,
+    "recall": 0.5463917525773195,
+    "f1_score": 0.5406332131564305,
+    "training_samples": 455,
+    "validation_samples": 97,
+    "number_of_features": 97,
+    "saved_at": "2026-07-24T14:43:46.870265"
+}

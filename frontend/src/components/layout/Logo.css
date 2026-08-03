@@ -1,0 +1,143 @@
+.logo-box{
+
+    width:78px;
+    height:78px;
+
+    background:#111827;
+
+    border-radius:18px;
+
+    border:2px solid #22c55e;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    transition:.35s;
+
+    cursor:pointer;
+}
+
+.logo-box:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 0 20px rgba(34,197,94,.45);
+
+}
+
+.logo-title{
+
+    color:white;
+
+    font-size:22px;
+
+    font-weight:800;
+
+    letter-spacing:2px;
+
+    margin-bottom:12px;
+
+}
+
+.graph{
+
+    position:relative;
+
+    width:46px;
+
+    height:16px;
+
+}
+
+.node{
+
+    width:8px;
+
+    height:8px;
+
+    background:#22c55e;
+
+    border-radius:50%;
+
+    position:absolute;
+
+}
+
+.node1{
+
+    left:0;
+    bottom:0;
+
+}
+
+.node2{
+
+    left:18px;
+    top:2px;
+
+}
+
+.node3{
+
+    left:36px;
+    top:-4px;
+
+}
+
+.line{
+
+    position:absolute;
+
+    height:2px;
+
+    background:#22c55e;
+
+    transform-origin:left center;
+
+}
+
+.line1{
+
+    width:18px;
+
+    left:4px;
+
+    bottom:3px;
+
+    transform:rotate(-15deg);
+
+}
+
+.line2{
+
+    width:18px;
+
+    left:22px;
+
+    top:4px;
+
+    transform:rotate(-25deg);
+
+}
+
+.arrow{
+
+    position:absolute;
+
+    right:-2px;
+
+    top:-8px;
+
+    width:8px;
+
+    height:8px;
+
+    border-top:2px solid #22c55e;
+
+    border-right:2px solid #22c55e;
+
+    transform:rotate(45deg);
+
+}

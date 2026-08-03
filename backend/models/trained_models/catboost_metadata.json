@@ -1,0 +1,12 @@
+{
+    "model_name": "catboost",
+    "accuracy": 0.5670103092783505,
+    "balanced_accuracy": 0.48589743589743595,
+    "precision": 0.4353262325258017,
+    "recall": 0.5670103092783505,
+    "f1_score": 0.49247125917706414,
+    "training_samples": 455,
+    "validation_samples": 97,
+    "number_of_features": 97,
+    "saved_at": "2026-07-24T14:43:46.854348"
+}

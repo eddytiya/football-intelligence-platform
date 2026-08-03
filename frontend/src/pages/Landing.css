@@ -1,0 +1,47 @@
+.landing-page{min-height:100vh;background:#060b08;color:#f5fff8}
+.landing-topbar{display:flex;align-items:center;justify-content:space-between;padding:26px 56px;gap:20px}
+.landing-brand{display:flex;align-items:center;gap:12px;color:#f7fff9;text-decoration:none;font-weight:900}
+.landing-brand>b{display:grid;place-items:center;width:48px;height:48px;border:1px solid #51eb96;border-radius:13px;color:#fff;font-size:1.12rem;box-shadow:inset 0 0 0 4px rgba(73,238,143,.07)}
+.landing-brand span{font-size:1rem;letter-spacing:-.025em}
+.landing-brand small{display:block;margin-top:4px;color:#8aab99;font-size:.58rem;letter-spacing:.13em;text-transform:uppercase}
+.landing-topbar nav{display:flex;align-items:center;gap:18px}
+.landing-signin{color:#d2e7d9;font-weight:800;font-size:.85rem;text-decoration:none}
+.landing-signup{padding:11px 20px;border-radius:6px;background:#53ed9d;color:#042313;font-weight:900;font-size:.85rem;text-decoration:none;transition:transform .2s,filter .2s}
+.landing-signup:hover{filter:brightness(1.07);transform:translateY(-1px)}
+
+.landing-hero{display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center;max-width:1240px;margin:0 auto;padding:36px 56px 64px}
+.landing-kicker{color:#6cf0a3;font-size:.68rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+.landing-hero-copy h1{max-width:520px;margin:10px 0 16px;font-size:clamp(2.6rem,5vw,4.4rem);line-height:.96;letter-spacing:-.06em}
+.landing-hero-copy>p{max-width:460px;margin:0 0 30px;color:#aac3b3;line-height:1.65;font-size:.97rem}
+.landing-hero-actions{display:flex;align-items:center;gap:20px}
+.landing-primary{display:inline-flex;align-items:center;gap:8px;padding:15px 22px;border-radius:6px;background:#53ed9d;color:#042313;font-weight:900;font-size:.88rem;text-decoration:none;transition:transform .2s,filter .2s}
+.landing-primary:hover{filter:brightness(1.07);transform:translateY(-1px)}
+.landing-secondary{color:#9fb8a8;font-weight:800;font-size:.88rem;text-decoration:none}
+
+.landing-track-record{padding:26px 28px;border:1px solid rgba(111,237,161,.18);border-radius:16px;background:linear-gradient(135deg,rgba(18,61,37,.4),rgba(4,14,9,.5));box-shadow:0 20px 50px rgba(0,0,0,.3)}
+.landing-track-kicker{color:#83f5b4;font-size:.67rem;font-weight:900;text-transform:uppercase;letter-spacing:.15em}
+.landing-stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:18px 0}
+.landing-stat-grid strong{display:block;font-size:2.1rem;letter-spacing:-.03em}
+.landing-stat-grid span{color:#9fb8a8;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em}
+.landing-track-note{margin:0;color:#8aab99;font-size:.78rem;line-height:1.55}
+
+.landing-featured{max-width:1240px;margin:0 auto;padding:0 56px 64px}
+.landing-featured-match{margin-top:14px;padding:22px 26px;border:1px solid #254737;border-radius:14px;background:#0a130e}
+.landing-featured-match>header{display:flex;justify-content:space-between;color:#9fb8a8;font-size:.78rem;font-weight:800}
+.landing-featured-teams{display:flex;align-items:center;justify-content:center;gap:26px;margin:18px 0}
+.landing-featured-teams section{display:flex;flex-direction:column;align-items:center;gap:8px;min-width:140px}
+.landing-featured-teams img{width:44px;height:44px;object-fit:contain}
+.landing-featured-teams strong{font-size:.92rem;text-align:center}
+.landing-versus{color:#6cf0a3;font-size:.8rem;font-weight:900}
+.landing-featured-match>footer{color:#8aab99;font-size:.78rem;text-align:center}
+
+.landing-cta{display:flex;align-items:center;justify-content:space-between;gap:24px;max-width:1240px;margin:0 auto 64px;padding:32px 40px;border:1px solid #254737;border-radius:16px;background:linear-gradient(135deg,rgba(18,61,37,.4),rgba(4,14,9,.5))}
+.landing-cta h2{margin:0 0 6px;font-size:1.5rem}
+.landing-cta p{margin:0;color:#aac3b3;max-width:480px}
+
+@media(max-width:900px){
+    .landing-topbar{padding:20px 24px}
+    .landing-hero{grid-template-columns:1fr;padding:24px 24px 48px}
+    .landing-featured{padding:0 24px 48px}
+    .landing-cta{flex-direction:column;align-items:flex-start;padding:24px}
+}

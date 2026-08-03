@@ -1,0 +1,12 @@
+{
+    "model_name": "gradient_boosting",
+    "accuracy": 0.5360824742268041,
+    "balanced_accuracy": 0.4258974358974359,
+    "precision": 0.4836296755855344,
+    "recall": 0.5360824742268041,
+    "f1_score": 0.4915346576146174,
+    "training_samples": 455,
+    "validation_samples": 97,
+    "number_of_features": 97,
+    "saved_at": "2026-07-24T14:43:38.237794"
+}

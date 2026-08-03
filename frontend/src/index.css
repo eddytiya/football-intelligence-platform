@@ -1,0 +1,39 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+html,
+body,
+#root{
+
+    width:100%;
+
+    min-height:100%;
+
+}
+
+body{
+
+    margin:0;
+
+    overflow-x:hidden;
+
+    background:#08121f;
+
+    font-family:Inter, sans-serif;
+
+}
+
+.app-recovery { display:grid; min-height:100vh; place-content:center; padding:32px; background:radial-gradient(circle at top,rgba(24,109,57,.3),transparent 36%),#030b06; color:#f5fff8; text-align:center; }.app-recovery span { color:#e5c961; font-size:.72rem; font-weight:900; letter-spacing:.12em; text-transform:uppercase; }.app-recovery h1 { margin:10px 0; font-size:clamp(2rem,5vw,4rem); }.app-recovery p { max-width:480px; margin:0 0 22px; color:#b2c8ba; line-height:1.6; }.app-recovery button { justify-self:center; padding:11px 16px; border:1px solid #36d67b; border-radius:8px; background:#0d7038; color:#fff; cursor:pointer; font:inherit; font-weight:800; }

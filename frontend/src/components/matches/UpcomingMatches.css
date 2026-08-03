@@ -1,0 +1,95 @@
+.upcoming-matches {
+    padding: 60px 8%;
+}
+
+.upcoming-matches h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.upcoming-matches-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 25px;
+}
+
+.match-card {
+    background: #141d2f;
+    border-radius: 16px;
+    padding: 25px;
+    border: 1px solid #26334d;
+    transition: 0.3s;
+}
+
+.match-card:hover {
+    transform: translateY(-4px);
+    border-color: #4c8bf5;
+}
+
+.competition-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.competition-logo {
+    width: 28px;
+    height: 28px;
+}
+
+.teams-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.team {
+    width: 40%;
+    text-align: center;
+}
+
+.team-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.team h4 {
+    color: white;
+    font-size: 1rem;
+}
+
+.vs {
+    color: #4c8bf5;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.match-time {
+    color: #aab4c8;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.predict-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #4c8bf5;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.predict-btn:hover {
+    background: #2f6de0;
+}

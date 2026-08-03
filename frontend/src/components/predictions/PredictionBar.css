@@ -1,0 +1,26 @@
+.prediction-bar {
+    display: flex;
+    width: 100%;
+    height: 12px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #e9ecef;
+    margin: 20px 0;
+}
+
+.prediction-segment {
+    height: 100%;
+    transition: width 0.4s ease;
+}
+
+.prediction-segment.home {
+    background: #28a745;
+}
+
+.prediction-segment.draw {
+    background: #ffc107;
+}
+
+.prediction-segment.away {
+    background: #dc3545;
+}

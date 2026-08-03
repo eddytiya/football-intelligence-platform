@@ -1,0 +1,15 @@
+{
+    "model_name": "random_forest",
+    "accuracy": 0.48,
+    "balanced_accuracy": 0.4167646093975402,
+    "precision": 0.43960521590859014,
+    "recall": 0.48,
+    "f1_score": 0.4264495920126996,
+    "log_loss": 1.0383697985311238,
+    "multiclass_brier_score": 0.6223087782047619,
+    "expected_calibration_gap": 0.023978632619660756,
+    "training_samples": 33485,
+    "validation_samples": 7175,
+    "number_of_features": 187,
+    "saved_at": "2026-08-03T12:46:15.396668"
+}

@@ -1,0 +1,12 @@
+{
+    "model_name": "lightgbm",
+    "accuracy": 0.4776306620209059,
+    "balanced_accuracy": 0.4055652512356176,
+    "precision": 0.4169656155626802,
+    "recall": 0.4776306620209059,
+    "f1_score": 0.4023713377049554,
+    "training_samples": 33485,
+    "validation_samples": 7175,
+    "number_of_features": 187,
+    "saved_at": "2026-07-31T18:23:17.179959"
+}

@@ -1,0 +1,56 @@
+.prediction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
+    margin-bottom: 32px;
+}
+
+.prediction-header-content h2 {
+    margin: 0;
+
+    font-size: 2rem;
+    font-weight: 700;
+
+    color: #212529;
+}
+
+.prediction-header-content p {
+    margin-top: 8px;
+
+    color: #6c757d;
+
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.prediction-header-badge {
+    padding: 8px 18px;
+
+    background: linear-gradient(135deg, #198754, #20c997);
+
+    color: #ffffff;
+
+    border-radius: 999px;
+
+    font-size: 0.85rem;
+    font-weight: 600;
+
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .prediction-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .prediction-header-content h2 {
+        font-size: 1.7rem;
+    }
+
+    .prediction-header-content p {
+        font-size: 0.95rem;
+    }
+}

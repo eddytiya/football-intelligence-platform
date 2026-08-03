@@ -1,0 +1,5 @@
+model,best_score,best_parameters
+lightgbm,0.5452201698818975,"{'num_leaves': 50, 'n_estimators': 100, 'max_depth': 10, 'learning_rate': 0.1}"
+logistic_regression,0.5347372545271742,"{'solver': 'lbfgs', 'max_iter': 500, 'C': 0.01}"
+xgboost,0.5237038736567569,"{'subsample': 0.9, 'n_estimators': 200, 'max_depth': 3, 'learning_rate': 0.1}"
+catboost,0.5001750498745151,"{'learning_rate': 0.1, 'iterations': 300, 'depth': 4}"

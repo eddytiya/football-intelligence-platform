@@ -1,0 +1,207 @@
+/* ==========================================================
+   Live Predictions
+========================================================== */
+
+.live-predictions {
+    padding: 60px 0;
+}
+
+/* ==========================================================
+   Header
+========================================================== */
+
+.prediction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.prediction-header h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.prediction-header p {
+    margin-top: 8px;
+    color: #666;
+}
+
+/* ==========================================================
+   Prediction Grid
+========================================================== */
+
+.prediction-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 25px;
+}
+
+/* ==========================================================
+   Prediction Card
+========================================================== */
+
+.prediction-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.prediction-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* ==========================================================
+   Competition
+========================================================== */
+
+.competition {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.competition img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.competition span {
+    font-weight: 600;
+}
+
+/* ==========================================================
+   Teams
+========================================================== */
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+}
+
+.team img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.team p {
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* ==========================================================
+   Prediction Result
+========================================================== */
+
+.prediction-result {
+    text-align: center;
+}
+
+.prediction-result h3 {
+    margin: 0;
+    color: #198754;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* ==========================================================
+   Probability Bar
+========================================================== */
+
+.prediction-bar {
+    display: flex;
+    overflow: hidden;
+    height: 12px;
+    border-radius: 10px;
+    background: #ececec;
+    margin: 25px 0 15px;
+}
+
+.prediction-bar .home {
+    background: #28a745;
+}
+
+.prediction-bar .draw {
+    background: #ffc107;
+}
+
+.prediction-bar .away {
+    background: #dc3545;
+}
+
+/* ==========================================================
+   Percentages
+========================================================== */
+
+.probabilities {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* ==========================================================
+   Empty State
+========================================================== */
+
+.empty-state {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 70px 30px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.empty-state h3 {
+    margin-bottom: 12px;
+    font-size: 1.7rem;
+}
+
+.empty-state p {
+    color: #666;
+    max-width: 550px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* ==========================================================
+   Responsive
+========================================================== */
+
+@media (max-width: 768px) {
+    .prediction-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .teams {
+        gap: 20px;
+    }
+
+    .prediction-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .prediction-card {
+        padding: 20px;
+    }
+}
