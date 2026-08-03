@@ -62,7 +62,7 @@ historical_data/
 *.sqlite
 *.sqlite3
 *.db
-
 # OS
 .DS_Store
-Thumbs.db`r`n.claude/
+Thumbs.db
+.claude/
