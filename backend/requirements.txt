@@ -13,12 +13,16 @@ python-dotenv
 pydantic
 pydantic-settings
 
-pandas
-numpy
+pandas==3.0.3
+numpy==2.4.6
 
-# Loading/serving the trained prediction model (best_model.joblib)
-scikit-learn
-joblib
+# Pinned to match the versions that actually trained/pickled the .joblib
+# model artifacts (backend/models/*.joblib). A version mismatch here
+# silently breaks unpickling in production (loads fine locally, 500s on
+# the deployed API) even though the file itself is present and correct.
+scikit-learn==1.9.0
+scipy==1.18.0
+joblib==1.5.3
 
 tenacity
 
@@ -29,4 +33,4 @@ pytest
 
 
 lightgbm==4.7.0
-catboost==1.2.8
+catboost==1.2.10
