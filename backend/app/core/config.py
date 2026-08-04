@@ -105,6 +105,9 @@ class Settings(BaseSettings):
         # or from backend/.
         env_file=BACKEND_ROOT / ".env",
         env_file_encoding="utf-8",
+        # A stray/unused var in .env (e.g. a connection string copied in
+        # while setting up a hosting provider) shouldn't crash the whole app.
+        extra="ignore",
     )
 
 

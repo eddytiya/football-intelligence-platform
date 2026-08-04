@@ -1,13 +1,16 @@
 import re
 import time
 import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 from urllib.parse import parse_qs, urlparse
 
 import requests
 
 from app.core.config import settings
 
-CACHE_TTL_SECONDS = 600
+# Kept short: news staleness matters more than shielding a free provider
+# from load, and Bing's RSS feed only ever returns ~10-12 items anyway.
+CACHE_TTL_SECONDS = 180
 BING_NEWS_RSS_URL = "https://www.bing.com/news/search"
 
 _cache: dict[tuple[str, int], tuple[float, list[dict]]] = {}
@@ -92,7 +95,7 @@ def _fetch_from_bing_news_rss(query: str | None, page_size: int) -> list[dict]:
 
     root = ET.fromstring(response.content)
     articles = []
-    for item in root.findall(".//item")[:page_size]:
+    for item in root.findall(".//item"):
         fields = {_local_tag(child): child.text for child in item}
         articles.append({
             "title": fields.get("title"),
@@ -102,7 +105,17 @@ def _fetch_from_bing_news_rss(query: str | None, page_size: int) -> list[dict]:
             "source": fields.get("Source"),
             "published_at": fields.get("pubDate"),
         })
-    return articles
+
+    # Bing ranks by relevance, not recency, so the newest article often
+    # isn't first. Re-sort by actual publish time so "latest" means latest.
+    dated, undated = [], []
+    for article in articles:
+        try:
+            dated.append((parsedate_to_datetime(article["published_at"]), article))
+        except (TypeError, ValueError):
+            undated.append(article)
+    dated.sort(key=lambda pair: pair[0], reverse=True)
+    return [article for _, article in dated][:page_size] + undated[:max(0, page_size - len(dated))]
 
 
 def get_headlines(query: str | None, page_size: int = 12) -> list[dict]:

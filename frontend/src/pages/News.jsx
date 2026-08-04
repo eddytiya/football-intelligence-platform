@@ -46,7 +46,7 @@ function News() {
             if (active) setFeed(data);
         }).catch(() => active && setFeed({ articles: [], error: "The news feed is temporarily unavailable." })).finally(() => active && setLoading(false));
         load();
-        const timer = window.setInterval(load, 600000);
+        const timer = window.setInterval(load, 180000);
         return () => { active = false; window.clearInterval(timer); };
     }, [selected]);
 
