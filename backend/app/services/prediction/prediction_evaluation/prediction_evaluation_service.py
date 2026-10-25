@@ -61,44 +61,7 @@ class PredictionEvaluationService:
 
         if prediction is None:
             raise ValueError("Prediction not found.")
-
-        if self.evaluation_repository.exists(
-            prediction_id
-        ):
-            raise ValueError(
-                "Prediction has already been evaluated."
-            )
-
-        match = (
-            self.match_repository.get_match_by_id(
-                prediction.match_id
-            )
-        )
-
-        if match is None:
-            raise ValueError("Match not found.")
-
-        if match.status != "FINISHED":
-            raise ValueError(
-                "Match has not finished yet."
-            )
-
-        actual_result = self.determine_actual_result(
-            match
-        )
-
-        correct = (
-            prediction.prediction
-            == actual_result
-        )
-
-        return (
-            self.evaluation_repository.create_evaluation(
-                prediction_id=prediction.id,
-                actual_result=actual_result,
-                correct=correct,
-            )
-        )
+        raise ValueError('Legacy prediction records lack verified training cutoffs. Use the server forecast archive and model-performance review.')
 
     # ==========================================================
     # Read
@@ -130,16 +93,18 @@ class PredictionEvaluationService:
     # ==========================================================
 
     def get_accuracy(self):
+        from app.repositories.prediction_analytics_repository import PredictionAnalyticsRepository
+        verified = PredictionAnalyticsRepository(self.db)
         return {
-            "accuracy": self.evaluation_repository.get_accuracy(),
+            "accuracy": verified.get_accuracy(),
             "total_predictions": (
-                self.evaluation_repository.get_total_predictions()
+                verified.get_total_predictions()
             ),
             "correct_predictions": (
-                self.evaluation_repository.get_correct_predictions()
+                verified.get_correct_predictions()
             ),
             "incorrect_predictions": (
-                self.evaluation_repository.get_incorrect_predictions()
+                verified.get_incorrect_predictions()
             ),
         }
 

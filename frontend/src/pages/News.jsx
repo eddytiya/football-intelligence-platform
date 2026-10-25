@@ -7,6 +7,7 @@ import { getNews } from "../api/newsApi";
 import { getAccountFavourites } from "../api/accountApi";
 import { getTeamProfile } from "../api/teamApi";
 import "./News.css";
+import { TbBallFootball } from "react-icons/tb";
 
 const timeAgo = (value) => {
     if (!value) return "";
@@ -67,7 +68,7 @@ function News() {
 
         {loading ? <FootballLoader label="Loading the latest headlines" /> : feed?.error ? <div className="news-empty"><p>{feed.error}</p></div> : !feed?.articles?.length ? <div className="news-empty"><p>No recent headlines found{selected ? ` for ${selected}` : ""}.</p></div> : <div className="news-grid">
             {feed.articles.map((article, index) => <a className="news-card" href={article.url} target="_blank" rel="noreferrer" key={`${article.url}-${index}`}>
-                {article.image ? <img src={article.image} alt="" /> : <div className="news-card-fallback">⚽</div>}
+                {article.image ? <img src={article.image} alt="" /> : <div className="news-card-fallback"><TbBallFootball aria-hidden="true" /></div>}
                 <div className="news-card-body">
                     <span>{article.source || "Football news"} · {timeAgo(article.published_at)}</span>
                     <strong>{article.title}</strong>

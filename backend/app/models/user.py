@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, UniqueConstraint
+from sqlalchemy import Boolean, Column, DateTime, ForeignKey, Integer, String, UniqueConstraint, false
 
 from app.db.base import Base
 
@@ -15,6 +15,7 @@ class User(Base):
     password_hash = Column(String(512), nullable=False)
     created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
     last_login_at = Column(DateTime, nullable=True)
+    is_admin = Column(Boolean, nullable=False, default=False, server_default=false())
 
 
 class UserFavourite(Base):

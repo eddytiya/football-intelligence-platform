@@ -57,6 +57,8 @@ class Settings(BaseSettings):
     # Local-account access tokens are signed with this server-only value.
     AUTH_SECRET_KEY: str = "replace-this-development-secret-before-deployment"
     AUTH_TOKEN_EXPIRE_HOURS: int = 168
+    ADMIN_EMAIL: str | None = None
+    ADMIN_PASSWORD: str | None = None
 
     # Comma-separated browser origins allowed to call the API. Add the
     # deployed Vite URL here when hosting; keep localhost for development.
@@ -72,6 +74,8 @@ class Settings(BaseSettings):
     LIVE_SCORE_SYNC_INTERVAL_MINUTES: int = 10
     FUTURE_FIXTURE_SYNC_DAYS: int = 90
     FUTURE_FIXTURE_SYNC_INTERVAL_HOURS: int = 24
+    PREDICTION_HISTORY_SYNC_ENABLED: bool = True
+    PREDICTION_HISTORY_SYNC_INTERVAL_HOURS: int = 24
 
     # ==============================
     # WATCHLIST NOTIFICATIONS

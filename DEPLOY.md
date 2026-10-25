@@ -75,6 +75,19 @@ requests from the deployed frontend.
 
 ## After that
 
+### Administrator access
+
+Set `ADMIN_EMAIL` and `ADMIN_PASSWORD` (at least 16 characters) in the Render
+service environment, then redeploy. Startup creates the account with a hashed
+password and grants the administrator role. Existing accounts are promoted only
+when their password matches; their passwords are never reset automatically.
+Sign in at `/login` and open `/admin/predictions` on the frontend.
+
+For local access, credentials can be kept in the gitignored root `.env.access`.
+Run `backend/.venv/Scripts/python.exe backend/scripts/setup_prediction_admin.py`
+from the repository root to provision that account against the configured backend
+database. Keep this file private and never copy its secrets into frontend env vars.
+
 - Every `git push` to the deployed branch auto-redeploys both Render and Vercel.
 - Keep real secrets (`.env`, API keys, DB password) only in the Render/Neon dashboards — never commit them.
 - `NEWS_API_KEY` and `NOTIFICATIONS_EMAIL_ENABLED`/SMTP vars are optional; the app works without them.

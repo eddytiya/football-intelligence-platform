@@ -1,5 +1,6 @@
 import MatchDateGroup from "./MatchDateGroup";
 import MatchweekOverview from "./MatchweekOverview";
+import CalendarExport from "./CalendarExport";
 import "./Matches.css";
 
 function MatchList({
@@ -177,6 +178,7 @@ function MatchList({
     return (
 
         <div className="match-list">
+            <div className="fan-actions"><CalendarExport fixtures={filteredMatches} label="Export displayed upcoming fixtures" /><small>One-time .ics download. Schedule changes do not sync.</small></div>
 
             {selectedMatchweek && selectedCompetitionData && (
                 <MatchweekOverview

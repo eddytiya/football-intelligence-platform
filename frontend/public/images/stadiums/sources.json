@@ -1,0 +1,3143 @@
+{
+  "monza": {
+    "stadium": "Stadio Brianteo",
+    "aliases": [
+      "AC Monza",
+      "Monza"
+    ],
+    "image": "/images/stadiums/monza.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadio_Brianteo_2024.jpg",
+    "author": "Simonemb",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoDate": "2024-05-18 11:05:24",
+    "description": "Stadio Brianteo visto dal settore distinti superiori, maggio 2024",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Stadio_Brianteo_2024.jpg/1280px-Stadio_Brianteo_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Stadio_Brianteo_2024.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "parma": {
+    "stadium": "Stadio Ennio Tardini",
+    "aliases": [
+      "Parma Calcio 1913",
+      "Parma"
+    ],
+    "image": "/images/stadiums/parma.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadio_Ennio_Tardini_2026.jpg",
+    "author": "Brodolò1",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoDate": "2026-03-21 15:29:43",
+    "description": "Veduta panoramica dello stadio Ennio Tardini di Parma",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Stadio_Ennio_Tardini_2026.jpg/1280px-Stadio_Ennio_Tardini_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Stadio_Ennio_Tardini_2026.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "manchester-united": {
+    "stadium": "Old Trafford",
+    "aliases": [
+      "Manchester United FC",
+      "Manchester United",
+      "Man United",
+      "Man Utd"
+    ],
+    "image": "/images/stadiums/manchester-united.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_07_31_arne_mueseler_00060-Verbessert-RR_(53106651455).jpg",
+    "author": "Arne Müseler from Salzburg, AT",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoDate": "2023-07-31 13:10",
+    "description": "Photo: Arne Müseler",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/2023_07_31_arne_mueseler_00060-Verbessert-RR_%2853106651455%29.jpg/1280px-2023_07_31_arne_mueseler_00060-Verbessert-RR_%2853106651455%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Old_Trafford",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "manchester-city": {
+    "stadium": "Etihad Stadium",
+    "aliases": [
+      "Manchester City FC",
+      "Manchester City",
+      "Man City"
+    ],
+    "image": "/images/stadiums/manchester-city.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:City_of_Manchester_Stadium_2023_cropped.jpg",
+    "author": "Arne Müseler, cropped by Blackcat",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "Taken on 31 July 2023, 12:35:37 UTC+1",
+    "description": "Aerial view of the City of Manchester Stadium",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/City_of_Manchester_Stadium_2023_cropped.jpg/1280px-City_of_Manchester_Stadium_2023_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Etihad_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "arsenal": {
+    "stadium": "Emirates Stadium",
+    "aliases": [
+      "Arsenal FC",
+      "Arsenal"
+    ],
+    "image": "/images/stadiums/arsenal.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:London_Emirates_Stadium_arsenal.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2022-10-11",
+    "description": "Emirates Stadium, London, England, United Kingdom",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/London_Emirates_Stadium_arsenal.jpg/1280px-London_Emirates_Stadium_arsenal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Emirates_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "liverpool": {
+    "stadium": "Anfield",
+    "aliases": [
+      "Liverpool FC",
+      "Liverpool"
+    ],
+    "image": "/images/stadiums/liverpool.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Liverpool_anfield_road_stadium.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2023-07-31",
+    "description": "Anfield Road Stadium, Liverpool, England, United Kingdom",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Liverpool_anfield_road_stadium.jpg/1280px-Liverpool_anfield_road_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Anfield",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "chelsea": {
+    "stadium": "Stamford Bridge",
+    "aliases": [
+      "Chelsea FC",
+      "Chelsea"
+    ],
+    "image": "/images/stadiums/chelsea.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:London_Stamford_Bridge.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2023-09-09",
+    "description": "Stamford Bridge, London, England, United Kingdom",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/London_Stamford_Bridge.jpg/1280px-London_Stamford_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stamford_Bridge_%28stadium%29",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "tottenham": {
+    "stadium": "Tottenham Hotspur Stadium",
+    "aliases": [
+      "Tottenham Hotspur FC",
+      "Tottenham Hotspur",
+      "Tottenham",
+      "Spurs"
+    ],
+    "image": "/images/stadiums/tottenham.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:London_Tottenham_Hotspur_Stadium.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2022-10-11",
+    "description": "Tottenham Hotspur Stadium, London, England, United Kingdom",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/London_Tottenham_Hotspur_Stadium.jpg/1280px-London_Tottenham_Hotspur_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "newcastle": {
+    "stadium": "St James’ Park",
+    "aliases": [
+      "Newcastle United FC",
+      "Newcastle United",
+      "Newcastle"
+    ],
+    "image": "/images/stadiums/newcastle.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Newcastle_st-james-park_stadium.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2023-08-01",
+    "description": "St. James Park, Newcastle, England, United Kingdom",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Newcastle_st-james-park_stadium.jpg/1280px-Newcastle_st-james-park_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/St_James%27_Park",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "aston-villa": {
+    "stadium": "Villa Park",
+    "aliases": [
+      "Aston Villa FC",
+      "Aston Villa"
+    ],
+    "image": "/images/stadiums/aston-villa.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Birmingham_aston_villa_park_stadium.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2023-08-02",
+    "description": "Villa Park, Birmingham, England, United Kingdom",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Birmingham_aston_villa_park_stadium.jpg/1280px-Birmingham_aston_villa_park_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Villa_Park",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "brighton": {
+    "stadium": "Falmer Stadium",
+    "aliases": [
+      "Brighton & Hove Albion FC",
+      "Brighton & Hove Albion",
+      "Brighton",
+      "Brighton Hove"
+    ],
+    "image": "/images/stadiums/brighton.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Amex_Community_Stadium.jpg",
+    "author": "Barbara van Cleve",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2011-08-05 16:42:25",
+    "description": "An aerial view of the American Express Community Stadium in Falmer.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Amex_Community_Stadium.jpg/1280px-Amex_Community_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Falmer_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "crystal-palace": {
+    "stadium": "Selhurst Park",
+    "aliases": [
+      "Crystal Palace FC",
+      "Crystal Palace"
+    ],
+    "image": "/images/stadiums/crystal-palace.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_09_09_arne_mueseler_17_18_07_00743-Verbessert-RR_(53283239217).jpg",
+    "author": "Arne Müseler from Salzburg, AT",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoDate": "2023-09-09 17:18",
+    "description": "Foto: Arne Müseler",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/2023_09_09_arne_mueseler_17_18_07_00743-Verbessert-RR_%2853283239217%29.jpg/1280px-2023_09_09_arne_mueseler_17_18_07_00743-Verbessert-RR_%2853283239217%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Selhurst_Park",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "fulham": {
+    "stadium": "Craven Cottage",
+    "aliases": [
+      "Fulham FC",
+      "Fulham"
+    ],
+    "image": "/images/stadiums/fulham.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Craven_Cottage,_home_to_Fulham_FC_-_geograph.org.uk_-_4695209.jpg",
+    "author": "Jim Osley",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoDate": "2015-10-10",
+    "description": "Craven Cottage: home to Fulham FC",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Craven_Cottage%2C_home_to_Fulham_FC_-_geograph.org.uk_-_4695209.jpg/1280px-Craven_Cottage%2C_home_to_Fulham_FC_-_geograph.org.uk_-_4695209.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Craven_Cottage,_home_to_Fulham_FC_-_geograph.org.uk_-_4695209.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "west-ham": {
+    "stadium": "London Stadium",
+    "aliases": [
+      "West Ham United FC",
+      "West Ham United",
+      "West Ham"
+    ],
+    "image": "/images/stadiums/west-ham.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:London_Olympic_Stadium_West_Ham.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2022-10-11",
+    "description": "London Stadium, London, England, United Kingdom",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/London_Olympic_Stadium_West_Ham.jpg/1280px-London_Olympic_Stadium_West_Ham.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/London_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "brentford": {
+    "stadium": "Brentford Community Stadium",
+    "aliases": [
+      "Brentford FC",
+      "Brentford"
+    ],
+    "image": "/images/stadiums/brentford.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Brentford_Community_Stadium_2020.jpg",
+    "author": "AndyScott",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2020-05-08 15:52:20",
+    "description": "Brentford Community Stadium in May 2020",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Brentford_Community_Stadium_2020.jpg/1280px-Brentford_Community_Stadium_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Brentford_Community_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "bournemouth": {
+    "stadium": "Dean Court",
+    "aliases": [
+      "AFC Bournemouth",
+      "Bournemouth"
+    ],
+    "image": "/images/stadiums/bournemouth.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Deancourt_14092013_vblackpool.jpg",
+    "author": "Matthew Jackson",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoDate": "2013-09-14 14:55:00",
+    "description": "Panorama of Goldsands Stadium (Dean Court) from East Stand. Prior to Football League Championship fixture 14/9/2013 AFC Bournemouth v Blackpool FC.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Deancourt_14092013_vblackpool.jpg/1280px-Deancourt_14092013_vblackpool.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Dean_Court",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "nottingham-forest": {
+    "stadium": "City Ground",
+    "aliases": [
+      "Nottingham Forest FC",
+      "Nottingham Forest",
+      "Nottm Forest",
+      "Nott'm Forest",
+      "Nottingham"
+    ],
+    "image": "/images/stadiums/nottingham-forest.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:CityGroundFromAboveTrentBridgeCricketGround.jpg",
+    "author": "Stadisimo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoDate": "2024-04-25",
+    "description": "Aerial photograph of the City Ground taken from above Trent Bridge Cricket ground looking towards Meadow Lane and Eastcroft Incinerator",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/CityGroundFromAboveTrentBridgeCricketGround.jpg/1280px-CityGroundFromAboveTrentBridgeCricketGround.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/City_Ground",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "leeds": {
+    "stadium": "Elland Road",
+    "aliases": [
+      "Leeds United FC",
+      "Leeds United",
+      "Leeds"
+    ],
+    "image": "/images/stadiums/leeds.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Leeds_United_-_31559864360.jpg",
+    "author": "chillilogic.com",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2016-12-17 15:49:58",
+    "description": "Elland Road",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Leeds_United_-_31559864360.jpg/1280px-Leeds_United_-_31559864360.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Elland_Road",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "sunderland": {
+    "stadium": "Stadium of Light",
+    "aliases": [
+      "Sunderland AFC",
+      "Sunderland"
+    ],
+    "image": "/images/stadiums/sunderland.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunderland_stadium_of_light.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2023-08-02",
+    "description": "Stadium of Light, Sunderland, England, United Kingdom",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Sunderland_stadium_of_light.jpg/1280px-Sunderland_stadium_of_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadium_of_Light",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "everton": {
+    "stadium": "Hill Dickinson Stadium",
+    "aliases": [
+      "Everton FC",
+      "Everton"
+    ],
+    "image": "/images/stadiums/everton.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hill_Dickinson_Stadium,_Liverpool_Waterfront_-_geograph.org.uk_-_8170881.jpg",
+    "author": "David Dixon",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoDate": "2025-10-05",
+    "description": "Hill Dickinson Stadium, Liverpool Waterfront",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/9/95/Hill_Dickinson_Stadium%2C_Liverpool_Waterfront_-_geograph.org.uk_-_8170881.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "venueSource": "https://en.wikipedia.org/wiki/Hill_Dickinson_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "real-madrid": {
+    "stadium": "Santiago Bernabéu",
+    "aliases": [
+      "Real Madrid CF",
+      "Real Madrid"
+    ],
+    "image": "/images/stadiums/real-madrid.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadio_Santiago_Bernab%C3%A9u_%E2%80%94_Real_Madrid_Juvenil_A_-_Santiago_Wanderers_Sub-20_(Intercontinental_Sub-20_2026)_%E2%80%94_R%C3%A9cord_de_asistencia_en_un_partido_de_juveniles.jpg",
+    "author": "Badefa",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoDate": "2026-09-19 13:50:44",
+    "description": "Número de personas en las gradas del Estadio Santiago Bernabéu durante el partido Real Madrid Juvenil A - Santiago Wanderers Sub-20 de la Intercontinental Sub-20 2026. Récord mundial de asistencia en un partido de juveniles.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Estadio_Santiago_Bernab%C3%A9u_%E2%80%94_Real_Madrid_Juvenil_A_-_Santiago_Wanderers_Sub-20_%28Intercontinental_Sub-20_2026%29_%E2%80%94_R%C3%A9cord_de_asistencia_en_un_partido_de_juveniles.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Bernab%C3%A9u_%28stadium%29",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "barcelona": {
+    "stadium": "Spotify Camp Nou",
+    "aliases": [
+      "FC Barcelona",
+      "Barcelona"
+    ],
+    "image": "/images/stadiums/barcelona.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Camp_Nou_aerial.jpg",
+    "author": "Oh-Barcelona.com from Barcelona, Spain",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2009-06-06 22:02",
+    "description": "The Camp Nou is the biggest stadium in Europe and offers seats to 98,787 visitors.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Camp_Nou_aerial.jpg/1280px-Camp_Nou_aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Camp_Nou",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "bayern": {
+    "stadium": "Allianz Arena",
+    "aliases": [
+      "FC Bayern München",
+      "Bayern Munich",
+      "Bayern München",
+      "Bayern"
+    ],
+    "image": "/images/stadiums/bayern.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Allianz_Arena_2008-02-09.jpg",
+    "author": "2015 Michael 2015",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2008-02-09",
+    "description": "The Allianz Arena in February 2008. Captured at sunset with already activated stadion lights.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Allianz_Arena_2008-02-09.jpg/1280px-Allianz_Arena_2008-02-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Allianz_Arena",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "juventus": {
+    "stadium": "Juventus Stadium",
+    "aliases": [
+      "Juventus FC",
+      "Juventus"
+    ],
+    "image": "/images/stadiums/juventus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2021%E2%80%9322_UEFA_Women%27s_Champions_League_Final_in_Turin,_Italy_1.jpg",
+    "author": "Sebleouf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2022-05-21 19:29:33",
+    "description": "Finale de la Ligue des champions féminine de l'UEFA 2021-2022 opposant le FC Barcelone à l'Olympique lyonnais (1-3).",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/2021%E2%80%9322_UEFA_Women%27s_Champions_League_Final_in_Turin%2C_Italy_1.jpg/1280px-2021%E2%80%9322_UEFA_Women%27s_Champions_League_Final_in_Turin%2C_Italy_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Juventus_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "milan": {
+    "stadium": "San Siro",
+    "aliases": [
+      "AC Milan",
+      "FC Internazionale Milano",
+      "Inter Milan",
+      "Inter",
+      "Milan"
+    ],
+    "image": "/images/stadiums/milan.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadio_Meazza_2021_3.jpg",
+    "author": "Prelvini",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2021-05-07 19:48:58",
+    "description": "Stadio Giuseppe Meazza",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Stadio_Meazza_2021_3.jpg/1280px-Stadio_Meazza_2021_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/San_Siro",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "hull": {
+    "stadium": "MKM Stadium",
+    "aliases": [
+      "Hull City AFC",
+      "Hull City",
+      "Hull"
+    ],
+    "image": "/images/stadiums/hull.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:KCOM_Stadium.jpg",
+    "author": "Kai Connell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2018-02-27 19:10:07",
+    "description": "The KCOM Stadium sign at the entrance of the west stand.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/KCOM_Stadium.jpg/1280px-KCOM_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:KCOM_Stadium.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-144": {
+    "stadium": "Stadion An der Alten Försterei",
+    "aliases": [
+      "1. FC Union Berlin",
+      "Union Berlin"
+    ],
+    "image": "/images/stadiums/venue-144.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Berlin_alte_f%C3%B6rsterei.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2022-05-04",
+    "description": "Alte Försterei, Berlin, Germany",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Berlin_alte_f%C3%B6rsterei.jpg/1280px-Berlin_alte_f%C3%B6rsterei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadion_An_der_Alten_Försterei",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-198": {
+    "stadium": "Estadio Diego Armando Maradona",
+    "aliases": [
+      "AA Argentinos Juniors",
+      "Argentinos Jrs"
+    ],
+    "image": "/images/stadiums/venue-198.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadio_argentinos_juniors.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "CC BY 2.5 ar",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/ar/deed.en",
+    "photoDate": "Unknown date",
+    "description": "the field",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Estadio_argentinos_juniors.jpg/1280px-Estadio_argentinos_juniors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Diego_Armando_Maradona",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-149": {
+    "stadium": "Stadio Artemio Franchi",
+    "aliases": [
+      "ACF Fiorentina",
+      "Fiorentina"
+    ],
+    "image": "/images/stadiums/venue-149.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Firenze,_stadio_artemio_franchi,_campo_da_gioco,_10,0.jpg",
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "photoDate": "2019-03-24 13:09:47",
+    "description": "Stadio Artemio Franchi (Florence)",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Firenze%2C_stadio_artemio_franchi%2C_campo_da_gioco%2C_10%2C0.jpg/1280px-Firenze%2C_stadio_artemio_franchi%2C_campo_da_gioco%2C_10%2C0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadio_Artemio_Franchi",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-171": {
+    "stadium": "Cars Jeans Stadion",
+    "aliases": [
+      "ADO Den Haag",
+      "Den Haag"
+    ],
+    "image": "/images/stadiums/venue-171.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cars_Jeans_Stadion_(36995264265).jpg",
+    "author": "FaceMePLS from The Hague, The Netherlands",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2017-09-02 16:02",
+    "description": "Afgelopen week is de naam van de nieuwe hoofdsponsor op het stadion geplaatst.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Cars_Jeans_Stadion_%2836995264265%29.jpg/1280px-Cars_Jeans_Stadion_%2836995264265%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/ADO_Den_Haag_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-86": {
+    "stadium": "Johan Cruyff ArenA",
+    "aliases": [
+      "AFC Ajax",
+      "Ajax"
+    ],
+    "image": "/images/stadiums/venue-86.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Arena,_Ajax_stadion,_Amsterdam.JPG",
+    "author": "Alf van Beem",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoDate": "2014-06-07 19:18:35",
+    "description": "Photographed in Amsterdam, The Netherlands.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Arena%2C_Ajax_stadion%2C_Amsterdam.JPG/1280px-Arena%2C_Ajax_stadion%2C_Amsterdam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Johan_Cruyff_Arena",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-128": {
+    "stadium": "Stade Raymond Kopa",
+    "aliases": [
+      "Angers SCO",
+      "Angers"
+    ],
+    "image": "/images/stadiums/venue-128.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stade_Jean_Bouin_Angers_2.JPG",
+    "author": "M. Mouchoir",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "photoDate": "2009-11",
+    "description": "Stade Jean Bouin, Angers",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Stade_Jean_Bouin_Angers_2.JPG/1280px-Stade_Jean_Bouin_Angers_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stade_Raymond_Kopa",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-150": {
+    "stadium": "Stadio Olimpico",
+    "aliases": [
+      "AS Roma",
+      "Roma",
+      "SS Lazio",
+      "Lazio"
+    ],
+    "image": "/images/stadiums/venue-150.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadio_Olimpico_2024.jpg",
+    "author": "Messapi, cropped by Blackcat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "Taken on 1 January 2024",
+    "description": "Aerial view of Stadio Olimpico in Rome",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Stadio_Olimpico_2024.jpg/1280px-Stadio_Olimpico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadio_Olimpico",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-74": {
+    "stadium": "Stadio Atleti Azzurri d'Italia",
+    "aliases": [
+      "Atalanta BC",
+      "Atalanta"
+    ],
+    "image": "/images/stadiums/venue-74.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:The_outside_of_the_Gewiss_Stadium_in_2020.jpg",
+    "author": "Vincenzo.togni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2020-10-07",
+    "description": "The outside of the new north end of the stadium in 2020",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/The_outside_of_the_Gewiss_Stadium_in_2020.jpg/1280px-The_outside_of_the_Gewiss_Stadium_in_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadio_di_Bergamo",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-69": {
+    "stadium": "San Mamés",
+    "aliases": [
+      "Athletic Club",
+      "Athletic",
+      "Ath Bilbao"
+    ],
+    "image": "/images/stadiums/venue-69.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_im_San_Mam%C3%A9s_Stadion.jpg",
+    "author": "Marco Almbauer",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoDate": "2018-08",
+    "description": "Panorama im San Mamés Stadion",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Panorama_im_San_Mam%C3%A9s_Stadion.jpg/1280px-Panorama_im_San_Mam%C3%A9s_Stadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/San_Mamés_Stadium_(2013)",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-172": {
+    "stadium": "AFAS Stadion",
+    "aliases": [
+      "AZ",
+      "AZ Alkmaar"
+    ],
+    "image": "/images/stadiums/venue-172.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vooraanzicht_AFAS_Stadion_april2022.jpg",
+    "author": "Jesperverbruggen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2022-04-02",
+    "description": "AFAS Stadion",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Vooraanzicht_AFAS_Stadion_april2022.jpg/1280px-Vooraanzicht_AFAS_Stadion_april2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/AFAS_Stadion",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-211": {
+    "stadium": "Estadio Monumental Isidro Romero Carbo",
+    "aliases": [
+      "Barcelona SC"
+    ],
+    "image": "/images/stadiums/venue-211.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadio_BSC.jpg",
+    "author": "GabrielEche",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2016-01-29",
+    "description": "NOCHE AMARILLA 2016 BARCELONA",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Estadio_BSC.jpg/1280px-Estadio_BSC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Monumental_Isidro_Romero_Carbo",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-65": {
+    "stadium": "BayArena",
+    "aliases": [
+      "Bayer 04 Leverkusen",
+      "Leverkusen"
+    ],
+    "image": "/images/stadiums/venue-65.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bayarena_Leverkusen_2020.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "",
+    "description": "The BayArena, home stadium of Bayer 04 Leverkusen",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Bayarena_Leverkusen_2020.jpg/1280px-Bayarena_Leverkusen_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/BayArena",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-31": {
+    "stadium": "St Andrew's Trillion Trophy Stadium",
+    "aliases": [
+      "Birmingham City FC",
+      "Birmingham"
+    ],
+    "image": "/images/stadiums/venue-31.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:TiltonRoadEnd01.JPG",
+    "author": "Bruker:TuborgLight",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "photoDate": "2005-08-23",
+    "description": "St Andrews, the home ground of Birmingham City.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/TiltonRoadEnd01.JPG/1280px-TiltonRoadEnd01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/St_Andrew's_(stadium)",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-21": {
+    "stadium": "Ewood Park",
+    "aliases": [
+      "Blackburn Rovers FC",
+      "Blackburn"
+    ],
+    "image": "/images/stadiums/venue-21.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ewood_Park_2011.jpg",
+    "author": "Ronnie Macdonald from Chelmsford, United Kingdom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2011-09-17 22:48",
+    "description": "Ewood Park from Blackburn vs Arsenal",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Ewood_Park_2011.jpg/1280px-Ewood_Park_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Ewood_Park",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-151": {
+    "stadium": "Stadio Renato Dall'Ara",
+    "aliases": [
+      "Bologna FC 1909",
+      "Bologna"
+    ],
+    "image": "/images/stadiums/venue-151.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadio_Dall%27Ara_01-02-2020.jpg",
+    "author": "Beric Dondarrion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2020-02-01",
+    "description": "Veduta dello it:Stadio Renato Dall'Ara di Bologna prima della gara Bologna-Brescia del 01-02-2020",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Stadio_Dall%27Ara_01-02-2020.jpg/1280px-Stadio_Dall%27Ara_01-02-2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadio_Renato_Dall'Ara",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-22": {
+    "stadium": "University of Bolton Stadium",
+    "aliases": [
+      "Bolton Wanderers FC",
+      "Bolton"
+    ],
+    "image": "/images/stadiums/venue-22.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bolton_macron_wanderers_stadium.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2023-07-31",
+    "description": "Toughsheet Community Stadium, Bolton, England, United Kingdom",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Bolton_macron_wanderers_stadium.jpg/1280px-Bolton_macron_wanderers_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Toughsheet_Community_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-66": {
+    "stadium": "Signal Iduna Park",
+    "aliases": [
+      "Borussia Dortmund",
+      "Dortmund"
+    ],
+    "image": "/images/stadiums/venue-66.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Signal_iduna_park_stadium_dortmund_4.jpg",
+    "author": "Arne Müseler / www.arne-mueseler.com",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "",
+    "description": "Westfalenstadion (or Signal-Iduna-Park) is a football stadium in Dortmund, North Rhine-Westphalia, Germany, which is the home of Borussia Dortmund.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Signal_iduna_park_stadium_dortmund_4.jpg/1280px-Signal_iduna_park_stadium_dortmund_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Westfalenstadion",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-143": {
+    "stadium": "Stadion im Borussia-Park",
+    "aliases": [
+      "Borussia Mönchengladbach",
+      "M'gladbach"
+    ],
+    "image": "/images/stadiums/venue-143.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:M%C3%B6nchengladbach_stadion.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2021-07-21",
+    "description": "Stadion im Borussia-Park, Mönchengladbach, Germany",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/M%C3%B6nchengladbach_stadion.jpg/1280px-M%C3%B6nchengladbach_stadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Borussia-Park",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-6": {
+    "stadium": "Estádio Nilton Santos",
+    "aliases": [
+      "Botafogo FR",
+      "Botafogo"
+    ],
+    "image": "/images/stadiums/venue-6.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nilton_Santos,_Est%C3%A1dio_Nilton_Santos.jpg",
+    "author": "Andrea Hernández",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2023-11-30",
+    "description": "La periodista posando con el estadio Nilton Santos del Club Botafogo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/9/96/Nilton_Santos%2C_Est%C3%A1dio_Nilton_Santos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_Olímpico_Nilton_Santos",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-39": {
+    "stadium": "Ashton Gate Stadium",
+    "aliases": [
+      "Bristol City FC",
+      "Bristol City"
+    ],
+    "image": "/images/stadiums/venue-39.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ashton_Gate_-_Lansdown_Stand.jpg",
+    "author": "Bailey8891",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2018-10-19",
+    "description": "Ashton Gate - Facing the Lansdown Stand",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ashton_Gate_-_Lansdown_Stand.jpg/1280px-Ashton_Gate_-_Lansdown_Stand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Ashton_Gate_(stadium)",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-30": {
+    "stadium": "Turf Moor",
+    "aliases": [
+      "Burnley FC",
+      "Burnley"
+    ],
+    "image": "/images/stadiums/venue-30.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Turf_Moor_-_Harry_Potts_Way_(east).jpg",
+    "author": "Trappedinburnley",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2021-01-24 16:03:52",
+    "description": "The view on Harry Potts Way in 2021. The club shop and offices to the rear of the Bob Lord Stand were remodelled in 2016.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Turf_Moor_-_Harry_Potts_Way_%28east%29.jpg/1280px-Turf_Moor_-_Harry_Potts_Way_%28east%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Turf_Moor",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-200": {
+    "stadium": "Estadio Ciudad de Lanús",
+    "aliases": [
+      "CA Lanús",
+      "Lanús"
+    ],
+    "image": "/images/stadiums/venue-200.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hinchada_del_Club_Lan%C3%BAs.jpg",
+    "author": "1915CAL",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoDate": "2025-04-19 16:13:42",
+    "description": "Hinchada de Lanús en el clásico del sur ante Banfield",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Hinchada_del_Club_Lan%C3%BAs.jpg/1280px-Hinchada_del_Club_Lan%C3%BAs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Ciudad_de_Lanús_–_Néstor_Díaz_Pérez",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-235": {
+    "stadium": "Estadio El Sadar",
+    "aliases": [
+      "CA Osasuna",
+      "Osasuna"
+    ],
+    "image": "/images/stadiums/venue-235.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadio_El_Sadar.jpg",
+    "author": "Visma17",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2021-08-18",
+    "description": "Sadar estadioaren argazkia.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Estadio_El_Sadar.jpg/1280px-Estadio_El_Sadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/El_Sadar_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-4": {
+    "stadium": "Estádio Joaquim Américo Guimarães",
+    "aliases": [
+      "CA Paranaense",
+      "Paranaense"
+    ],
+    "image": "/images/stadiums/venue-4.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Arena-fifa-wc-2014_(9).jpg",
+    "author": "Luiz Carlos Volpato",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2016-12-11",
+    "description": "Ligga Arena, Club Athletico Paranaense, Curitiba (PR).",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Arena-fifa-wc-2014_%289%29.jpg/1280px-Arena-fifa-wc-2014_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Arena_da_Baixada",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-216": {
+    "stadium": "Estadio Campeón del Siglo",
+    "aliases": [
+      "CA Peñarol",
+      "Peñarol"
+    ],
+    "image": "/images/stadiums/venue-216.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadio_Campe%C3%B3n_del_Siglo_setiembre_2021.jpg",
+    "author": "NicoCDS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2021-09-26",
+    "description": "Foto del estadio",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/8/87/Estadio_Campe%C3%B3n_del_Siglo_setiembre_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Campeón_del_Siglo",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-152": {
+    "stadium": "Sardegna Arena",
+    "aliases": [
+      "Cagliari Calcio",
+      "Cagliari"
+    ],
+    "image": "/images/stadiums/venue-152.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Unipol_Domus_from_Distinti_2026.jpg",
+    "author": "Sandrino 14",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2026-05-11",
+    "description": "La Unipol Domus vista dal settore Distinti nel 2026",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Unipol_Domus_from_Distinti_2026.jpg/1280px-Unipol_Domus_from_Distinti_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Unipol_Domus",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-42": {
+    "stadium": "Cardiff City Stadium",
+    "aliases": [
+      "Cardiff City FC",
+      "Cardiff"
+    ],
+    "image": "/images/stadiums/venue-42.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cardiff_City_Stadium_Pitch.jpg",
+    "author": "Jon Candy from Cardiff, Wales",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoDate": "2010-01-09 16:44",
+    "description": "09/01/10 Cardiff V Blackpool, Cardiff City Stadium, Cardiff, Wales",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Cardiff_City_Stadium_Pitch.jpg/1280px-Cardiff_City_Stadium_Pitch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Cardiff_City_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-224": {
+    "stadium": "Estadio Atanasio Girardot",
+    "aliases": [
+      "CD Independiente Medellín",
+      "Independiente"
+    ],
+    "image": "/images/stadiums/venue-224.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Atanasio_Girardot-Atl%C3%A9tico_Nacional-Fortaleza.jpg",
+    "author": "User34790",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2025-08-16 19:14:50",
+    "description": "Foto tomada antes del partido de Atlético Nacional vs Fortaleza CEIF por el Torneo Finalización 2025.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Atanasio_Girardot-Atl%C3%A9tico_Nacional-Fortaleza.jpg/1280px-Atanasio_Girardot-Atl%C3%A9tico_Nacional-Fortaleza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Atanasio_Girardot_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-186": {
+    "stadium": "Estádio da Madeira",
+    "aliases": [
+      "CD Nacional",
+      "Nacional"
+    ],
+    "image": "/images/stadiums/venue-186.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Eng._Rui_Alves_1.jpg",
+    "author": "Mghamburg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "photoDate": "2007-03-04",
+    "description": "Image of en:Estádio Eng. Rui Alves (en:Funchal, en:Portugal). View of the back straight during the en:Portuguese Liga match versus en:Associação Académica de Coimbra - O.A.F.",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/2/28/Est%C3%A1dio_Eng._Rui_Alves_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_da_Madeira",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-221": {
+    "stadium": "Estadio San Carlos de Apoquindo",
+    "aliases": [
+      "CD Universidad Católica",
+      "Univ Católica"
+    ],
+    "image": "/images/stadiums/venue-221.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vista_A%C3%A9rea_del_Claro_Arena_(San_Carlos_de_Apoquindo).jpg",
+    "author": "Beto Comunicaciones",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2025-08-23",
+    "description": "Aerial View of Claro Arena (San Carlos de Apoquindo), taken during the inaugural match.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Vista_A%C3%A9rea_del_Claro_Arena_%28San_Carlos_de_Apoquindo%29.jpg/1280px-Vista_A%C3%A9rea_del_Claro_Arena_%28San_Carlos_de_Apoquindo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Claro_Arena",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-207": {
+    "stadium": "Estadio Metropolitano Roberto Meléndez",
+    "aliases": [
+      "CDP Junior FC",
+      "Junior"
+    ],
+    "image": "/images/stadiums/venue-207.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadio_Metropolitano_baq.jpg",
+    "author": "Bryantalv",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2021-03-12",
+    "description": "Estadio Metropolitano Roberto Meléndez de Barranquilla.",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Estadio_Metropolitano_baq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Metropolitano_Roberto_Meléndez",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-8": {
+    "stadium": "Arena Condá",
+    "aliases": [
+      "Chapecoense AF",
+      "Chapecoense"
+    ],
+    "image": "/images/stadiums/venue-8.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Arena_Cond%C3%A1,_estadio_da_Chapecoense.jpg",
+    "author": "Faxinalense",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2017-11-29",
+    "description": "Arena Condá.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Arena_Cond%C3%A1%2C_estadio_da_Chapecoense.jpg/1280px-Arena_Cond%C3%A1%2C_estadio_da_Chapecoense.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Arena_Condá",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-218": {
+    "stadium": "Estadio Alejandro Villanueva",
+    "aliases": [
+      "Club Alianza Lima",
+      "Alianza Lima"
+    ],
+    "image": "/images/stadiums/venue-218.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Alejandro_Villanueva_2023.jpg",
+    "author": "Carlos Pozo Albirena",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoDate": "2023-05-23 19:40:11",
+    "description": "Aerial view of the Alejandro Villanueva stadium in the preview of the match between Alianza Lima and Libertad.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Vista_a%C3%A9rea_del_Estadio_Alejandro_Villanueva_2023.jpg/1280px-Vista_a%C3%A9rea_del_Estadio_Alejandro_Villanueva_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Alejandro_Villanueva_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-70": {
+    "stadium": "Estadio Wanda Metropolitano",
+    "aliases": [
+      "Club Atlético de Madrid",
+      "Atleti",
+      "Ath Madrid"
+    ],
+    "image": "/images/stadiums/venue-70.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Atleti_vs_Villarreal_-_September_2025.jpg",
+    "author": "Elwin594",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoDate": "2025-09-13",
+    "description": "Atleti vs Villarreal - September 13",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Atleti_vs_Villarreal_-_September_2025.jpg/1280px-Atleti_vs_Villarreal_-_September_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Metropolitano_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-202": {
+    "stadium": "Estadio Hernando Siles",
+    "aliases": [
+      "Club Bolívar"
+    ],
+    "image": "/images/stadiums/venue-202.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hernando_Siles_Stadium_-_La_Paz.jpg",
+    "author": "psyberartist",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2011-02-14",
+    "description": "Hernando Siles Stadium, the national stadium of Bolivia located in the Miraflores borough of La Paz.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Hernando_Siles_Stadium_-_La_Paz.jpg/1280px-Hernando_Siles_Stadium_-_La_Paz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Hernando_Siles_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-222": {
+    "stadium": "Estadio Gran Parque Central",
+    "aliases": [
+      "Club Nacional de Football",
+      "Club Nacional"
+    ],
+    "image": "/images/stadiums/venue-222.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:GPC_por_dentro_2021.jpg",
+    "author": "ChinoChino96",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2022-04-24",
+    "description": "Foto del estadio por dentro",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/c/c8/GPC_por_dentro_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Gran_Parque_Central",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-203": {
+    "stadium": "Estadio Victor Agustín Ugarte",
+    "aliases": [
+      "Club Nacional Potosí",
+      "Nac. Potosí"
+    ],
+    "image": "/images/stadiums/venue-203.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vista_Panor%C3%A1mica_Estadio_V%C3%ADctor_Agust%C3%ADn_Ugarte.jpg",
+    "author": "Intihack",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoDate": "2012-11-28 14:40:31",
+    "description": "Vista Panorámica desde curva sur del Estadio Victor Agustin Ugarte,  al fondo el moderno tablero electrónico.",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Vista_Panor%C3%A1mica_Estadio_V%C3%ADctor_Agust%C3%ADn_Ugarte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Víctor_Agustín_Ugarte",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-17": {
+    "stadium": "Estádio Estadual Jornalista Edgar Augusto Proença",
+    "aliases": [
+      "Clube do Remo"
+    ],
+    "image": "/images/stadiums/venue-17.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mangueir%C3%A3o_em_2023.jpg",
+    "author": "Roni Moreira",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2023-09-08 18:39:33",
+    "description": "DCIM\\100MEDIA\\DJI_0006.JPG",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Mangueir%C3%A3o_em_2023.jpg/1280px-Mangueir%C3%A3o_em_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Mangueirão",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-163": {
+    "stadium": "Stadio Giuseppe Sinigaglia",
+    "aliases": [
+      "Como 1907",
+      "Como"
+    ],
+    "image": "/images/stadiums/venue-163.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadio_Sinigaglia_Como_16-07-2025.jpg",
+    "author": "Vale93b",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2025-08-16 18:53:36",
+    "description": "Lo stadio Sinigaglia di Como durante una partita",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Stadio_Sinigaglia_Como_16-07-2025.jpg/1280px-Stadio_Sinigaglia_Como_16-07-2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadio_Giuseppe_Sinigaglia",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-15": {
+    "stadium": "Estádio Major Antônio Couto Pereira",
+    "aliases": [
+      "Coritiba FBC",
+      "Coritiba"
+    ],
+    "image": "/images/stadiums/venue-15.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Major_Ant%C3%B4nio_Couto_Pereira.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoDate": "2022-08-24",
+    "description": "Aerial view of Estádio Major Antônio Couto Pereira around 2020 and 2019.",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Est%C3%A1dio_Major_Ant%C3%B4nio_Couto_Pereira.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_Couto_Pereira",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-7": {
+    "stadium": "Estádio Governador Magalhães Pinto",
+    "aliases": [
+      "Cruzeiro EC",
+      "Cruzeiro"
+    ],
+    "image": "/images/stadiums/venue-7.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mineir%C3%A3o_(Top_View).jpg",
+    "author": "Governo Federal Brasileiro",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoDate": "2013-05-16 08:54:46",
+    "description": "Usina Solar do Mineirao - Parceria entre Secopa e Cemig.\nCredito: Renato Cobucci/Imprensa MG\nData: 16-05-2013\n\nLocal: Estadio Mineirao",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Mineir%C3%A3o_%28Top_View%29.jpg/1280px-Mineir%C3%A3o_%28Top_View%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Mineirão",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-217": {
+    "stadium": "Estadio Alberto Gallardo",
+    "aliases": [
+      "CS Cristal",
+      "Cristal"
+    ],
+    "image": "/images/stadiums/venue-217.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vista_panor%C3%A1mica_estadio_Alberto_Gallardo.jpg",
+    "author": "Famidoc",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoDate": "2025-03-14",
+    "description": "Vista panorámica estadio Alberto Gallardo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/5/56/Vista_panor%C3%A1mica_estadio_Alberto_Gallardo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Alberto_Gallardo",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-191": {
+    "stadium": "Estádio dos Barreiros",
+    "aliases": [
+      "CS Marítimo",
+      "Marítimo",
+      "Maritimo"
+    ],
+    "image": "/images/stadiums/venue-191.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1diodosBarreirosCentral.jpg",
+    "author": "Pedro Miguel Monteiro",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "photoDate": "",
+    "description": "Bancada Central do Estádio dos Barreiros",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Est%C3%A1diodosBarreirosCentral.jpg/1280px-Est%C3%A1diodosBarreirosCentral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_do_Marítimo",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-244": {
+    "stadium": "Estadio de Mendizorroza",
+    "aliases": [
+      "Deportivo Alavés",
+      "Alavés",
+      "Alaves"
+    ],
+    "image": "/images/stadiums/venue-244.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mendizorrotza_diciembre_2021.jpg",
+    "author": "MarcosMarinM",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2021-12-19 15:44:30",
+    "description": "Estadio de Mendizorrotza el 19 de diciembre de 2021, antes del partido de la Primera División Femenina entre el Deportivo Alavés y el Levante Unión Deportiva.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Mendizorrotza_diciembre_2021.jpg/1280px-Mendizorrotza_diciembre_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Mendizorrotza_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-33": {
+    "stadium": "iPro Stadium",
+    "aliases": [
+      "Derby County FC",
+      "Derby County",
+      "Derby"
+    ],
+    "image": "/images/stadiums/venue-33.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_08_02_arne_mueseler_00196-Verbessert-RR_(53106400184).jpg",
+    "author": "Arne Müseler from Salzburg, AT",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoDate": "2023-08-02 18:36",
+    "description": "Photo: Arne Müseler",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/2023_08_02_arne_mueseler_00196-Verbessert-RR_%2853106400184%29.jpg/1280px-2023_08_02_arne_mueseler_00196-Verbessert-RR_%2853106400184%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Pride_Park_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-13": {
+    "stadium": "Estádio Manoel Barradas",
+    "aliases": [
+      "EC Vitória",
+      "Vitória"
+    ],
+    "image": "/images/stadiums/venue-13.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Barrad%C3%A3o_-_Esporte_Clube_Vit%C3%B3ria_8.jpg",
+    "author": "Jaorge",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2017-12-03 16:02:29",
+    "description": "Estádio Barradão, pertence ao Esporte Clube Vitória. Capacidade: 30 mil torcedores.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Est%C3%A1dio_Barrad%C3%A3o_-_Esporte_Clube_Vit%C3%B3ria_8.jpg/1280px-Est%C3%A1dio_Barrad%C3%A3o_-_Esporte_Clube_Vit%C3%B3ria_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Barradão",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-68": {
+    "stadium": "Deutsche Bank Park",
+    "aliases": [
+      "Eintracht Frankfurt",
+      "Frankfurt",
+      "Ein Frankfurt"
+    ],
+    "image": "/images/stadiums/venue-68.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Deutsche_bank_park.jpg",
+    "author": "Patrik Meyer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2020-08-16",
+    "description": "Deutsche Bank Park in Frankfurt/Main",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Deutsche_bank_park.jpg/1280px-Deutsche_bank_park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Waldstadion_(Frankfurt)",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-245": {
+    "stadium": "Estadio Manuel Martínez Valero",
+    "aliases": [
+      "Elche CF",
+      "Elche"
+    ],
+    "image": "/images/stadiums/venue-245.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Panor%C3%A1mica_del_estadio_Mart%C3%ADnez_Valero.jpg",
+    "author": "Magicloren",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2021-08-25",
+    "description": "Panorámica del estadio desde la zona de tribuna.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Panor%C3%A1mica_del_estadio_Mart%C3%ADnez_Valero.jpg/1280px-Panor%C3%A1mica_del_estadio_Mart%C3%ADnez_Valero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Martínez_Valero",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-196": {
+    "stadium": "Estadio Jorge Luis Hirschi",
+    "aliases": [
+      "Estudiantes de La Plata",
+      "Estudiantes LP"
+    ],
+    "image": "/images/stadiums/venue-196.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:UNO_20220614_210130.jpg",
+    "author": "Germanramos2",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2022-06-14 21:01:31",
+    "description": "Jorge Luis Hirschi Stadium, moments before the start of the match between Estudiantes (La Plata) and Sarmiento (Junín), for the 3rd date of the 2022 First Division Championship.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/UNO_20220614_210130.jpg/1280px-UNO_20220614_210130.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Jorge_Luis_Hirschi",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-184": {
+    "stadium": "Estádio Municipal de Arouca",
+    "aliases": [
+      "FC Arouca",
+      "Arouca"
+    ],
+    "image": "/images/stadiums/venue-184.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Municipal_de_Arouca.jpg",
+    "author": "JP Ribeiro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2016-01-31",
+    "description": "Arouca municipal stadium",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Est%C3%A1dio_Municipal_de_Arouca.jpg/1280px-Est%C3%A1dio_Municipal_de_Arouca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_Municipal_de_Arouca",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-141": {
+    "stadium": "WWK Arena",
+    "aliases": [
+      "FC Augsburg",
+      "Augsburg"
+    ],
+    "image": "/images/stadiums/venue-141.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Germany_augsburg_stadium_wwk_arena.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2024-08-15 10:27:05",
+    "description": "WWK Arena Augsburg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Germany_augsburg_stadium_wwk_arena.jpg/1280px-Germany_augsburg_stadium_wwk_arena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Augsburg_Arena",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-188": {
+    "stadium": "Estádio Municipal 22 de Junho",
+    "aliases": [
+      "FC Famalicão",
+      "Famalicão",
+      "Famalicao"
+    ],
+    "image": "/images/stadiums/venue-188.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Blick_von_der_Gegentrib%C3%BCne_-_Est%C3%A1dio_Municipal_22_de_Junho.jpg",
+    "author": "Bohemio09",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2017-02-19 16:32:15",
+    "description": "Blick von der Gegentribüne",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Blick_von_der_Gegentrib%C3%BCne_-_Est%C3%A1dio_Municipal_22_de_Junho.jpg/1280px-Blick_von_der_Gegentrib%C3%BCne_-_Est%C3%A1dio_Municipal_22_de_Junho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_Municipal_22_de_Junho",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-89": {
+    "stadium": "Telia Parken",
+    "aliases": [
+      "FC København",
+      "København"
+    ],
+    "image": "/images/stadiums/venue-89.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Denmark_copenhagen_parken_stadium.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "Taken on 27 December 2023, 09:51:37 (according to Exif data)",
+    "description": "Parken stadium, Copenhagen, Denmark",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Denmark_copenhagen_parken_stadium.jpg/1280px-Denmark_copenhagen_parken_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Parken_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-136": {
+    "stadium": "Veltins-Arena",
+    "aliases": [
+      "FC Schalke 04",
+      "Schalke",
+      "Schalke 04"
+    ],
+    "image": "/images/stadiums/venue-136.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Veltins_Arena_by_Arne_Mueseler.jpg",
+    "author": "Arne Müseler from Salzburg, AT",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoDate": "2019-12-29 15:00",
+    "description": "2019_12_29_arne_mueseler_15_00_2801",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Veltins_Arena_by_Arne_Mueseler.jpg/1280px-Veltins_Arena_by_Arne_Mueseler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Arena_AufSchalke",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-164": {
+    "stadium": "De Grolsch Veste",
+    "aliases": [
+      "FC Twente '65",
+      "Twente"
+    ],
+    "image": "/images/stadiums/venue-164.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Enschede,_de_Grolsch_veste_-_voetbalstadion_van_FC_Twenthe_IMG_8861_2021-04-26_11.11.jpg",
+    "author": "Michielverbeek",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2021-04-26 11:11:19",
+    "description": "Enschede, football stadium: the Grolsch Veste",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Enschede%2C_de_Grolsch_veste_-_voetbalstadion_van_FC_Twenthe_IMG_8861_2021-04-26_11.11.jpg/1280px-Enschede%2C_de_Grolsch_veste_-_voetbalstadion_van_FC_Twenthe_IMG_8861_2021-04-26_11.11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/De_Grolsch_Veste",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-169": {
+    "stadium": "Stadion Galgenwaard",
+    "aliases": [
+      "FC Utrecht",
+      "Utrecht"
+    ],
+    "image": "/images/stadiums/venue-169.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Galgenwaard_vanuit_de_lucht.jpg",
+    "author": "THMS.nl at Flickr.com",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2008-08-11",
+    "description": "Stadion Galgenwaard in Utrecht vanuit het oosten",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Galgenwaard_vanuit_de_lucht.jpg/1280px-Galgenwaard_vanuit_de_lucht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadion_Galgenwaard",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-168": {
+    "stadium": "Stadion Feijenoord",
+    "aliases": [
+      "Feyenoord Rotterdam",
+      "Feyenoord"
+    ],
+    "image": "/images/stadiums/venue-168.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Feyenoord_Rotterdam%27s_De_Kuip_stadium_in_2022_before_a_match_against_FC_Emmen.jpg",
+    "author": "Vincenzo.togni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2022-08-27 19:47:52",
+    "description": "Feyenoord Rotterdam's De Kuip stadium in 2022 before a match against FC Emmen",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Feyenoord_Rotterdam%27s_De_Kuip_stadium_in_2022_before_a_match_against_FC_Emmen.jpg/1280px-Feyenoord_Rotterdam%27s_De_Kuip_stadium_in_2022_before_a_match_against_FC_Emmen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/De_Kuip",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-92": {
+    "stadium": "Aspmyra Stadion",
+    "aliases": [
+      "FK Bodø/Glimt",
+      "Bodø/Glimt"
+    ],
+    "image": "/images/stadiums/venue-92.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Aspmyra_stadion.jpg",
+    "author": "Røed",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "photoDate": "2007-06",
+    "description": "Aspmyra stadion, Bodø/Glimts stadion i Bodø. Kampen er B/G-Sogndal",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Aspmyra_stadion.jpg/1280px-Aspmyra_stadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Aspmyra_Stadion",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-178": {
+    "stadium": "Fortuna Sittard Stadion",
+    "aliases": [
+      "Fortuna Sittard",
+      "Sittard",
+      "For Sittard"
+    ],
+    "image": "/images/stadiums/venue-178.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:20150312_Sittard;_Stadium_of_Fortuna_Sittard_03.jpg",
+    "author": "Mark Ahsmann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2015-03-12 11:55:12",
+    "description": "20150312 Sittard; Stadium of Fortuna Sittard.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/20150312_Sittard%3B_Stadium_of_Fortuna_Sittard_03.jpg/1280px-20150312_Sittard%3B_Stadium_of_Fortuna_Sittard_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Fortuna_Sittard_Stadion",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-158": {
+    "stadium": "Stadio Benito Stirpe",
+    "aliases": [
+      "Frosinone Calcio",
+      "Frosinone"
+    ],
+    "image": "/images/stadiums/venue-158.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Benito_Stirpe_brescia_panoramica_ternana_sud_ospiti_main_notturna.jpg",
+    "author": "Roberto Celani",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2017-10-24",
+    "description": "Benito Stirpe Stadium, Main Stand, Away End and South Stand (Frosinone-Ternana 4-2, 14/10/2017)",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/7/72/Benito_Stirpe_brescia_panoramica_ternana_sud_ospiti_main_notturna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadio_Benito_Stirpe",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-82": {
+    "stadium": "Türk Telekom Arena",
+    "aliases": [
+      "Galatasaray SK",
+      "Galatasaray"
+    ],
+    "image": "/images/stadiums/venue-82.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rams_Park_i%C3%A7_g%C3%B6r%C3%BCn%C3%BCm_2025.jpg",
+    "author": "Antoloji",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2025-05-07 13:43:33",
+    "description": "Rams Park boş haliyle iç görünüm",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Rams_Park_i%C3%A7_g%C3%B6r%C3%BCn%C3%BCm_2025.jpg/1280px-Rams_Park_i%C3%A7_g%C3%B6r%C3%BCn%C3%BCm_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Rams_Park",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-182": {
+    "stadium": "Estádio António Coimbra da Mota",
+    "aliases": [
+      "GD Estoril Praia",
+      "Estoril Praia",
+      "Estoril"
+    ],
+    "image": "/images/stadiums/venue-182.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:20011019_CD_Estoril_Praia_(2).JPG",
+    "author": "Northside",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoDate": "2001-10-19",
+    "description": "The Stadium Estádio António Coimbra da Mota of GD Estoril Praia 2001",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/20011019_CD_Estoril_Praia_%282%29.JPG/1280px-20011019_CD_Estoril_Praia_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_António_Coimbra_da_Mota",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-237": {
+    "stadium": "Coliseum Alfonso Pérez",
+    "aliases": [
+      "Getafe CF",
+      "Getafe"
+    ],
+    "image": "/images/stadiums/venue-237.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Getafe0-0Lega2018.jpg",
+    "author": "Miguelazo84",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2018-02-04 12:59:56",
+    "description": "Match of Primera División, LaLiga 2017-18, Getafe CF 0:0 CD Leganés, Coliseum Alfonso Pérez",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Getafe0-0Lega2018.jpg/1280px-Getafe0-0Lega2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Coliseum",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-189": {
+    "stadium": "Estádio Cidade de Barcelos",
+    "aliases": [
+      "Gil Vicente FC",
+      "Gil Vicente"
+    ],
+    "image": "/images/stadiums/venue-189.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Cidade_de_Barcelos.jpg",
+    "author": "JP Ribeiro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2015-01-10",
+    "description": "Cidade de Barcelos Stadium",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Est%C3%A1dio_Cidade_de_Barcelos.jpg/1280px-Est%C3%A1dio_Cidade_de_Barcelos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_Cidade_de_Barcelos",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-174": {
+    "stadium": "De Adelaarshorst",
+    "aliases": [
+      "Go Ahead Eagles",
+      "Go Ahead"
+    ],
+    "image": "/images/stadiums/venue-174.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadion_de_Adelaarshorst.jpg",
+    "author": "FrankKowet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2018-06-16",
+    "description": "Stadion adelaarshorst",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Stadion_de_Adelaarshorst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/De_Adelaarshorst",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-3": {
+    "stadium": "Arena do Grêmio",
+    "aliases": [
+      "Grêmio FBPA",
+      "Grêmio"
+    ],
+    "image": "/images/stadiums/venue-3.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Arena_do_Gr%C3%AAmio_2014.jpg",
+    "author": "Contato: clickdearaujo@gmail.com",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "30 November 2014, 11:34:40",
+    "description": "Arena do Grêmio is a multi-use stadium in Porto Alegre, Rio Grande do Sul, Brazil. It was inaugurated on December 8, 2012.\nIt is used mostly for football matches and as the home stadium of Grêmio, replacing the Estádio Olímpico Monumental. With 55,662 capacity, the stadium is one of the most modern venues in South America.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Arena_do_Gr%C3%AAmio_2014.jpg/1280px-Arena_do_Gr%C3%AAmio_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Arena_do_Grêmio",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-137": {
+    "stadium": "Volksparkstadion",
+    "aliases": [
+      "Hamburger SV",
+      "HSV",
+      "Hamburg"
+    ],
+    "image": "/images/stadiums/venue-137.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:RK_1009_9831_Volksparkstadion.jpg",
+    "author": "Reinhard Kraasch",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2010-09",
+    "description": "Imtech Arena in Hamburg-Bahrenfeld",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/RK_1009_9831_Volksparkstadion.jpg/1280px-RK_1009_9831_Volksparkstadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Volksparkstadion",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-58": {
+    "stadium": "Portman Road Stadium",
+    "aliases": [
+      "Ipswich Town FC",
+      "Ipswich Town",
+      "Ipswich"
+    ],
+    "image": "/images/stadiums/venue-58.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Portman_Road_aerial_(cropped).jpg",
+    "author": "John Fielding from Norwich, UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2015-07-19 14:35",
+    "description": "Portman Road - Ipswich Town football club ground - Suffolk aerial",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Portman_Road_aerial_%28cropped%29.jpg/1280px-Portman_Road_aerial_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Portman_Road",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-212": {
+    "stadium": "Estadio de Liga Deportiva Universitaria",
+    "aliases": [
+      "LDU de Quito"
+    ],
+    "image": "/images/stadiums/venue-212.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:LaCasaBlanca.jpg",
+    "author": "Kerem Özcan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "photoDate": "2008-05-22",
+    "description": "A wide angle shot from the inside of \"Estadio de Liga Deportiva Universitaria\" (also known as \"La Casa Blanca\") The picture was taken from one of the boxes before the game against San Lorenzo, during the quarter final games of Copa Libertadores 2008",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/LaCasaBlanca.jpg/1280px-LaCasaBlanca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Rodrigo_Paz_Delgado",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-129": {
+    "stadium": "Stade Océane",
+    "aliases": [
+      "Le Havre AC",
+      "Le Havre"
+    ],
+    "image": "/images/stadiums/venue-129.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Br%C3%A9sil_Ghana_au_Havre.jpg",
+    "author": "AxelCFC",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2022-09-23",
+    "description": "Echauffement des joueurs lors de Brésil-Ghana au Havre",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Br%C3%A9sil_Ghana_au_Havre.jpg/1280px-Br%C3%A9sil_Ghana_au_Havre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stade_Océane",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-240": {
+    "stadium": "Estadio Ciudad de Valencia",
+    "aliases": [
+      "Levante UD",
+      "Levante"
+    ],
+    "image": "/images/stadiums/venue-240.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg",
+    "author": "Francesc Fort",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "5 December 2021 (according to Exif data)",
+    "description": "Estadi Ciutat de València (association football stadium in València, Spain)",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg/1280px-Estadi_Ciutat_de_Val%C3%A8ncia_-_nocturna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadi_Ciutat_de_València",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-122": {
+    "stadium": "Stade Pierre-Mauroy",
+    "aliases": [
+      "Lille OSC",
+      "Lille"
+    ],
+    "image": "/images/stadiums/venue-122.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lille_vs_PSG_2019_-_Stade_Pierre_Mauroy.jpg",
+    "author": "Liondartois",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2019-04-14 20:57:52",
+    "description": "Lille vs PSG 2019 - Stade Pierre Mauroy",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Lille_vs_PSG_2019_-_Stade_Pierre_Mauroy.jpg/1280px-Lille_vs_PSG_2019_-_Stade_Pierre_Mauroy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stade_Pierre-Mauroy",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-44": {
+    "stadium": "Sincil Bank Stadium",
+    "aliases": [
+      "Lincoln City FC",
+      "Lincoln City"
+    ],
+    "image": "/images/stadiums/venue-44.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lincoln_v_Boston_002.jpg",
+    "author": "Differentgravy at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "photoDate": "27 February 2006 (original upload date)",
+    "description": "Sincil Bank Stadium, Lincoln. Taken before kickoff at the local derby between Lincoln City F.C and Boston United F.C.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Lincoln_v_Boston_002.jpg/1280px-Lincoln_v_Boston_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Sincil_Bank",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-238": {
+    "stadium": "Estadio La Rosaleda",
+    "aliases": [
+      "Málaga CF",
+      "Málaga",
+      "Malaga"
+    ],
+    "image": "/images/stadiums/venue-238.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:IMG-20220228-WA0055.jpg",
+    "author": "Meloptido",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "Taken on 28 February 2022, 22:42:53",
+    "description": "Partido de Segunda División de España entre el Málaga CF y el FC Cartagena.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/IMG-20220228-WA0055.jpg/1280px-IMG-20220228-WA0055.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_La_Rosaleda",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-34": {
+    "stadium": "Riverside Stadium",
+    "aliases": [
+      "Middlesbrough FC",
+      "Middlesbrough"
+    ],
+    "image": "/images/stadiums/venue-34.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Middlesbrough_riverside_stadium.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2023-08-01",
+    "description": "Riverside Stadium, Middlesbrough, England, United Kingdom",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Middlesbrough_riverside_stadium.jpg/1280px-Middlesbrough_riverside_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Riverside_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-177": {
+    "stadium": "Goffertstadion",
+    "aliases": [
+      "NEC",
+      "Nijmegen"
+    ],
+    "image": "/images/stadiums/venue-177.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Goffertstadion_N.E.C._Nijmegen.jpg",
+    "author": "Roger Veringmeier",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2018-06-06 17:21:47",
+    "description": "Goffertstadion N.E.C. Nijmegen",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Goffertstadion_N.E.C._Nijmegen.jpg/1280px-Goffertstadion_N.E.C._Nijmegen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Goffertstadion",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-23": {
+    "stadium": "Carrow Road",
+    "aliases": [
+      "Norwich City FC",
+      "Norwich"
+    ],
+    "image": "/images/stadiums/venue-23.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2015-05-16_-11_-_Carrow_Road,_Norwich.JPG",
+    "author": "ZakNelson1995",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2015-05-16 11:03:30",
+    "description": "a panorama of Carrow Road",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/2015-05-16_-11_-_Carrow_Road%2C_Norwich.JPG/1280px-2015-05-16_-11_-_Carrow_Road%2C_Norwich.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Carrow_Road",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-123": {
+    "stadium": "Stade de Nice",
+    "aliases": [
+      "OGC Nice",
+      "Nice"
+    ],
+    "image": "/images/stadiums/venue-123.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Allianzcoupdenvoi.jpg",
+    "author": "Mirasol",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoDate": "2013-09-22 21:57:56",
+    "description": "Le coup d'envoi du premier match de l'OGCN à l'Allianz Riviera le 22 septembre 2013.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Allianzcoupdenvoi.jpg/1280px-Allianzcoupdenvoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Allianz_Riviera",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-124": {
+    "stadium": "Groupama Stadium",
+    "aliases": [
+      "Olympique Lyonnais",
+      "Olympique Lyon",
+      "Lyon"
+    ],
+    "image": "/images/stadiums/venue-124.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Olympique_lyonnais_-_Stade_rennais,_demi-finale_de_Coupe_de_France_2019.jpg",
+    "author": "Sebleouf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2019-04-02 22:58:01",
+    "description": "Vue du Groupama Stadium lors de la demi-finale de Coupe de France entre l'Olympique lyonnais et le Stade rennais (victoire 3-2 de Rennes).",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Olympique_lyonnais_-_Stade_rennais%2C_demi-finale_de_Coupe_de_France_2019.jpg/1280px-Olympique_lyonnais_-_Stade_rennais%2C_demi-finale_de_Coupe_de_France_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Parc_Olympique_Lyonnais",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-173": {
+    "stadium": "MAC³PARK Stadion",
+    "aliases": [
+      "PEC Zwolle",
+      "Zwolle"
+    ],
+    "image": "/images/stadiums/venue-173.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:PEC_Zwolle_2022.jpg",
+    "author": "UserBWA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2022-03-28 18:22:30",
+    "description": "Voetbalstadion van PEC Zwolle",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/PEC_Zwolle_2022.jpg/1280px-PEC_Zwolle_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/MAC3PARK_Stadion",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-29": {
+    "stadium": "Fratton Park",
+    "aliases": [
+      "Portsmouth FC",
+      "Portsmouth"
+    ],
+    "image": "/images/stadiums/venue-29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fratton_Park.jpg",
+    "author": "TimSC",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2021-12-11 15:12:23",
+    "description": "Fratton Park, home of Portsmouth Football Club. Portsmouth is at home playing Morcambe, 11th Dec 2021.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Fratton_Park.jpg/1280px-Fratton_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Fratton_Park",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-85": {
+    "stadium": "Philips Stadion",
+    "aliases": [
+      "PSV",
+      "PSV Eindhoven"
+    ],
+    "image": "/images/stadiums/venue-85.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Psv_stadion_2019.jpg",
+    "author": "Dutchlad1985",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2019-07-17",
+    "description": "Philipsstadion",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Psv_stadion_2019.jpg/1280px-Psv_stadion_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Philips_Stadion",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-24": {
+    "stadium": "Kiyan Prince Foundation Stadium",
+    "aliases": [
+      "Queens Park Rangers FC",
+      "QPR"
+    ],
+    "image": "/images/stadiums/venue-24.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Loftus_Road_Stadium_25_April_2025.jpg",
+    "author": "Ecco4k",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoDate": "2025-04-25 14:03:17",
+    "description": "The South Africa Road entrance of Loftus Road Stadium, the home of Queen’s Park Rangers Football Club",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Loftus_Road_Stadium_25_April_2025.jpg/1280px-Loftus_Road_Stadium_25_April_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Loftus_Road",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-246": {
+    "stadium": "Estadio de Balaídos",
+    "aliases": [
+      "RC Celta de Vigo",
+      "Celta"
+    ],
+    "image": "/images/stadiums/venue-246.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Balaidos_hoy.jpg",
+    "author": "BandidoBanderas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2020-10-02",
+    "description": "Celta de Vigo.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Balaidos_hoy.jpg/1280px-Balaidos_hoy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Balaídos_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-132": {
+    "stadium": "Stade de la Meinau",
+    "aliases": [
+      "RC Strasbourg Alsace",
+      "Strasbourg"
+    ],
+    "image": "/images/stadiums/venue-132.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:La_Meinau_en_National.jpg",
+    "author": "Xaviyeah",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2016-05-13",
+    "description": "Rencontre RCS-ASC en National",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/La_Meinau_en_National.jpg/1280px-La_Meinau_en_National.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stade_de_la_Meinau",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-236": {
+    "stadium": "RCDE Stadium",
+    "aliases": [
+      "RCD Espanyol de Barcelona",
+      "Espanyol",
+      "Espanol"
+    ],
+    "image": "/images/stadiums/venue-236.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stage_Front_Stadium.jpg",
+    "author": "RCD Espanyol de Barcelona",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2023-06-12",
+    "description": "Stage Front Stadium with the new rebranding.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Stage_Front_Stadium.jpg/1280px-Stage_Front_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/RCDE_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-249": {
+    "stadium": "Campos de Sport de El Sardinero",
+    "aliases": [
+      "Real Racing Club de Santander",
+      "Santander"
+    ],
+    "image": "/images/stadiums/venue-249.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fotograf%C3%ADa_Eduardo_Berm%C3%BAdez_para_los_Campos_de_Sport_de_El_Sardinero.jpg",
+    "author": "Edubermu99",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2024-01-05",
+    "description": "Campos de Sport del Sardinero el 5 de enero de 2024.\nFoto de: Eduardo Bermúdez",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Fotograf%C3%ADa_Eduardo_Berm%C3%BAdez_para_los_Campos_de_Sport_de_El_Sardinero.jpg/1280px-Fotograf%C3%ADa_Eduardo_Berm%C3%BAdez_para_los_Campos_de_Sport_de_El_Sardinero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Campos_de_Sport_de_El_Sardinero",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-242": {
+    "stadium": "Estadio Municipal de Anoeta",
+    "aliases": [
+      "Real Sociedad de Fútbol",
+      "Real Sociedad",
+      "Sociedad"
+    ],
+    "image": "/images/stadiums/venue-242.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Anoeta_estadioa_31,_Donostia,_Gipuzkoa,_Euskal_Herria.jpg",
+    "author": "Bhgh543bgf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2020-02-28 20:35:44",
+    "description": "Anoeta stadium, Donostia-San Sebastian, Gipuzkoa, Basque Country",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Anoeta_estadioa_31%2C_Donostia%2C_Gipuzkoa%2C_Euskal_Herria.jpg/1280px-Anoeta_estadioa_31%2C_Donostia%2C_Gipuzkoa%2C_Euskal_Herria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Anoeta_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-20": {
+    "stadium": "Estádio Urbano Caldeira",
+    "aliases": [
+      "Santos FC",
+      "Santos"
+    ],
+    "image": "/images/stadiums/venue-20.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vila_Belmiro_pre-match_Santos_vs_Gr%C3%AAmio_2021.jpg",
+    "author": "BrazilianDude70",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2021-10-10",
+    "description": "Estádio Urbano Caldeira, Vila Belmiro, before the match Santos vs. Grêmio on 10 October 2021.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Vila_Belmiro_pre-match_Santos_vs_Gr%C3%AAmio_2021.jpg/1280px-Vila_Belmiro_pre-match_Santos_vs_Gr%C3%AAmio_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_Urbano_Caldeira",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-9": {
+    "stadium": "Estádio do Morumbi",
+    "aliases": [
+      "São Paulo FC",
+      "São Paulo"
+    ],
+    "image": "/images/stadiums/venue-9.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_do_Morumbi.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2022-02-25",
+    "description": "Estádio Cícero Pompeu de Toledo, São Paulo, Brasil",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Est%C3%A1dio_do_Morumbi.jpg/1280px-Est%C3%A1dio_do_Morumbi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_do_Morumbi",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-165": {
+    "stadium": "Van Donge & De Roo Stadion",
+    "aliases": [
+      "SBV Excelsior",
+      "Excelsior"
+    ],
+    "image": "/images/stadiums/venue-165.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rotterdam_stadion_woudestein.jpg",
+    "author": "Wikifrits",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "photoDate": "1 September 2008 (upload date)",
+    "description": "Rotterdam, Kralingen. Stadion Woudestein van voetbalclub Excelsior.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Rotterdam_stadion_woudestein.jpg/1280px-Rotterdam_stadion_woudestein.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadion_Woudestein",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-11": {
+    "stadium": "Neo Química Arena",
+    "aliases": [
+      "SC Corinthians Paulista",
+      "Corinthians"
+    ],
+    "image": "/images/stadiums/venue-11.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:ARENA_CORINTHIANS.jpg",
+    "author": "Alexandre Breveglieri",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2014-07-10",
+    "description": "Vista aérea da Arena Corinthians, em Itaquera, na Zona Leste da capital paulista",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/c/c6/ARENA_CORINTHIANS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/Arena_Corinthians",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-167": {
+    "stadium": "Abe Lenstra Stadion",
+    "aliases": [
+      "SC Heerenveen",
+      "Heerenveen"
+    ],
+    "image": "/images/stadiums/venue-167.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Abe_Lenstra_Stadion_08c.JPG",
+    "author": "Udo Ockema",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "photoDate": "2007-05-30 10:09:46",
+    "description": "Abe Lenstra Stadion in Heerenveen",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Abe_Lenstra_Stadion_08c.JPG/1280px-Abe_Lenstra_Stadion_08c.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Abe_Lenstra_Stadion",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-145": {
+    "stadium": "Benteler-Arena",
+    "aliases": [
+      "SC Paderborn 07",
+      "SC Paderborn",
+      "Paderborn"
+    ],
+    "image": "/images/stadiums/venue-145.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Paderborn_paragon_arena_2.jpg",
+    "author": "Zefram",
+    "license": "CC BY 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/de/deed.en",
+    "photoDate": "2008-05-13",
+    "description": "Paderborn, Germany: paragon arena (2009–2012: Energieteam Arena; since 2012: Benterler-Arena).",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Paderborn_paragon_arena_2.jpg/1280px-Paderborn_paragon_arena_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Home_Deluxe_Arena",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-5": {
+    "stadium": "Allianz Parque",
+    "aliases": [
+      "SE Palmeiras",
+      "Palmeiras"
+    ],
+    "image": "/images/stadiums/venue-5.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Imagens_da_Cidade_de_S%C3%A3o_Paulo_e_Zool%C3%B3gico_da_Capital_Paulista._(47480340301).jpg",
+    "author": "Governo do Estado de São Paulo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2019-03-27 10:17",
+    "description": "Allianz Parque, arena multiuso do Palmeiras, na capital paulista. Local: São Paulo/SP. Data: 27/03/2019. Foto: Governo do Estado de São Paulo",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Imagens_da_Cidade_de_S%C3%A3o_Paulo_e_Zool%C3%B3gico_da_Capital_Paulista._%2847480340301%29.jpg/1280px-Imagens_da_Cidade_de_S%C3%A3o_Paulo_e_Zool%C3%B3gico_da_Capital_Paulista._%2847480340301%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Nubank_Parque",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-247": {
+    "stadium": "Estadio Ramón Sánchez Pizjuán",
+    "aliases": [
+      "Sevilla FC",
+      "Sevilla"
+    ],
+    "image": "/images/stadiums/venue-247.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_(Sevilla_FC).jpg",
+    "author": "Niels98",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2022-10-25 17:29:23",
+    "description": "Estadio Ramón Sánchez Pizjuán (Sevilla FC) before the match against FC Kopenhagen (UCL 2022)",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg/1280px-2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Ramón_Sánchez-Pizjuán_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-37": {
+    "stadium": "Bramall Lane",
+    "aliases": [
+      "Sheffield United FC",
+      "Sheffield Utd",
+      "Sheffield United"
+    ],
+    "image": "/images/stadiums/venue-37.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_08_02_arne_mueseler_00138-Verbessert-RR_(53106208941).jpg",
+    "author": "Arne Müseler from Salzburg, AT",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoDate": "2023-08-02 11:49",
+    "description": "Photo: Arne Müseler",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/2023_08_02_arne_mueseler_00138-Verbessert-RR_%2853106208941%29.jpg/1280px-2023_08_02_arne_mueseler_00138-Verbessert-RR_%2853106208941%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Bramall_Lane",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-88": {
+    "stadium": "Sinobo Stadium",
+    "aliases": [
+      "SK Slavia Praha",
+      "Slavia Praha"
+    ],
+    "image": "/images/stadiums/venue-88.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Praha,_Slavia,_fotbalov%C3%BD_stadion_(2).jpg",
+    "author": "Jan_Polák",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoDate": "2018-07-28",
+    "description": "Fotbalový stadion pražské Slavie po utkání s Karvinou (4:0).",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Praha%2C_Slavia%2C_fotbalov%C3%BD_stadion_%282%29.jpg/1280px-Praha%2C_Slavia%2C_fotbalov%C3%BD_stadion_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Fortuna_Arena",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-32": {
+    "stadium": "St. Mary's Stadium",
+    "aliases": [
+      "Southampton FC",
+      "Southampton"
+    ],
+    "image": "/images/stadiums/venue-32.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:St_Mary%27s_Stadium_(cropped).jpg",
+    "author": "User890899",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2018-04-20",
+    "description": "St Mary's Stadium",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/St_Mary%27s_Stadium_%28cropped%29.jpg/1280px-St_Mary%27s_Stadium_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/St_Mary's_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-179": {
+    "stadium": "Sparta-Stadion Het Kasteel",
+    "aliases": [
+      "Sparta Rotterdam",
+      "Sparta"
+    ],
+    "image": "/images/stadiums/venue-179.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rotterdam_spangen_spartastadion.jpg",
+    "author": "FaceMePLS",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2007-11-25",
+    "description": "Rotterdam, Spangen. Spartastadion. Rijksmonument.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Rotterdam_spangen_spartastadion.jpg/1280px-Rotterdam_spangen_spartastadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Sparta_Stadion_Het_Kasteel",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-90": {
+    "stadium": "Estádio do Sport Lisboa e Benfica",
+    "aliases": [
+      "Sport Lisboa e Benfica",
+      "SL Benfica",
+      "Benfica"
+    ],
+    "image": "/images/stadiums/venue-90.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadio_da_Luz_2012.jpg",
+    "author": "Florent Dusonchet",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2012-08-25 10:53:28",
+    "description": "Benfica's Estádio da Luz in Lisbon, Portugal",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Estadio_da_Luz_2012.jpg/1280px-Estadio_da_Luz_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_da_Luz",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-192": {
+    "stadium": "Estádio Municipal de Braga",
+    "aliases": [
+      "Sporting Clube de Braga",
+      "Braga",
+      "Sp Braga"
+    ],
+    "image": "/images/stadiums/venue-192.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Eduardo_Souto_de_Moura_-_Braga_Stadium_02_(6010593292).jpg",
+    "author": "準建築人手札網站 Forgemind ArchiMedia from Taichung, Taiwan, Taiwan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2007-04-05 18:16",
+    "description": "Eduardo Souto de Moura - Braga Stadium 02.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Eduardo_Souto_de_Moura_-_Braga_Stadium_02_%286010593292%29.jpg/1280px-Eduardo_Souto_de_Moura_-_Braga_Stadium_02_%286010593292%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_Municipal_de_Braga",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-78": {
+    "stadium": "Estádio José Alvalade",
+    "aliases": [
+      "Sporting Clube de Portugal",
+      "Sporting CP",
+      "Sp Lisbon"
+    ],
+    "image": "/images/stadiums/venue-78.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Jos%C3%A9_Alvalade_antes_do_jogo_Sporting_-_Arouca.jpg",
+    "author": "Megutim",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoDate": "2025-08-17 19:23:47",
+    "description": "View of José Alvalade Stadium before the start of the match between Sporting and Arouca",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Est%C3%A1dio_Jos%C3%A9_Alvalade_antes_do_jogo_Sporting_-_Arouca.jpg/1280px-Est%C3%A1dio_Jos%C3%A9_Alvalade_antes_do_jogo_Sporting_-_Arouca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_José_Alvalade",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-77": {
+    "stadium": "Stadio San Paolo",
+    "aliases": [
+      "SSC Napoli",
+      "Napoli"
+    ],
+    "image": "/images/stadiums/venue-77.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadio_Maradona_Serie_A.jpg",
+    "author": "Gaetano Capaldo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoDate": "2019-09-14",
+    "description": "The \"San Paolo\" Stadium in Naples (Italy) during the half-time break of S.S.C. Napoli v U.C. Sampdoria (2-0) game, Matchday 3 of Italian Championship 2019–20 Serie A, September 14, 2019.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Stadio_Maradona_Serie_A.jpg/1280px-Stadio_Maradona_Serie_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadio_Diego_Armando_Maradona",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-120": {
+    "stadium": "Stade Francis-Le Blé",
+    "aliases": [
+      "Stade Brestois 29",
+      "Brest"
+    ],
+    "image": "/images/stadiums/venue-120.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vue_panoramique_du_stade_depuis_tribune_Eurodif.jpg",
+    "author": "Romscape",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoDate": "2011-06-25",
+    "description": "On peut voir à gauche la tribune Foucauld, en face la tribune Route de Quimper et à droite la tribune Crédit Mutuel Arkéa.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Vue_panoramique_du_stade_depuis_tribune_Eurodif.jpg/1280px-Vue_panoramique_du_stade_depuis_tribune_Eurodif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stade_Francis-Le_Blé",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-126": {
+    "stadium": "Roazhon Park",
+    "aliases": [
+      "Stade Rennais FC 1901",
+      "Stade Rennais",
+      "Rennes"
+    ],
+    "image": "/images/stadiums/venue-126.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Roazhon_Park_20190814.jpg",
+    "author": "EL Loko Foto",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoDate": "2019-06",
+    "description": "FIFA Women's World Cup 2019 - Roazhon Park, Rennes",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Roazhon_Park_20190814.jpg/1280px-Roazhon_Park_20190814.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Roazhon_Park",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-25": {
+    "stadium": "Bet365 Stadium",
+    "aliases": [
+      "Stoke City FC",
+      "Stoke"
+    ],
+    "image": "/images/stadiums/venue-25.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Bet_365_Stadium.jpg",
+    "author": "Gkbediako",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2025-08-08 10:59:30",
+    "description": "Aerial view of Bet 365 Stadium",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Aerial_view_of_Bet_365_Stadium.jpg/1280px-Aerial_view_of_Bet_365_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Bet365_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-139": {
+    "stadium": "Weserstadion",
+    "aliases": [
+      "SV Werder Bremen",
+      "Bremen",
+      "Werder Bremen"
+    ],
+    "image": "/images/stadiums/venue-139.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Germany_bremen_stadium.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2024-09-09 11:48:09",
+    "description": "Stadium Werder Bremen, Germany",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Germany_bremen_stadium.jpg/1280px-Germany_bremen_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Weserstadion",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-176": {
+    "stadium": "Rabobank IJmond Stadion",
+    "aliases": [
+      "Telstar 1963",
+      "Telstar"
+    ],
+    "image": "/images/stadiums/venue-176.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:02_juni_2025_IP_Images_-Telstar-01.jpg",
+    "author": "IPimages.nl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2025-06-02 17:18:25",
+    "description": "Luchtfoto van het 711 stadion van Telstar in Velsen-Zuid",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/02_juni_2025_IP_Images_-Telstar-01.jpg/1280px-02_juni_2025_IP_Images_-Telstar-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Sportpark_Schoonenberg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-160": {
+    "stadium": "Stadio Olimpico di Torino",
+    "aliases": [
+      "Torino FC",
+      "Torino"
+    ],
+    "image": "/images/stadiums/venue-160.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadio_Olimpico_Torino_2017_cropped.jpg",
+    "author": "Original photo by Asgaw, cropped by Blackcat",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoDate": "Taken on 27 August 2017, 18:59:42 UTC+2",
+    "description": "Stadio Olimpico in Turin during the 2017-18 league match Torino v Sassuolo",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Stadio_Olimpico_Torino_2017_cropped.jpg/1280px-Stadio_Olimpico_Torino_2017_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadio_Olimpico_Grande_Torino",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-119": {
+    "stadium": "Stadium Municipal",
+    "aliases": [
+      "Toulouse FC",
+      "Toulouse"
+    ],
+    "image": "/images/stadiums/venue-119.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadium-Lory.jpg",
+    "author": "Laurie Laberinto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2020-11-18",
+    "description": "Municipal Stadium of Toulouse",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Stadium-Lory.jpg/1280px-Stadium-Lory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadium_de_Toulouse",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-135": {
+    "stadium": "PreZero Arena",
+    "aliases": [
+      "TSG 1899 Hoffenheim",
+      "Hoffenheim"
+    ],
+    "image": "/images/stadiums/venue-135.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:PreZero_Arena_wiki.jpg",
+    "author": "PreZero",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2019-08-09 08:00:48",
+    "description": "Fußball, TSG Hoffenheim, PreZero Arena in Hoffenheim",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/PreZero_Arena_wiki.jpg/1280px-PreZero_Arena_wiki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Rhein-Neckar-Arena",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-156": {
+    "stadium": "Dacia Arena",
+    "aliases": [
+      "Udinese Calcio",
+      "Udinese"
+    ],
+    "image": "/images/stadiums/venue-156.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:DaciArena.jpg",
+    "author": "Matteo.favi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2016-01-28",
+    "description": "Interno dello Stadio Friuli-Dacia Arena di Udine nella nuova configurazione, dopo i lavori di ristrutturazione del triennio 2013-2015. Foto di Matteo Favi.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/DaciArena.jpg/1280px-DaciArena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadio_Friuli",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-159": {
+    "stadium": "Mapei Stadium - Città del Tricolore",
+    "aliases": [
+      "US Sassuolo Calcio",
+      "Sassuolo"
+    ],
+    "image": "/images/stadiums/venue-159.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Das_Mapei_Stadium_von_Reggio_nell%60Emilia_(2026).jpg",
+    "author": "Vincenzo.togni",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoDate": "2026-01-03 16:17:35",
+    "description": "Das Mapei Stadion während eines Serie A Spiels zwischen Sassuolo Calcio und Parma Calcio im Januar 2026",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Das_Mapei_Stadium_von_Reggio_nell%60Emilia_%282026%29.jpg/1280px-Das_Mapei_Stadium_von_Reggio_nell%60Emilia_%282026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Mapei_Stadium_–_Città_del_Tricolore",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-243": {
+    "stadium": "Estadio de Mestalla",
+    "aliases": [
+      "Valencia CF",
+      "Valencia"
+    ],
+    "image": "/images/stadiums/venue-243.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg",
+    "author": "Anidae",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2023-12-16 19:47:11",
+    "description": "Mestalla before the Valencia-Barcelona LaLiga 2023-2024 match",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg/1280px-Mestalla_antes_del_partido_Valencia-Barcelona_LaLiga_2023-2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Mestalla_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-157": {
+    "stadium": "Stadio Pierluigi Penzo",
+    "aliases": [
+      "Venezia FC",
+      "Venezia"
+    ],
+    "image": "/images/stadiums/venue-157.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadio_Pierluigi_Penzo.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2025-02-22 15:21:22",
+    "description": "Pier Luigi Penzo stadium, Venice.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Stadio_Pierluigi_Penzo.jpg/1280px-Stadio_Pierluigi_Penzo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadio_Pier_Luigi_Penzo",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-73": {
+    "stadium": "Estadio de la Cerámica",
+    "aliases": [
+      "Villarreal CF",
+      "Villarreal"
+    ],
+    "image": "/images/stadiums/venue-73.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:ESTADIO3.jpg",
+    "author": "Frank94Rock",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2017-12-10 21:52:35",
+    "description": "2017-12-10 Estadio de la Ceramica\nLa Liga Santander\n\nVillarreal CF - FC Barcelona",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/ESTADIO3.jpg/1280px-ESTADIO3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_de_la_Cerámica",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-190": {
+    "stadium": "Estádio Dom Afonso Henriques",
+    "aliases": [
+      "Vitória SC",
+      "Guimaraes"
+    ],
+    "image": "/images/stadiums/venue-190.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_do_Vit%C3%B3ria_vista_do_Penha.jpg",
+    "author": "Guimarães_e_freguesias_a_noroeste_desta_vistas_da_Penha.jpg: Diogo e Vitória Oliveira Pacheco",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2010-05-14 01:56",
+    "description": "Estádio do Vitória visto da Penha.",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Est%C3%A1dio_do_Vit%C3%B3ria_vista_do_Penha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_D._Afonso_Henriques",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-28": {
+    "stadium": "Molineux Stadium",
+    "aliases": [
+      "Wolverhampton Wanderers FC",
+      "Wolverhampton",
+      "Wolves"
+    ],
+    "image": "/images/stadiums/venue-28.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:MolineuxStadium2022.jpg",
+    "author": "Bex Walton",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2022-09-03 14:10:08",
+    "description": "Molineux Stadium on 3 September 2022 before 2022–23 Premier League fixture Wolverhampton Wolves v Southampton F.C.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/MolineuxStadium2022.jpg/1280px-MolineuxStadium2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Molineux_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-185": {
+    "stadium": "Estádio do Fontelo",
+    "aliases": [
+      "Académico de Viseu FC",
+      "Acad. Viseu"
+    ],
+    "image": "/images/stadiums/venue-185.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Municipal_do_Fontelo,_Viseu.jpg",
+    "author": "OlussMémèle",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoDate": "2025-12-28 12:01:52",
+    "description": "Stade municipal de Fontelo, Viseu",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Est%C3%A1dio_Municipal_do_Fontelo%2C_Viseu.jpg/1280px-Est%C3%A1dio_Municipal_do_Fontelo%2C_Viseu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_do_Fontelo",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-81": {
+    "stadium": "Stade Louis II",
+    "aliases": [
+      "AS Monaco FC",
+      "Monaco"
+    ],
+    "image": "/images/stadiums/venue-81.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Panoramio_-_V%26A_Dudush_-_stade_Louis_II.jpg",
+    "author": "V&A Dudush",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "photoDate": "14 September 2009 (upload date)",
+    "description": "stade Louis II",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/7/78/Panoramio_-_V%26A_Dudush_-_stade_Louis_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "venueSource": "https://en.wikipedia.org/wiki/Stade_Louis_II",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-199": {
+    "stadium": "La Bombonera",
+    "aliases": [
+      "CA Boca Juniors",
+      "Boca Juniors"
+    ],
+    "image": "/images/stadiums/venue-199.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Alberto_J._Armando_%22La_Bombonera%22_01.jpg",
+    "author": "ProtoplasmaKid",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2025-10-08 12:28:02",
+    "description": "Aerial view of Alberto J. Armando Stadium “La Bombonera,” La Boca neighborhood, Buenos Aires, Argentina.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Vista_a%C3%A9rea_del_Estadio_Alberto_J._Armando_%22La_Bombonera%22_01.jpg/1280px-Vista_a%C3%A9rea_del_Estadio_Alberto_J._Armando_%22La_Bombonera%22_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/La_Bombonera",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-2": {
+    "stadium": "Arena MRV",
+    "aliases": [
+      "CA Mineiro",
+      "Mineiro"
+    ],
+    "image": "/images/stadiums/venue-2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Atl%C3%A9tico_Mineiro_v_Bahia,_Arena_MRV,_Belo_Horizonte,_2024.jpg",
+    "author": "Felipebini",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2024-06-02 16:11:53",
+    "description": "Inside view of Arena MRV in Belo Horizonte, Brazil, before Clube Atlético Mineiro vs EC Bahia game, 2024 Campeonato Brasileiro Série A, 2 June 2024.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Atl%C3%A9tico_Mineiro_v_Bahia%2C_Arena_MRV%2C_Belo_Horizonte%2C_2024.jpg/1280px-Atl%C3%A9tico_Mineiro_v_Bahia%2C_Arena_MRV%2C_Belo_Horizonte%2C_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Arena_MRV",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-201": {
+    "stadium": "Estadio Gigante de Arroyito",
+    "aliases": [
+      "CA Rosario Central",
+      "Rosario"
+    ],
+    "image": "/images/stadiums/venue-201.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2009_Argentina-Brasil_en_el_Gigante.jpg",
+    "author": "Rodrigo Accurcio from São Paulo, Brasil",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2009-09-11 22:49",
+    "description": "Imagen del Estadio Gigante de Arroyito del Club Atlético Rosario Central en el partido que enfrentó a las selecciones nacionales de Argentina y Brasil el 11 de septiembre de 2009 por las Eliminatorias Sudamericanas para la Copa del Mundo 2010.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/2009_Argentina-Brasil_en_el_Gigante.jpg/1280px-2009_Argentina-Brasil_en_el_Gigante.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Gigante_de_Arroyito",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-195": {
+    "stadium": "Estádio José Gomes",
+    "aliases": [
+      "CF Estrela da Amadora",
+      "Amadora",
+      "Estrela"
+    ],
+    "image": "/images/stadiums/venue-195.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Jos%C3%A9_Gomes.jpg",
+    "author": "Johnnypp005",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoDate": "2024-08-31 17:49:20",
+    "description": "Estádio José Gomes durante um jogo da Primeira Liga - CF Estrela Amadora 0-1 Casa Pia AC",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Est%C3%A1dio_Jos%C3%A9_Gomes.jpg/1280px-Est%C3%A1dio_Jos%C3%A9_Gomes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_José_Gomes",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-36": {
+    "stadium": "The Valley (London)",
+    "aliases": [
+      "Charlton Athletic FC",
+      "Charlton"
+    ],
+    "image": "/images/stadiums/venue-36.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Charlton_Athletic_football_ground.jpg",
+    "author": "Mark Fosh",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoDate": "2008-08-17 10:27:49",
+    "description": "An aerial shot of The Valley, the home of Charlton Athletic F.C..",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Charlton_Athletic_football_ground.jpg/1280px-Charlton_Athletic_football_ground.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/The_Valley_(stadium)",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-64": {
+    "stadium": "Coventry Building Society Arena",
+    "aliases": [
+      "Coventry City FC",
+      "Coventry City",
+      "Coventry"
+    ],
+    "image": "/images/stadiums/venue-64.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Coventry_Derby_October_2021_-_2.jpg",
+    "author": "Amakuru",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2021-10-23 14:59:09",
+    "description": "The Coventry Building Society Arena in Coventry, England, prior to a match between Coventry City and Derby County",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Coventry_Derby_October_2021_-_2.jpg/1280px-Coventry_Derby_October_2021_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Coventry_Building_Society_Arena",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-14": {
+    "stadium": "Maracanã Stadium",
+    "aliases": [
+      "CR Flamengo",
+      "Flamengo",
+      "Fluminense FC",
+      "Fluminense"
+    ],
+    "image": "/images/stadiums/venue-14.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Maracana_2022.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2022-02-15",
+    "description": "Maracanã, Rio de Janeiro, Brasil",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Maracana_2022.jpg/1280px-Maracana_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Maracanã_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-10": {
+    "stadium": "Arena Fonte Nova",
+    "aliases": [
+      "EC Bahia",
+      "Bahia"
+    ],
+    "image": "/images/stadiums/venue-10.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Arena_Fonte_Nova_view_from_lake_(zoom).jpg",
+    "author": "Faquini Produção Fotográfica; Fotógrafo David Campbell;",
+    "license": "CC BY 3.0 br",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+    "photoDate": "2013-10-17 14:21:23",
+    "description": "Arena Fonte Nova, Stadion für die WM 2014",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Arena_Fonte_Nova_view_from_lake_%28zoom%29.jpg/1280px-Arena_Fonte_Nova_view_from_lake_%28zoom%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Arena_Fonte_Nova",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-170": {
+    "stadium": "Euroborg",
+    "aliases": [
+      "FC Groningen",
+      "Groningen"
+    ],
+    "image": "/images/stadiums/venue-170.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Euroborg.jpg",
+    "author": "Kevster at Dutch Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "photoDate": "18 October 2006 (original upload date)",
+    "description": "DescriptionEuroborg.jpg\n\nDe Euroborg, het stadion van FC Groningen.\n\n\n\nDate\n\n18 October 2006\n\n\n\nSource\n\nOwn work\n\n\n\nAuthor\n\nKevster\n\n\n\nPermission(Reusing this file)\n\nVrijgegeven onder GFDL.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Euroborg.jpg/1280px-Euroborg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Euroborg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-125": {
+    "stadium": "Stade du Moustoir",
+    "aliases": [
+      "FC Lorient",
+      "Lorient"
+    ],
+    "image": "/images/stadiums/venue-125.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stade_du_Moustoir.jpg",
+    "author": "NORMOTE",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2019-08-31",
+    "description": "Photo of the Stade du Moustoir",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Stade_du_Moustoir.jpg/1280px-Stade_du_Moustoir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stade_du_Moustoir",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-181": {
+    "stadium": "Estádio do Dragão",
+    "aliases": [
+      "FC Porto",
+      "Porto"
+    ],
+    "image": "/images/stadiums/venue-181.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Porto_Est%C3%A1dio_do_Drag%C3%A3o_2.jpg",
+    "author": "Валерий Дед",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "photoDate": "",
+    "description": "Estádio do Dragão in Porto, Portugal",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Porto_Est%C3%A1dio_do_Drag%C3%A3o_2.jpg/1280px-Porto_Est%C3%A1dio_do_Drag%C3%A3o_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estádio_do_Dragão",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-153": {
+    "stadium": "Stadio Luigi Ferraris",
+    "aliases": [
+      "Genoa CFC",
+      "Genoa"
+    ],
+    "image": "/images/stadiums/venue-153.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadio_Luigi_Ferraris_di_Genova_con_il_quartiere_Marassi_(cropped).jpg",
+    "author": "Gabriel Rinaldi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2016-05-25 15:38:37",
+    "description": "Lo stadio Luigi Ferraris visto da S. Bartolomeo",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Stadio_Luigi_Ferraris_di_Genova_con_il_quartiere_Marassi_%28cropped%29.jpg/1280px-Stadio_Luigi_Ferraris_di_Genova_con_il_quartiere_Marassi_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadio_Luigi_Ferraris",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-84": {
+    "stadium": "Karaiskakis Stadium",
+    "aliases": [
+      "PAE Olympiakos SFP",
+      "Olympiakos"
+    ],
+    "image": "/images/stadiums/venue-84.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Karaiskakis_Stadium_Piraeus_Olympiacos-Arsenal.jpg",
+    "author": "TodorBozhinov",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoDate": "2009-12-09",
+    "description": "Karaiskakis Stadium Piraeus before Olympiacos-Arsenal",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Karaiskakis_Stadium_Piraeus_Olympiacos-Arsenal.jpg/1280px-Karaiskakis_Stadium_Piraeus_Olympiacos-Arsenal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Karaiskakis_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-94": {
+    "stadium": "Stelios Kyriakides Stadium",
+    "aliases": [
+      "Paphos FC"
+    ],
+    "image": "/images/stadiums/venue-94.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pafos_FC_-_Aris_Limassol_FC_25.02.2022.jpg",
+    "author": "SArtem14",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2022-03-02",
+    "description": "Record attendance - 4661 viewers.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Pafos_FC_-_Aris_Limassol_FC_25.02.2022.jpg/1280px-Pafos_FC_-_Aris_Limassol_FC_25.02.2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stelios_Kyriakides_Stadium",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-147": {
+    "stadium": "Red Bull Arena (Leipzig)",
+    "aliases": [
+      "RB Leipzig"
+    ],
+    "image": "/images/stadiums/venue-147.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Leipzig_stadium.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2022-04-28",
+    "description": "Stadium, Leipzig, Germany",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Leipzig_stadium.jpg/1280px-Leipzig_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Red_Bull_Arena_(Leipzig)",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-248": {
+    "stadium": "Estadio Riazor",
+    "aliases": [
+      "RC Deportivo La Coruña",
+      "Deportivo",
+      "La Coruna"
+    ],
+    "image": "/images/stadiums/venue-248.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadioriazor2023.jpg",
+    "author": "Lisímaco de Egipto",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoDate": "2008-11-05 00:11:30",
+    "description": "Estadio de Riazor",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Estadioriazor2023.jpg/1280px-Estadioriazor2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Estadio_Riazor",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-175": {
+    "stadium": "Kooi Stadion",
+    "aliases": [
+      "SC Cambuur-Leeuwarden",
+      "Cambuur"
+    ],
+    "image": "/images/stadiums/venue-175.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kooi_Stadion_west_-_Leeuwarden_2025.jpg",
+    "author": "Condor3d",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoDate": "2025",
+    "description": "Kooi Stadion westzijde, hoofdingang te Leeuwarden",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Kooi_Stadion_west_-_Leeuwarden_2025.jpg/1280px-Kooi_Stadion_west_-_Leeuwarden_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Kooi_Stadion",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-146": {
+    "stadium": "Waldstadion an der Kaiserlinde",
+    "aliases": [
+      "SV 07 Elversberg",
+      "Elversberg"
+    ],
+    "image": "/images/stadiums/venue-146.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:UrsapharmArena.jpg",
+    "author": "MüllerFrankElversberg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2020-09-03",
+    "description": "Haupttribüne",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/UrsapharmArena.jpg/1280px-UrsapharmArena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Waldstadion_an_der_Kaiserlinde",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-161": {
+    "stadium": "Stadio Via del mare",
+    "aliases": [
+      "US Lecce",
+      "Lecce"
+    ],
+    "image": "/images/stadiums/venue-161.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Via_Del_Mare_stadium_in_Lecce_during_a_Serie_A_match_between_Lecce_and_SPAL_Ferrara_in_February_2020.jpg",
+    "author": "Vincenzo.togni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2020-02-15 16:19:14",
+    "description": "The Stadio Via del Mare in Lecce during a Serie A Match between US Lecce and SPAL Ferrara in February 2020.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/The_Via_Del_Mare_stadium_in_Lecce_during_a_Serie_A_match_between_Lecce_and_SPAL_Ferrara_in_February_2020.jpg/1280px-The_Via_Del_Mare_stadium_in_Lecce_during_a_Serie_A_match_between_Lecce_and_SPAL_Ferrara_in_February_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/Stadio_Via_del_mare",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-138": {
+    "stadium": "Neckarstadion",
+    "aliases": [
+      "VfB Stuttgart",
+      "Stuttgart"
+    ],
+    "image": "/images/stadiums/venue-138.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stuttgart_stadium.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoDate": "2022-05-15",
+    "description": "Mercedes-Benz-Arena, Stuttgart, Germany",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Stuttgart_stadium.jpg/1280px-Stuttgart_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://en.wikipedia.org/wiki/MHPArena",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-80": {
+    "stadium": "Parc des Princes",
+    "aliases": [
+      "Paris Saint-Germain FC",
+      "PSG",
+      "Paris SG"
+    ],
+    "image": "/images/stadiums/venue-80.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Paris_Parc_des_Princes_1.jpg",
+    "author": "Валерий Дед",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "photoDate": "2010-01-07 08:49:59",
+    "description": "Parc des Princes in Paris (75), France",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Paris_Parc_des_Princes_1.jpg/1280px-Paris_Parc_des_Princes_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Paris_Parc_des_Princes_1.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-79": {
+    "stadium": "Stade Vélodrome",
+    "aliases": [
+      "Olympique de Marseille",
+      "Marseille"
+    ],
+    "image": "/images/stadiums/venue-79.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stade_V%C3%A9lodrome_(20150405).jpg",
+    "author": "Hombrey",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2015-04-05 21:00:52",
+    "description": "Stade Vélodrome, Marseille. Olympique Marseille contre Paris Saint-Germain, 31. journée de la saison 2014-2015 de Ligue 1.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Stade_V%C3%A9lodrome_%2820150405%29.jpg/1280px-Stade_V%C3%A9lodrome_%2820150405%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Stade_V%C3%A9lodrome_(20150405).jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-131": {
+    "stadium": "Stade Bollaert-Delelis",
+    "aliases": [
+      "Racing Club de Lens",
+      "RC Lens",
+      "Lens"
+    ],
+    "image": "/images/stadiums/venue-131.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stade_Bollaert_Delelis.JPG",
+    "author": "Liondartois",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2015-08-08",
+    "description": "Bollaert Delelis Stadium",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Stade_Bollaert_Delelis.JPG/1280px-Stade_Bollaert_Delelis.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Stade_Bollaert_Delelis.JPG",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-134": {
+    "stadium": "RheinEnergieStadion",
+    "aliases": [
+      "1. FC Köln",
+      "FC Koln"
+    ],
+    "image": "/images/stadiums/venue-134.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cologne-Germany_RheinEnergieStadion-02.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoDate": "2015-10-17",
+    "description": "Cologne, Germany: RheinEnergieStadion in Cologne Müngersdorf",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Cologne-Germany_RheinEnergieStadion-02.jpg/1280px-Cologne-Germany_RheinEnergieStadion-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Cologne-Germany_RheinEnergieStadion-02.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-27": {
+    "stadium": "The Hawthorns",
+    "aliases": [
+      "West Bromwich Albion FC",
+      "West Brom"
+    ],
+    "image": "/images/stadiums/venue-27.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:West_brom_stadium.JPG",
+    "author": "Mattd1991",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "photoDate": "12/03/08",
+    "description": "West Brom Stadium",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/West_brom_stadium.JPG/1280px-West_brom_stadium.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:West_brom_stadium.JPG",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-140": {
+    "stadium": "Mewa Arena",
+    "aliases": [
+      "1. FSV Mainz 05",
+      "Mainz"
+    ],
+    "image": "/images/stadiums/venue-140.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Coface_Arena_-_Luftaufnahme.jpg",
+    "author": "Carlos Delgado",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoDate": "",
+    "description": "Aerial photograph of the Coface Arena, Germany.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Coface_Arena_-_Luftaufnahme.jpg/1280px-Coface_Arena_-_Luftaufnahme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Coface_Arena_-_Luftaufnahme.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-121": {
+    "stadium": "Stade de l’Abbé-Deschamps",
+    "aliases": [
+      "AJ Auxerre",
+      "Auxerre"
+    ],
+    "image": "/images/stadiums/venue-121.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Auxerre_-_Stade_Abb%C3%A9-Deschamps_(31).JPG",
+    "author": "Vicente Auxerre",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoDate": "",
+    "description": "Entrée",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Auxerre_-_Stade_Abb%C3%A9-Deschamps_%2831%29.JPG/1280px-Auxerre_-_Stade_Abb%C3%A9-Deschamps_%2831%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Auxerre_-_Stade_Abb%C3%A9-Deschamps_(31).JPG",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-187": {
+    "stadium": "Estádio de São Miguel",
+    "aliases": [
+      "CD Santa Clara",
+      "Santa Clara"
+    ],
+    "image": "/images/stadiums/venue-187.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_de_S%C3%A3o_Miguel_(50694).jpg",
+    "author": "Rasibo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "25 April 2025 (according to Exif data)",
+    "description": "Estádio de São Miguel (Stadion in Portugal)",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Est%C3%A1dio_de_S%C3%A3o_Miguel_%2850694%29.jpg/1280px-Est%C3%A1dio_de_S%C3%A3o_Miguel_%2850694%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_de_S%C3%A3o_Miguel_(50694).jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-133": {
+    "stadium": "Stade Jean-Bouin",
+    "aliases": [
+      "Paris FC"
+    ],
+    "image": "/images/stadiums/venue-133.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tribune_pr%C3%A9sidentielle_nouveau_stade_Jean_Boin_Paris.JPG",
+    "author": "Sgail15",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoDate": "2013-08-30 19:06:04",
+    "description": "tribune présidentielle nouveau stade Jean Boin Paris",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Tribune_pr%C3%A9sidentielle_nouveau_stade_Jean_Boin_Paris.JPG/1280px-Tribune_pr%C3%A9sidentielle_nouveau_stade_Jean_Boin_Paris.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Tribune_pr%C3%A9sidentielle_nouveau_stade_Jean_Boin_Paris.JPG",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-241": {
+    "stadium": "Estadio La Cartuja",
+    "aliases": [
+      "Real Betis Balompié",
+      "Real Betis",
+      "Betis"
+    ],
+    "image": "/images/stadiums/venue-241.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Panoramio_-_V%26A_Dudush_-_Estadio_Ol%C3%ADmpico_57_619.jpg",
+    "author": "V&A Dudush",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "photoDate": "29 March 2011 (upload date)",
+    "description": "Estadio Olímpico 57 619",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Panoramio_-_V%26A_Dudush_-_Estadio_Ol%C3%ADmpico_57_619.jpg/1280px-Panoramio_-_V%26A_Dudush_-_Estadio_Ol%C3%ADmpico_57_619.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Panoramio_-_V%26A_Dudush_-_Estadio_Ol%C3%ADmpico_57_619.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-239": {
+    "stadium": "Campo de Fútbol de Vallecas",
+    "aliases": [
+      "Rayo Vallecano de Madrid",
+      "Rayo Vallecano",
+      "Vallecano"
+    ],
+    "image": "/images/stadiums/venue-239.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadio_de_Vallecas.jpg",
+    "author": "K3T0",
+    "license": "CC BY 2.5 es",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/es/deed.en",
+    "photoDate": "2011-03-27",
+    "description": "Photo Vallecas Football Stadium taken minutes before the game Betis - Lightning\nVallecano of the season 2010 - 2011 Spanish Second Division. This picture is\nthe first with the new image of the stadium as during the previous week\n\nperimeter fences removed.",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Estadio_de_Vallecas.jpg/1280px-Estadio_de_Vallecas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Estadio_de_Vallecas.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-38": {
+    "stadium": "The Den",
+    "aliases": [
+      "Millwall FC",
+      "Millwall"
+    ],
+    "image": "/images/stadiums/venue-38.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Millwall_Leeds_at_The_Den_2018.jpg",
+    "author": "TheLostBoy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2018-09-15",
+    "description": "Millwall and Leeds United line up at the Den in a Football League Championship match, September 2018",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Millwall_Leeds_at_The_Den_2018.jpg/1280px-Millwall_Leeds_at_The_Den_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Millwall_Leeds_at_The_Den_2018.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-225": {
+    "stadium": "Estadio Ciudad de Vicente López",
+    "aliases": [
+      "CA Platense",
+      "Platense"
+    ],
+    "image": "/images/stadiums/venue-225.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadio_ciudad_de_vicente_lopez_01.jpg",
+    "author": "Fernando Martello",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2024-09-07",
+    "description": "Estadio Ciudad de Vicente López",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Estadio_ciudad_de_vicente_lopez_01.jpg/1280px-Estadio_ciudad_de_vicente_lopez_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Estadio_ciudad_de_vicente_lopez_01.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-18": {
+    "stadium": "Estádio José Maria de Campos Maia",
+    "aliases": [
+      "Mirassol FC",
+      "Mirassol"
+    ],
+    "image": "/images/stadiums/venue-18.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Patinhas_esteve_aqui_-_Estadio_Mirassol_2_-_panoramio.jpg",
+    "author": "Renato Patinhas",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "photoDate": "Taken on 15 December 2009",
+    "description": "Patinhas esteve aqui - Estadio Mirassol 2",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Patinhas_esteve_aqui_-_Estadio_Mirassol_2_-_panoramio.jpg/1280px-Patinhas_esteve_aqui_-_Estadio_Mirassol_2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Patinhas_esteve_aqui_-_Estadio_Mirassol_2_-_panoramio.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  },
+  "venue-142": {
+    "stadium": "Europa-Park Stadion",
+    "aliases": [
+      "SC Freiburg",
+      "Freiburg"
+    ],
+    "image": "/images/stadiums/venue-142.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Europa_Park_Stadion_in_Freiburg_von_der_Georges-K%C3%B6hler-Allee_gesehen_8.jpg",
+    "author": "Andreas Schwarzkopf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoDate": "2021-10-17 15:05:50",
+    "description": "Europa Park Stadion in Freiburg von der Georges-Köhler-Allee gesehen",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Europa_Park_Stadion_in_Freiburg_von_der_Georges-K%C3%B6hler-Allee_gesehen_8.jpg/1280px-Europa_Park_Stadion_in_Freiburg_von_der_Georges-K%C3%B6hler-Allee_gesehen_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "venueSource": "https://commons.wikimedia.org/wiki/File:Europa_Park_Stadion_in_Freiburg_von_der_Georges-K%C3%B6hler-Allee_gesehen_8.jpg",
+    "changes": "Displayed as a cropped background under a dark CSS overlay; original image pixels retained."
+  }
+}

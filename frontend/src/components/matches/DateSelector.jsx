@@ -23,8 +23,7 @@ function DateSelector({
     goToNext,
     goToToday,
     goToNearestScheduledDate,
-    setSelectedStatus,
-    selectedStatus,
+    goToLatestForStatus,
 }) {
     const currentDate = selectedDate ? dateFromKey(selectedDate) : new Date();
     const [isCalendarOpen, setIsCalendarOpen] = useState(false);
@@ -41,10 +40,10 @@ function DateSelector({
     }, [selectedDate]);
 
     useEffect(() => {
-        getMonthSummary(visibleMonth.getFullYear(), visibleMonth.getMonth() + 1, selectedStatus)
+        getMonthSummary(visibleMonth.getFullYear(), visibleMonth.getMonth() + 1)
             .then((summary) => setMatchCounts(summary.days || {}))
             .catch(() => setMatchCounts({}));
-    }, [visibleMonth, selectedStatus]);
+    }, [visibleMonth]);
 
     const calendarDays = useMemo(() => {
         const firstDay = new Date(visibleMonth.getFullYear(), visibleMonth.getMonth(), 1);
@@ -141,11 +140,8 @@ function DateSelector({
 
             <div className="date-actions">
                 <button type="button" className="date-action-btn" onClick={goToToday}>Today</button>
-                <button type="button" className="date-action-btn" onClick={async () => {
-                    await goToNearestScheduledDate();
-                    setSelectedStatus("SCHEDULED");
-                }}>Latest Fixtures</button>
-                <button type="button" className="date-action-btn" onClick={() => setSelectedStatus("FINISHED")}>Latest Results</button>
+                <button type="button" className="date-action-btn" onClick={goToNearestScheduledDate}>Latest Fixtures</button>
+                <button type="button" className="date-action-btn" onClick={() => goToLatestForStatus("FINISHED")}>Latest Results</button>
             </div>
         </section>
     );

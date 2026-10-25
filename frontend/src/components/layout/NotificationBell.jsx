@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 import { getNotifications, markAllNotificationsRead, markNotificationRead } from "../../api/notificationApi";
 import "./NotificationBell.css";
+import { FiBell } from "react-icons/fi";
 
 const timeAgo = (value) => {
     const minutes = Math.max(0, Math.round((Date.now() - new Date(value).getTime()) / 60000));
@@ -50,8 +51,8 @@ function NotificationBell() {
     };
 
     return <div className="notification-bell" ref={containerRef}>
-        <button type="button" className="notification-bell-trigger" onClick={() => setOpen((value) => !value)} aria-label="Notifications">
-            🔔{unreadCount > 0 && <span className="notification-bell-badge">{unreadCount > 9 ? "9+" : unreadCount}</span>}
+        <button type="button" className="notification-bell-trigger" onClick={() => setOpen((value) => !value)} aria-label="Notifications" aria-expanded={open}>
+            <FiBell />{unreadCount > 0 && <span className="notification-bell-badge">{unreadCount > 9 ? "9+" : unreadCount}</span>}
         </button>
         {open && <div className="notification-bell-menu">
             <header><span>Notifications</span>{unreadCount > 0 && <button type="button" onClick={readAll}>Mark all read</button>}</header>

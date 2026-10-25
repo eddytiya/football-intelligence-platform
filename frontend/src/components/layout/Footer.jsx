@@ -9,6 +9,8 @@ function Footer() {
                 <small>
                     © 2026 Football Intelligence Platform
                 </small>
+                <small>Forecasts are estimates. Football stays unpredictable.</small>
+                <a href="https://www.footylogos.com/" target="_blank" rel="noreferrer">Crest assets: FootyLogos</a>
 
             </div>
 

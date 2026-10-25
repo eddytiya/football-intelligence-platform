@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { getTeams } from "../../api/teamApi";
 import { searchMatchesByTeam } from "../../api/matchApi";
 import "./SearchBox.css";
+import { FiSearch } from "react-icons/fi";
 
 function SearchBox() {
     const navigate = useNavigate();
@@ -50,7 +51,7 @@ function SearchBox() {
     const showDropdown = open && term.trim().length >= 2;
 
     return <div className="navbar-search" ref={containerRef}>
-        <span className="navbar-search-icon">⌕</span>
+        <span className="navbar-search-icon"><FiSearch /></span>
         <input
             value={term}
             onChange={(event) => { setTerm(event.target.value); setOpen(true); }}

@@ -1,0 +1,154 @@
+/* Daylight and floodlights are two expressions of the same matchday world. */
+:root {
+  --flood-action-ink: #17260f;
+  --flood-accent-hover: #d3f3a2;
+  --flood-hover: #263c2c;
+  --flood-track: #283c2d;
+  --flood-inverse: #162b1a;
+  --flood-stadium-image: url('/images/stadium.jpg');
+  --flood-stadium-overlay: linear-gradient(0deg, #06160ee8, #06160e99);
+  --flood-stadium-text: #f3f6ed;
+  --flood-stadium-muted: #dbe9dc;
+  --flood-photo-overlay: linear-gradient(0deg, #06130ee8, #06130e9c);
+}
+html[data-theme='light'] {
+  color-scheme: light;
+  --flood-bg: #f2f4ea;
+  --flood-nav: #fbfcf6;
+  --flood-panel: #ffffff;
+  --flood-raised: #e5ebdd;
+  --flood-line: #bdcbb5;
+  --flood-text: #17291d;
+  --flood-muted: #4e6250;
+  --flood-accent: #315b25;
+  --flood-accent-hover: #254b1c;
+  --flood-away: #2e638f;
+  --flood-draw: #666f52;
+  --flood-danger: #a13228;
+  --flood-action-ink: #ffffff;
+  --flood-hover: #dce7d3;
+  --flood-track: #cfdbc6;
+  --flood-inverse: #f2f4ea;
+  --flood-stadium-image: url('/images/stadiums/arsenal.jpg');
+  --flood-stadium-overlay: linear-gradient(0deg, #f2f6eaf5, #edf5e6a8);
+  --flood-stadium-text: #17291d;
+  --flood-stadium-muted: #344c39;
+  --flood-photo-overlay: linear-gradient(0deg, #eff4e7f5, #eff4e7bf);
+}
+html[data-theme='dark'] { color-scheme: dark; }
+body { transition: background-color 220ms ease, color 220ms ease; }
+body ::selection { background: var(--flood-accent); color: var(--flood-action-ink); }
+html { scrollbar-color: var(--flood-muted) var(--flood-bg); }
+body .stadium-theme-switch {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--flood-line);
+  border-radius: 9px;
+  background: var(--flood-nav);
+}
+body .stadium-theme-switch button {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 8px 11px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--flood-muted);
+  font: 600 12px/1 var(--flood-body);
+  transition: color 180ms ease, background-color 180ms ease;
+}
+body .stadium-theme-switch button:hover { background: var(--flood-hover); color: var(--flood-text); }
+body .stadium-theme-switch button[aria-pressed='true'] { background: var(--flood-accent); color: var(--flood-action-ink); }
+body .stadium-theme-switch svg { width: 17px; height: 17px; }
+body .stadium-theme-switch button:focus-visible { outline: 2px solid var(--flood-accent); outline-offset: 5px; }
+.auth-appearance { display: flex; justify-content: flex-end; margin-bottom: 26px; }
+
+body .broadcast-matchup,
+body .auth-visual {
+  position: relative;
+  background: var(--flood-stadium-overlay), var(--flood-stadium-image) center 55% / cover;
+  color: var(--flood-stadium-text);
+}
+body .broadcast-matchup { padding-bottom: 36px; }
+body .broadcast-matchup :is(header, footer > span, .broadcast-missing p),
+body .broadcast-missing p,
+body .auth-visual-orbit p { color: var(--flood-stadium-muted); }
+body .auth-visual-orbit strong { color: var(--flood-stadium-text); }
+body .broadcast-match-info { color: var(--flood-action-ink); }
+body .broadcast-matchup > footer { border-color: var(--flood-line); }
+body .broadcast-matchup > header > span:first-child { border-color: var(--flood-line); }
+body .stadium-day-credit { display: none; }
+html[data-theme='light'] body .stadium-day-credit {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  right: 16px;
+  padding: 3px 7px;
+  background: var(--flood-nav);
+  color: var(--flood-accent);
+  font-size: 10px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+html[data-theme='light'] body .app-shell .matches-page .match-broadcast-card { background: var(--flood-raised); }
+html[data-theme] body .app-shell .matches-page .match-broadcast-card .match-stadium-backdrop::after { background: var(--flood-photo-overlay); }
+
+/* Preserve readable semantic states where incumbent styles used night-only colours. */
+html[data-theme='light'] .landing-signin { color: var(--flood-text); }
+html[data-theme='light'] body .app-shell input::placeholder { color: var(--flood-muted); }
+html[data-theme='light'] body .flood-fixture-row:hover { color: var(--flood-text); }
+html[data-theme='light'] body .flood-alert { background: #fff0d5; color: #684313; border-color: #b58b4a; }
+html[data-theme='light'] body .flood-alert a { color: #57360c; }
+html[data-theme='light'] body .app-shell .match-status-pill { background: #e0ebd5; }
+html[data-theme='light'] body .app-shell .prediction-confidence { background: #dbe9cd; color: #2e4f20; }
+html[data-theme='light'] body .app-shell :is(.match-prediction-error, .prediction-page-error) { background: #fff0eb; border-color: #dba89d; }
+html[data-theme='light'] body .auth-success { color: #315b25; }
+body .auth-panel footer a { color: var(--flood-accent); }
+html[data-theme='light'] body .broadcast-status.live { color: #315b25; }
+html[data-theme='light'] body .broadcast-team .dashboard-crest-fallback { background: var(--flood-raised); color: var(--flood-text); }
+html[data-theme='light'] body .app-shell :is(.form-win, .team-form-W, .form-w) { background: #dceccf; color: #294b1e; }
+html[data-theme='light'] body .app-shell :is(.form-draw, .team-form-D, .form-d) { background: #e9e7cf; color: #514b28; }
+html[data-theme='light'] body .app-shell :is(.form-loss, .team-form-L, .form-l) { background: #f7dfd7; color: #8a3023; }
+html[data-theme='light'] body .app-shell .flood-club-fallback { background: var(--flood-raised); color: var(--flood-text); }
+html[data-theme='light'] body .auth-visual { background-position: center; }
+html[data-theme='light'] body img.crest-monochrome {
+  background: #193621;
+  padding: 12px;
+  border-radius: 10px;
+}
+html[data-theme='light'] body .app-shell .match-broadcast-card img.crest-monochrome { padding: 12px; }
+html[data-theme='light'] body .app-shell .dashboard-crest-fallback { background: var(--flood-raised); color: var(--flood-text); }
+html[data-theme] body .app-shell .competition-heading { background: var(--flood-raised); border-color: var(--flood-line); color: var(--flood-text); }
+html[data-theme] body .app-shell .competition-match-count { background: var(--flood-panel); color: var(--flood-text); }
+html[data-theme] body .app-shell :is(.date-selector-label, .matchweek-pill) { color: var(--flood-muted); }
+html[data-theme] body .app-shell .navbar-search { background: var(--flood-raised); border-radius: 7px; }
+html[data-theme] body .app-shell :is(.date-selector, .competition-group)::before { display: none; }
+
+@media (max-width: 950px) {
+  .nav-actions .stadium-theme-switch span { display: none; }
+  .nav-actions .stadium-theme-switch button { padding: 8px; }
+}
+@media (max-width: 650px) {
+  body .app-shell .navbar-container { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 12px; padding: 12px 0; }
+  body .app-shell .flood-navigation { grid-column: 2; grid-row: 1; order: 0; margin: 0; }
+  body .app-shell .flood-nav-toggle { width: 44px; height: 44px; }
+  body .app-shell .nav-actions { grid-column: 1 / -1; grid-row: 2; justify-content: flex-end; gap: 12px; padding: 0; }
+  body .app-shell .nav-actions .stadium-theme-switch { margin-right: auto; }
+  body .app-shell .flood-nav-links { top: 100%; }
+  body .flood-landing .landing-topbar { flex-wrap: wrap; gap: 18px; padding: 20px 0; }
+  body .landing-topbar nav { width: 100%; justify-content: space-between; gap: 10px; }
+  body .landing-topbar .flood-button { padding: 12px; font-size: 11px; }
+  body .landing-signin { font-size: 12px; }
+  body .landing-topbar .stadium-theme-switch button { padding: 8px; }
+  body .landing-topbar .stadium-theme-switch span { display: none; }
+  .auth-appearance { margin-bottom: 20px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body, body .stadium-theme-switch button { transition: none; }
+}

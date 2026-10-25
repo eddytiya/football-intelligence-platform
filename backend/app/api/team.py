@@ -34,6 +34,7 @@ def _form(matches, team_id):
 def _match_payload(match):
     return {
         "id": match.id, "utc_date": match.utc_date, "status": match.status,
+        "home_team_id": match.home_team_id, "away_team_id": match.away_team_id,
         "home_team": match.home_team.name, "home_crest": match.home_team.crest,
         "away_team": match.away_team.name, "away_crest": match.away_team.crest,
         "home_score": match.home_score, "away_score": match.away_score,
@@ -138,7 +139,7 @@ def get_teams(
         upcoming_matches = db.query(Match).options(
             joinedload(Match.home_team), joinedload(Match.away_team), joinedload(Match.competition),
         ).filter(
-            or_(Match.home_team_id.in_(team_ids), Match.away_team_id.in_(team_ids)), Match.status == "SCHEDULED",
+            or_(Match.home_team_id.in_(team_ids), Match.away_team_id.in_(team_ids)), Match.status.in_(["SCHEDULED", "TIMED"]), Match.utc_date > datetime.utcnow(),
         ).order_by(Match.utc_date).all()
         for match in upcoming_matches:
             next_by_team.setdefault(match.home_team_id, match)
@@ -194,7 +195,7 @@ def compare_teams(
 
     first_wins = second_wins = draws = first_goals = second_goals = 0
     for match in meetings:
-        first_is_home = match.home_team_id == first_team_id
+        first_is_home = match.home_team_id in first_ids
         first_score = match.home_score if first_is_home else match.away_score
         second_score = match.away_score if first_is_home else match.home_score
         first_goals += first_score
@@ -238,7 +239,7 @@ def get_team_profile(team_id: int, db: Session = Depends(get_db)):
         joinedload(Match.home_team), joinedload(Match.away_team), joinedload(Match.competition),
     ).filter(or_(Match.home_team_id == team_id, Match.away_team_id == team_id))
     recent = base_query.filter(Match.status.in_(FINISHED_STATUSES)).order_by(Match.utc_date.desc()).limit(5).all()
-    upcoming = base_query.filter(Match.status == "SCHEDULED").order_by(Match.utc_date).limit(10).all()
+    upcoming = base_query.filter(Match.status.in_(["SCHEDULED", "TIMED"]), Match.utc_date > datetime.utcnow()).order_by(Match.utc_date).limit(10).all()
     competitions = db.query(Competition.id, Competition.name, Competition.emblem).join(
         CompetitionTeam, CompetitionTeam.competition_id == Competition.id,
     ).filter(CompetitionTeam.team_id == team_id).order_by(Competition.name).all()

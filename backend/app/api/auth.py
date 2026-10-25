@@ -18,11 +18,16 @@ router = APIRouter(prefix="/auth", tags=["Authentication"])
 
 class Credentials(BaseModel):
     email: str = Field(min_length=5, max_length=254)
+    # Login verifies an existing password; creation policy belongs to registration.
+    password: str = Field(min_length=1, max_length=128)
+
+
+class RegistrationCredentials(Credentials):
     password: str = Field(min_length=8, max_length=128)
 
 
 def account_payload(user: User):
-    return {"id": user.id, "email": user.email, "created_at": user.created_at}
+    return {"id": user.id, "email": user.email, "created_at": user.created_at, "is_admin": user.is_admin}
 
 
 def token_payload(user: User):
@@ -38,8 +43,14 @@ def current_user(authorization: str | None = Header(default=None), db: Session =
     return user
 
 
+def admin_user(user: User = Depends(current_user)) -> User:
+    if not user.is_admin:
+        raise HTTPException(status_code=403, detail="Administrator access is required.")
+    return user
+
+
 @router.post("/register", status_code=status.HTTP_201_CREATED)
-def register(credentials: Credentials, db: Session = Depends(get_db)):
+def register(credentials: RegistrationCredentials, db: Session = Depends(get_db)):
     email = credentials.email.lower().strip()
     if not re.fullmatch(r"[^@\s]+@[^@\s]+\.[^@\s]+", email):
         raise HTTPException(status_code=422, detail="Enter a valid email address.")

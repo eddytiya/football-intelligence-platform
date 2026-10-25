@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "stadiums:sync": "node scripts/sync-stadium-photos.mjs",
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",

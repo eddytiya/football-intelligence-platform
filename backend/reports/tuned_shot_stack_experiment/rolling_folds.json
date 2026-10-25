@@ -1,0 +1,1007 @@
+[
+  {
+    "season": 2023,
+    "variant": "current_baseline",
+    "training_matches": 38431,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5318930041152263,
+        "balanced_accuracy": 0.45975105565338453,
+        "log_loss": 0.974693299034667,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5789473684210527,
+        "balanced_accuracy": 0.4794425087108014,
+        "log_loss": 0.9327734300443719,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.6414141414141414,
+        "balanced_accuracy": 0.5291550755468281,
+        "log_loss": 0.8625206411609849,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5281207133058985,
+        "balanced_accuracy": 0.45745699155409697,
+        "log_loss": 0.9740739967702505,
+        "predicted_draws": 2,
+        "correct_draws": 1,
+        "draw_recall": 0.0013458950201884253
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5710526315789474,
+        "balanced_accuracy": 0.4737282229965157,
+        "log_loss": 0.9315031445289438,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.6313131313131313,
+        "balanced_accuracy": 0.5222822233131511,
+        "log_loss": 0.8574600880341009,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.9427684887339763,
+      "away": 0.8483490068800184
+    }
+  },
+  {
+    "season": 2023,
+    "variant": "shots_fixed",
+    "training_matches": 38431,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.53360768175583,
+        "balanced_accuracy": 0.46044224517865545,
+        "log_loss": 0.971985543676183,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5842105263157895,
+        "balanced_accuracy": 0.48325203252032517,
+        "log_loss": 0.9259424392216362,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.6464646464646465,
+        "balanced_accuracy": 0.5325915016636666,
+        "log_loss": 0.8587041948652118,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5329218106995884,
+        "balanced_accuracy": 0.4605409450688664,
+        "log_loss": 0.9707644104167625,
+        "predicted_draws": 2,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5842105263157895,
+        "balanced_accuracy": 0.4824467673248161,
+        "log_loss": 0.9213197519564826,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.6363636363636364,
+        "balanced_accuracy": 0.5201549119074892,
+        "log_loss": 0.8544015473347775,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.9427684887339763,
+      "away": 0.8483490068800184
+    }
+  },
+  {
+    "season": 2023,
+    "variant": "shots_tuned",
+    "training_matches": 38431,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5308641975308642,
+        "balanced_accuracy": 0.457606365097861,
+        "log_loss": 0.9718746650267708,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5763157894736842,
+        "balanced_accuracy": 0.47673248161053045,
+        "log_loss": 0.9253283466229766,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.6363636363636364,
+        "balanced_accuracy": 0.5257186494299896,
+        "log_loss": 0.8584751677258908,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.532235939643347,
+        "balanced_accuracy": 0.4597017057082791,
+        "log_loss": 0.9703580216951179,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5868421052631579,
+        "balanced_accuracy": 0.48515679442508713,
+        "log_loss": 0.9201391845315301,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.6414141414141414,
+        "balanced_accuracy": 0.5254459171984945,
+        "log_loss": 0.8542090453145927,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.9427684887339763,
+      "away": 0.8483490068800184
+    }
+  },
+  {
+    "season": 2023,
+    "variant": "shots_with_shot_goals",
+    "training_matches": 38431,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5308641975308642,
+        "balanced_accuracy": 0.45771058057017183,
+        "log_loss": 0.9717804090767511,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5789473684210527,
+        "balanced_accuracy": 0.47783197831978325,
+        "log_loss": 0.9238231567114388,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.6363636363636364,
+        "balanced_accuracy": 0.5220094910816561,
+        "log_loss": 0.8561709842385054,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5329218106995884,
+        "balanced_accuracy": 0.4605409450688664,
+        "log_loss": 0.9707644104167625,
+        "predicted_draws": 2,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5842105263157895,
+        "balanced_accuracy": 0.4824467673248161,
+        "log_loss": 0.9213197519564826,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.6363636363636364,
+        "balanced_accuracy": 0.5201549119074892,
+        "log_loss": 0.8544015473347775,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.9435479373811245,
+      "away": 0.8485407254085695
+    }
+  },
+  {
+    "season": 2023,
+    "variant": "shots_tuned_with_shot_goals",
+    "training_matches": 38431,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5305212620027435,
+        "balanced_accuracy": 0.45734306862603374,
+        "log_loss": 0.9716176404443234,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5763157894736842,
+        "balanced_accuracy": 0.4759272164150213,
+        "log_loss": 0.9231594720295844,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.6313131313131313,
+        "balanced_accuracy": 0.5185730649648175,
+        "log_loss": 0.8559027417833436,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.532235939643347,
+        "balanced_accuracy": 0.4597017057082791,
+        "log_loss": 0.9703580216951179,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5868421052631579,
+        "balanced_accuracy": 0.48515679442508713,
+        "log_loss": 0.9201391845315301,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.6414141414141414,
+        "balanced_accuracy": 0.5254459171984945,
+        "log_loss": 0.8542090453145927,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.9435479373811245,
+      "away": 0.8485407254085695
+    }
+  },
+  {
+    "season": 2024,
+    "variant": "current_baseline",
+    "training_matches": 41347,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5216049382716049,
+        "balanced_accuracy": 0.45066998010768683,
+        "log_loss": 0.9867431535807357,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5210526315789473,
+        "balanced_accuracy": 0.4516617790811339,
+        "log_loss": 0.994004041192596,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5656565656565656,
+        "balanced_accuracy": 0.49074074074074076,
+        "log_loss": 0.9421503726106564,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5209190672153635,
+        "balanced_accuracy": 0.45106753469487754,
+        "log_loss": 0.9873726275727057,
+        "predicted_draws": 2,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5210526315789473,
+        "balanced_accuracy": 0.4520364939719778,
+        "log_loss": 0.9999554615109842,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5707070707070707,
+        "balanced_accuracy": 0.49444444444444446,
+        "log_loss": 0.9474326716876862,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.8941704697123639,
+      "away": 0.8240523437153238
+    }
+  },
+  {
+    "season": 2024,
+    "variant": "shots_fixed",
+    "training_matches": 41347,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.52400548696845,
+        "balanced_accuracy": 0.4543751421921212,
+        "log_loss": 0.9824858054556327,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5263157894736842,
+        "balanced_accuracy": 0.45708699902248284,
+        "log_loss": 0.9901785047055743,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5909090909090909,
+        "balanced_accuracy": 0.5166666666666667,
+        "log_loss": 0.9363179965228238,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5250342935528121,
+        "balanced_accuracy": 0.45648185902490424,
+        "log_loss": 0.9809455527056182,
+        "predicted_draws": 2,
+        "correct_draws": 1,
+        "draw_recall": 0.0013351134846461949
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5263157894736842,
+        "balanced_accuracy": 0.45783642880417075,
+        "log_loss": 0.9945756358116383,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5959595959595959,
+        "balanced_accuracy": 0.5222222222222223,
+        "log_loss": 0.938242313651211,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.8941704697123639,
+      "away": 0.8240523437153238
+    }
+  },
+  {
+    "season": 2024,
+    "variant": "shots_tuned",
+    "training_matches": 41347,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5250342935528121,
+        "balanced_accuracy": 0.4555806397041237,
+        "log_loss": 0.9826026917874375,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5289473684210526,
+        "balanced_accuracy": 0.45961225154773544,
+        "log_loss": 0.9898289617559617,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5909090909090909,
+        "balanced_accuracy": 0.5166666666666667,
+        "log_loss": 0.9346579774080788,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5264060356652949,
+        "balanced_accuracy": 0.4582607918402208,
+        "log_loss": 0.9813908103012666,
+        "predicted_draws": 2,
+        "correct_draws": 1,
+        "draw_recall": 0.0013351134846461949
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5184210526315789,
+        "balanced_accuracy": 0.451010101010101,
+        "log_loss": 0.994215185617247,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5858585858585859,
+        "balanced_accuracy": 0.512962962962963,
+        "log_loss": 0.9351817746111428,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.8941704697123639,
+      "away": 0.8240523437153238
+    }
+  },
+  {
+    "season": 2024,
+    "variant": "shots_with_shot_goals",
+    "training_matches": 41347,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5243484224965707,
+        "balanced_accuracy": 0.45453673077708356,
+        "log_loss": 0.9817260286891076,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5210526315789473,
+        "balanced_accuracy": 0.45241120886282177,
+        "log_loss": 0.9886733924945383,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5909090909090909,
+        "balanced_accuracy": 0.5166666666666667,
+        "log_loss": 0.9330928996477273,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5250342935528121,
+        "balanced_accuracy": 0.45648185902490424,
+        "log_loss": 0.9809455527056182,
+        "predicted_draws": 2,
+        "correct_draws": 1,
+        "draw_recall": 0.0013351134846461949
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5263157894736842,
+        "balanced_accuracy": 0.45783642880417075,
+        "log_loss": 0.9945756358116383,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5959595959595959,
+        "balanced_accuracy": 0.5222222222222223,
+        "log_loss": 0.938242313651211,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.8922410573781261,
+      "away": 0.825224577294018
+    }
+  },
+  {
+    "season": 2024,
+    "variant": "shots_tuned_with_shot_goals",
+    "training_matches": 41347,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5257201646090535,
+        "balanced_accuracy": 0.4561097402332242,
+        "log_loss": 0.981842428193185,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5236842105263158,
+        "balanced_accuracy": 0.45493646138807425,
+        "log_loss": 0.9883122009690525,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5909090909090909,
+        "balanced_accuracy": 0.5166666666666667,
+        "log_loss": 0.9314072801503982,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5264060356652949,
+        "balanced_accuracy": 0.4582607918402208,
+        "log_loss": 0.9813908103012666,
+        "predicted_draws": 2,
+        "correct_draws": 1,
+        "draw_recall": 0.0013351134846461949
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.5184210526315789,
+        "balanced_accuracy": 0.451010101010101,
+        "log_loss": 0.994215185617247,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5858585858585859,
+        "balanced_accuracy": 0.512962962962963,
+        "log_loss": 0.9351817746111428,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.8922410573781261,
+      "away": 0.825224577294018
+    }
+  },
+  {
+    "season": 2025,
+    "variant": "current_baseline",
+    "training_matches": 44263,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5044581618655692,
+        "balanced_accuracy": 0.4341420863700514,
+        "log_loss": 0.9970786854941928,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.4921052631578947,
+        "balanced_accuracy": 0.43242365172189734,
+        "log_loss": 1.02235034200119,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5505050505050505,
+        "balanced_accuracy": 0.4551971326164875,
+        "log_loss": 0.9686443816624163,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5054869684499315,
+        "balanced_accuracy": 0.435792038964039,
+        "log_loss": 0.9972577702434434,
+        "predicted_draws": 1,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.4789473684210526,
+        "balanced_accuracy": 0.4230019493177388,
+        "log_loss": 1.0273471787859632,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5404040404040404,
+        "balanced_accuracy": 0.4480286738351255,
+        "log_loss": 0.9751076671414531,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.9138647269200184,
+      "away": 0.8035538903860419
+    }
+  },
+  {
+    "season": 2025,
+    "variant": "shots_fixed",
+    "training_matches": 44263,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5082304526748971,
+        "balanced_accuracy": 0.4388688743232226,
+        "log_loss": 0.9949762113410575,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.4868421052631579,
+        "balanced_accuracy": 0.43004115226337447,
+        "log_loss": 1.0245217853052,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5505050505050505,
+        "balanced_accuracy": 0.456989247311828,
+        "log_loss": 0.9701258357294057,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5082304526748971,
+        "balanced_accuracy": 0.440156154758147,
+        "log_loss": 0.9951071920511672,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.4868421052631579,
+        "balanced_accuracy": 0.43264024258176303,
+        "log_loss": 1.0330238897122086,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5404040404040404,
+        "balanced_accuracy": 0.449820788530466,
+        "log_loss": 0.9788465937139131,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.9138647269200184,
+      "away": 0.8035538903860419
+    }
+  },
+  {
+    "season": 2025,
+    "variant": "shots_tuned",
+    "training_matches": 44263,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5044581618655692,
+        "balanced_accuracy": 0.4351075466962448,
+        "log_loss": 0.9957112535813324,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.48157894736842105,
+        "balanced_accuracy": 0.4250595624864631,
+        "log_loss": 1.0242419116800516,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5505050505050505,
+        "balanced_accuracy": 0.456989247311828,
+        "log_loss": 0.9709730271311181,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5068587105624143,
+        "balanced_accuracy": 0.43899319387207486,
+        "log_loss": 0.9966075960911394,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.48157894736842105,
+        "balanced_accuracy": 0.4276586528048516,
+        "log_loss": 1.0328981420950578,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5404040404040404,
+        "balanced_accuracy": 0.449820788530466,
+        "log_loss": 0.9816094252062615,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.9138647269200184,
+      "away": 0.8035538903860419
+    }
+  },
+  {
+    "season": 2025,
+    "variant": "shots_with_shot_goals",
+    "training_matches": 44263,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5106310013717421,
+        "balanced_accuracy": 0.44093087421624316,
+        "log_loss": 0.9943456343545298,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.4842105263157895,
+        "balanced_accuracy": 0.4279835390946502,
+        "log_loss": 1.0252086196314383,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5505050505050505,
+        "balanced_accuracy": 0.456989247311828,
+        "log_loss": 0.9715311372652411,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5082304526748971,
+        "balanced_accuracy": 0.440156154758147,
+        "log_loss": 0.9951071920511672,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.4868421052631579,
+        "balanced_accuracy": 0.43264024258176303,
+        "log_loss": 1.0330238897122086,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5404040404040404,
+        "balanced_accuracy": 0.449820788530466,
+        "log_loss": 0.9788465937139131,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.9120139420953697,
+      "away": 0.8045778571350627
+    }
+  },
+  {
+    "season": 2025,
+    "variant": "shots_tuned_with_shot_goals",
+    "training_matches": 44263,
+    "website_ensemble": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5068587105624143,
+        "balanced_accuracy": 0.4373840933284194,
+        "log_loss": 0.9950255890608305,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.4789473684210526,
+        "balanced_accuracy": 0.422135585878276,
+        "log_loss": 1.024842477343086,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5505050505050505,
+        "balanced_accuracy": 0.456989247311828,
+        "log_loss": 0.9722000595324284,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "classifier": {
+      "overall": {
+        "matches": 2916,
+        "accuracy": 0.5068587105624143,
+        "balanced_accuracy": 0.43899319387207486,
+        "log_loss": 0.9966075960911394,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 380,
+        "accuracy": 0.48157894736842105,
+        "balanced_accuracy": 0.4276586528048516,
+        "log_loss": 1.0328981420950578,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 198,
+        "accuracy": 0.5404040404040404,
+        "balanced_accuracy": 0.449820788530466,
+        "log_loss": 0.9816094252062615,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "goal_mae": {
+      "home": 0.9120139420953697,
+      "away": 0.8045778571350627
+    }
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "strategy": "all_history",
+    "parameters": {
+      "iterations": 250,
+      "depth": 6,
+      "learning_rate": 0.05,
+      "l2_leaf_reg": 5
+    },
+    "trees": 86,
+    "training_matches": 28303,
+    "log_loss": 0.9973442982900137,
+    "accuracy": 0.5095878800720415,
+    "balanced_accuracy": 0.4372169846584053
+  },
+  {
+    "strategy": "all_history",
+    "parameters": {
+      "iterations": 700,
+      "depth": 4,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10
+    },
+    "trees": 399,
+    "training_matches": 28303,
+    "log_loss": 0.9963025463251037,
+    "accuracy": 0.5099057103506728,
+    "balanced_accuracy": 0.4394812990079097
+  },
+  {
+    "strategy": "all_history",
+    "parameters": {
+      "iterations": 700,
+      "depth": 6,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10
+    },
+    "trees": 163,
+    "training_matches": 28303,
+    "log_loss": 0.9970402031459643,
+    "accuracy": 0.5114948617438287,
+    "balanced_accuracy": 0.4394229364282953
+  },
+  {
+    "strategy": "all_history",
+    "parameters": {
+      "iterations": 700,
+      "depth": 5,
+      "learning_rate": 0.05,
+      "l2_leaf_reg": 20
+    },
+    "trees": 119,
+    "training_matches": 28303,
+    "log_loss": 0.996361825834206,
+    "accuracy": 0.5113889183176183,
+    "balanced_accuracy": 0.4401423513538676
+  },
+  {
+    "strategy": "recent_3_years",
+    "parameters": {
+      "iterations": 250,
+      "depth": 6,
+      "learning_rate": 0.05,
+      "l2_leaf_reg": 5
+    },
+    "trees": 75,
+    "training_matches": 9025,
+    "log_loss": 0.99913631127546,
+    "accuracy": 0.5071511812692022,
+    "balanced_accuracy": 0.4354529564275024
+  },
+  {
+    "strategy": "recent_3_years",
+    "parameters": {
+      "iterations": 700,
+      "depth": 4,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10
+    },
+    "trees": 189,
+    "training_matches": 9025,
+    "log_loss": 0.9988281204867228,
+    "accuracy": 0.5084225023837271,
+    "balanced_accuracy": 0.4367749941985521
+  },
+  {
+    "strategy": "recent_3_years",
+    "parameters": {
+      "iterations": 700,
+      "depth": 6,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10
+    },
+    "trees": 158,
+    "training_matches": 9025,
+    "log_loss": 0.9990883085372936,
+    "accuracy": 0.5097997669244624,
+    "balanced_accuracy": 0.438061504574061
+  },
+  {
+    "strategy": "recent_3_years",
+    "parameters": {
+      "iterations": 700,
+      "depth": 5,
+      "learning_rate": 0.05,
+      "l2_leaf_reg": 20
+    },
+    "trees": 84,
+    "training_matches": 9025,
+    "log_loss": 0.9983863964408128,
+    "accuracy": 0.5110710880389872,
+    "balanced_accuracy": 0.4392143101820521
+  },
+  {
+    "strategy": "half_life_2_years",
+    "parameters": {
+      "iterations": 250,
+      "depth": 6,
+      "learning_rate": 0.05,
+      "l2_leaf_reg": 5
+    },
+    "trees": 84,
+    "training_matches": 28303,
+    "log_loss": 0.9984333455552481,
+    "accuracy": 0.5091641063671999,
+    "balanced_accuracy": 0.4382378544404393
+  },
+  {
+    "strategy": "half_life_2_years",
+    "parameters": {
+      "iterations": 700,
+      "depth": 4,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10
+    },
+    "trees": 184,
+    "training_matches": 28303,
+    "log_loss": 0.9981568582731686,
+    "accuracy": 0.5097997669244624,
+    "balanced_accuracy": 0.438462972664927
+  },
+  {
+    "strategy": "half_life_2_years",
+    "parameters": {
+      "iterations": 700,
+      "depth": 6,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10
+    },
+    "trees": 135,
+    "training_matches": 28303,
+    "log_loss": 0.9987270171379109,
+    "accuracy": 0.5103294840555144,
+    "balanced_accuracy": 0.4385292943662178
+  },
+  {
+    "strategy": "half_life_2_years",
+    "parameters": {
+      "iterations": 700,
+      "depth": 5,
+      "learning_rate": 0.05,
+      "l2_leaf_reg": 20
+    },
+    "trees": 101,
+    "training_matches": 28303,
+    "log_loss": 0.9977401294066963,
+    "accuracy": 0.5114948617438287,
+    "balanced_accuracy": 0.4397993127634821
+  }
+]

@@ -1,0 +1,458 @@
+league,provider_name,canonical
+BL1,1. FC Köln,fckoln
+BL1,1. FC Union Berlin,unionberlin
+BL1,1. FSV Mainz 05,mainz
+BL1,Augsburg,augsburg
+BL1,Bayer 04 Leverkusen,leverkusen
+BL1,Bayern Munich,bayernmunich
+BL1,Bielefeld,bielefeld
+BL1,Bochum,bochum
+BL1,Borussia Dortmund,dortmund
+BL1,Borussia Mönchengladbach,mgladbach
+BL1,Braunschweig,braunschweig
+BL1,Darmstadt,darmstadt
+BL1,Dortmund,dortmund
+BL1,Ein Frankfurt,einfrankfurt
+BL1,Eintracht Frankfurt,einfrankfurt
+BL1,FC Augsburg,augsburg
+BL1,FC Bayern München,bayernmunich
+BL1,FC Koln,fckoln
+BL1,FC Schalke 04,schalke04
+BL1,Fortuna Dusseldorf,fortunadusseldorf
+BL1,Freiburg,freiburg
+BL1,Greuther Furth,greutherfurth
+BL1,Hamburg,hamburg
+BL1,Hamburger SV,hamburg
+BL1,Hannover,hannover
+BL1,Heidenheim,heidenheim
+BL1,Hertha,hertha
+BL1,Hoffenheim,hoffenheim
+BL1,Holstein Kiel,holsteinkiel
+BL1,Ingolstadt,ingolstadt
+BL1,Kaiserslautern,kaiserslautern
+BL1,Leverkusen,leverkusen
+BL1,M'gladbach,mgladbach
+BL1,Mainz,mainz
+BL1,Nurnberg,nurnberg
+BL1,Paderborn,paderborn
+BL1,RB Leipzig,rbleipzig
+BL1,SC Freiburg,freiburg
+BL1,SC Paderborn 07,paderborn
+BL1,SV 07 Elversberg,elversberg
+BL1,SV Werder Bremen,werderbremen
+BL1,Schalke 04,schalke04
+BL1,St Pauli,stpauli
+BL1,Stuttgart,stuttgart
+BL1,TSG 1899 Hoffenheim,hoffenheim
+BL1,Union Berlin,unionberlin
+BL1,VfB Stuttgart,stuttgart
+BL1,Werder Bremen,werderbremen
+BL1,Wolfsburg,wolfsburg
+DED,ADO Den Haag,denhaag
+DED,AFC Ajax,ajax
+DED,AZ,azalkmaar
+DED,AZ Alkmaar,azalkmaar
+DED,Ajax,ajax
+DED,Almere City,almerecity
+DED,Cambuur,cambuur
+DED,Den Haag,denhaag
+DED,Dordrecht,dordrecht
+DED,Excelsior,excelsior
+DED,FC Emmen,fcemmen
+DED,FC Groningen,groningen
+DED,FC Twente '65,twente
+DED,FC Utrecht,utrecht
+DED,Feyenoord,feyenoord
+DED,Feyenoord Rotterdam,feyenoord
+DED,For Sittard,forsittard
+DED,Fortuna Sittard,forsittard
+DED,Go Ahead Eagles,goaheadeagles
+DED,Graafschap,graafschap
+DED,Groningen,groningen
+DED,Heerenveen,heerenveen
+DED,Heracles,heracles
+DED,NAC Breda,nacbreda
+DED,NEC,nijmegen
+DED,Nijmegen,nijmegen
+DED,PEC Zwolle,zwolle
+DED,PSV,psveindhoven
+DED,PSV Eindhoven,psveindhoven
+DED,Roda,roda
+DED,SBV Excelsior,excelsior
+DED,SC Cambuur-Leeuwarden,cambuur
+DED,SC Heerenveen,heerenveen
+DED,Sparta Rotterdam,spartarotterdam
+DED,Telstar,telstar
+DED,Telstar 1963,telstar
+DED,Twente,twente
+DED,Utrecht,utrecht
+DED,VVV Venlo,vvvvenlo
+DED,Vitesse,vitesse
+DED,Volendam,volendam
+DED,Waalwijk,waalwijk
+DED,Willem II,willemii
+DED,Willem II Tilburg,willemii
+DED,Zwolle,zwolle
+ELC,Aston Villa,astonvilla
+ELC,Barnsley,barnsley
+ELC,Birmingham,birmingham
+ELC,Birmingham City FC,birmingham
+ELC,Blackburn,blackburn
+ELC,Blackburn Rovers FC,blackburn
+ELC,Blackpool,blackpool
+ELC,Bolton,bolton
+ELC,Bolton Wanderers FC,bolton
+ELC,Bournemouth,bournemouth
+ELC,Brentford,brentford
+ELC,Brighton,brighton
+ELC,Bristol City,bristolcity
+ELC,Bristol City FC,bristolcity
+ELC,Burnley,burnley
+ELC,Burnley FC,burnley
+ELC,Burton,burton
+ELC,Cardiff,cardiff
+ELC,Cardiff City FC,cardiff
+ELC,Charlton,charlton
+ELC,Charlton Athletic FC,charlton
+ELC,Coventry,coventry
+ELC,Crystal Palace,crystalpalace
+ELC,Derby,derby
+ELC,Derby County FC,derby
+ELC,Doncaster,doncaster
+ELC,Fulham,fulham
+ELC,Huddersfield,huddersfield
+ELC,Hull,hull
+ELC,Ipswich,ipswich
+ELC,Leeds,leeds
+ELC,Leicester,leicester
+ELC,Lincoln City FC,lincoln
+ELC,Luton,luton
+ELC,Middlesbrough,middlesbrough
+ELC,Middlesbrough FC,middlesbrough
+ELC,Millwall,millwall
+ELC,Millwall FC,millwall
+ELC,Milton Keynes Dons,miltonkeynesdons
+ELC,Newcastle,newcastle
+ELC,Norwich,norwich
+ELC,Norwich City FC,norwich
+ELC,Nott'm Forest,nottmforest
+ELC,Oxford,oxford
+ELC,Peterboro,peterboro
+ELC,Plymouth,plymouth
+ELC,Portsmouth,portsmouth
+ELC,Portsmouth FC,portsmouth
+ELC,Preston,preston
+ELC,Preston North End FC,preston
+ELC,QPR,qpr
+ELC,Queens Park Rangers FC,qpr
+ELC,Reading,reading
+ELC,Rotherham,rotherham
+ELC,Scunthorpe,scunthorpe
+ELC,Sheffield United,sheffieldunited
+ELC,Sheffield United FC,sheffieldunited
+ELC,Sheffield Weds,sheffieldweds
+ELC,Southampton,southampton
+ELC,Southampton FC,southampton
+ELC,Stoke,stoke
+ELC,Stoke City FC,stoke
+ELC,Sunderland,sunderland
+ELC,Swansea,swansea
+ELC,Swansea City AFC,swansea
+ELC,Watford,watford
+ELC,Watford FC,watford
+ELC,West Brom,westbrom
+ELC,West Bromwich Albion FC,westbrom
+ELC,West Ham,westham
+ELC,West Ham United FC,westham
+ELC,Wigan,wigan
+ELC,Wolverhampton Wanderers FC,wolves
+ELC,Wolves,wolves
+ELC,Wrexham,wrexham
+ELC,Wrexham AFC,wrexham
+ELC,Wycombe,wycombe
+ELC,Yeovil,yeovil
+FL1,AJ Auxerre,auxerre
+FL1,AS Monaco FC,monaco
+FL1,Ajaccio,ajaccio
+FL1,Ajaccio GFCO,ajacciogfco
+FL1,Amiens,amiens
+FL1,Angers,angers
+FL1,Angers SCO,angers
+FL1,Arles,arles
+FL1,Auxerre,auxerre
+FL1,Bastia,bastia
+FL1,Bordeaux,bordeaux
+FL1,Brest,brest
+FL1,Caen,caen
+FL1,Clermont,clermont
+FL1,Dijon,dijon
+FL1,ES Troyes AC,troyes
+FL1,Evian Thonon Gaillard,evianthonongaillard
+FL1,FC Lorient,lorient
+FL1,Guingamp,guingamp
+FL1,Le Havre,lehavre
+FL1,Le Havre AC,lehavre
+FL1,Le Mans FC,lemans
+FL1,Lens,lens
+FL1,Lille,lille
+FL1,Lille OSC,lille
+FL1,Lorient,lorient
+FL1,Lyon,lyon
+FL1,Marseille,marseille
+FL1,Metz,metz
+FL1,Monaco,monaco
+FL1,Montpellier,montpellier
+FL1,Nancy,nancy
+FL1,Nantes,nantes
+FL1,Nice,nice
+FL1,Nimes,nimes
+FL1,OGC Nice,nice
+FL1,Olympique Lyonnais,lyon
+FL1,Olympique de Marseille,marseille
+FL1,Paris FC,parisfc
+FL1,Paris SG,parissg
+FL1,Paris Saint-Germain FC,parissg
+FL1,RC Strasbourg Alsace,strasbourg
+FL1,Racing Club de Lens,lens
+FL1,Reims,reims
+FL1,Rennes,rennes
+FL1,Sochaux,sochaux
+FL1,St Etienne,stetienne
+FL1,Stade Brestois 29,brest
+FL1,Stade Rennais FC 1901,rennes
+FL1,Strasbourg,strasbourg
+FL1,Toulouse,toulouse
+FL1,Toulouse FC,toulouse
+FL1,Troyes,troyes
+FL1,Valenciennes,valenciennes
+PD,Alaves,alaves
+PD,Almeria,almeria
+PD,Ath Bilbao,athbilbao
+PD,Ath Madrid,athmadrid
+PD,Athletic Club,athbilbao
+PD,Barcelona,barcelona
+PD,Betis,betis
+PD,CA Osasuna,osasuna
+PD,Cadiz,cadiz
+PD,Celta,celta
+PD,Club Atlético de Madrid,athmadrid
+PD,Cordoba,cordoba
+PD,Deportivo Alavés,alaves
+PD,Eibar,eibar
+PD,Elche,elche
+PD,Elche CF,elche
+PD,Espanol,espanol
+PD,FC Barcelona,barcelona
+PD,Getafe,getafe
+PD,Getafe CF,getafe
+PD,Girona,girona
+PD,Granada,granada
+PD,Hercules,hercules
+PD,Huesca,huesca
+PD,La Coruna,lacoruna
+PD,Las Palmas,laspalmas
+PD,Leganes,leganes
+PD,Levante,levante
+PD,Levante UD,levante
+PD,Malaga,malaga
+PD,Mallorca,mallorca
+PD,Málaga CF,malaga
+PD,Osasuna,osasuna
+PD,Oviedo,oviedo
+PD,RC Celta de Vigo,celta
+PD,RC Deportivo La Coruña,lacoruna
+PD,RCD Espanyol de Barcelona,espanol
+PD,Rayo Vallecano de Madrid,vallecano
+PD,Real Betis Balompié,betis
+PD,Real Madrid,realmadrid
+PD,Real Madrid CF,realmadrid
+PD,Real Racing Club de Santander,santander
+PD,Real Sociedad de Fútbol,sociedad
+PD,Santander,santander
+PD,Sevilla,sevilla
+PD,Sevilla FC,sevilla
+PD,Sociedad,sociedad
+PD,Sp Gijon,spgijon
+PD,Valencia,valencia
+PD,Valencia CF,valencia
+PD,Valladolid,valladolid
+PD,Vallecano,vallecano
+PD,Villarreal,villarreal
+PD,Villarreal CF,villarreal
+PD,Zaragoza,zaragoza
+PL,AFC Bournemouth,bournemouth
+PL,Arsenal,arsenal
+PL,Arsenal FC,arsenal
+PL,Aston Villa,astonvilla
+PL,Aston Villa FC,astonvilla
+PL,Birmingham,birmingham
+PL,Blackburn,blackburn
+PL,Blackpool,blackpool
+PL,Bolton,bolton
+PL,Bournemouth,bournemouth
+PL,Brentford,brentford
+PL,Brentford FC,brentford
+PL,Brighton,brighton
+PL,Brighton & Hove Albion FC,brighton
+PL,Burnley,burnley
+PL,Cardiff,cardiff
+PL,Chelsea,chelsea
+PL,Chelsea FC,chelsea
+PL,Coventry City FC,coventry
+PL,Crystal Palace,crystalpalace
+PL,Crystal Palace FC,crystalpalace
+PL,Everton,everton
+PL,Everton FC,everton
+PL,Fulham,fulham
+PL,Fulham FC,fulham
+PL,Huddersfield,huddersfield
+PL,Hull,hull
+PL,Hull City AFC,hull
+PL,Ipswich,ipswich
+PL,Ipswich Town FC,ipswich
+PL,Leeds,leeds
+PL,Leeds United FC,leeds
+PL,Leicester,leicester
+PL,Liverpool,liverpool
+PL,Liverpool FC,liverpool
+PL,Luton,luton
+PL,Man City,mancity
+PL,Man United,manunited
+PL,Manchester City FC,mancity
+PL,Manchester United FC,manunited
+PL,Middlesbrough,middlesbrough
+PL,Newcastle,newcastle
+PL,Newcastle United FC,newcastle
+PL,Norwich,norwich
+PL,Nott'm Forest,nottmforest
+PL,Nottingham Forest FC,nottmforest
+PL,QPR,qpr
+PL,Reading,reading
+PL,Sheffield United,sheffieldunited
+PL,Southampton,southampton
+PL,Stoke,stoke
+PL,Sunderland,sunderland
+PL,Sunderland AFC,sunderland
+PL,Swansea,swansea
+PL,Tottenham,tottenham
+PL,Tottenham Hotspur FC,tottenham
+PL,Watford,watford
+PL,West Brom,westbrom
+PL,West Ham,westham
+PL,Wigan,wigan
+PL,Wolves,wolves
+PPL,AVS,avs
+PPL,Academica,academica
+PPL,Académico de Viseu FC,academicoviseu
+PPL,Alverca,alverca
+PPL,Arouca,arouca
+PPL,Aves,aves
+PPL,Beira Mar,beiramar
+PPL,Belenenses,belenenses
+PPL,Benfica,benfica
+PPL,Boavista,boavista
+PPL,CD Nacional,nacional
+PPL,CD Santa Clara,santaclara
+PPL,CF Estrela da Amadora,estrela
+PPL,CS Marítimo,maritimo
+PPL,Casa Pia,casapia
+PPL,Casa Pia AC,casapia
+PPL,Chaves,chaves
+PPL,Estoril,estoril
+PPL,Estrela,estrela
+PPL,FC Alverca,alverca
+PPL,FC Arouca,arouca
+PPL,FC Famalicão,famalicao
+PPL,FC Porto,porto
+PPL,Famalicao,famalicao
+PPL,Farense,farense
+PPL,Feirense,feirense
+PPL,GD Estoril Praia,estoril
+PPL,Gil Vicente,gilvicente
+PPL,Gil Vicente FC,gilvicente
+PPL,Guimaraes,guimaraes
+PPL,Leiria,leiria
+PPL,Maritimo,maritimo
+PPL,Moreirense,moreirense
+PPL,Moreirense FC,moreirense
+PPL,Nacional,nacional
+PPL,Naval,naval
+PPL,Olhanense,olhanense
+PPL,Pacos Ferreira,pacosferreira
+PPL,Penafiel,penafiel
+PPL,Portimonense,portimonense
+PPL,Porto,porto
+PPL,Rio Ave,rioave
+PPL,Rio Ave FC,rioave
+PPL,Santa Clara,santaclara
+PPL,Setubal,setubal
+PPL,Sp Braga,spbraga
+PPL,Sp Lisbon,splisbon
+PPL,Sport Lisboa e Benfica,benfica
+PPL,Sporting Clube de Braga,spbraga
+PPL,Sporting Clube de Portugal,splisbon
+PPL,Tondela,tondela
+PPL,Uniao Madeira,uniaomadeira
+PPL,Vitória SC,guimaraes
+PPL,Vizela,vizela
+SA,AC Milan,milan
+SA,AC Monza,monza
+SA,ACF Fiorentina,fiorentina
+SA,AS Roma,roma
+SA,Atalanta,atalanta
+SA,Atalanta BC,atalanta
+SA,Bari,bari
+SA,Benevento,benevento
+SA,Bologna,bologna
+SA,Bologna FC 1909,bologna
+SA,Brescia,brescia
+SA,Cagliari,cagliari
+SA,Cagliari Calcio,cagliari
+SA,Carpi,carpi
+SA,Catania,catania
+SA,Cesena,cesena
+SA,Chievo,chievo
+SA,Como,como
+SA,Como 1907,como
+SA,Cremonese,cremonese
+SA,Crotone,crotone
+SA,Empoli,empoli
+SA,FC Internazionale Milano,inter
+SA,Fiorentina,fiorentina
+SA,Frosinone,frosinone
+SA,Frosinone Calcio,frosinone
+SA,Genoa,genoa
+SA,Genoa CFC,genoa
+SA,Inter,inter
+SA,Juventus,juventus
+SA,Juventus FC,juventus
+SA,Lazio,lazio
+SA,Lecce,lecce
+SA,Livorno,livorno
+SA,Milan,milan
+SA,Monza,monza
+SA,Napoli,napoli
+SA,Novara,novara
+SA,Palermo,palermo
+SA,Parma,parma
+SA,Parma Calcio 1913,parma
+SA,Pescara,pescara
+SA,Pisa,pisa
+SA,Roma,roma
+SA,SS Lazio,lazio
+SA,SSC Napoli,napoli
+SA,Salernitana,salernitana
+SA,Sampdoria,sampdoria
+SA,Sassuolo,sassuolo
+SA,Siena,siena
+SA,Spal,spal
+SA,Spezia,spezia
+SA,Torino,torino
+SA,Torino FC,torino
+SA,US Lecce,lecce
+SA,US Sassuolo Calcio,sassuolo
+SA,Udinese,udinese
+SA,Udinese Calcio,udinese
+SA,Venezia,venezia
+SA,Venezia FC,venezia
+SA,Verona,verona

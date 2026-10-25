@@ -1,0 +1,532 @@
+/* Structural layouts retained from the incumbent feature pages. Visual tokens live in football-theme.css. */
+.football-shell {
+  min-height: 100vh;
+}
+.football-shell main {
+  min-height: calc(100vh - 145px);
+}
+.football-shell .custom-navbar {
+  min-height: 82px;
+}
+.football-shell .navbar-container {
+  width: min(94%, 1540px);
+}
+.football-shell .logo {
+  gap: 12px;
+}
+.football-shell .nav-links {
+  gap: clamp(15px, 2.3vw, 34px);
+}
+.football-shell .matches-page,
+.football-shell .competitions-page,
+.football-shell .teams-page,
+.football-shell .competition-detail-page,
+.football-shell .football-workbench {
+  width: min(1500px, calc(100% - 44px));
+}
+.football-shell .matches-header {
+  max-width: 780px;
+}
+.football-shell .matches-header p,
+.football-shell .football-page-hero p {
+  max-width: 670px;
+}
+.football-shell .live-sync-status i {
+  width: 8px;
+  height: 8px;
+}
+.football-shell input,
+.football-shell select {
+  min-height: 48px;
+}
+.football-shell .football-workbench {
+  display: grid;
+  gap: 22px;
+}
+.football-shell .football-page-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 255px;
+}
+.football-shell .hero-scoreboard {
+  display: grid;
+  min-width: 150px;
+  gap: 4px;
+}
+.football-shell .workbench-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 16px;
+}
+.football-shell .tactics-board ol {
+  display: grid;
+  gap: 8px;
+}
+.football-shell .formation-lines {
+  display: grid;
+  gap: 11px;
+}
+.football-shell .formation-lines i {
+  display: block;
+  height: 7px;
+}
+.football-shell .formation-lines i:nth-child(2) {
+  width: 76%;
+}
+.football-shell .formation-lines i:nth-child(3) {
+  width: 55%;
+}
+.football-shell .formation-lines i:nth-child(4) {
+  width: 30%;
+}
+.football-shell .confidence-card > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.football-shell .analytics-pitch {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  min-height: 310px;
+}
+.football-shell .analytics-pitch > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 205px;
+}
+.football-shell .analytics-pitch i {
+  width: 100%;
+  height: 5px;
+}
+.football-shell .analytics-note h2 {
+  max-width: 680px;
+}
+@media (max-width: 940px) {
+  .football-shell .nav-links {
+    gap: 13px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .football-shell .football-page-hero,
+  .football-shell .teams-hero,
+  .football-shell .competitions-hero {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .football-shell .workbench-grid,
+  .football-shell .analytics-pitch {
+    grid-template-columns: 1fr;
+  }
+  .football-shell .analytics-pitch {
+    min-height: 0;
+  }
+}
+@media (max-width: 650px) {
+  .football-shell .matches-page,
+  .football-shell .competitions-page,
+  .football-shell .teams-page,
+  .football-shell .competition-detail-page,
+  .football-shell .football-workbench {
+    width: min(100% - 24px, 1500px);
+  }
+  .football-shell .navbar-container {
+    align-items: flex-start;
+    gap: 12px;
+    flex-direction: column;
+  }
+  .football-shell .nav-links {
+    width: 100%;
+    justify-content: space-between;
+    gap: 8px;
+  }
+}
+.dashboard-shell {
+  min-height: 100vh;
+}
+.football-shell .competition-clubs-panel > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.football-shell .competition-clubs-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+.football-shell .competition-club-link {
+  display: grid;
+  grid-template-columns: 31px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  min-height: 52px;
+}
+.football-shell .competition-club-link img,
+.football-shell .competition-club-link i {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.football-shell .competition-club-link em {
+  grid-column: 2;
+}
+@media (max-width: 900px) {
+  .football-shell .competition-clubs-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .football-shell .competition-clubs-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .football-shell .competition-clubs-panel > header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+}
+.dashboard-shell .dashboard-pulse {
+  width: min(90%, 1400px);
+}
+.dashboard-shell .dashboard-pulse > header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.dashboard-shell .dashboard-pulse-grid {
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr 1fr;
+  gap: 16px;
+}
+.dashboard-shell .dashboard-pulse-grid > article {
+  min-height: 178px;
+}
+.dashboard-shell .dashboard-pulse-grid > article > span {
+  display: block;
+}
+.dashboard-shell .dashboard-ticker > div {
+  display: grid;
+}
+.dashboard-shell .dashboard-ticker a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+.dashboard-shell .dashboard-results {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-shell .dashboard-results > div {
+  display: grid;
+  gap: 8px;
+}
+.dashboard-shell .dashboard-results > div > div {
+  display: grid;
+  gap: 3px;
+}
+.dashboard-shell .dashboard-favourites > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.dashboard-shell .dashboard-favourites a {
+  display: grid;
+  grid-template-columns: 27px 1fr;
+  gap: 5px 8px;
+  align-items: center;
+}
+.dashboard-shell .dashboard-favourites img,
+.dashboard-shell .dashboard-favourites b {
+  width: 27px;
+  height: 27px;
+  grid-row: span 2;
+  object-fit: contain;
+}
+.football-shell .match-quick-filters {
+  display: flex;
+  gap: 7px;
+}
+.football-shell .team-form-insight {
+  display: grid;
+  grid-template-columns: 0.8fr 1.3fr 1fr;
+  gap: 12px;
+}
+.football-shell .team-form-insight > div {
+  display: grid;
+  gap: 5px;
+  align-content: center;
+}
+.football-shell .team-strength-track {
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  column-gap: 10px;
+}
+.football-shell .team-strength-track i {
+  height: 6px;
+}
+.football-shell .team-strength-track i b {
+  display: block;
+  height: 100%;
+}
+@media (max-width: 900px) {
+  .dashboard-shell .dashboard-pulse-grid,
+  .football-shell .team-form-insight {
+    grid-template-columns: 1fr;
+  }
+  .football-shell .match-quick-filters {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .dashboard-shell .dashboard-pulse {
+    width: min(100% - 28px, 1400px);
+  }
+  .dashboard-shell .dashboard-pulse > header {
+    align-items: start;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .dashboard-shell .dashboard-favourites > div {
+    grid-template-columns: 1fr;
+  }
+  .football-shell .match-quick-filters {
+    flex-wrap: wrap;
+  }
+}
+.football-shell .team-compare-panel {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 14px;
+}
+.football-shell .team-compare-controls {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 8px;
+  align-items: center;
+}
+.football-shell .team-compare-controls select {
+  min-height: 39px;
+}
+.football-shell .team-compare-result {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 0.7fr 1fr;
+  gap: 12px;
+  align-items: center;
+}
+.football-shell .team-compare-result > a {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 2px 8px;
+  align-items: center;
+}
+.football-shell .team-compare-result a:last-child {
+  grid-template-columns: minmax(0, 1fr) 34px;
+}
+.football-shell .team-compare-result img {
+  width: 34px;
+  height: 34px;
+  grid-row: span 2;
+  object-fit: contain;
+}
+.football-shell .team-compare-result a:last-child img {
+  grid-column: 2;
+}
+.football-shell .team-compare-result > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px 10px;
+}
+.football-shell .team-compare-result > div span {
+  grid-column: 1/-1;
+}
+@media (max-width: 700px) {
+  .football-shell .team-compare-panel {
+    grid-template-columns: 1fr;
+  }
+  .football-shell .team-compare-result {
+    grid-template-columns: 1fr;
+  }
+  .football-shell .team-compare-result > a,
+  .football-shell .team-compare-result a:last-child {
+    grid-template-columns: 34px minmax(0, 1fr);
+  }
+  .football-shell .team-compare-result a:last-child img {
+    grid-column: auto;
+  }
+  .football-shell .team-compare-result > div {
+    order: -1;
+  }
+  .football-shell .team-compare-controls {
+    grid-template-columns: 1fr;
+  }
+}
+.football-shell .team-honours-panel header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.football-shell .team-honours-panel > div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1px;
+}
+.football-shell .team-honours-panel article {
+  display: grid;
+  gap: 4px;
+}
+.football-shell .team-honours-panel footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.football-shell .team-honours-panel footer em {
+  max-width: 42%;
+}
+.football-shell .team-compare-result > div small {
+  grid-column: 1/-1;
+}
+@media (max-width: 700px) {
+  .football-shell .team-honours-panel > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .football-shell .team-honours-panel footer {
+    align-items: start;
+    flex-direction: column;
+  }
+  .football-shell .team-honours-panel footer em {
+    max-width: none;
+  }
+}
+.football-shell .team-compare-expanded {
+  grid-template-columns: 0.75fr 1.25fr;
+}
+.football-shell .team-compare-controls {
+  align-items: start;
+}
+.football-shell .club-picker {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+}
+.football-shell .club-picker input {
+  min-width: 0;
+  min-height: 42px;
+}
+.football-shell .club-picker-menu {
+  display: grid;
+}
+.football-shell .club-picker-menu button {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  gap: 8px;
+  align-items: center;
+}
+.football-shell .club-picker-menu img,
+.football-shell .club-picker-menu b {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.football-shell .team-comparison-table {
+  grid-column: 1/-1;
+}
+.football-shell .team-comparison-table > header,
+.football-shell .team-comparison-table > div {
+  display: grid;
+  grid-template-columns: 1fr 170px 1fr;
+  align-items: center;
+  gap: 10px;
+}
+.football-shell .team-comparison-table > header > a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.football-shell .team-comparison-table > header > a:last-child {
+  justify-content: flex-end;
+}
+.football-shell .team-comparison-table > header img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+@media (max-width: 800px) {
+  .football-shell .team-compare-expanded {
+    grid-template-columns: 1fr;
+  }
+  .football-shell .team-comparison-table > header,
+  .football-shell .team-comparison-table > div {
+    grid-template-columns: 1fr 110px 1fr;
+  }
+}
+.football-shell .club-picker-menu button span {
+  display: grid;
+  gap: 0.12rem;
+}
+.football-shell .comparison-form {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.football-shell .comparison-form-away {
+  justify-content: flex-end;
+}
+.football-shell .comparison-form i {
+  display: grid;
+  width: 22px;
+  height: 22px;
+}
+.football-shell .team-head-to-head {
+  grid-column: 1/-1;
+}
+.football-shell .team-head-to-head > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.football-shell .head-to-head-record {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr 1fr;
+  gap: 10px;
+}
+.football-shell .head-to-head-record strong,
+.football-shell .head-to-head-record b {
+  display: grid;
+  gap: 3px;
+}
+.football-shell .head-to-head-meetings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.football-shell .head-to-head-meetings article {
+  display: grid;
+  gap: 4px;
+}
+@media (max-width: 700px) {
+  .football-shell .team-head-to-head > header {
+    align-items: start;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .football-shell .head-to-head-meetings {
+    grid-template-columns: 1fr;
+  }
+}
+.football-shell .match-countdown {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 88px;
+}
+@media (prefers-reduced-motion: reduce) {
+}

@@ -1,78 +1,127 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import { FiArrowUpRight } from "react-icons/fi";
+import Logo from "../components/layout/Logo";
+import ThemeToggle, { useStadiumTheme } from "../components/layout/ThemeToggle";
+import BroadcastMatchup from "../components/matches/BroadcastMatchup";
 import { getDashboardSummary } from "../api/dashboardApi";
 import { getNextMatch } from "../api/matchApi";
 import "./Landing.css";
 
-const formatKickoff = (value) => value ? new Date(value).toLocaleString(undefined, {
-    weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit",
-}) : "Kick-off to be confirmed";
-
-function Landing() {
-    const [summary, setSummary] = useState(null);
-    const [featured, setFeatured] = useState(null);
-
-    useEffect(() => {
-        let active = true;
-        getDashboardSummary().then((data) => active && setSummary(data)).catch(() => {});
-        getNextMatch().then((data) => active && setFeatured(data)).catch(() => {});
-        return () => { active = false; };
-    }, []);
-
-    return <main className="landing-page">
-        <header className="landing-topbar">
-            <Link className="landing-brand" to="/"><b>FI</b><span>Football Intelligence Platform<small>Predict · Analyse · Win</small></span></Link>
-            <nav>
-                <Link className="landing-signin" to="/login">Sign in</Link>
-                <Link className="landing-signup" to="/register">Create free account</Link>
-            </nav>
-        </header>
-
-        <section className="landing-hero">
-            <div className="landing-hero-copy">
-                <span className="landing-kicker">Matchday access</span>
-                <h1>Every fixture.<br />One home.</h1>
-                <p>Follow clubs, explore data-driven forecasts, and keep the football world at your fingertips — built from real stored results, not guesswork.</p>
-                <div className="landing-hero-actions">
-                    <Link to="/register" className="landing-primary">Create free account <b>→</b></Link>
-                    <Link to="/login" className="landing-secondary">Sign in</Link>
-                </div>
+export default function Landing() {
+  const { theme } = useStadiumTheme();
+  const [summary, setSummary] = useState(null),
+    [featured, setFeatured] = useState(null),
+    [pending, setPending] = useState(true);
+  useEffect(() => {
+    let active = true;
+    getDashboardSummary()
+      .then((value) => active && setSummary(value))
+      .catch(() => {});
+    getNextMatch()
+      .then((value) => active && setFeatured(value))
+      .catch(() => {})
+      .finally(() => active && setPending(false));
+    return () => {
+      active = false;
+    };
+  }, []);
+  return (
+    <main className="landing-page flood-landing">
+      <header className="landing-topbar">
+        <Link className="landing-brand" to="/">
+          <Logo />
+          <span>
+            Football Intelligence Platform
+            <small>Your matchday, understood.</small>
+          </span>
+        </Link>
+        <nav aria-label="Account">
+          <ThemeToggle />
+          <Link className="landing-signin" to="/login">
+            Sign in
+          </Link>
+          <Link className="flood-button" to="/register">
+            Join the matchday <FiArrowUpRight />
+          </Link>
+        </nav>
+      </header>
+      <section className="flood-landing-hero">
+        <div>
+          <h1>
+            Your football.
+            <br />
+            <span>{theme === 'light' ? 'In the daylight.' : 'Under the floodlights.'}</span>
+          </h1>
+          <p>
+            The clubs you follow. The fixtures you’re waiting for. A clearer
+            view of how the match could go.
+          </p>
+          <div className="flood-landing-actions">
+            <Link className="flood-button" to="/register">
+              Create free account <FiArrowUpRight />
+            </Link>
+            <Link className="flood-text-link" to="/login">
+              Already a supporter? Sign in
+            </Link>
+          </div>
+          <div className="flood-landing-proof">
+            <strong>Football is unpredictable.</strong>
+            <p>
+              We show the home win, draw and away win estimates—along with the
+              reasoning and the gaps in the data.
+            </p>
+          </div>
+        </div>
+        <div className="flood-landing-fixture">
+          {pending ? (
+            <div className="flood-empty" role="status">
+              Finding the next stored fixture…
             </div>
-
-            <aside className="landing-track-record">
-                <span className="landing-track-kicker">Track record</span>
-                {summary ? <>
-                    <div className="landing-stat-grid">
-                        <div><strong>{summary.accuracy != null ? `${(summary.accuracy * 100).toFixed(1)}%` : "—"}</strong><span>overall accuracy</span></div>
-                        <div><strong>{summary.total_predictions ?? "—"}</strong><span>predictions made</span></div>
-                    </div>
-                    <p className="landing-track-note">A forecast is not a guarantee — accuracy reflects every prediction we've scored so far, updated as results come in.</p>
-                </> : <p className="landing-track-note">Loading current model accuracy…</p>}
-            </aside>
-        </section>
-
-        {featured && <section className="landing-featured">
-            <span className="landing-kicker">Next up</span>
-            <article className="landing-featured-match">
-                <header><span>{featured.competition_name || "Fixture"}</span><b>{formatKickoff(featured.utc_date)}</b></header>
-                <div className="landing-featured-teams">
-                    <section>{featured.home_team_crest ? <img src={featured.home_team_crest} alt="" /> : null}<strong>{featured.home_team_name}</strong></section>
-                    <b className="landing-versus">VS</b>
-                    <section>{featured.away_team_crest ? <img src={featured.away_team_crest} alt="" /> : null}<strong>{featured.away_team_name}</strong></section>
-                </div>
-                <footer>Sign up to see the full forecast, expected goals, and model reasoning for this match.</footer>
-            </article>
-        </section>}
-
-        <section className="landing-cta">
-            <div>
-                <h2>Build your matchday hub.</h2>
-                <p>Save favourite clubs, track a fixture watchlist, and keep a saved history of every forecast — free.</p>
-            </div>
-            <Link to="/register" className="landing-primary">Create free account <b>→</b></Link>
-        </section>
-    </main>;
+          ) : (
+            <BroadcastMatchup match={featured} showLink={false} />
+          )}
+          <Link to="/register">
+            Make this your matchday <FiArrowUpRight />
+          </Link>
+        </div>
+      </section>
+      <section className="flood-landing-story">
+        <div>
+          <h2>Know your next match.</h2>
+          <p>
+            Find a fixture, explore form and expected goals, and see the
+            estimated chance of every result. A forecast is a starting point for
+            understanding football, never a promise.
+          </p>
+        </div>
+        <div>
+          <h2>Keep your clubs close.</h2>
+          <p>
+            Follow favourites, save a fixture watchlist and keep the original
+            forecast alongside the final score. Your football, in one place.
+          </p>
+        </div>
+      </section>
+      <section className="flood-landing-close">
+        <div>
+          <h2>There’s always another match.</h2>
+          <p>
+            {summary?.total_predictions
+              ? `${Number(summary.total_predictions).toLocaleString()} predictions recorded in the platform. `
+              : ""}
+            Build your own matchday hub. Free to use.
+          </p>
+        </div>
+        <Link className="flood-button" to="/register">
+          Find your football <FiArrowUpRight />
+        </Link>
+      </section>
+      <footer className="flood-landing-footer">
+        <span>Football Intelligence Platform · 2026</span>
+        <span>Model estimates, not guarantees.</span>
+        <a href="https://www.footylogos.com/">Crest assets: FootyLogos</a>
+      </footer>
+    </main>
+  );
 }
-
-export default Landing;

@@ -11,26 +11,27 @@ import re
 import unicodedata
 from collections import defaultdict, deque
 from dataclasses import dataclass, field
-from datetime import datetime
-from difflib import SequenceMatcher
+from datetime import datetime, timezone
 from pathlib import Path
 
 import joblib
 import pandas as pd
 from sklearn.compose import ColumnTransformer
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.impute import SimpleImputer
 from sklearn.metrics import accuracy_score, balanced_accuracy_score, log_loss, mean_absolute_error
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.calibration import CalibratedClassifierCV
-from sklearn.model_selection import TimeSeriesSplit
 from lightgbm import LGBMClassifier
 from catboost import CatBoostClassifier, CatBoostRegressor
 from math import exp, factorial
 
 from app.core.paths import MODELS_DIR, REPORTS_DIR
+from app.services.machine_learning.team_identity import identity_key
+from app.services.machine_learning.temporal_protocol import PROTOCOL_VERSION, calibration_folds, chronological_splits
+
+FEATURE_SCHEMA_VERSION = 3
 
 
 FEATURE_COLUMNS = [
@@ -95,6 +96,25 @@ class HistoricalMatchModel:
         # historical fixtures without inspecting the outcome of the selected
         # fixture itself.
         self.historical_examples: list[dict] = []
+        self.league_seasons: dict[str, int] = {}
+        self.league_members: dict[str, set[str]] = {}
+        self.feature_schema_version = FEATURE_SCHEMA_VERSION
+        self.model_version = f"historical-season-v{FEATURE_SCHEMA_VERSION}"
+        self.training_data_through = None
+        self.leakage_protocol_version = None
+
+    def _start_season(self, league: str, season: int, members: set[str]) -> None:
+        if self.league_seasons.get(league) == season:
+            return
+        for key, old in list(self.states.items()):
+            if key.startswith(f"{league}:"):
+                self.states[key] = TeamState(
+                    elo=old.elo, recent_results=deque(old.recent_results, maxlen=10),
+                    recent_goal_differences=deque(old.recent_goal_differences, maxlen=10),
+                    recent_scorelines=deque(old.recent_scorelines, maxlen=5), last_match_date=old.last_match_date,
+                )
+        self.league_seasons[league] = season
+        self.league_members[league] = {self._state_key(league, team) for team in members}
 
     @staticmethod
     def _target(home_goals: int, away_goals: int) -> int:
@@ -107,13 +127,17 @@ class HistoricalMatchModel:
     def _league_position(self, league: str, team_key: str) -> int:
         table = [
             (key, state) for key, state in self.states.items()
-            if key.startswith(f"{league}:") and state.games > 0
+            if key in self.league_members.get(league, set())
         ]
+        for key in sorted(self.league_members.get(league, set())):
+            if key not in self.states:
+                table.append((key, TeamState()))
         table.sort(key=lambda item: (
             -item[1].points,
             -(item[1].goals_for - item[1].goals_against),
             -item[1].goals_for,
             -item[1].elo,
+            item[0],
         ))
         return next((index for index, (key, _) in enumerate(table, start=1) if key == team_key), len(table) + 1)
 
@@ -139,8 +163,8 @@ class HistoricalMatchModel:
             return value / games if games else 0.0
 
         h2h_matches, home_h2h_ppg, home_h2h_gd = self._h2h_stats(league, home_key, away_key)
-        home_rest = (match_date - home.last_match_date).days if match_date and home.last_match_date else 7
-        away_rest = (match_date - away.last_match_date).days if match_date and away.last_match_date else 7
+        home_rest = max(0, (match_date - home.last_match_date).days) if match_date and home.last_match_date else 7
+        away_rest = max(0, (match_date - away.last_match_date).days) if match_date and away.last_match_date else 7
         home_position, away_position = self._league_position(league, home_key), self._league_position(league, away_key)
         return {
             "league": league,
@@ -224,29 +248,47 @@ class HistoricalMatchModel:
             frame["home_goals"] = pd.to_numeric(frame["FTHG"], errors="coerce")
             frame["away_goals"] = pd.to_numeric(frame["FTAG"], errors="coerce")
             frame = frame.dropna(subset=["match_date", "HomeTeam", "AwayTeam", "home_goals", "away_goals"])
+            frame = frame[(frame.home_goals >= 0) & (frame.away_goals >= 0)
+                          & (frame.home_goals % 1 == 0) & (frame.away_goals % 1 == 0)]
             for row in frame.itertuples(index=False):
                 records.append({
                     "match_date": row.match_date, "league": league, "season": int(season),
                     "home_team": str(row.HomeTeam), "away_team": str(row.AwayTeam),
                     "home_goals": int(row.home_goals), "away_goals": int(row.away_goals),
                 })
-        matches = pd.DataFrame(records).sort_values(["match_date", "league", "season"]).reset_index(drop=True)
+        matches = pd.DataFrame(records)
         if matches.empty:
             raise ValueError(f"No valid historical matches found in {self.historical_dir}")
+        matches = matches.sort_values(["match_date", "league", "season"], kind="stable").reset_index(drop=True)
+        if matches.duplicated(["league", "match_date", "home_team", "away_team"]).any():
+            raise ValueError("Duplicate fixtures in historical archive; review before training")
         return matches
 
-    def build_training_data(self) -> tuple[pd.DataFrame, pd.Series]:
+    def build_training_data(self, before_date=None) -> tuple[pd.DataFrame, pd.Series]:
         self.states = defaultdict(TeamState)
         self.known_teams = defaultdict(set)
         self.head_to_head = defaultdict(lambda: deque(maxlen=10))
         self.historical_examples = []
+        self.league_seasons = {}
+        self.league_members = {}
         rows, targets, home_goal_targets, away_goal_targets = [], [], [], []
         matches = self.load_matches()
+        cutoff = pd.Timestamp(before_date or datetime.now(timezone.utc).date()).tz_localize(None).normalize()
+        matches = matches[matches.match_date < cutoff]
+        if matches.empty:
+            raise ValueError('No completed historical days precede the training cutoff.')
+        self.training_data_through = str(matches.match_date.max().date())
+        memberships = defaultdict(set)
         # Every fixture on the same calendar day receives features from the
         # same pre-kickoff state; no result from an earlier same-day fixture
         # can leak into another fixture's feature vector.
         for _, match_day in matches.groupby("match_date", sort=True):
             day_matches = list(match_day.itertuples(index=False))
+            for match in day_matches:
+                memberships[(match.league, match.season)].update({match.home_team, match.away_team})
+            for match in day_matches:
+                self._start_season(match.league, match.season, memberships[(match.league, match.season)])
+                self.league_members[match.league] = {self._state_key(match.league, team) for team in memberships[(match.league, match.season)]}
             for match in day_matches:
                 features = self._features(match.league, match.home_team, match.away_team, match.match_date)
                 rows.append(features)
@@ -254,7 +296,7 @@ class HistoricalMatchModel:
                 home_goal_targets.append(match.home_goals)
                 away_goal_targets.append(match.away_goals)
                 self.historical_examples.append({
-                    "match_date": match.match_date.isoformat(), "league": match.league,
+                    "match_date": match.match_date.isoformat(), "league": match.league, "season": int(match.season),
                     "home_team": match.home_team, "away_team": match.away_team,
                     "home_goals": int(match.home_goals), "away_goals": int(match.away_goals),
                     "result": self._target(match.home_goals, match.away_goals),
@@ -279,16 +321,18 @@ class HistoricalMatchModel:
         return preprocessing
 
     @classmethod
-    def _candidate_models(cls) -> dict[str, Pipeline]:
+    def _candidate_models(cls, dates) -> dict[str, Pipeline]:
         return {
             "calibrated_logistic_regression": Pipeline([
-                ("features", cls._preprocessor(scale_numeric=True)),
                 ("model", CalibratedClassifierCV(
-                    estimator=LogisticRegression(max_iter=1000, class_weight="balanced", random_state=42),
+                    estimator=Pipeline([
+                        ("features", cls._preprocessor(scale_numeric=True)),
+                        ("model", LogisticRegression(max_iter=1000, class_weight="balanced", random_state=42)),
+                    ]),
                     # Calibration must only learn from matches that happened
                     # before the validation fold. Random folds leak future
                     # football form into past forecasts.
-                    method="sigmoid", cv=TimeSeriesSplit(n_splits=3),
+                    method="sigmoid", cv=calibration_folds(dates),
                 )),
             ]),
             "lightgbm": Pipeline([
@@ -305,56 +349,14 @@ class HistoricalMatchModel:
                 ("model", CatBoostClassifier(
                     loss_function="MultiClass", iterations=250, depth=6,
                     learning_rate=0.05, l2_leaf_reg=5, verbose=False,
-                    random_seed=42, thread_count=-1,
+                    random_seed=42, thread_count=4, allow_writing_files=False,
                 )),
             ]),
         }
 
-    def train(self) -> dict:
-        features, target = self.build_training_data()
-        split = int(len(features) * 0.8)
-        comparisons = []
-        for name, candidate in self._candidate_models().items():
-            candidate.fit(features.iloc[:split], target.iloc[:split])
-            probabilities = candidate.predict_proba(features.iloc[split:])
-            predictions = candidate.predict(features.iloc[split:])
-            comparisons.append({
-                "model": name,
-                "accuracy": round(float(accuracy_score(target.iloc[split:], predictions)), 4),
-                "balanced_accuracy": round(float(balanced_accuracy_score(target.iloc[split:], predictions)), 4),
-                "log_loss": round(float(log_loss(target.iloc[split:], probabilities, labels=[0, 1, 2])), 4),
-            })
-        comparisons.sort(key=lambda result: (result["log_loss"], -result["balanced_accuracy"]))
-        best_model_name = comparisons[0]["model"]
-        metrics = {
-            "training_matches": int(split), "validation_matches": int(len(features) - split),
-            "selected_model": best_model_name, "model_comparison": comparisons,
-            **{key: comparisons[0][key] for key in ("accuracy", "balanced_accuracy", "log_loss")},
-        }
-        self.pipeline = self._candidate_models()[best_model_name]
-        self.pipeline.fit(features, target)
-        self.home_goals_pipeline = Pipeline([
-            ("features", self._preprocessor(dense=True)),
-            ("model", CatBoostRegressor(
-                loss_function="MAE", iterations=300, depth=6, learning_rate=0.05,
-                l2_leaf_reg=5, verbose=False, random_seed=42, thread_count=-1,
-            )),
-        ])
-        self.away_goals_pipeline = Pipeline([
-            ("features", self._preprocessor(dense=True)),
-            ("model", CatBoostRegressor(
-                loss_function="MAE", iterations=300, depth=6, learning_rate=0.05,
-                l2_leaf_reg=5, verbose=False, random_seed=42, thread_count=-1,
-            )),
-        ])
-        self.home_goals_pipeline.fit(features.iloc[:split], self.home_goal_targets.iloc[:split])
-        self.away_goals_pipeline.fit(features.iloc[:split], self.away_goal_targets.iloc[:split])
-        metrics["expected_goals_mae"] = {
-            "home": round(float(mean_absolute_error(self.home_goal_targets.iloc[split:], self.home_goals_pipeline.predict(features.iloc[split:]))), 3),
-            "away": round(float(mean_absolute_error(self.away_goal_targets.iloc[split:], self.away_goals_pipeline.predict(features.iloc[split:]))), 3),
-        }
-        self.home_goals_pipeline.fit(features, self.home_goal_targets)
-        self.away_goals_pipeline.fit(features, self.away_goal_targets)
+    def train(self, artifact_path: Path | None = None) -> dict:
+        from app.services.machine_learning.temporal_training import train_chronological
+        metrics = train_chronological(self)
         artifact = {
             "pipeline": self.pipeline,
             "home_goals_pipeline": self.home_goals_pipeline,
@@ -383,9 +385,16 @@ class HistoricalMatchModel:
             "trained_at": datetime.now().isoformat(),
             "feature_columns": FEATURE_COLUMNS,
             "historical_examples": self.historical_examples,
+            "feature_schema_version": FEATURE_SCHEMA_VERSION,
+            "leakage_protocol_version": self.leakage_protocol_version,
+            "training_data_through": self.training_data_through,
+            "league_seasons": self.league_seasons,
+            "league_members": {key: sorted(value) for key, value in self.league_members.items()},
         }
-        artifact_path = MODELS_DIR / "historical_match_model.joblib"
-        joblib.dump(artifact, artifact_path)
+        artifact_path = artifact_path or MODELS_DIR / "historical_match_model.joblib"
+        temporary = artifact_path.with_suffix(".tmp")
+        joblib.dump(artifact, temporary)
+        temporary.replace(artifact_path)
         return {"artifact_path": artifact_path, **metrics}
 
     @classmethod
@@ -393,6 +402,12 @@ class HistoricalMatchModel:
         """Load a portable trained artifact for prediction without retraining."""
         artifact = joblib.load(artifact_path or MODELS_DIR / "historical_match_model.joblib")
         model = cls()
+        model.feature_schema_version = artifact.get("feature_schema_version", 1)
+        model.leakage_protocol_version = artifact.get("leakage_protocol_version")
+        model.training_data_through = artifact.get("training_data_through")
+        model.model_version = f"historical-season-v{model.feature_schema_version}-{artifact.get('trained_at', 'unknown')}"
+        model.league_seasons = artifact.get("league_seasons", {})
+        model.league_members = {league: set(members) for league, members in artifact.get("league_members", {}).items()}
         model.pipeline = artifact["pipeline"]
         model.home_goals_pipeline = artifact.get("home_goals_pipeline")
         model.away_goals_pipeline = artifact.get("away_goals_pipeline")
@@ -419,17 +434,22 @@ class HistoricalMatchModel:
         return model
 
     def _resolve_team(self, league: str, team_name: str) -> tuple[str, float]:
-        requested = normalise_team_name(team_name)
+        requested = identity_key(team_name)
         requested = self.TEAM_ALIASES.get(requested, requested)
         candidates = self.known_teams.get(league, set())
         # The historical archive covers eight European leagues only. Never
         # manufacture a high-confidence match for an unsupported competition.
         if not candidates:
             return requested, 0.0
+        literal = normalise_team_name(team_name)
+        if literal in candidates:
+            return literal, 1.0
         if requested in candidates:
             return requested, 1.0
-        best = max(candidates, key=lambda candidate: SequenceMatcher(None, requested, candidate).ratio(), default=requested)
-        return best, SequenceMatcher(None, requested, best).ratio()
+        matches = sorted(candidate for candidate in candidates if identity_key(candidate) == requested)
+        if len(matches) == 1:
+            return matches[0], 1.0
+        return requested, 0.0
 
     def predict_fixture(
         self,
@@ -592,7 +612,7 @@ class HistoricalMatchModel:
             "similarity": round(max(0.0, 1 - distance / 8), 3),
         } for distance, item in closest]
 
-    def predict_fixtures(self, fixtures: list[dict]) -> list[dict]:
+    def predict_fixtures(self, fixtures: list[dict], *, reference_time: datetime | None = None) -> list[dict]:
         """Predict a fixture batch with one efficient model call."""
         if self.pipeline is None:
             raise RuntimeError("Train or load the model before predicting.")
@@ -603,19 +623,44 @@ class HistoricalMatchModel:
             league, home_team, away_team = fixture["league"], fixture["home_team"], fixture["away_team"]
             home, home_match = self._resolve_team(league, home_team)
             away, away_match = self._resolve_team(league, away_team)
+            if min(home_match, away_match) < 1.0:
+                raise ValueError("Verified team history is unavailable for one or both clubs in this competition.")
+            if home == away:
+                raise ValueError("A fixture must contain two distinct clubs.")
+            if self.feature_schema_version != FEATURE_SCHEMA_VERSION:
+                raise ValueError("Prediction model needs retraining with the current season-aware features.")
+            if self.leakage_protocol_version != PROTOCOL_VERSION or not self.training_data_through:
+                raise ValueError('Model training cutoff is unverified. Retrain before generating predictions.')
             fixture_date = pd.to_datetime(fixture.get("utc_date"), errors="coerce")
+            if not pd.isna(fixture_date) and fixture_date.tzinfo is not None:
+                fixture_date = fixture_date.tz_convert("UTC").tz_localize(None)
+            if pd.isna(fixture_date) or pd.Timestamp(self.training_data_through).date() >= fixture_date.date():
+                raise ValueError('Training results must strictly precede the fixture day. Use a walk-forward model for historical matches.')
+            last_result = max((state.last_match_date for key, state in self.states.items()
+                               if key.startswith(f"{league}:") and state.last_match_date), default=None)
+            if last_result and not pd.isna(fixture_date) and fixture_date.date() <= last_result.date():
+                raise ValueError("Historical fixtures require a point-in-time backtest, not the current model states.")
+            reference_day = (reference_time or datetime.now(timezone.utc)).date()
+            if (pd.Timestamp(self.training_data_through).date() >= reference_day
+                    or (last_result and last_result.date() >= reference_day)):
+                raise ValueError('Training and form results must precede the prediction reference day.')
+            if not last_result or ((reference_time or datetime.now(timezone.utc)).date() - last_result.date()).days > 45:
+                raise ValueError("Recent verified results are unavailable for this competition; forecasts are paused until history refreshes.")
+            members = self.league_members.get(league, set())
+            if self._state_key(league, home) not in members or self._state_key(league, away) not in members:
+                raise ValueError("One or both clubs lack verified current-season membership in this competition.")
             feature_rows.append(self._features(
                 league, home, away,
                 fixture_date.to_pydatetime() if not pd.isna(fixture_date) else None,
             ))
-            resolved_fixtures.append((fixture, home, away, home_match, away_match, feature_rows[-1]))
+            resolved_fixtures.append((fixture, home, away, home_match, away_match, feature_rows[-1], last_result))
         features = pd.DataFrame(feature_rows, columns=FEATURE_COLUMNS)
         probabilities = self.pipeline.predict_proba(features)
         outcomes = self.pipeline.predict(features)
         home_goal_predictions = self.home_goals_pipeline.predict(features)
         away_goal_predictions = self.away_goals_pipeline.predict(features)
         results = []
-        for (fixture, home, away, home_match, away_match, features), probability, outcome, home_xg, away_xg in zip(
+        for (fixture, home, away, home_match, away_match, features, last_result), probability, outcome, home_xg, away_xg in zip(
             resolved_fixtures, probabilities, outcomes, home_goal_predictions, away_goal_predictions,
         ):
             probability_by_class = dict(zip(self.pipeline.classes_, probability))
@@ -633,6 +678,11 @@ class HistoricalMatchModel:
             agreement = len(set(signal_outcomes)) == 1
             results.append({
                 **fixture,
+                "feature_schema_version": self.feature_schema_version,
+                "model_version": self.model_version,
+                "leakage_protocol_version": self.leakage_protocol_version,
+                "training_data_through": self.training_data_through,
+                "history_through": str(last_result.date()),
                 "home_win_probability": round(float(ensemble_probabilities.get(2, 0)), 4),
                 "draw_probability": round(float(ensemble_probabilities.get(1, 0)), 4),
                 "away_win_probability": round(float(ensemble_probabilities.get(0, 0)), 4),
@@ -663,10 +713,10 @@ class HistoricalMatchModel:
                 "explanations": self._explanations(features, fixture["home_team"], fixture["away_team"]),
                 "score_prediction": score_prediction,
                 "ensemble": {
-                    "name": "Calibrated ML + ELO + goal model",
+                    "name": "Outcome ML + ELO + goal model",
                     "agreement": "Models agree" if agreement else "Models show mixed signals",
                     "signals": {
-                        "calibrated_ml": {"home": round(float(probability_by_class.get(2, 0)), 4), "draw": round(float(probability_by_class.get(1, 0)), 4), "away": round(float(probability_by_class.get(0, 0)), 4)},
+                        "outcome_ml": {"home": round(float(probability_by_class.get(2, 0)), 4), "draw": round(float(probability_by_class.get(1, 0)), 4), "away": round(float(probability_by_class.get(0, 0)), 4)},
                         "elo_strength": {"home": round(elo_probabilities[2], 4), "draw": round(elo_probabilities[1], 4), "away": round(elo_probabilities[0], 4)},
                         "goal_model": {"home": round(poisson_probabilities[2], 4), "draw": round(poisson_probabilities[1], 4), "away": round(poisson_probabilities[0], 4)},
                     },

@@ -1,0 +1,619 @@
+{
+  "cost": "Existing cached local features only; no purchases or external requests.",
+  "protocol": "Inner prior-season tuning inside each outer training window; outer validation seasons 2023/2024/2025; pooled website log loss selects the stack; partial 2026 evaluates frozen selection.",
+  "rolling_results": {
+    "current_baseline": {
+      "overall": {
+        "matches": 8748,
+        "accuracy": 0.5193187014174668,
+        "balanced_accuracy": 0.4482275193445395,
+        "log_loss": 0.9861717127031986,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 1140,
+        "accuracy": 0.5307017543859649,
+        "balanced_accuracy": 0.4548328816621499,
+        "log_loss": 0.9830426044127192,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 594,
+        "accuracy": 0.5858585858585859,
+        "balanced_accuracy": 0.4919240669240669,
+        "log_loss": 0.9244384651446858,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "shots_fixed": {
+      "overall": {
+        "matches": 8748,
+        "accuracy": 0.5219478737997256,
+        "balanced_accuracy": 0.4512640806993696,
+        "log_loss": 0.9831491868242912,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 1140,
+        "accuracy": 0.5324561403508772,
+        "balanced_accuracy": 0.4573170731707317,
+        "log_loss": 0.9802142430774702,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 594,
+        "accuracy": 0.5959595959595959,
+        "balanced_accuracy": 0.5021235521235522,
+        "log_loss": 0.921716009039147,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "shots_tuned": {
+      "overall": {
+        "matches": 8748,
+        "accuracy": 0.5201188843164152,
+        "balanced_accuracy": 0.44947219516828324,
+        "log_loss": 0.9833962034651803,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 1140,
+        "accuracy": 0.5289473684210526,
+        "balanced_accuracy": 0.45438121047877145,
+        "log_loss": 0.9797997400196632,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 594,
+        "accuracy": 0.5925925925925926,
+        "balanced_accuracy": 0.49974259974259977,
+        "log_loss": 0.9213687240883625,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "shots_with_shot_goals": {
+      "overall": {
+        "matches": 8748,
+        "accuracy": 0.5219478737997256,
+        "balanced_accuracy": 0.4510893978922062,
+        "log_loss": 0.9826173573734629,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 1140,
+        "accuracy": 0.5280701754385965,
+        "balanced_accuracy": 0.45325203252032525,
+        "log_loss": 0.9792350562791386,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 594,
+        "accuracy": 0.5925925925925926,
+        "balanced_accuracy": 0.4985199485199485,
+        "log_loss": 0.9202650070504912,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "shots_tuned_with_shot_goals": {
+      "overall": {
+        "matches": 8748,
+        "accuracy": 0.5210333790580705,
+        "balanced_accuracy": 0.4503157330916774,
+        "log_loss": 0.982828552566113,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 1140,
+        "accuracy": 0.5263157894736842,
+        "balanced_accuracy": 0.4516711833785004,
+        "log_loss": 0.9787713834472408,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 594,
+        "accuracy": 0.5909090909090909,
+        "balanced_accuracy": 0.49732947232947233,
+        "log_loss": 0.9198366938220568,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    }
+  },
+  "rolling_uncertainty": {
+    "shots_fixed": {
+      "log_loss_delta_95_interval": [
+        -0.004096134124965567,
+        -0.001957193257779864
+      ],
+      "accuracy_delta_95_interval": [
+        -0.0012624544889529856,
+        0.00653412330580379
+      ],
+      "note": "Paired calendar-week bootstrap; descriptive, not adjusted for selecting among variants."
+    },
+    "shots_tuned": {
+      "log_loss_delta_95_interval": [
+        -0.003924433512976723,
+        -0.0017114559404635056
+      ],
+      "accuracy_delta_95_interval": [
+        -0.0027853905812181877,
+        0.0043200585401288304
+      ],
+      "note": "Paired calendar-week bootstrap; descriptive, not adjusted for selecting among variants."
+    },
+    "shots_with_shot_goals": {
+      "log_loss_delta_95_interval": [
+        -0.004960044861050454,
+        -0.0021219590838740293
+      ],
+      "accuracy_delta_95_interval": [
+        -0.0017113812980767739,
+        0.006617999880438131
+      ],
+      "note": "Paired calendar-week bootstrap; descriptive, not adjusted for selecting among variants."
+    },
+    "shots_tuned_with_shot_goals": {
+      "log_loss_delta_95_interval": [
+        -0.004721211442875645,
+        -0.0020222209945925246
+      ],
+      "accuracy_delta_95_interval": [
+        -0.0024530742931077243,
+        0.0055494431456131425
+      ],
+      "note": "Paired calendar-week bootstrap; descriptive, not adjusted for selecting among variants."
+    }
+  },
+  "versus_previous_shot_candidate": {
+    "shots_tuned": {
+      "log_loss_delta_95_interval": [
+        -0.00019925724383343773,
+        0.0006414112362875445
+      ],
+      "accuracy_delta_95_interval": [
+        -0.0038959832722695914,
+        0.00012043065787901369
+      ],
+      "note": "Paired calendar-week bootstrap; descriptive, not adjusted for selecting among variants."
+    },
+    "shots_with_shot_goals": {
+      "log_loss_delta_95_interval": [
+        -0.0010139222076247798,
+        -8.167261365897307e-05
+      ],
+      "accuracy_delta_95_interval": [
+        -0.00199578703770122,
+        0.0017661245392371079
+      ],
+      "note": "Paired calendar-week bootstrap; descriptive, not adjusted for selecting among variants."
+    },
+    "shots_tuned_with_shot_goals": {
+      "log_loss_delta_95_interval": [
+        -0.0009168472440112868,
+        0.00023685569667697686
+      ],
+      "accuracy_delta_95_interval": [
+        -0.0031849563124775357,
+        0.0012202112885066102
+      ],
+      "note": "Paired calendar-week bootstrap; descriptive, not adjusted for selecting among variants."
+    }
+  },
+  "chosen_variant": "shots_with_shot_goals",
+  "tuning": [
+    {
+      "outer_season": 2023,
+      "inner_validation_season": 2022,
+      "training_matches": 35441,
+      "validation_matches": 2990,
+      "trials": [
+        {
+          "parameters": {
+            "iterations": 250,
+            "depth": 6,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 5
+          },
+          "trees": 118,
+          "log_loss": 0.9804678371906834
+        },
+        {
+          "parameters": {
+            "iterations": 700,
+            "depth": 4,
+            "learning_rate": 0.03,
+            "l2_leaf_reg": 10
+          },
+          "trees": 405,
+          "log_loss": 0.9795382115117242
+        },
+        {
+          "parameters": {
+            "iterations": 700,
+            "depth": 6,
+            "learning_rate": 0.03,
+            "l2_leaf_reg": 10
+          },
+          "trees": 236,
+          "log_loss": 0.9796131061743524
+        },
+        {
+          "parameters": {
+            "iterations": 700,
+            "depth": 5,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 20
+          },
+          "trees": 129,
+          "log_loss": 0.9801090002574029
+        }
+      ],
+      "selected_parameters": {
+        "iterations": 405,
+        "depth": 4,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 10
+      }
+    },
+    {
+      "outer_season": 2024,
+      "inner_validation_season": 2023,
+      "training_matches": 38431,
+      "validation_matches": 2916,
+      "trials": [
+        {
+          "parameters": {
+            "iterations": 250,
+            "depth": 6,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 5
+          },
+          "trees": 191,
+          "log_loss": 0.9703416943174383
+        },
+        {
+          "parameters": {
+            "iterations": 700,
+            "depth": 4,
+            "learning_rate": 0.03,
+            "l2_leaf_reg": 10
+          },
+          "trees": 472,
+          "log_loss": 0.970214343972622
+        },
+        {
+          "parameters": {
+            "iterations": 700,
+            "depth": 6,
+            "learning_rate": 0.03,
+            "l2_leaf_reg": 10
+          },
+          "trees": 510,
+          "log_loss": 0.9698259547404914
+        },
+        {
+          "parameters": {
+            "iterations": 700,
+            "depth": 5,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 20
+          },
+          "trees": 272,
+          "log_loss": 0.9704616118892554
+        }
+      ],
+      "selected_parameters": {
+        "iterations": 510,
+        "depth": 6,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 10
+      }
+    },
+    {
+      "outer_season": 2025,
+      "inner_validation_season": 2024,
+      "training_matches": 41347,
+      "validation_matches": 2916,
+      "trials": [
+        {
+          "parameters": {
+            "iterations": 250,
+            "depth": 6,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 5
+          },
+          "trees": 214,
+          "log_loss": 0.9808418231559445
+        },
+        {
+          "parameters": {
+            "iterations": 700,
+            "depth": 4,
+            "learning_rate": 0.03,
+            "l2_leaf_reg": 10
+          },
+          "trees": 471,
+          "log_loss": 0.9807381826536118
+        },
+        {
+          "parameters": {
+            "iterations": 700,
+            "depth": 6,
+            "learning_rate": 0.03,
+            "l2_leaf_reg": 10
+          },
+          "trees": 331,
+          "log_loss": 0.980945859562764
+        },
+        {
+          "parameters": {
+            "iterations": 700,
+            "depth": 5,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 20
+          },
+          "trees": 425,
+          "log_loss": 0.9808420067367497
+        }
+      ],
+      "selected_parameters": {
+        "iterations": 471,
+        "depth": 4,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 10
+      }
+    }
+  ],
+  "final_2026": [
+    {
+      "season": 2026,
+      "variant": "current_baseline",
+      "training_matches": 47179,
+      "website_ensemble": {
+        "overall": {
+          "matches": 559,
+          "accuracy": 0.5008944543828264,
+          "balanced_accuracy": 0.44297573435504467,
+          "log_loss": 0.9868178460854028,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league": {
+          "matches": 60,
+          "accuracy": 0.45,
+          "balanced_accuracy": 0.43156199677938806,
+          "log_loss": 1.0226414756831381,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league_prior_top_six": {
+          "matches": 31,
+          "accuracy": 0.4838709677419355,
+          "balanced_accuracy": 0.5016835016835017,
+          "log_loss": 0.9441916848759117,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        }
+      },
+      "classifier": {
+        "overall": {
+          "matches": 559,
+          "accuracy": 0.49731663685152055,
+          "balanced_accuracy": 0.4401021711366539,
+          "log_loss": 0.9878232171922858,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league": {
+          "matches": 60,
+          "accuracy": 0.45,
+          "balanced_accuracy": 0.4355877616747182,
+          "log_loss": 1.0159469397074155,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league_prior_top_six": {
+          "matches": 31,
+          "accuracy": 0.4838709677419355,
+          "balanced_accuracy": 0.5016835016835017,
+          "log_loss": 0.9261083970974298,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        }
+      },
+      "goal_mae": {
+        "home": 0.9859317789032722,
+        "away": 0.8820457692804935
+      }
+    },
+    {
+      "season": 2026,
+      "variant": "shots_fixed",
+      "training_matches": 47179,
+      "website_ensemble": {
+        "overall": {
+          "matches": 559,
+          "accuracy": 0.5098389982110912,
+          "balanced_accuracy": 0.4497445721583652,
+          "log_loss": 0.9839838956671942,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league": {
+          "matches": 60,
+          "accuracy": 0.4666666666666667,
+          "balanced_accuracy": 0.4460547504025765,
+          "log_loss": 1.0284339558326934,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league_prior_top_six": {
+          "matches": 31,
+          "accuracy": 0.5161290322580645,
+          "balanced_accuracy": 0.531986531986532,
+          "log_loss": 0.9402928882152561,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        }
+      },
+      "classifier": {
+        "overall": {
+          "matches": 559,
+          "accuracy": 0.5080500894454383,
+          "balanced_accuracy": 0.44830779054916986,
+          "log_loss": 0.984505391210535,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league": {
+          "matches": 60,
+          "accuracy": 0.4,
+          "balanced_accuracy": 0.3800322061191626,
+          "log_loss": 1.0273322689011455,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league_prior_top_six": {
+          "matches": 31,
+          "accuracy": 0.4838709677419355,
+          "balanced_accuracy": 0.494949494949495,
+          "log_loss": 0.9186859474164231,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        }
+      },
+      "goal_mae": {
+        "home": 0.9859317789032722,
+        "away": 0.8820457692804935
+      }
+    },
+    {
+      "season": 2026,
+      "variant": "shots_with_shot_goals",
+      "training_matches": 47179,
+      "website_ensemble": {
+        "overall": {
+          "matches": 559,
+          "accuracy": 0.5134168157423972,
+          "balanced_accuracy": 0.45303320561941246,
+          "log_loss": 0.9849044354357597,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league": {
+          "matches": 60,
+          "accuracy": 0.43333333333333335,
+          "balanced_accuracy": 0.41304347826086957,
+          "log_loss": 1.028452892488803,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league_prior_top_six": {
+          "matches": 31,
+          "accuracy": 0.5161290322580645,
+          "balanced_accuracy": 0.531986531986532,
+          "log_loss": 0.9354580162542001,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        }
+      },
+      "classifier": {
+        "overall": {
+          "matches": 559,
+          "accuracy": 0.5080500894454383,
+          "balanced_accuracy": 0.44830779054916986,
+          "log_loss": 0.984505391210535,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league": {
+          "matches": 60,
+          "accuracy": 0.4,
+          "balanced_accuracy": 0.3800322061191626,
+          "log_loss": 1.0273322689011455,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league_prior_top_six": {
+          "matches": 31,
+          "accuracy": 0.4838709677419355,
+          "balanced_accuracy": 0.494949494949495,
+          "log_loss": 0.9186859474164231,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        }
+      },
+      "goal_mae": {
+        "home": 0.9707191100143,
+        "away": 0.8855790299775629
+      }
+    }
+  ],
+  "final_uncertainty": {
+    "log_loss_delta_95_interval": [
+      -0.0072118732645054156,
+      0.0020954048314493945
+    ],
+    "accuracy_delta_95_interval": [
+      -0.007157903606336367,
+      0.03245562153126563
+    ],
+    "note": "Paired calendar-week bootstrap; descriptive, not adjusted for selecting among variants."
+  },
+  "limitations": [
+    "Historical validation periods and partial 2026 data were inspected in earlier experiments; not fresh prospective evidence.",
+    "CatBoost goal regressors retain their MAE objective and fixed settings; shot inputs are the controlled change.",
+    "Selection prioritises website log loss; report accuracy separately, without forcing draw predictions.",
+    "Bootstrap intervals are descriptive and do not correct for multiple candidate selection.",
+    "Production artifact remains unchanged."
+  ],
+  "active_model_unchanged": true
+}

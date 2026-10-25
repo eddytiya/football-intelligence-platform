@@ -1,0 +1,634 @@
+league,provider_name,resolved,confidence,supported,state_last_result,upcoming_30_day_fixtures,best_match_ties
+BL1,1. FC Köln,fckoln,0.9230769230769231,True,2026-05-16 00:00:00,3,fckoln
+BL1,1. FC Union Berlin,unionberlin,0.88,True,2026-05-16 00:00:00,3,unionberlin
+BL1,1. FSV Mainz 05,mainz,0.625,True,2026-05-16 00:00:00,3,mainz
+BL1,Augsburg,augsburg,1.0,True,2026-05-16 00:00:00,0,augsburg
+BL1,Bayer 04 Leverkusen,leverkusen,0.7407407407407407,True,2026-05-16 00:00:00,4,leverkusen
+BL1,Bayern Munich,bayernmunich,1.0,True,2026-05-16 00:00:00,0,bayernmunich
+BL1,Bielefeld,bielefeld,1.0,True,2022-05-14 00:00:00,0,bielefeld
+BL1,Bochum,bochum,1.0,True,2025-05-17 00:00:00,0,bochum
+BL1,Borussia Dortmund,dortmund,0.6666666666666666,True,2026-05-16 00:00:00,3,dortmund
+BL1,Borussia Mönchengladbach,mgladbach,0.5625,True,2026-05-16 00:00:00,4,mgladbach
+BL1,Braunschweig,braunschweig,1.0,True,2014-05-10 00:00:00,0,braunschweig
+BL1,Darmstadt,darmstadt,1.0,True,2024-05-18 00:00:00,0,darmstadt
+BL1,Dortmund,dortmund,1.0,True,2026-05-16 00:00:00,0,dortmund
+BL1,Ein Frankfurt,einfrankfurt,1.0,True,2026-05-16 00:00:00,0,einfrankfurt
+BL1,Eintracht Frankfurt,einfrankfurt,0.8,True,2026-05-16 00:00:00,3,einfrankfurt
+BL1,FC Augsburg,augsburg,0.8888888888888888,True,2026-05-16 00:00:00,3,augsburg
+BL1,FC Bayern München,bayernmunich,0.8148148148148148,True,2026-05-16 00:00:00,3,bayernmunich
+BL1,FC Koln,fckoln,1.0,True,2026-05-16 00:00:00,0,fckoln
+BL1,FC Schalke 04,schalke04,0.9,True,2023-05-27 00:00:00,3,schalke04
+BL1,Fortuna Dusseldorf,fortunadusseldorf,1.0,True,2020-06-27 00:00:00,0,fortunadusseldorf
+BL1,Freiburg,freiburg,1.0,True,2026-05-16 00:00:00,0,freiburg
+BL1,Greuther Furth,greutherfurth,1.0,True,2022-05-14 00:00:00,0,greutherfurth
+BL1,Hamburg,hamburg,1.0,True,2026-05-16 00:00:00,0,hamburg
+BL1,Hamburger SV,hamburg,0.7777777777777778,True,2026-05-16 00:00:00,3,hamburg
+BL1,Hannover,hannover,1.0,True,2019-05-18 00:00:00,0,hannover
+BL1,Heidenheim,heidenheim,1.0,True,2026-05-16 00:00:00,0,heidenheim
+BL1,Hertha,hertha,1.0,True,2023-05-27 00:00:00,0,hertha
+BL1,Hoffenheim,hoffenheim,1.0,True,2026-05-16 00:00:00,0,hoffenheim
+BL1,Holstein Kiel,holsteinkiel,1.0,True,2025-05-17 00:00:00,0,holsteinkiel
+BL1,Ingolstadt,ingolstadt,1.0,True,2017-05-20 00:00:00,0,ingolstadt
+BL1,Kaiserslautern,kaiserslautern,1.0,True,2012-05-05 00:00:00,0,kaiserslautern
+BL1,Leverkusen,leverkusen,1.0,True,2026-05-16 00:00:00,0,leverkusen
+BL1,M'gladbach,mgladbach,1.0,True,2026-05-16 00:00:00,0,mgladbach
+BL1,Mainz,mainz,1.0,True,2026-05-16 00:00:00,0,mainz
+BL1,Nurnberg,nurnberg,1.0,True,2019-05-18 00:00:00,0,nurnberg
+BL1,Paderborn,paderborn,1.0,True,2020-06-27 00:00:00,0,paderborn
+BL1,RB Leipzig,rbleipzig,1.0,True,2026-05-16 00:00:00,3,rbleipzig
+BL1,SC Freiburg,freiburg,0.8888888888888888,True,2026-05-16 00:00:00,4,freiburg
+BL1,SC Paderborn 07,paderborn,0.8181818181818182,True,2020-06-27 00:00:00,3,paderborn
+BL1,SV 07 Elversberg,leverkusen,0.5,True,2026-05-16 00:00:00,3,leverkusen
+BL1,SV Werder Bremen,werderbremen,0.9230769230769231,True,2026-05-16 00:00:00,3,werderbremen
+BL1,Schalke 04,schalke04,1.0,True,2023-05-27 00:00:00,0,schalke04
+BL1,St Pauli,stpauli,1.0,True,2026-05-16 00:00:00,0,stpauli
+BL1,Stuttgart,stuttgart,1.0,True,2026-05-16 00:00:00,0,stuttgart
+BL1,TSG 1899 Hoffenheim,hoffenheim,0.7407407407407407,True,2026-05-16 00:00:00,4,hoffenheim
+BL1,Union Berlin,unionberlin,1.0,True,2026-05-16 00:00:00,0,unionberlin
+BL1,VfB Stuttgart,stuttgart,0.8571428571428571,True,2026-05-16 00:00:00,3,stuttgart
+BL1,Werder Bremen,werderbremen,1.0,True,2026-05-16 00:00:00,0,werderbremen
+BL1,Wolfsburg,wolfsburg,1.0,True,2026-05-16 00:00:00,0,wolfsburg
+BSA,Botafogo FR,botafogofr,0.0,False,,4,
+BSA,CA Mineiro,camineiro,0.0,False,,4,
+BSA,CA Paranaense,caparanaense,0.0,False,,4,
+BSA,CR Flamengo,crflamengo,0.0,False,,4,
+BSA,CR Vasco da Gama,crvascodagama,0.0,False,,4,
+BSA,Chapecoense AF,chapecoenseaf,0.0,False,,4,
+BSA,Clube do Remo,clubedoremo,0.0,False,,4,
+BSA,Coritiba FBC,coritibafbc,0.0,False,,4,
+BSA,Cruzeiro EC,cruzeiroec,0.0,False,,4,
+BSA,EC Bahia,ecbahia,0.0,False,,4,
+BSA,EC Vitória,ecvitoria,0.0,False,,4,
+BSA,Fluminense FC,fluminensefc,0.0,False,,4,
+BSA,Grêmio FBPA,gremiofbpa,0.0,False,,4,
+BSA,Mirassol FC,mirassolfc,0.0,False,,3,
+BSA,RB Bragantino,rbbragantino,0.0,False,,4,
+BSA,SC Corinthians Paulista,sccorinthianspaulista,0.0,False,,4,
+BSA,SC Internacional,scinternacional,0.0,False,,3,
+BSA,SE Palmeiras,sepalmeiras,0.0,False,,4,
+BSA,Santos FC,santosfc,0.0,False,,4,
+BSA,São Paulo FC,saopaulofc,0.0,False,,4,
+CL,AFC Ajax,afcajax,0.0,False,,0,
+CL,AS Monaco FC,asmonacofc,0.0,False,,0,
+CL,Arsenal FC,arsenalfc,0.0,False,,0,
+CL,Atalanta BC,atalantabc,0.0,False,,0,
+CL,Athletic Club,athleticclub,0.0,False,,0,
+CL,Bayer 04 Leverkusen,bayer04leverkusen,0.0,False,,0,
+CL,Borussia Dortmund,borussiadortmund,0.0,False,,0,
+CL,Chelsea FC,chelseafc,0.0,False,,0,
+CL,Club Atlético de Madrid,clubatleticodemadrid,0.0,False,,0,
+CL,Club Brugge KV,clubbruggekv,0.0,False,,0,
+CL,Eintracht Frankfurt,eintrachtfrankfurt,0.0,False,,0,
+CL,FC Barcelona,fcbarcelona,0.0,False,,0,
+CL,FC Bayern München,fcbayernmunchen,0.0,False,,0,
+CL,FC Internazionale Milano,fcinternazionalemilano,0.0,False,,0,
+CL,FC København,fckbenhavn,0.0,False,,0,
+CL,FK Bodø/Glimt,fkbodglimt,0.0,False,,0,
+CL,FK Kairat,fkkairat,0.0,False,,0,
+CL,Galatasaray SK,galatasaraysk,0.0,False,,0,
+CL,Juventus FC,juventusfc,0.0,False,,0,
+CL,Liverpool FC,liverpoolfc,0.0,False,,0,
+CL,Manchester City FC,manchestercityfc,0.0,False,,0,
+CL,Newcastle United FC,newcastleunitedfc,0.0,False,,0,
+CL,Olympique de Marseille,olympiquedemarseille,0.0,False,,0,
+CL,PAE Olympiakos SFP,paeolympiakossfp,0.0,False,,0,
+CL,PSV,psveindhoven,0.0,False,,0,
+CL,Paphos FC,paphosfc,0.0,False,,0,
+CL,Paris Saint-Germain FC,parissaintgermainfc,0.0,False,,0,
+CL,Qarabağ Ağdam FK,qarabagagdamfk,0.0,False,,0,
+CL,Real Madrid CF,realmadridcf,0.0,False,,0,
+CL,Royale Union Saint-Gilloise,royaleunionsaintgilloise,0.0,False,,0,
+CL,SK Slavia Praha,skslaviapraha,0.0,False,,0,
+CL,SSC Napoli,sscnapoli,0.0,False,,0,
+CL,Sport Lisboa e Benfica,sportlisboaebenfica,0.0,False,,0,
+CL,Sporting Clube de Portugal,splisbon,0.0,False,,0,
+CL,Tottenham Hotspur FC,tottenhamhotspurfc,0.0,False,,0,
+CL,Villarreal CF,villarrealcf,0.0,False,,0,
+CLI,2 de Mayo,2demayo,0.0,False,,0,
+CLI,AA Argentinos Juniors,aaargentinosjuniors,0.0,False,,0,
+CLI,Barcelona SC,barcelonasc,0.0,False,,0,
+CLI,Botafogo FR,botafogofr,0.0,False,,0,
+CLI,CA Boca Juniors,cabocajuniors,0.0,False,,0,
+CLI,CA Lanús,calanus,0.0,False,,0,
+CLI,CA Peñarol,capenarol,0.0,False,,0,
+CLI,CA Platense,caplatense,0.0,False,,0,
+CLI,CA Rosario Central,carosariocentral,0.0,False,,0,
+CLI,CAR Independiente del Valle,carindependientedelvalle,0.0,False,,0,
+CLI,CD Coquimbo Unido,cdcoquimbounido,0.0,False,,0,
+CLI,CD Huachipato,cdhuachipato,0.0,False,,0,
+CLI,CD Independiente Medellín,cdindependientemedellin,0.0,False,,0,
+CLI,CD Tolima,cdtolima,0.0,False,,0,
+CLI,CD Universidad Católica,cduniversidadcatolica,0.0,False,,0,
+CLI,CDP Junior FC,cdpjuniorfc,0.0,False,,0,
+CLI,CR Flamengo,crflamengo,0.0,False,,0,
+CLI,CS Cristal,cscristal,0.0,False,,0,
+CLI,CS Independiente Rivadavia,csindependienterivadavia,0.0,False,,0,
+CLI,Carabobo FC,carabobofc,0.0,False,,0,
+CLI,Club Alianza Lima,clubalianzalima,0.0,False,,0,
+CLI,Club Always Ready,clubalwaysready,0.0,False,,0,
+CLI,Club Bolívar,clubbolivar,0.0,False,,0,
+CLI,Club Cerro Porteño,clubcerroporteno,0.0,False,,0,
+CLI,Club Guaraní,clubguarani,0.0,False,,0,
+CLI,Club Libertad Asuncion,clublibertadasuncion,0.0,False,,0,
+CLI,Club Nacional Potosí,clubnacionalpotosi,0.0,False,,0,
+CLI,Club Nacional de Football,clubnacionaldefootball,0.0,False,,0,
+CLI,Club The Strongest,clubthestrongest,0.0,False,,0,
+CLI,Club Universitario de Deportes,clubuniversitariodedeportes,0.0,False,,0,
+CLI,Cruzeiro EC,cruzeiroec,0.0,False,,0,
+CLI,Cusco FC,cuscofc,0.0,False,,0,
+CLI,Deportivo La Guaira FC,deportivolaguairafc,0.0,False,,0,
+CLI,Deportivo Táchira FC,deportivotachirafc,0.0,False,,0,
+CLI,EC Bahia,ecbahia,0.0,False,,0,
+CLI,Estudiantes de La Plata,estudiantesdelaplata,0.0,False,,0,
+CLI,Fluminense FC,fluminensefc,0.0,False,,0,
+CLI,Independiente Santa Fe,independientesantafe,0.0,False,,0,
+CLI,Juventud de Las Piedras,juventuddelaspiedras,0.0,False,,0,
+CLI,LDU de Quito,ldudequito,0.0,False,,0,
+CLI,Liverpool FC,liverpoolfc,0.0,False,,0,
+CLI,Mirassol FC,mirassolfc,0.0,False,,0,
+CLI,O'Higgins FC,ohigginsfc,0.0,False,,0,
+CLI,Pisa,pisa,0.0,False,,1,
+CLI,SC Corinthians Paulista,sccorinthianspaulista,0.0,False,,0,
+CLI,SE Palmeiras,sepalmeiras,0.0,False,,0,
+CLI,Universidad Catolica,universidadcatolica,0.0,False,,0,
+CLI,Universidad Central de Venezuela FC,universidadcentraldevenezuelafc,0.0,False,,0,
+DED,ADO Den Haag,denhaag,1.0,True,2021-05-16 00:00:00,3,denhaag
+DED,AFC Ajax,ajax,0.7272727272727273,True,2026-05-17 00:00:00,4,ajax
+DED,AZ,azalkmaar,1.0,True,2026-05-17 00:00:00,4,azalkmaar
+DED,AZ Alkmaar,azalkmaar,1.0,True,2026-05-17 00:00:00,0,azalkmaar
+DED,Ajax,ajax,1.0,True,2026-05-17 00:00:00,0,ajax
+DED,Almere City,almerecity,1.0,True,2025-05-18 00:00:00,0,almerecity
+DED,Cambuur,cambuur,1.0,True,2023-05-28 00:00:00,0,cambuur
+DED,Den Haag,denhaag,1.0,True,2021-05-16 00:00:00,0,denhaag
+DED,Dordrecht,dordrecht,1.0,True,2015-05-17 00:00:00,0,dordrecht
+DED,Excelsior,excelsior,1.0,True,2026-05-17 00:00:00,0,excelsior
+DED,FC Emmen,fcemmen,1.0,True,2023-05-28 00:00:00,0,fcemmen
+DED,FC Groningen,groningen,0.9,True,2026-05-17 00:00:00,4,groningen
+DED,FC Twente '65,twente,0.75,True,2026-05-17 00:00:00,4,twente
+DED,FC Utrecht,utrecht,0.875,True,2026-05-17 00:00:00,4,utrecht
+DED,Feyenoord,feyenoord,1.0,True,2026-05-17 00:00:00,0,feyenoord
+DED,Feyenoord Rotterdam,feyenoord,0.6666666666666666,True,2026-05-17 00:00:00,4,feyenoord
+DED,For Sittard,forsittard,1.0,True,2026-05-17 00:00:00,0,forsittard
+DED,Fortuna Sittard,forsittard,1.0,True,2026-05-17 00:00:00,4,forsittard
+DED,Go Ahead Eagles,goaheadeagles,1.0,True,2026-05-17 00:00:00,4,goaheadeagles
+DED,Graafschap,graafschap,1.0,True,2019-05-15 00:00:00,0,graafschap
+DED,Groningen,groningen,1.0,True,2026-05-17 00:00:00,0,groningen
+DED,Heerenveen,heerenveen,1.0,True,2026-05-17 00:00:00,0,heerenveen
+DED,Heracles,heracles,1.0,True,2026-05-17 00:00:00,0,heracles
+DED,NAC Breda,nacbreda,1.0,True,2026-05-17 00:00:00,0,nacbreda
+DED,NEC,nijmegen,1.0,True,2026-05-17 00:00:00,4,nijmegen
+DED,Nijmegen,nijmegen,1.0,True,2026-05-17 00:00:00,0,nijmegen
+DED,PEC Zwolle,zwolle,0.8,True,2026-05-17 00:00:00,4,zwolle
+DED,PSV,psveindhoven,1.0,True,2026-05-17 00:00:00,3,psveindhoven
+DED,PSV Eindhoven,psveindhoven,1.0,True,2026-05-17 00:00:00,0,psveindhoven
+DED,Roda,roda,1.0,True,2018-05-06 00:00:00,0,roda
+DED,SBV Excelsior,excelsior,1.0,True,2026-05-17 00:00:00,3,excelsior
+DED,SC Cambuur-Leeuwarden,cambuur,1.0,True,2023-05-28 00:00:00,4,cambuur
+DED,SC Heerenveen,heerenveen,0.9090909090909091,True,2026-05-17 00:00:00,3,heerenveen
+DED,Sparta Rotterdam,spartarotterdam,1.0,True,2026-05-17 00:00:00,4,spartarotterdam
+DED,Telstar,telstar,1.0,True,2026-05-17 00:00:00,0,telstar
+DED,Telstar 1963,telstar,1.0,True,2026-05-17 00:00:00,4,telstar
+DED,Twente,twente,1.0,True,2026-05-17 00:00:00,0,twente
+DED,Utrecht,utrecht,1.0,True,2026-05-17 00:00:00,0,utrecht
+DED,VVV Venlo,vvvvenlo,1.0,True,2021-05-16 00:00:00,0,vvvvenlo
+DED,Vitesse,vitesse,1.0,True,2024-05-19 00:00:00,0,vitesse
+DED,Volendam,volendam,1.0,True,2026-05-17 00:00:00,0,volendam
+DED,Waalwijk,waalwijk,1.0,True,2025-05-18 00:00:00,0,waalwijk
+DED,Willem II,willemii,1.0,True,2025-05-18 00:00:00,0,willemii
+DED,Willem II Tilburg,willemii,1.0,True,2025-05-18 00:00:00,4,willemii
+DED,Zwolle,zwolle,1.0,True,2026-05-17 00:00:00,0,zwolle
+EC,Albania,albania,0.0,False,,0,
+EC,Austria,austria,0.0,False,,0,
+EC,Belgium,belgium,0.0,False,,0,
+EC,Croatia,croatia,0.0,False,,0,
+EC,Czechia,czechia,0.0,False,,0,
+EC,Denmark,denmark,0.0,False,,0,
+EC,England,england,0.0,False,,0,
+EC,France,france,0.0,False,,0,
+EC,Georgia,georgia,0.0,False,,0,
+EC,Germany,germany,0.0,False,,0,
+EC,Hungary,hungary,0.0,False,,0,
+EC,Italy,italy,0.0,False,,0,
+EC,Netherlands,netherlands,0.0,False,,0,
+EC,Poland,poland,0.0,False,,0,
+EC,Portugal,portugal,0.0,False,,0,
+EC,Romania,romania,0.0,False,,0,
+EC,Scotland,scotland,0.0,False,,0,
+EC,Serbia,serbia,0.0,False,,0,
+EC,Slovakia,slovakia,0.0,False,,0,
+EC,Slovenia,slovenia,0.0,False,,0,
+EC,Spain,spain,0.0,False,,0,
+EC,Switzerland,switzerland,0.0,False,,0,
+EC,Turkey,turkey,0.0,False,,0,
+EC,Ukraine,ukraine,0.0,False,,0,
+ELC,Aston Villa,astonvilla,1.0,True,2019-05-05 00:00:00,0,astonvilla
+ELC,Barnsley,barnsley,1.0,True,2022-05-07 00:00:00,0,barnsley
+ELC,Birmingham,birmingham,1.0,True,2026-05-02 00:00:00,0,birmingham
+ELC,Birmingham City FC,birmingham,0.7692307692307693,True,2026-05-02 00:00:00,4,birmingham
+ELC,Blackburn,blackburn,1.0,True,2026-05-02 00:00:00,0,blackburn
+ELC,Blackburn Rovers FC,blackburn,0.6923076923076923,True,2026-05-02 00:00:00,4,blackburn
+ELC,Blackpool,blackpool,1.0,True,2023-05-08 00:00:00,0,blackpool
+ELC,Bolton,bolton,1.0,True,2019-05-05 00:00:00,0,bolton
+ELC,Bolton Wanderers FC,bolton,0.5217391304347826,True,2019-05-05 00:00:00,4,bolton
+ELC,Bournemouth,bournemouth,1.0,True,2022-05-07 00:00:00,0,bournemouth
+ELC,Brentford,brentford,1.0,True,2021-05-08 00:00:00,0,brentford
+ELC,Brighton,brighton,1.0,True,2017-05-07 00:00:00,0,brighton
+ELC,Bristol City,bristolcity,1.0,True,2026-05-02 00:00:00,0,bristolcity
+ELC,Bristol City FC,bristolcity,0.9166666666666666,True,2026-05-02 00:00:00,4,bristolcity
+ELC,Burnley,burnley,1.0,True,2025-05-03 00:00:00,0,burnley
+ELC,Burnley FC,burnley,0.875,True,2025-05-03 00:00:00,4,burnley
+ELC,Burton,burton,1.0,True,2018-05-06 00:00:00,0,burton
+ELC,Cardiff,cardiff,1.0,True,2025-05-03 00:00:00,0,cardiff
+ELC,Cardiff City FC,cardiff,0.7,True,2025-05-03 00:00:00,4,cardiff
+ELC,Charlton,charlton,1.0,True,2026-05-02 00:00:00,0,charlton
+ELC,Charlton Athletic FC,charlton,0.6153846153846154,True,2026-05-02 00:00:00,4,charlton
+ELC,Coventry,coventry,1.0,True,2026-05-02 00:00:00,0,coventry
+ELC,Crystal Palace,crystalpalace,1.0,True,2013-05-04 00:00:00,0,crystalpalace
+ELC,Derby,derby,1.0,True,2026-05-02 00:00:00,0,derby
+ELC,Derby County FC,derby,0.5555555555555556,True,2026-05-02 00:00:00,4,derby
+ELC,Doncaster,doncaster,1.0,True,2014-05-03 00:00:00,0,doncaster
+ELC,Fulham,fulham,1.0,True,2022-05-07 00:00:00,0,fulham
+ELC,Huddersfield,huddersfield,1.0,True,2024-05-04 00:00:00,0,huddersfield
+ELC,Hull,hull,1.0,True,2026-05-02 00:00:00,0,hull
+ELC,Ipswich,ipswich,1.0,True,2026-05-02 00:00:00,0,ipswich
+ELC,Leeds,leeds,1.0,True,2025-05-03 00:00:00,0,leeds
+ELC,Leicester,leicester,1.0,True,2026-05-02 00:00:00,0,leicester
+ELC,Lincoln City FC,bristolcity,0.5833333333333334,True,2026-05-02 00:00:00,4,bristolcity
+ELC,Luton,luton,1.0,True,2025-05-03 00:00:00,0,luton
+ELC,Middlesbrough,middlesbrough,1.0,True,2026-05-02 00:00:00,0,middlesbrough
+ELC,Middlesbrough FC,middlesbrough,0.9285714285714286,True,2026-05-02 00:00:00,4,middlesbrough
+ELC,Millwall,millwall,1.0,True,2026-05-02 00:00:00,0,millwall
+ELC,Millwall FC,millwall,0.8888888888888888,True,2026-05-02 00:00:00,4,millwall
+ELC,Milton Keynes Dons,miltonkeynesdons,1.0,True,2016-05-07 00:00:00,0,miltonkeynesdons
+ELC,Newcastle,newcastle,1.0,True,2017-05-07 00:00:00,0,newcastle
+ELC,Norwich,norwich,1.0,True,2026-05-02 00:00:00,0,norwich
+ELC,Norwich City FC,norwich,0.7,True,2026-05-02 00:00:00,4,norwich
+ELC,Nott'm Forest,nottmforest,1.0,True,2022-05-07 00:00:00,0,nottmforest
+ELC,Oxford,oxford,1.0,True,2026-05-02 00:00:00,0,oxford
+ELC,Peterboro,peterboro,1.0,True,2022-05-07 00:00:00,0,peterboro
+ELC,Plymouth,plymouth,1.0,True,2025-05-03 00:00:00,0,plymouth
+ELC,Portsmouth,portsmouth,1.0,True,2026-05-02 00:00:00,0,portsmouth
+ELC,Portsmouth FC,portsmouth,0.9090909090909091,True,2026-05-02 00:00:00,4,portsmouth
+ELC,Preston,preston,1.0,True,2026-05-02 00:00:00,0,preston
+ELC,Preston North End FC,preston,0.5833333333333334,True,2026-05-02 00:00:00,4,preston
+ELC,QPR,qpr,1.0,True,2026-05-02 00:00:00,0,qpr
+ELC,Queens Park Rangers FC,leicester,0.35714285714285715,True,2026-05-02 00:00:00,4,leicester
+ELC,Reading,reading,1.0,True,2023-05-08 00:00:00,0,reading
+ELC,Rotherham,rotherham,1.0,True,2024-05-04 00:00:00,0,rotherham
+ELC,Scunthorpe,scunthorpe,1.0,True,2011-05-07 00:00:00,0,scunthorpe
+ELC,Sheffield United,sheffieldunited,1.0,True,2026-05-02 00:00:00,0,sheffieldunited
+ELC,Sheffield United FC,sheffieldunited,0.9375,True,2026-05-02 00:00:00,4,sheffieldunited
+ELC,Sheffield Weds,sheffieldweds,1.0,True,2026-05-02 00:00:00,0,sheffieldweds
+ELC,Southampton,southampton,1.0,True,2026-05-02 00:00:00,0,southampton
+ELC,Southampton FC,southampton,0.9166666666666666,True,2026-05-02 00:00:00,4,southampton
+ELC,Stoke,stoke,1.0,True,2026-05-02 00:00:00,0,stoke
+ELC,Stoke City FC,bristolcity,0.6363636363636364,True,2026-05-02 00:00:00,4,bristolcity
+ELC,Sunderland,sunderland,1.0,True,2025-05-03 00:00:00,0,sunderland
+ELC,Swansea,swansea,1.0,True,2026-05-02 00:00:00,0,swansea
+ELC,Swansea City AFC,swansea,0.6666666666666666,True,2026-05-02 00:00:00,4,swansea
+ELC,Watford,watford,1.0,True,2026-05-02 00:00:00,0,watford
+ELC,Watford FC,watford,0.875,True,2026-05-02 00:00:00,4,watford
+ELC,West Brom,westbrom,1.0,True,2026-05-02 00:00:00,0,westbrom
+ELC,West Bromwich Albion FC,westbrom,0.5714285714285714,True,2026-05-02 00:00:00,4,westbrom
+ELC,West Ham,westham,1.0,True,2012-04-28 00:00:00,0,westham
+ELC,West Ham United FC,westham,0.6363636363636364,True,2012-04-28 00:00:00,4,westham
+ELC,Wigan,wigan,1.0,True,2023-05-08 00:00:00,0,wigan
+ELC,Wolverhampton Wanderers FC,southampton,0.45714285714285713,True,2026-05-02 00:00:00,4,southampton
+ELC,Wolves,wolves,1.0,True,2018-05-06 00:00:00,0,wolves
+ELC,Wrexham,wrexham,1.0,True,2026-05-02 00:00:00,0,wrexham
+ELC,Wrexham AFC,wrexham,0.8235294117647058,True,2026-05-02 00:00:00,4,wrexham
+ELC,Wycombe,wycombe,1.0,True,2021-05-08 00:00:00,0,wycombe
+ELC,Yeovil,yeovil,1.0,True,2014-05-03 00:00:00,0,yeovil
+FL1,AJ Auxerre,auxerre,0.875,True,2026-05-17 00:00:00,4,auxerre
+FL1,AS Monaco FC,monaco,0.75,True,2026-05-17 00:00:00,4,monaco
+FL1,Ajaccio,ajaccio,1.0,True,2023-06-03 00:00:00,0,ajaccio
+FL1,Ajaccio GFCO,ajacciogfco,1.0,True,2016-05-14 00:00:00,0,ajacciogfco
+FL1,Amiens,amiens,1.0,True,2020-03-06 00:00:00,0,amiens
+FL1,Angers,angers,1.0,True,2026-05-17 00:00:00,0,angers
+FL1,Angers SCO,angers,0.8,True,2026-05-17 00:00:00,4,angers
+FL1,Arles,arles,1.0,True,2011-05-29 00:00:00,0,arles
+FL1,Auxerre,auxerre,1.0,True,2026-05-17 00:00:00,0,auxerre
+FL1,Bastia,bastia,1.0,True,2017-05-20 00:00:00,0,bastia
+FL1,Bordeaux,bordeaux,1.0,True,2022-05-21 00:00:00,0,bordeaux
+FL1,Brest,brest,1.0,True,2026-05-17 00:00:00,0,brest
+FL1,Caen,caen,1.0,True,2019-05-24 00:00:00,0,caen
+FL1,Clermont,clermont,1.0,True,2024-05-19 00:00:00,0,clermont
+FL1,Dijon,dijon,1.0,True,2021-05-23 00:00:00,0,dijon
+FL1,ES Troyes AC,troyes,0.75,True,2023-06-03 00:00:00,4,troyes
+FL1,Evian Thonon Gaillard,evianthonongaillard,1.0,True,2015-05-23 00:00:00,0,evianthonongaillard
+FL1,FC Lorient,lorient,0.875,True,2026-05-17 00:00:00,4,lorient
+FL1,Guingamp,guingamp,1.0,True,2019-05-24 00:00:00,0,guingamp
+FL1,Le Havre,lehavre,1.0,True,2026-05-17 00:00:00,0,lehavre
+FL1,Le Havre AC,lehavre,0.875,True,2026-05-17 00:00:00,4,lehavre
+FL1,Le Mans FC,lens,0.6666666666666666,True,2026-05-17 00:00:00,3,lens
+FL1,Lens,lens,1.0,True,2026-05-17 00:00:00,0,lens
+FL1,Lille,lille,1.0,True,2026-05-17 00:00:00,0,lille
+FL1,Lille OSC,lille,0.7692307692307693,True,2026-05-17 00:00:00,4,lille
+FL1,Lorient,lorient,1.0,True,2026-05-17 00:00:00,0,lorient
+FL1,Lyon,lyon,1.0,True,2026-05-17 00:00:00,0,lyon
+FL1,Marseille,marseille,1.0,True,2026-05-17 00:00:00,0,marseille
+FL1,Metz,metz,1.0,True,2026-05-17 00:00:00,0,metz
+FL1,Monaco,monaco,1.0,True,2026-05-17 00:00:00,0,monaco
+FL1,Montpellier,montpellier,1.0,True,2025-05-17 00:00:00,0,montpellier
+FL1,Nancy,nancy,1.0,True,2017-05-20 00:00:00,0,nancy
+FL1,Nantes,nantes,1.0,True,2026-05-17 00:00:00,0,nantes
+FL1,Nice,nice,1.0,True,2026-05-17 00:00:00,0,nice
+FL1,Nimes,nimes,1.0,True,2021-05-23 00:00:00,0,nimes
+FL1,OGC Nice,nice,0.7272727272727273,True,2026-05-17 00:00:00,4,nice
+FL1,Olympique Lyonnais,amiens,0.43478260869565216,True,2020-03-06 00:00:00,4,amiens
+FL1,Olympique de Marseille,marseille,0.6206896551724138,True,2026-05-17 00:00:00,4,marseille
+FL1,Paris FC,parisfc,1.0,True,2026-05-17 00:00:00,4,parisfc
+FL1,Paris SG,parissg,1.0,True,2026-05-17 00:00:00,0,parissg
+FL1,Paris Saint-Germain FC,parissg,0.5384615384615384,True,2026-05-17 00:00:00,3,parisfc|parissg
+FL1,RC Strasbourg Alsace,strasbourg,0.7142857142857143,True,2026-05-17 00:00:00,3,strasbourg
+FL1,Racing Club de Lens,amiens,0.45454545454545453,True,2020-03-06 00:00:00,4,amiens|angers
+FL1,Reims,reims,1.0,True,2025-05-17 00:00:00,0,reims
+FL1,Rennes,rennes,1.0,True,2026-05-17 00:00:00,0,rennes
+FL1,Sochaux,sochaux,1.0,True,2014-05-17 00:00:00,0,sochaux
+FL1,St Etienne,stetienne,1.0,True,2025-05-17 00:00:00,0,stetienne
+FL1,Stade Brestois 29,brest,0.5,True,2026-05-17 00:00:00,4,brest
+FL1,Stade Rennais FC 1901,parisfc,0.48,True,2026-05-17 00:00:00,4,parisfc
+FL1,Strasbourg,strasbourg,1.0,True,2026-05-17 00:00:00,0,strasbourg
+FL1,Toulouse,toulouse,1.0,True,2026-05-17 00:00:00,0,toulouse
+FL1,Toulouse FC,toulouse,0.8888888888888888,True,2026-05-17 00:00:00,3,toulouse
+FL1,Troyes,troyes,1.0,True,2023-06-03 00:00:00,0,troyes
+FL1,Valenciennes,valenciennes,1.0,True,2014-05-17 00:00:00,0,valenciennes
+PD,Alaves,alaves,1.0,True,2026-05-23 00:00:00,0,alaves
+PD,Almeria,almeria,1.0,True,2024-05-25 00:00:00,0,almeria
+PD,Ath Bilbao,athbilbao,1.0,True,2026-05-23 00:00:00,0,athbilbao
+PD,Ath Madrid,athmadrid,1.0,True,2026-05-24 00:00:00,0,athmadrid
+PD,Athletic Club,athbilbao,0.47619047619047616,True,2026-05-23 00:00:00,4,athbilbao
+PD,Barcelona,barcelona,1.0,True,2026-05-23 00:00:00,0,barcelona
+PD,Betis,betis,1.0,True,2026-05-23 00:00:00,0,betis
+PD,CA Osasuna,osasuna,0.875,True,2026-05-23 00:00:00,4,osasuna
+PD,Cadiz,cadiz,1.0,True,2024-05-25 00:00:00,0,cadiz
+PD,Celta,celta,1.0,True,2026-05-23 00:00:00,0,celta
+PD,Club Atlético de Madrid,athmadrid,0.5517241379310345,True,2026-05-24 00:00:00,3,athmadrid
+PD,Cordoba,cordoba,1.0,True,2015-05-23 00:00:00,0,cordoba
+PD,Deportivo Alavés,alaves,0.5714285714285714,True,2026-05-23 00:00:00,4,alaves
+PD,Eibar,eibar,1.0,True,2021-05-22 00:00:00,0,eibar
+PD,Elche,elche,1.0,True,2026-05-23 00:00:00,0,elche
+PD,Elche CF,elche,0.8333333333333334,True,2026-05-23 00:00:00,3,elche
+PD,Espanol,espanol,1.0,True,2026-05-23 00:00:00,0,espanol
+PD,FC Barcelona,barcelona,0.9,True,2026-05-23 00:00:00,3,barcelona
+PD,Getafe,getafe,1.0,True,2026-05-23 00:00:00,0,getafe
+PD,Getafe CF,getafe,0.8571428571428571,True,2026-05-23 00:00:00,4,getafe
+PD,Girona,girona,1.0,True,2026-05-23 00:00:00,0,girona
+PD,Granada,granada,1.0,True,2024-05-24 00:00:00,0,granada
+PD,Hercules,hercules,1.0,True,2011-05-21 00:00:00,0,hercules
+PD,Huesca,huesca,1.0,True,2021-05-22 00:00:00,0,huesca
+PD,La Coruna,lacoruna,1.0,True,2018-05-20 00:00:00,0,lacoruna
+PD,Las Palmas,laspalmas,1.0,True,2025-05-24 00:00:00,0,laspalmas
+PD,Leganes,leganes,1.0,True,2025-05-24 00:00:00,0,leganes
+PD,Levante,levante,1.0,True,2026-05-23 00:00:00,0,levante
+PD,Levante UD,levante,0.875,True,2026-05-23 00:00:00,3,levante
+PD,Malaga,malaga,1.0,True,2018-05-19 00:00:00,0,malaga
+PD,Mallorca,mallorca,1.0,True,2026-05-23 00:00:00,0,mallorca
+PD,Málaga CF,malaga,0.8571428571428571,True,2018-05-19 00:00:00,4,malaga
+PD,Osasuna,osasuna,1.0,True,2026-05-23 00:00:00,0,osasuna
+PD,Oviedo,oviedo,1.0,True,2026-05-23 00:00:00,0,oviedo
+PD,RC Celta de Vigo,celta,0.5555555555555556,True,2026-05-23 00:00:00,4,celta
+PD,RC Deportivo La Coruña,lacoruna,0.5925925925925926,True,2018-05-20 00:00:00,3,lacoruna
+PD,RCD Espanyol de Barcelona,barcelona,0.5806451612903226,True,2026-05-23 00:00:00,3,barcelona
+PD,Rayo Vallecano de Madrid,vallecano,0.6,True,2026-05-23 00:00:00,4,vallecano
+PD,Real Betis Balompié,betis,0.45454545454545453,True,2026-05-23 00:00:00,3,betis
+PD,Real Madrid,realmadrid,1.0,True,2026-05-23 00:00:00,0,realmadrid
+PD,Real Madrid CF,realmadrid,0.9090909090909091,True,2026-05-23 00:00:00,4,realmadrid
+PD,Real Racing Club de Santander,santander,0.5294117647058824,True,2012-05-13 00:00:00,4,santander
+PD,Real Sociedad de Fútbol,sociedad,0.5714285714285714,True,2026-05-23 00:00:00,4,sociedad
+PD,Santander,santander,1.0,True,2012-05-13 00:00:00,0,santander
+PD,Sevilla,sevilla,1.0,True,2026-05-23 00:00:00,0,sevilla
+PD,Sevilla FC,sevilla,0.875,True,2026-05-23 00:00:00,4,sevilla
+PD,Sociedad,sociedad,1.0,True,2026-05-23 00:00:00,0,sociedad
+PD,Sp Gijon,spgijon,1.0,True,2017-05-20 00:00:00,0,spgijon
+PD,Valencia,valencia,1.0,True,2026-05-23 00:00:00,0,valencia
+PD,Valencia CF,valencia,0.8888888888888888,True,2026-05-23 00:00:00,4,valencia
+PD,Valladolid,valladolid,1.0,True,2025-05-24 00:00:00,0,valladolid
+PD,Vallecano,vallecano,1.0,True,2026-05-23 00:00:00,0,vallecano
+PD,Villarreal,villarreal,1.0,True,2026-05-24 00:00:00,0,villarreal
+PD,Villarreal CF,villarreal,0.9090909090909091,True,2026-05-24 00:00:00,3,villarreal
+PD,Zaragoza,zaragoza,1.0,True,2013-06-01 00:00:00,0,zaragoza
+PL,AFC Bournemouth,bournemouth,0.88,True,2026-05-24 00:00:00,4,bournemouth
+PL,Arsenal,arsenal,1.0,True,2026-05-24 00:00:00,0,arsenal
+PL,Arsenal FC,arsenal,0.875,True,2026-05-24 00:00:00,4,arsenal
+PL,Aston Villa,astonvilla,1.0,True,2026-05-24 00:00:00,0,astonvilla
+PL,Aston Villa FC,astonvilla,0.9090909090909091,True,2026-05-24 00:00:00,3,astonvilla
+PL,Birmingham,birmingham,1.0,True,2011-05-22 00:00:00,0,birmingham
+PL,Blackburn,blackburn,1.0,True,2012-05-13 00:00:00,0,blackburn
+PL,Blackpool,blackpool,1.0,True,2011-05-22 00:00:00,0,blackpool
+PL,Bolton,bolton,1.0,True,2012-05-13 00:00:00,0,bolton
+PL,Bournemouth,bournemouth,1.0,True,2026-05-24 00:00:00,0,bournemouth
+PL,Brentford,brentford,1.0,True,2026-05-24 00:00:00,0,brentford
+PL,Brentford FC,brentford,0.9,True,2026-05-24 00:00:00,3,brentford
+PL,Brighton,brighton,1.0,True,2026-05-24 00:00:00,0,brighton
+PL,Brighton & Hove Albion FC,brighton,0.5714285714285714,True,2026-05-24 00:00:00,4,brighton
+PL,Burnley,burnley,1.0,True,2026-05-24 00:00:00,0,burnley
+PL,Cardiff,cardiff,1.0,True,2019-05-12 00:00:00,0,cardiff
+PL,Chelsea,chelsea,1.0,True,2026-05-24 00:00:00,0,chelsea
+PL,Chelsea FC,chelsea,0.875,True,2026-05-24 00:00:00,3,chelsea
+PL,Coventry City FC,mancity,0.47619047619047616,True,2026-05-24 00:00:00,4,mancity
+PL,Crystal Palace,crystalpalace,1.0,True,2026-05-24 00:00:00,0,crystalpalace
+PL,Crystal Palace FC,crystalpalace,0.9285714285714286,True,2026-05-24 00:00:00,4,crystalpalace
+PL,Everton,everton,1.0,True,2026-05-24 00:00:00,0,everton
+PL,Everton FC,everton,0.875,True,2026-05-24 00:00:00,3,everton
+PL,Fulham,fulham,1.0,True,2026-05-24 00:00:00,0,fulham
+PL,Fulham FC,fulham,0.8571428571428571,True,2026-05-24 00:00:00,3,fulham
+PL,Huddersfield,huddersfield,1.0,True,2019-05-12 00:00:00,0,huddersfield
+PL,Hull,hull,1.0,True,2017-05-21 00:00:00,0,hull
+PL,Hull City AFC,hull,0.5333333333333333,True,2017-05-21 00:00:00,3,hull
+PL,Ipswich,ipswich,1.0,True,2025-05-25 00:00:00,0,ipswich
+PL,Ipswich Town FC,ipswich,0.7,True,2025-05-25 00:00:00,3,ipswich
+PL,Leeds,leeds,1.0,True,2026-05-24 00:00:00,0,leeds
+PL,Leeds United FC,sheffieldunited,0.5714285714285714,True,2024-05-19 00:00:00,4,sheffieldunited
+PL,Leicester,leicester,1.0,True,2025-05-25 00:00:00,0,leicester
+PL,Liverpool,liverpool,1.0,True,2026-05-24 00:00:00,0,liverpool
+PL,Liverpool FC,liverpool,0.9,True,2026-05-24 00:00:00,3,liverpool
+PL,Luton,luton,1.0,True,2024-05-19 00:00:00,0,luton
+PL,Man City,mancity,1.0,True,2026-05-24 00:00:00,0,mancity
+PL,Man United,manunited,1.0,True,2026-05-24 00:00:00,0,manunited
+PL,Manchester City FC,mancity,0.6086956521739131,True,2026-05-24 00:00:00,3,mancity
+PL,Manchester United FC,manunited,0.6666666666666666,True,2026-05-24 00:00:00,4,manunited
+PL,Middlesbrough,middlesbrough,1.0,True,2017-05-21 00:00:00,0,middlesbrough
+PL,Newcastle,newcastle,1.0,True,2026-05-24 00:00:00,0,newcastle
+PL,Newcastle United FC,newcastle,0.6923076923076923,True,2026-05-24 00:00:00,3,newcastle
+PL,Norwich,norwich,1.0,True,2022-05-22 00:00:00,0,norwich
+PL,Nott'm Forest,nottmforest,1.0,True,2026-05-24 00:00:00,0,nottmforest
+PL,Nottingham Forest FC,nottmforest,0.7586206896551724,True,2026-05-24 00:00:00,4,nottmforest
+PL,QPR,qpr,1.0,True,2015-05-24 00:00:00,0,qpr
+PL,Reading,reading,1.0,True,2013-05-19 00:00:00,0,reading
+PL,Sheffield United,sheffieldunited,1.0,True,2024-05-19 00:00:00,0,sheffieldunited
+PL,Southampton,southampton,1.0,True,2025-05-25 00:00:00,0,southampton
+PL,Stoke,stoke,1.0,True,2018-05-13 00:00:00,0,stoke
+PL,Sunderland,sunderland,1.0,True,2026-05-24 00:00:00,0,sunderland
+PL,Sunderland AFC,sunderland,0.8695652173913043,True,2026-05-24 00:00:00,4,sunderland
+PL,Swansea,swansea,1.0,True,2018-05-13 00:00:00,0,swansea
+PL,Tottenham,tottenham,1.0,True,2026-05-24 00:00:00,0,tottenham
+PL,Tottenham Hotspur FC,tottenham,0.6666666666666666,True,2026-05-24 00:00:00,4,tottenham
+PL,Watford,watford,1.0,True,2022-05-22 00:00:00,0,watford
+PL,West Brom,westbrom,1.0,True,2021-05-23 00:00:00,0,westbrom
+PL,West Ham,westham,1.0,True,2026-05-24 00:00:00,0,westham
+PL,Wigan,wigan,1.0,True,2013-05-19 00:00:00,0,wigan
+PL,Wolves,wolves,1.0,True,2026-05-24 00:00:00,0,wolves
+PPL,AVS,avs,1.0,True,2026-05-16 00:00:00,0,avs
+PPL,Academica,academica,1.0,True,2016-05-14 00:00:00,0,academica
+PPL,Académico de Viseu FC,academica,0.5925925925925926,True,2016-05-14 00:00:00,3,academica
+PPL,Alverca,alverca,1.0,True,2026-05-16 00:00:00,0,alverca
+PPL,Arouca,arouca,1.0,True,2026-05-16 00:00:00,0,arouca
+PPL,Aves,aves,1.0,True,2020-07-26 00:00:00,0,aves
+PPL,Beira Mar,beiramar,1.0,True,2013-05-19 00:00:00,0,beiramar
+PPL,Belenenses,belenenses,1.0,True,2022-05-14 00:00:00,0,belenenses
+PPL,Benfica,benfica,1.0,True,2026-05-16 00:00:00,0,benfica
+PPL,Boavista,boavista,1.0,True,2025-05-17 00:00:00,0,boavista
+PPL,CD Nacional,nacional,0.8888888888888888,True,2026-05-16 00:00:00,3,nacional
+PPL,CD Santa Clara,santaclara,0.9090909090909091,True,2026-05-16 00:00:00,3,santaclara
+PPL,CF Estrela da Amadora,estrela,1.0,True,2026-05-16 00:00:00,3,estrela
+PPL,CS Marítimo,maritimo,1.0,True,2023-05-27 00:00:00,3,maritimo
+PPL,Casa Pia,casapia,1.0,True,2026-05-16 00:00:00,0,casapia
+PPL,Casa Pia AC,casapia,1.0,True,2026-05-16 00:00:00,3,casapia
+PPL,Chaves,chaves,1.0,True,2024-05-18 00:00:00,0,chaves
+PPL,Estoril,estoril,1.0,True,2026-05-16 00:00:00,0,estoril
+PPL,Estrela,estrela,1.0,True,2026-05-16 00:00:00,0,estrela
+PPL,FC Alverca,alverca,0.875,True,2026-05-16 00:00:00,3,alverca
+PPL,FC Arouca,arouca,1.0,True,2026-05-16 00:00:00,3,arouca
+PPL,FC Famalicão,famalicao,0.9,True,2026-05-16 00:00:00,3,famalicao
+PPL,FC Porto,porto,0.8333333333333334,True,2026-05-16 00:00:00,3,porto
+PPL,Famalicao,famalicao,1.0,True,2026-05-16 00:00:00,0,famalicao
+PPL,Farense,farense,1.0,True,2025-05-17 00:00:00,0,farense
+PPL,Feirense,feirense,1.0,True,2019-05-18 00:00:00,0,feirense
+PPL,GD Estoril Praia,estoril,0.6666666666666666,True,2026-05-16 00:00:00,3,estoril
+PPL,Gil Vicente,gilvicente,1.0,True,2026-05-16 00:00:00,0,gilvicente
+PPL,Gil Vicente FC,gilvicente,0.9090909090909091,True,2026-05-16 00:00:00,3,gilvicente
+PPL,Guimaraes,guimaraes,1.0,True,2026-05-16 00:00:00,0,guimaraes
+PPL,Leiria,leiria,1.0,True,2012-05-12 00:00:00,0,leiria
+PPL,Maritimo,maritimo,1.0,True,2023-05-27 00:00:00,0,maritimo
+PPL,Moreirense,moreirense,1.0,True,2026-05-16 00:00:00,0,moreirense
+PPL,Moreirense FC,moreirense,0.9090909090909091,True,2026-05-16 00:00:00,3,moreirense
+PPL,Nacional,nacional,1.0,True,2026-05-16 00:00:00,0,nacional
+PPL,Naval,naval,1.0,True,2011-05-14 00:00:00,0,naval
+PPL,Olhanense,olhanense,1.0,True,2014-05-10 00:00:00,0,olhanense
+PPL,Pacos Ferreira,pacosferreira,1.0,True,2023-05-27 00:00:00,0,pacosferreira
+PPL,Penafiel,penafiel,1.0,True,2015-05-22 00:00:00,0,penafiel
+PPL,Portimonense,portimonense,1.0,True,2024-05-18 00:00:00,0,portimonense
+PPL,Porto,porto,1.0,True,2026-05-16 00:00:00,0,porto
+PPL,Rio Ave,rioave,1.0,True,2026-05-16 00:00:00,0,rioave
+PPL,Rio Ave FC,rioave,0.8571428571428571,True,2026-05-16 00:00:00,3,rioave
+PPL,Santa Clara,santaclara,1.0,True,2026-05-16 00:00:00,0,santaclara
+PPL,Setubal,setubal,1.0,True,2020-07-26 00:00:00,0,setubal
+PPL,Sp Braga,spbraga,1.0,True,2026-05-16 00:00:00,0,spbraga
+PPL,Sp Lisbon,splisbon,1.0,True,2026-05-16 00:00:00,0,splisbon
+PPL,Sport Lisboa e Benfica,splisbon,0.5925925925925926,True,2026-05-16 00:00:00,3,splisbon
+PPL,Sporting Clube de Braga,spbraga,0.5185185185185185,True,2026-05-16 00:00:00,3,spbraga
+PPL,Sporting Clube de Portugal,splisbon,1.0,True,2026-05-16 00:00:00,3,splisbon
+PPL,Tondela,tondela,1.0,True,2026-05-16 00:00:00,0,tondela
+PPL,Uniao Madeira,uniaomadeira,1.0,True,2016-05-14 00:00:00,0,uniaomadeira
+PPL,Vitória SC,guimaraes,1.0,True,2026-05-16 00:00:00,3,guimaraes
+PPL,Vizela,vizela,1.0,True,2024-05-18 00:00:00,0,vizela
+SA,AC Milan,milan,0.8333333333333334,True,2026-05-24 00:00:00,5,milan
+SA,AC Monza,monza,0.8333333333333334,True,2025-05-24 00:00:00,5,monza
+SA,ACF Fiorentina,fiorentina,0.8695652173913043,True,2026-05-22 00:00:00,5,fiorentina
+SA,AS Roma,roma,0.8,True,2026-05-24 00:00:00,5,roma
+SA,Atalanta,atalanta,1.0,True,2026-05-22 00:00:00,0,atalanta
+SA,Atalanta BC,atalanta,0.8888888888888888,True,2026-05-22 00:00:00,5,atalanta
+SA,Bari,bari,1.0,True,2011-05-22 00:00:00,0,bari
+SA,Benevento,benevento,1.0,True,2021-05-23 00:00:00,0,benevento
+SA,Bologna,bologna,1.0,True,2026-05-23 00:00:00,0,bologna
+SA,Bologna FC 1909,bologna,0.7,True,2026-05-23 00:00:00,4,bologna
+SA,Brescia,brescia,1.0,True,2020-08-01 00:00:00,0,brescia
+SA,Cagliari,cagliari,1.0,True,2026-05-24 00:00:00,0,cagliari
+SA,Cagliari Calcio,cagliari,0.7272727272727273,True,2026-05-24 00:00:00,5,cagliari
+SA,Carpi,carpi,1.0,True,2016-05-15 00:00:00,0,carpi
+SA,Catania,catania,1.0,True,2014-05-18 00:00:00,0,catania
+SA,Cesena,cesena,1.0,True,2015-05-31 00:00:00,0,cesena
+SA,Chievo,chievo,1.0,True,2019-05-25 00:00:00,0,chievo
+SA,Como,como,1.0,True,2026-05-24 00:00:00,0,como
+SA,Como 1907,como,0.6666666666666666,True,2026-05-24 00:00:00,5,como
+SA,Cremonese,cremonese,1.0,True,2026-05-24 00:00:00,0,cremonese
+SA,Crotone,crotone,1.0,True,2021-05-22 00:00:00,0,crotone
+SA,Empoli,empoli,1.0,True,2025-05-25 00:00:00,0,empoli
+SA,FC Internazionale Milano,frosinone,0.3870967741935484,True,2024-05-26 00:00:00,4,frosinone
+SA,Fiorentina,fiorentina,1.0,True,2026-05-22 00:00:00,0,fiorentina
+SA,Frosinone,frosinone,1.0,True,2024-05-26 00:00:00,0,frosinone
+SA,Frosinone Calcio,frosinone,0.75,True,2024-05-26 00:00:00,4,frosinone
+SA,Genoa,genoa,1.0,True,2026-05-24 00:00:00,0,genoa
+SA,Genoa CFC,genoa,0.7692307692307693,True,2026-05-24 00:00:00,5,genoa
+SA,Inter,inter,1.0,True,2026-05-23 00:00:00,0,inter
+SA,Juventus,juventus,1.0,True,2026-05-24 00:00:00,0,juventus
+SA,Juventus FC,juventus,0.8888888888888888,True,2026-05-24 00:00:00,5,juventus
+SA,Lazio,lazio,1.0,True,2026-05-23 00:00:00,0,lazio
+SA,Lecce,lecce,1.0,True,2026-05-24 00:00:00,0,lecce
+SA,Livorno,livorno,1.0,True,2014-05-18 00:00:00,0,livorno
+SA,Milan,milan,1.0,True,2026-05-24 00:00:00,0,milan
+SA,Monza,monza,1.0,True,2025-05-24 00:00:00,0,monza
+SA,Napoli,napoli,1.0,True,2026-05-24 00:00:00,0,napoli
+SA,Novara,novara,1.0,True,2012-05-13 00:00:00,0,novara
+SA,Palermo,palermo,1.0,True,2017-05-28 00:00:00,0,palermo
+SA,Parma,parma,1.0,True,2026-05-24 00:00:00,0,parma
+SA,Parma Calcio 1913,parma,0.5,True,2026-05-24 00:00:00,5,parma
+SA,Pescara,pescara,1.0,True,2017-05-28 00:00:00,0,pescara
+SA,Pisa,pisa,1.0,True,2026-05-23 00:00:00,0,pisa
+SA,Roma,roma,1.0,True,2026-05-24 00:00:00,0,roma
+SA,SS Lazio,lazio,0.8333333333333334,True,2026-05-23 00:00:00,5,lazio
+SA,SSC Napoli,napoli,0.8,True,2026-05-24 00:00:00,4,napoli
+SA,Salernitana,salernitana,1.0,True,2024-05-25 00:00:00,0,salernitana
+SA,Sampdoria,sampdoria,1.0,True,2023-06-04 00:00:00,0,sampdoria
+SA,Sassuolo,sassuolo,1.0,True,2026-05-24 00:00:00,0,sassuolo
+SA,Siena,siena,1.0,True,2013-05-19 00:00:00,0,siena
+SA,Spal,spal,1.0,True,2020-08-02 00:00:00,0,spal
+SA,Spezia,spezia,1.0,True,2023-06-04 00:00:00,0,spezia
+SA,Torino,torino,1.0,True,2026-05-24 00:00:00,0,torino
+SA,Torino FC,torino,0.8571428571428571,True,2026-05-24 00:00:00,5,torino
+SA,US Lecce,lecce,0.8333333333333334,True,2026-05-24 00:00:00,5,lecce
+SA,US Sassuolo Calcio,sassuolo,0.6666666666666666,True,2026-05-24 00:00:00,4,sassuolo
+SA,Udinese,udinese,1.0,True,2026-05-24 00:00:00,0,udinese
+SA,Udinese Calcio,udinese,0.7,True,2026-05-24 00:00:00,5,udinese
+SA,Venezia,venezia,1.0,True,2025-05-25 00:00:00,0,venezia
+SA,Venezia FC,venezia,0.875,True,2025-05-25 00:00:00,4,venezia
+SA,Verona,verona,1.0,True,2026-05-24 00:00:00,0,verona
+WC,Algeria,algeria,0.0,False,,0,
+WC,Argentina,argentina,0.0,False,,0,
+WC,Australia,australia,0.0,False,,0,
+WC,Austria,austria,0.0,False,,0,
+WC,Belgium,belgium,0.0,False,,0,
+WC,Bosnia-Herzegovina,bosniaherzegovina,0.0,False,,0,
+WC,Brazil,brazil,0.0,False,,0,
+WC,Canada,canada,0.0,False,,0,
+WC,Cape Verde Islands,capeverdeislands,0.0,False,,0,
+WC,Colombia,colombia,0.0,False,,0,
+WC,Congo DR,congodr,0.0,False,,0,
+WC,Croatia,croatia,0.0,False,,0,
+WC,Curaçao,curacao,0.0,False,,0,
+WC,Czechia,czechia,0.0,False,,0,
+WC,Ecuador,ecuador,0.0,False,,0,
+WC,Egypt,egypt,0.0,False,,0,
+WC,England,england,0.0,False,,0,
+WC,France,france,0.0,False,,0,
+WC,Germany,germany,0.0,False,,0,
+WC,Ghana,ghana,0.0,False,,0,
+WC,Haiti,haiti,0.0,False,,0,
+WC,Iran,iran,0.0,False,,0,
+WC,Iraq,iraq,0.0,False,,0,
+WC,Ivory Coast,ivorycoast,0.0,False,,0,
+WC,Japan,japan,0.0,False,,0,
+WC,Jordan,jordan,0.0,False,,0,
+WC,Mexico,mexico,0.0,False,,0,
+WC,Morocco,morocco,0.0,False,,0,
+WC,Netherlands,netherlands,0.0,False,,0,
+WC,New Zealand,newzealand,0.0,False,,0,
+WC,Norway,norway,0.0,False,,0,
+WC,Panama,panama,0.0,False,,0,
+WC,Paraguay,paraguay,0.0,False,,0,
+WC,Portugal,portugal,0.0,False,,0,
+WC,Qatar,qatar,0.0,False,,0,
+WC,Saudi Arabia,saudiarabia,0.0,False,,0,
+WC,Scotland,scotland,0.0,False,,0,
+WC,Senegal,senegal,0.0,False,,0,
+WC,South Africa,southafrica,0.0,False,,0,
+WC,South Korea,southkorea,0.0,False,,0,
+WC,Spain,spain,0.0,False,,0,
+WC,Sweden,sweden,0.0,False,,0,
+WC,Switzerland,switzerland,0.0,False,,0,
+WC,Tunisia,tunisia,0.0,False,,0,
+WC,Turkey,turkey,0.0,False,,0,
+WC,United States,unitedstates,0.0,False,,0,
+WC,Uruguay,uruguay,0.0,False,,0,
+WC,Uzbekistan,uzbekistan,0.0,False,,0,

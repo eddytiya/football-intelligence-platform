@@ -552,6 +552,39 @@
     font-weight: 700;
 }
 
+.competition-heading .competition-toggle-heading {
+    flex: 1;
+    min-width: 0;
+    color: inherit;
+}
+
+.competition-toggle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    min-height: 44px;
+    padding: 4px 0;
+    border: 0;
+    border-radius: 4px;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+.competition-toggle-name { flex: 1; min-width: 0; }
+.competition-toggle .competition-match-count { flex-shrink: 0; white-space: nowrap; }
+.competition-toggle-chevron { flex-shrink: 0; }
+.competition-toggle:hover .competition-toggle-name { text-decoration: underline; text-underline-offset: 4px; }
+.competition-toggle:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+
+@media (max-width: 480px) {
+    .competition-toggle { gap: 8px; }
+    .competition-toggle .competition-match-count { padding: 4px 6px; font-size: 0.68rem; }
+}
+
 .match-card {
     position: relative;
     display: grid;
@@ -882,4 +915,4 @@
 /* Expanded prediction intelligence — compact enough to stay readable inside a fixture card. */
 .prediction-extras{display:grid;grid-column:1/-1;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:4px;padding-top:12px;border-top:1px solid rgba(104,224,149,.16)}.prediction-market-panel,.prediction-score-grid,.prediction-context-panel,.prediction-consensus-panel{padding:13px;border:1px solid rgba(91,197,127,.2);border-radius:10px;background:rgba(5,18,10,.57)}.prediction-extras h4{margin:0 0 9px;color:#9ff3be;font-size:.66rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase}.prediction-market-values{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.prediction-market-values span{display:grid;gap:3px;padding:7px;border-radius:7px;background:rgba(31,108,57,.13);color:#b9c9bd;font-size:.64rem}.prediction-market-values b{color:#f4fff7;font-size:.78rem}.score-grid-table{width:100%;border-collapse:separate;border-spacing:3px;color:#c6d8cc;font-size:.65rem;text-align:center}.score-grid-table th{color:#8de5ab;font-size:.61rem}.score-grid-table td{padding:4px 2px;border-radius:4px;background:rgba(61,172,94,var(--score-opacity,.12));color:#effff3}.prediction-context-panel{display:grid;gap:8px}.prediction-context-panel>div{display:flex;justify-content:space-between;gap:10px;color:#b4c4b9;font-size:.69rem}.prediction-context-panel b{color:#f4fff6;text-align:right}.prediction-context-panel p,.prediction-consensus-panel p{margin:0;color:#99ae9f;font-size:.66rem;line-height:1.5}.prediction-consensus-panel{display:grid;gap:8px}.prediction-consensus-panel>div{display:flex;justify-content:space-between;gap:10px;padding-bottom:7px;border-bottom:1px solid rgba(105,211,138,.1);color:#c8d7cd;font-size:.69rem}.prediction-consensus-panel>div b{color:#9af1b8}.prediction-extra-actions{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:3px 1px}.prediction-extra-actions small{color:#9bada1;font-size:.64rem}.prediction-extra-actions button{padding:8px 11px;border:1px solid rgba(85,222,137,.42);border-radius:7px;background:rgba(19,128,61,.24);color:#dbffe7;font:inherit;font-size:.68rem;font-weight:800;cursor:pointer}.prediction-extra-actions button:hover{background:rgba(31,165,78,.42)}@media(max-width:720px){.prediction-extras{grid-template-columns:1fr}.prediction-extra-actions{align-items:start;flex-direction:column}.prediction-market-values{grid-template-columns:1fr 1fr}}
 .prediction-extras section>header{display:flex;justify-content:space-between;gap:10px;margin-bottom:9px}.prediction-extras section>header span{color:#a2f1bf;font-size:.67rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase}.prediction-extras section>header small{color:#96ac9c;font-size:.59rem}.prediction-market-panel>div{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.prediction-market-panel article{display:grid;gap:3px;padding:7px;border-radius:6px;background:rgba(24,99,51,.13)}.prediction-market-panel article b{color:#effff3;font-size:.75rem}.prediction-market-panel article span{color:#aebfb2;font-size:.58rem;line-height:1.25}.prediction-score-grid>div{display:grid;grid-template-columns:32px repeat(5,minmax(0,1fr));gap:3px}.prediction-score-grid i,.prediction-score-grid b{display:grid;place-items:center;min-height:24px;border-radius:4px;font-style:normal}.prediction-score-grid i{color:#a6b9aa;font-size:.58rem}.prediction-score-grid b{background:rgba(37,145,72,.14);color:#dffff0;font-size:.55rem}.prediction-score-grid b.is-likely{background:rgba(57,205,103,.42);color:#fff}.prediction-context-panel>div,.prediction-consensus-panel>div{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.prediction-context-panel article,.prediction-consensus-panel article{display:grid;gap:4px}.prediction-context-panel article b,.prediction-consensus-panel article b{font-size:.66rem}.prediction-context-panel article span,.prediction-consensus-panel article span{color:#aebfb2;font-size:.58rem;line-height:1.35}@media(max-width:720px){.prediction-market-panel>div,.prediction-context-panel>div,.prediction-consensus-panel>div{grid-template-columns:1fr 1fr}}
-.prediction-league-outlook{margin-top:12px;border:1px solid rgba(219,185,75,.42);border-radius:11px;overflow:hidden;background:linear-gradient(125deg,rgba(54,42,8,.36),rgba(5,21,13,.84))}.prediction-league-outlook>header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:11px 13px;border-bottom:1px solid rgba(219,185,75,.2)}.prediction-league-outlook header span{display:block;color:#ebcd69;font-size:.62rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.prediction-league-outlook header strong{display:block;margin-top:3px;color:#f5fff7;font-size:.85rem}.prediction-league-outlook header small{color:#b9a362;font-size:.65rem}.prediction-league-outlook>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:rgba(219,185,75,.14)}.prediction-league-outlook article{min-width:0;display:grid;grid-template-columns:22px 26px minmax(0,1fr) auto;align-items:center;gap:7px;padding:8px 10px;background:#07170f}.prediction-league-outlook article.is-playing{background:linear-gradient(90deg,rgba(30,139,72,.33),#07170f);box-shadow:inset 3px 0 #5ce596}.prediction-league-outlook article>b{color:#efcf68}.prediction-league-outlook article img,.prediction-league-outlook article i{width:24px;height:24px;object-fit:contain}.prediction-league-outlook article strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.72rem}.prediction-league-outlook article span{color:#8ae5aa;font-size:.68rem;font-weight:800}.prediction-league-outlook article small{grid-column:3 / 5;color:#9fb4a6;font-size:.6rem}@media(max-width:720px){.prediction-league-outlook>div{grid-template-columns:1fr}}
+.prediction-league-outlook{margin-top:12px;border:1px solid rgba(219,185,75,.42);border-radius:11px;overflow:hidden;background:linear-gradient(125deg,rgba(54,42,8,.36),rgba(5,21,13,.84))}.prediction-league-outlook>header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:11px 13px;border-bottom:1px solid rgba(219,185,75,.2)}.prediction-league-outlook header span{display:block;color:#ebcd69;font-size:.62rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.prediction-league-outlook header strong{display:block;margin-top:3px;color:#f5fff7;font-size:.85rem}.prediction-league-outlook header small{color:#b9a362;font-size:.65rem}.prediction-league-outlook>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:rgba(219,185,75,.14)}.prediction-league-outlook article{min-width:0;display:grid;grid-template-columns:22px 26px minmax(0,1fr) auto;align-items:center;gap:7px;padding:8px 10px;background:#07170f}.prediction-league-outlook article.is-playing{background:linear-gradient(90deg,rgba(30,139,72,.33),#07170f);box-shadow:none}.prediction-league-outlook article>b{color:#efcf68}.prediction-league-outlook article img,.prediction-league-outlook article i{width:24px;height:24px;object-fit:contain}.prediction-league-outlook article strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.72rem}.prediction-league-outlook article span{color:#8ae5aa;font-size:.68rem;font-weight:800}.prediction-league-outlook article small{grid-column:3 / 5;color:#9fb4a6;font-size:.6rem}@media(max-width:720px){.prediction-league-outlook>div{grid-template-columns:1fr}}

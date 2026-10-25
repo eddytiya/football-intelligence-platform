@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import "./AccountMenu.css";
+import { FiChevronDown } from "react-icons/fi";
 
 function AccountMenu({ account, onLogout }) {
     const containerRef = useRef(null);
@@ -19,14 +20,15 @@ function AccountMenu({ account, onLogout }) {
     const initial = name.slice(0, 1).toUpperCase();
 
     return <div className="account-menu" ref={containerRef}>
-        <button type="button" className="account-menu-trigger" onClick={() => setOpen((value) => !value)} aria-label="Account menu">
+        <button type="button" className="account-menu-trigger" onClick={() => setOpen((value) => !value)} aria-label="Account menu" aria-expanded={open}>
             <span className="account-menu-avatar">{initial}</span>
             <span className="account-menu-name">{name}</span>
-            <b className={`account-menu-chevron ${open ? "is-open" : ""}`}>⌄</b>
+            <FiChevronDown className={`account-menu-chevron ${open ? "is-open" : ""}`} />
         </button>
         {open && <div className="account-menu-dropdown">
             <NavLink to="/following" onClick={() => setOpen(false)}>Following</NavLink>
             <NavLink to="/account" onClick={() => setOpen(false)}>Account</NavLink>
+            {account.is_admin && <NavLink to="/admin/predictions" onClick={() => setOpen(false)}>Model performance</NavLink>}
             <button type="button" onClick={() => { setOpen(false); onLogout(); }}>Sign out</button>
         </div>}
     </div>;

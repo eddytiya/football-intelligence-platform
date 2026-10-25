@@ -1,75 +1,97 @@
 import { useEffect, useRef, useState } from "react";
-import { NavLink } from "react-router-dom";
-
-import { getAccountFavourites } from "../../api/accountApi";
-import { getTeamProfile } from "../../api/teamApi";
-import "./NavMenu.css";
-
-const NAV_ITEMS = [
-    { to: "/dashboard", label: "Dashboard" },
-    { to: "/matches", label: "Matches" },
-    { to: "/predictions", label: "Predictions" },
-    { to: "/competitions", label: "Competitions" },
-    { to: "/teams", label: "Teams" },
-    { to: "/players", label: "Players" },
-    { to: "/news", label: "News", hasSubmenu: true },
-    { to: "/analytics", label: "Analytics" },
+import { NavLink, useLocation } from "react-router-dom";
+import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
+const primary = [
+  ["/dashboard", "Matchday"],
+  ["/matches", "Matches"],
+  ["/predictions", "Predictions"],
+  ["/your-matchday", "Your matchday"],
 ];
-
-function NavMenu({ account }) {
-    const zoneRef = useRef(null);
-    const closeTimer = useRef(null);
-    const [open, setOpen] = useState(false);
-    const [newsOpen, setNewsOpen] = useState(false);
-    const [followedClubs, setFollowedClubs] = useState([]);
-
-    useEffect(() => {
-        if (!account) { setFollowedClubs([]); return; }
-        getAccountFavourites().then((rows) => {
-            const teamIds = rows.filter((row) => row.entity_type === "team").map((row) => row.entity_id).slice(0, 5);
-            return Promise.all(teamIds.map((id) => getTeamProfile(id).catch(() => null)));
-        }).then((profiles) => setFollowedClubs(profiles.filter(Boolean))).catch(() => setFollowedClubs([]));
-    }, [account]);
-
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-            if (zoneRef.current && !zoneRef.current.contains(event.target)) {
-                setOpen(false);
-                setNewsOpen(false);
-            }
-        };
-        document.addEventListener("mousedown", handleClickOutside);
-        return () => document.removeEventListener("mousedown", handleClickOutside);
-    }, []);
-
-    const openNow = () => {
-        window.clearTimeout(closeTimer.current);
-        setOpen(true);
+const more = [
+  ["/fan-vs-model", "Fan vs model"],
+  ["/confidence-explorer", "Confidence explorer"],
+  ["/forecast-movement", "Forecast movement"],
+  ["/following", "Following"],
+  ["/prediction-tracker", "Prediction tracker"],
+  ["/compare", "Compare clubs"],
+  ["/competitions", "Leagues & cups"],
+  ["/teams", "Clubs"],
+  ["/players", "Players"],
+  ["/news", "Football news"],
+  ["/analytics", "Analytics"],
+];
+export default function NavMenu() {
+  const [open, setOpen] = useState(false),
+    [moreOpen, setMoreOpen] = useState(false);
+  const root = useRef(null),
+    location = useLocation();
+  useEffect(() => {
+    setOpen(false);
+    setMoreOpen(false);
+  }, [location.pathname, location.search]);
+  useEffect(() => {
+    const outside = (event) => {
+      if (!root.current?.contains(event.target)) {
+        setOpen(false);
+        setMoreOpen(false);
+      }
     };
-    const closeSoon = () => {
-        closeTimer.current = window.setTimeout(() => { setOpen(false); setNewsOpen(false); }, 200);
+    const escape = (event) => {
+      if (event.key === "Escape") {
+        setOpen(false);
+        setMoreOpen(false);
+        root.current?.querySelector("button")?.focus();
+      }
     };
-
-    return <div
-        className={`nav-hover-zone ${open ? "is-open" : ""}`}
-        ref={zoneRef}
-        onMouseEnter={openNow}
-        onMouseLeave={closeSoon}
-        onClick={() => setOpen((value) => !value)}
-    >
-        {!open && <span className="nav-hover-hint" aria-hidden="true">•••</span>}
-        {open && <div className="nav-hover-links">
-            {NAV_ITEMS.map((item) => item.hasSubmenu ? (
-                <div className="nav-hover-item-with-sub" key={item.to} onMouseEnter={() => setNewsOpen(true)} onMouseLeave={() => setNewsOpen(false)}>
-                    <NavLink to={item.to} onClick={() => setOpen(false)}>{item.label}</NavLink>
-                    {newsOpen && <div className="nav-hover-submenu">
-                        <NavLink to="/news" onClick={() => setOpen(false)}>Football news</NavLink>
-                        {followedClubs.map((club) => <NavLink key={club.id} to={`/news?club=${encodeURIComponent(club.name)}`} onClick={() => setOpen(false)}>{club.name} news</NavLink>)}
-                    </div>}
-                </div>
-            ) : <NavLink key={item.to} to={item.to} onClick={() => setOpen(false)}>{item.label}</NavLink>)}
-        </div>}
-    </div>;
+    document.addEventListener("pointerdown", outside);
+    document.addEventListener("keydown", escape);
+    return () => {
+      document.removeEventListener("pointerdown", outside);
+      document.removeEventListener("keydown", escape);
+    };
+  }, []);
+  return (
+    <div className="flood-navigation" ref={root}>
+      <button
+        className="flood-nav-toggle"
+        type="button"
+        aria-label={open ? "Close navigation" : "Open navigation"}
+        aria-expanded={open}
+        aria-controls="matchday-navigation"
+        onClick={() => setOpen(!open)}
+      >
+        {open ? <FiX /> : <FiMenu />}
+      </button>
+      <div
+        id="matchday-navigation"
+        className={`flood-nav-links${open ? " is-open" : ""}`}
+      >
+        {primary.map(([to, label]) => (
+          <NavLink key={to} to={to}>
+            {label}
+          </NavLink>
+        ))}
+        <div className="flood-more">
+          <button
+            type="button"
+            onClick={() => setMoreOpen(!moreOpen)}
+            aria-expanded={moreOpen}
+            aria-controls="football-more-links"
+          >
+            Explore <FiChevronDown />
+          </button>
+          <div
+            className={`flood-more-links${moreOpen ? " is-open" : ""}`}
+            id="football-more-links"
+          >
+            {more.map(([to, label]) => (
+              <NavLink key={to} to={to}>
+                {label}
+              </NavLink>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
-
-export default NavMenu;

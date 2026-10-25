@@ -1,0 +1,462 @@
+{
+  "audit_date": "2026-10-17",
+  "artifact_trained_at": "2026-08-02T21:48:36.221687",
+  "raw": {
+    "files": 128,
+    "rows": 47194,
+    "valid_matches": 47179,
+    "discarded_rows": 15,
+    "duplicate_fixture_rows": 0,
+    "negative_or_fractional_scores": 0,
+    "same_team_matches": 0,
+    "result_label_mismatches": 0,
+    "freshness": [
+      {
+        "league": "BL1",
+        "latest_result": "2026-05-16",
+        "days_before_audit": 154,
+        "matches": 4896
+      },
+      {
+        "league": "DED",
+        "latest_result": "2026-05-17",
+        "days_before_audit": 153,
+        "matches": 4822
+      },
+      {
+        "league": "ELC",
+        "latest_result": "2026-05-02",
+        "days_before_audit": 168,
+        "matches": 8832
+      },
+      {
+        "league": "FL1",
+        "latest_result": "2026-05-17",
+        "days_before_audit": 153,
+        "matches": 5757
+      },
+      {
+        "league": "PD",
+        "latest_result": "2026-05-24",
+        "days_before_audit": 146,
+        "matches": 6080
+      },
+      {
+        "league": "PL",
+        "latest_result": "2026-05-24",
+        "days_before_audit": 146,
+        "matches": 6080
+      },
+      {
+        "league": "PPL",
+        "latest_result": "2026-05-16",
+        "days_before_audit": 154,
+        "matches": 4632
+      },
+      {
+        "league": "SA",
+        "latest_result": "2026-05-24",
+        "days_before_audit": 146,
+        "matches": 6080
+      }
+    ]
+  },
+  "features": {
+    "snapshot_matches": 47179,
+    "snapshot_source_labels_match": true,
+    "missing_numeric_cells": 0,
+    "nonfinite_numeric_cells": 0,
+    "position_outside_current_season_team_count": 16673,
+    "sample_historical_final_state_differences": {
+      "home_elo": {
+        "prematch_snapshot": 1519.9978289067142,
+        "loaded_final_state": 1528.9298541909914
+      },
+      "away_elo": {
+        "prematch_snapshot": 1552.7505430800336,
+        "loaded_final_state": 1543.8185177957564
+      },
+      "elo_difference": {
+        "prematch_snapshot": -32.75271417331942,
+        "loaded_final_state": -14.888663604765043
+      },
+      "home_games": {
+        "prematch_snapshot": 569.0,
+        "loaded_final_state": 570
+      },
+      "away_games": {
+        "prematch_snapshot": 151.0,
+        "loaded_final_state": 152
+      },
+      "home_points_per_game": {
+        "prematch_snapshot": 1.226713532513181,
+        "loaded_final_state": 1.2298245614035088
+      },
+      "away_points_per_game": {
+        "prematch_snapshot": 1.1589403973509933,
+        "loaded_final_state": 1.1513157894736843
+      },
+      "home_goal_difference_per_game": {
+        "prematch_snapshot": -0.22671353251318102,
+        "loaded_final_state": -0.22105263157894736
+      },
+      "away_goal_difference_per_game": {
+        "prematch_snapshot": -0.41721854304635764,
+        "loaded_final_state": -0.4342105263157895
+      },
+      "home_attack_strength": {
+        "prematch_snapshot": 1.311072056239016,
+        "loaded_final_state": 1.3140350877192983
+      },
+      "away_attack_strength": {
+        "prematch_snapshot": 1.3311258278145695,
+        "loaded_final_state": 1.3223684210526316
+      },
+      "home_defence_strength": {
+        "prematch_snapshot": 1.5377855887521967,
+        "loaded_final_state": 1.5350877192982457
+      },
+      "away_defence_strength": {
+        "prematch_snapshot": 1.7483443708609272,
+        "loaded_final_state": 1.756578947368421
+      },
+      "home_form_points_5": {
+        "prematch_snapshot": 0.8,
+        "loaded_final_state": 1.2
+      },
+      "away_form_points_5": {
+        "prematch_snapshot": 2.2,
+        "loaded_final_state": 1.6
+      },
+      "home_form_points_10": {
+        "prematch_snapshot": 1.1,
+        "loaded_final_state": 1.4
+      },
+      "home_form_goal_difference_5": {
+        "prematch_snapshot": -1.0,
+        "loaded_final_state": -0.4
+      },
+      "away_form_goal_difference_5": {
+        "prematch_snapshot": 1.2,
+        "loaded_final_state": 0.0
+      },
+      "home_rest_days": {
+        "prematch_snapshot": 7.0,
+        "loaded_final_state": 0
+      },
+      "away_rest_days": {
+        "prematch_snapshot": 7.0,
+        "loaded_final_state": 0
+      },
+      "home_home_points_per_game": {
+        "prematch_snapshot": 1.4401408450704225,
+        "loaded_final_state": 1.4456140350877194
+      },
+      "away_away_points_per_game": {
+        "prematch_snapshot": 0.9866666666666667,
+        "loaded_final_state": 0.9736842105263158
+      },
+      "h2h_matches": {
+        "prematch_snapshot": 7.0,
+        "loaded_final_state": 8
+      },
+      "home_h2h_points_per_game": {
+        "prematch_snapshot": 1.8571428571428572,
+        "loaded_final_state": 2.0
+      },
+      "home_h2h_goal_difference_per_game": {
+        "prematch_snapshot": 0.5714285714285714,
+        "loaded_final_state": 0.875
+      }
+    }
+  },
+  "evaluation": {
+    "source": "D:\\football-intelligence-platform\\backend\\reports\\catboost_recency_experiment\\baseline_test_predictions.csv",
+    "model": "fixed CatBoost classifier, historical 80% training split grouped by date; not website ensemble",
+    "overall": {
+      "matches": 9437,
+      "accuracy": 0.5161597965455124,
+      "log_loss": 0.9871394033158665
+    },
+    "always_home_accuracy": 0.4373211825792095,
+    "league": [
+      {
+        "league": "BL1",
+        "matches": 990,
+        "accuracy": 0.5191919191919192,
+        "log_loss": 0.9827984178801307
+      },
+      {
+        "league": "DED",
+        "matches": 982,
+        "accuracy": 0.5509164969450102,
+        "log_loss": 0.948385690068324
+      },
+      {
+        "league": "ELC",
+        "matches": 1743,
+        "accuracy": 0.46069994262765346,
+        "log_loss": 1.0483554511611486
+      },
+      {
+        "league": "FL1",
+        "matches": 1008,
+        "accuracy": 0.5069444444444444,
+        "log_loss": 1.0028837998955498
+      },
+      {
+        "league": "PD",
+        "matches": 1250,
+        "accuracy": 0.5336,
+        "log_loss": 0.9730803337639689
+      },
+      {
+        "league": "PL",
+        "matches": 1234,
+        "accuracy": 0.5324149108589952,
+        "log_loss": 0.9879500378401493
+      },
+      {
+        "league": "PPL",
+        "matches": 990,
+        "accuracy": 0.5454545454545454,
+        "log_loss": 0.9204369265297382
+      },
+      {
+        "league": "SA",
+        "matches": 1240,
+        "accuracy": 0.5145161290322581,
+        "log_loss": 0.989069052347311
+      }
+    ],
+    "outcome": [
+      {
+        "outcome": "Away win",
+        "matches": 2912,
+        "accuracy": 0.540521978021978,
+        "log_loss": 1.0066280513276535
+      },
+      {
+        "outcome": "Draw",
+        "matches": 2398,
+        "accuracy": 0.0008340283569641367,
+        "log_loss": 1.3770609809523358
+      },
+      {
+        "outcome": "Home win",
+        "matches": 4127,
+        "accuracy": 0.7984007753816331,
+        "log_loss": 0.7468237051858502
+      }
+    ],
+    "confusion_matrix_away_draw_home": [
+      [
+        1574,
+        9,
+        1329
+      ],
+      [
+        806,
+        2,
+        1590
+      ],
+      [
+        817,
+        15,
+        3295
+      ]
+    ],
+    "predicted_class_counts": {
+      "2": 6214,
+      "0": 3197,
+      "1": 26
+    },
+    "premier_league_prior_top_six": [
+      {
+        "prior_top_six": "False",
+        "matches": 590,
+        "accuracy": 0.4830508474576271,
+        "log_loss": 1.0472408474516135
+      },
+      {
+        "prior_top_six": "True",
+        "matches": 644,
+        "accuracy": 0.577639751552795,
+        "log_loss": 0.9336308178544914
+      }
+    ],
+    "promoted": [
+      {
+        "involves_promoted_team": "False",
+        "matches": 6516,
+        "accuracy": 0.511817065684469,
+        "log_loss": 0.9907053545264101
+      },
+      {
+        "involves_promoted_team": "True",
+        "matches": 2921,
+        "accuracy": 0.5258473125641904,
+        "log_loss": 0.9791846829845068
+      }
+    ],
+    "confidence": [
+      {
+        "confidence_band": "(-0.001, 0.4]",
+        "matches": 1864,
+        "accuracy": 0.3621244635193133,
+        "log_loss": 1.0934448048894998
+      },
+      {
+        "confidence_band": "(0.4, 0.5]",
+        "matches": 3296,
+        "accuracy": 0.4541868932038835,
+        "log_loss": 1.0646080384773637
+      },
+      {
+        "confidence_band": "(0.5, 0.6]",
+        "matches": 1876,
+        "accuracy": 0.5298507462686567,
+        "log_loss": 1.0112577488916354
+      },
+      {
+        "confidence_band": "(0.6, 0.7]",
+        "matches": 1221,
+        "accuracy": 0.6511056511056511,
+        "log_loss": 0.8794058865600407
+      },
+      {
+        "confidence_band": "(0.7, 0.8]",
+        "matches": 837,
+        "accuracy": 0.7359617682198327,
+        "log_loss": 0.7487960711929738
+      },
+      {
+        "confidence_band": "(0.8, 1.0]",
+        "matches": 343,
+        "accuracy": 0.8571428571428571,
+        "log_loss": 0.4982183730535748
+      }
+    ]
+  },
+  "database": {
+    "status": "read_only_success",
+    "fixture_coverage": [
+      {
+        "league": "BL1",
+        "fixtures": 5202,
+        "latest_finished": "2026-10-17 00:00:00",
+        "finished_after_artifact": 6
+      },
+      {
+        "league": "BSA",
+        "fixtures": 380,
+        "latest_finished": "2026-10-17 00:00:00",
+        "finished_after_artifact": 39
+      },
+      {
+        "league": "CL",
+        "fixtures": 189,
+        "latest_finished": "2026-05-30 16:00:00",
+        "finished_after_artifact": 1
+      },
+      {
+        "league": "CLI",
+        "fixtures": 147,
+        "latest_finished": "2026-05-29 00:30:00",
+        "finished_after_artifact": 16
+      },
+      {
+        "league": "DED",
+        "fixtures": 5119,
+        "latest_finished": "2026-10-17 14:30:00",
+        "finished_after_artifact": 3
+      },
+      {
+        "league": "EC",
+        "fixtures": 51,
+        "latest_finished": "2024-07-14 19:00:00",
+        "finished_after_artifact": 0
+      },
+      {
+        "league": "ELC",
+        "fixtures": 9384,
+        "latest_finished": "2026-10-17 14:00:00",
+        "finished_after_artifact": 12
+      },
+      {
+        "league": "FL1",
+        "fixtures": 6063,
+        "latest_finished": "2026-10-17 15:00:00",
+        "finished_after_artifact": 2
+      },
+      {
+        "league": "PD",
+        "fixtures": 6460,
+        "latest_finished": "2026-10-18 15:00:00",
+        "finished_after_artifact": 3
+      },
+      {
+        "league": "PL",
+        "fixtures": 6460,
+        "latest_finished": "2026-10-17 14:00:00",
+        "finished_after_artifact": 4
+      },
+      {
+        "league": "PPL",
+        "fixtures": 4937,
+        "latest_finished": "NaT",
+        "finished_after_artifact": 0
+      },
+      {
+        "league": "SA",
+        "fixtures": 6460,
+        "latest_finished": "2026-10-18 16:30:00",
+        "finished_after_artifact": 2
+      },
+      {
+        "league": "WC",
+        "fixtures": 104,
+        "latest_finished": "2026-07-19 19:00:00",
+        "finished_after_artifact": 104
+      }
+    ],
+    "saved_predictions": [
+      {
+        "model_name": "CatBoostClassifier",
+        "predictions": 2234,
+        "before_kickoff": 2234,
+        "at_or_after_kickoff": 0
+      },
+      {
+        "model_name": "LGBMClassifier",
+        "predictions": 81,
+        "before_kickoff": 76,
+        "at_or_after_kickoff": 5
+      }
+    ],
+    "finished_after_audit_day": 5,
+    "finished_missing_scores": 0,
+    "status_counts": {
+      "FINISHED": 47871,
+      "SCHEDULED": 2977,
+      "TIMED": 96,
+      "POSTPONED": 5,
+      "IN_PLAY": 4,
+      "CANCELLED": 1,
+      "2026-08-08 13:30:00Z": 1,
+      "2026-08-07 18:15:00Z": 1
+    },
+    "mapping_counts": {
+      "teams": 633,
+      "supported_low_confidence": 70,
+      "supported_low_confidence_with_upcoming_fixtures": 70
+    }
+  },
+  "limitations": [
+    "Audit reuses historical evaluation rows, not fresh validation.",
+    "Prior top six are reconstructed on-pitch standings, without disciplinary deductions.",
+    "Fixture CSV lacks unique provider IDs; alignment checks dates and labels in saved snapshot order.",
+    "Browser-local saved forecasts are not accessible from this audit.",
+    "Website 50/25/25 ensemble has not been backtested by these classifier experiments."
+  ]
+}

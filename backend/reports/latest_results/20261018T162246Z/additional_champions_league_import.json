@@ -1,0 +1,297 @@
+{
+  "season": {
+    "id": 142,
+    "api_id": 2557
+  },
+  "teams": [
+    {
+      "id": 553,
+      "api_id": 1899,
+      "name": "PAE AEK"
+    },
+    {
+      "id": 554,
+      "api_id": 2016,
+      "name": "LASK Linz"
+    },
+    {
+      "id": 555,
+      "api_id": 5720,
+      "name": "Viking FK"
+    },
+    {
+      "id": 556,
+      "api_id": 7509,
+      "name": "ŠK Slovan Bratislava"
+    },
+    {
+      "id": 557,
+      "api_id": 613,
+      "name": "Fenerbahçe SK"
+    },
+    {
+      "id": 558,
+      "api_id": 1887,
+      "name": "FK Shakhtar Donetsk"
+    },
+    {
+      "id": 559,
+      "api_id": 10233,
+      "name": "Sabah FK"
+    }
+  ],
+  "matches": [
+    {
+      "id": 50968,
+      "api_id": "575323",
+      "status": "FINISHED",
+      "home_score": 2,
+      "away_score": 3
+    },
+    {
+      "id": 50969,
+      "api_id": "575324",
+      "status": "FINISHED",
+      "home_score": 1,
+      "away_score": 0
+    },
+    {
+      "id": 50970,
+      "api_id": "575325",
+      "status": "FINISHED",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "id": 50971,
+      "api_id": "575327",
+      "status": "FINISHED",
+      "home_score": 3,
+      "away_score": 2
+    },
+    {
+      "id": 50972,
+      "api_id": "575326",
+      "status": "FINISHED",
+      "home_score": 0,
+      "away_score": 2
+    },
+    {
+      "id": 50973,
+      "api_id": "575328",
+      "status": "FINISHED",
+      "home_score": 2,
+      "away_score": 3
+    },
+    {
+      "id": 50974,
+      "api_id": "575329",
+      "status": "FINISHED",
+      "home_score": 5,
+      "away_score": 1
+    },
+    {
+      "id": 50975,
+      "api_id": "575330",
+      "status": "FINISHED",
+      "home_score": 3,
+      "away_score": 1
+    },
+    {
+      "id": 50976,
+      "api_id": "575331",
+      "status": "FINISHED",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "id": 50977,
+      "api_id": "575333",
+      "status": "FINISHED",
+      "home_score": 0,
+      "away_score": 1
+    },
+    {
+      "id": 50978,
+      "api_id": "575334",
+      "status": "FINISHED",
+      "home_score": 3,
+      "away_score": 1
+    },
+    {
+      "id": 50979,
+      "api_id": "575332",
+      "status": "FINISHED",
+      "home_score": 6,
+      "away_score": 1
+    },
+    {
+      "id": 50980,
+      "api_id": "575335",
+      "status": "FINISHED",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "id": 50981,
+      "api_id": "575336",
+      "status": "FINISHED",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "id": 50982,
+      "api_id": "575339",
+      "status": "FINISHED",
+      "home_score": 4,
+      "away_score": 1
+    },
+    {
+      "id": 50983,
+      "api_id": "575337",
+      "status": "FINISHED",
+      "home_score": 5,
+      "away_score": 0
+    },
+    {
+      "id": 50984,
+      "api_id": "575340",
+      "status": "FINISHED",
+      "home_score": 2,
+      "away_score": 3
+    },
+    {
+      "id": 50985,
+      "api_id": "575338",
+      "status": "FINISHED",
+      "home_score": 4,
+      "away_score": 0
+    },
+    {
+      "id": 50986,
+      "api_id": "575342",
+      "status": "FINISHED",
+      "home_score": 2,
+      "away_score": 0
+    },
+    {
+      "id": 50987,
+      "api_id": "575341",
+      "status": "FINISHED",
+      "home_score": 0,
+      "away_score": 2
+    },
+    {
+      "id": 50988,
+      "api_id": "575348",
+      "status": "FINISHED",
+      "home_score": 1,
+      "away_score": 0
+    },
+    {
+      "id": 50989,
+      "api_id": "575344",
+      "status": "FINISHED",
+      "home_score": 1,
+      "away_score": 4
+    },
+    {
+      "id": 50990,
+      "api_id": "575346",
+      "status": "FINISHED",
+      "home_score": 3,
+      "away_score": 0
+    },
+    {
+      "id": 50991,
+      "api_id": "575343",
+      "status": "FINISHED",
+      "home_score": 3,
+      "away_score": 4
+    },
+    {
+      "id": 50992,
+      "api_id": "575349",
+      "status": "FINISHED",
+      "home_score": 3,
+      "away_score": 1
+    },
+    {
+      "id": 50993,
+      "api_id": "575345",
+      "status": "FINISHED",
+      "home_score": 2,
+      "away_score": 0
+    },
+    {
+      "id": 50994,
+      "api_id": "575347",
+      "status": "FINISHED",
+      "home_score": 3,
+      "away_score": 3
+    },
+    {
+      "id": 50995,
+      "api_id": "575350",
+      "status": "FINISHED",
+      "home_score": 3,
+      "away_score": 6
+    },
+    {
+      "id": 50996,
+      "api_id": "575351",
+      "status": "FINISHED",
+      "home_score": 3,
+      "away_score": 2
+    },
+    {
+      "id": 50997,
+      "api_id": "575358",
+      "status": "FINISHED",
+      "home_score": 0,
+      "away_score": 3
+    },
+    {
+      "id": 50998,
+      "api_id": "575354",
+      "status": "FINISHED",
+      "home_score": 1,
+      "away_score": 0
+    },
+    {
+      "id": 50999,
+      "api_id": "575356",
+      "status": "FINISHED",
+      "home_score": 3,
+      "away_score": 2
+    },
+    {
+      "id": 51000,
+      "api_id": "575352",
+      "status": "FINISHED",
+      "home_score": 3,
+      "away_score": 4
+    },
+    {
+      "id": 51001,
+      "api_id": "575353",
+      "status": "FINISHED",
+      "home_score": 2,
+      "away_score": 4
+    },
+    {
+      "id": 51002,
+      "api_id": "575355",
+      "status": "FINISHED",
+      "home_score": 6,
+      "away_score": 0
+    },
+    {
+      "id": 51003,
+      "api_id": "575357",
+      "status": "FINISHED",
+      "home_score": 3,
+      "away_score": 1
+    }
+  ]
+}

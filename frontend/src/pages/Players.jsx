@@ -7,7 +7,7 @@ import { getCompetitions } from "../api/competitionApi";
 import { getPlayerPositions, getPlayers } from "../api/playerApi";
 import "./Players.css";
 
-const PLAYERS_PAGE_SIZE = 60;
+const PLAYERS_PAGE_SIZE = 24;
 
 function Players() {
     const [players, setPlayers] = useState([]);

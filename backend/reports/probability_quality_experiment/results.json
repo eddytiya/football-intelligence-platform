@@ -1,0 +1,222 @@
+{
+  "model_order": [
+    "calibrated_logistic_regression",
+    "lightgbm",
+    "catboost"
+  ],
+  "blocks": {
+    "train": {
+      "matches": 28303,
+      "start": "2010-08-06",
+      "end": "2020-01-21"
+    },
+    "calibration": {
+      "matches": 4721,
+      "start": "2020-01-22",
+      "end": "2021-10-01"
+    },
+    "selection": {
+      "matches": 4718,
+      "start": "2021-10-02",
+      "end": "2023-04-05"
+    },
+    "test": {
+      "matches": 9437,
+      "start": "2023-04-07",
+      "end": "2026-05-24"
+    }
+  },
+  "selection_results": [
+    {
+      "name": "blend_calibrated",
+      "log_loss": 0.9928823642588878,
+      "accuracy": 0.5150487494701145,
+      "balanced_accuracy": 0.43898046119862677,
+      "recipe": {
+        "weights": [
+          0.1,
+          0.0,
+          0.9
+        ],
+        "temperatures": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "blend_temperature": 1.102407946419677
+      }
+    },
+    {
+      "name": "blend",
+      "log_loss": 0.9929105267982601,
+      "accuracy": 0.5150487494701145,
+      "balanced_accuracy": 0.43898046119862677,
+      "recipe": {
+        "weights": [
+          0.1,
+          0.0,
+          0.9
+        ],
+        "temperatures": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "blend_temperature": 1.0
+      }
+    },
+    {
+      "name": "calibrated_models_blend",
+      "log_loss": 0.9930007981963209,
+      "accuracy": 0.5144128868164477,
+      "balanced_accuracy": 0.43843370569989054,
+      "recipe": {
+        "weights": [
+          0.1,
+          0.0,
+          0.9
+        ],
+        "temperatures": [
+          1.209814346494236,
+          1.1858691173377525,
+          1.1075908919425639
+        ],
+        "blend_temperature": 1.0
+      }
+    },
+    {
+      "name": "catboost_calibrated",
+      "log_loss": 0.9931493817852749,
+      "accuracy": 0.516320474777448,
+      "balanced_accuracy": 0.439346515595572,
+      "recipe": {
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "temperatures": [
+          1.209814346494236,
+          1.1858691173377525,
+          1.1075908919425639
+        ],
+        "blend_temperature": 1.0
+      }
+    },
+    {
+      "name": "catboost",
+      "log_loss": 0.9931996225676989,
+      "accuracy": 0.516320474777448,
+      "balanced_accuracy": 0.439346515595572,
+      "recipe": {
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "temperatures": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "blend_temperature": 1.0
+      }
+    },
+    {
+      "name": "calibrated_logistic_regression_calibrated",
+      "log_loss": 1.0034004840428752,
+      "accuracy": 0.5095379398050022,
+      "balanced_accuracy": 0.44072953856867425,
+      "recipe": {
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "temperatures": [
+          1.209814346494236,
+          1.1858691173377525,
+          1.1075908919425639
+        ],
+        "blend_temperature": 1.0
+      }
+    },
+    {
+      "name": "lightgbm_calibrated",
+      "log_loss": 1.0049568767293433,
+      "accuracy": 0.5093259855871132,
+      "balanced_accuracy": 0.43644218744310326,
+      "recipe": {
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "temperatures": [
+          1.209814346494236,
+          1.1858691173377525,
+          1.1075908919425639
+        ],
+        "blend_temperature": 1.0
+      }
+    },
+    {
+      "name": "calibrated_logistic_regression",
+      "log_loss": 1.0062823258605655,
+      "accuracy": 0.5095379398050022,
+      "balanced_accuracy": 0.44072953856867425,
+      "recipe": {
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "temperatures": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "blend_temperature": 1.0
+      }
+    },
+    {
+      "name": "lightgbm",
+      "log_loss": 1.0066181553627216,
+      "accuracy": 0.5093259855871132,
+      "balanced_accuracy": 0.43644218744310326,
+      "recipe": {
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "temperatures": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "blend_temperature": 1.0
+      }
+    }
+  ],
+  "winner": "blend_calibrated",
+  "test_results": {
+    "catboost": {
+      "log_loss": 0.9882549928775313,
+      "accuracy": 0.5165836600614602,
+      "balanced_accuracy": 0.44232547716916154
+    },
+    "blend_calibrated": {
+      "log_loss": 0.9877133808827882,
+      "accuracy": 0.5181731482462647,
+      "balanced_accuracy": 0.4454088360754825
+    }
+  },
+  "limitations": [
+    "Models remain frozen after the first 60%; no refit after calibration.",
+    "Compare with this experiment's same-training-data CatBoost baseline.",
+    "Final test overlaps previously inspected validation data; not a fresh holdout.",
+    "Only temperature scaling tested; calibration improvement is not guaranteed.",
+    "Production model unchanged."
+  ]
+}

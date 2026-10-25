@@ -1,6 +1,7 @@
 from app.models.match import Match
 from app.services.mapping_service import MappingService
 from app.utils.datetime_parser import parse_datetime
+from app.services.matching.result_validation import validate_provider_match
 
 
 class MatchMapper:
@@ -21,6 +22,7 @@ class MatchMapper:
         Create a new Match object from API data.
         """
 
+        validate_provider_match(match_data)
         utc_date = parse_datetime(
             match_data["utcDate"]
         )
@@ -50,6 +52,7 @@ class MatchMapper:
         Update an existing Match.
         """
 
+        validate_provider_match(match_data)
         utc_date = parse_datetime(
             match_data["utcDate"]
         )

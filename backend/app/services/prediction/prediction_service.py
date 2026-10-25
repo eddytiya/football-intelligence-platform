@@ -28,6 +28,7 @@ class PredictionService:
         # Repositories
         # ==========================================================
 
+        self.db = db
         self.repository = MatchRepository(db)
         self.prediction_repository = PredictionRepository(db)
 
@@ -63,6 +64,7 @@ class PredictionService:
         self,
         home_team_id: int,
         away_team_id: int,
+        match_date: datetime | None = None,
     ) -> pd.DataFrame:
         """
         Generate prediction features for a match.
@@ -71,7 +73,7 @@ class PredictionService:
         features = self.feature_generator.generate_prediction_features(
             home_team_id=home_team_id,
             away_team_id=away_team_id,
-            match_date=datetime.utcnow(),
+            match_date=match_date,
         )
 
         dataframe = pd.DataFrame([features])
@@ -111,33 +113,17 @@ class PredictionService:
         Generate and save a prediction for a match.
         """
 
-        match = self.repository.get_match_by_id(match_id)
-
-        if match is None:
-            raise ValueError(
-                f"Match {match_id} not found."
-            )
-
-        features = self.build_features(
-            home_team_id=match.home_team_id,
-            away_team_id=match.away_team_id,
-        )
-
-        result = self.predictor.predict_match(
-            features
-        )
-
-        self.prediction_repository.save_prediction(
-            match_id=match.id,
-            model_name=type(
-                self.predictor.model
-            ).__name__,
-            prediction=result["prediction"],
-            home_probability=result["probabilities"]["Home Win"],
-            draw_probability=result["probabilities"]["Draw"],
-            away_probability=result["probabilities"]["Away Win"],
-        )
-
+        # All API generation, including legacy batch/today endpoints, uses the audited model.
+        from app.api.prediction import get_historical_prediction
+        from fastapi import HTTPException
+        try:
+            forecast = get_historical_prediction(match_id, self.db)
+        except HTTPException as exc:
+            raise ValueError(str(exc.detail)) from exc
+        label = forecast['predicted_outcome']
+        result = {'prediction': label, 'prediction_code': {'Away Win': 0, 'Draw': 1, 'Home Win': 2}[label],
+                  'probabilities': {'Home Win': forecast['home_win_probability'], 'Draw': forecast['draw_probability'],
+                                    'Away Win': forecast['away_win_probability']}}
         return result
     
         # ==========================================================

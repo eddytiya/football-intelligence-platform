@@ -1,0 +1,58 @@
+[
+  {
+    "league": "PL",
+    "status": "refreshed",
+    "matches": 60,
+    "latest_result": "2026-10-12",
+    "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv"
+  },
+  {
+    "league": "PD",
+    "status": "refreshed",
+    "matches": 78,
+    "latest_result": "2026-10-12",
+    "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv"
+  },
+  {
+    "league": "SA",
+    "status": "refreshed",
+    "matches": 60,
+    "latest_result": "2026-10-12",
+    "url": "https://www.football-data.co.uk/mmz4281/2627/I1.csv"
+  },
+  {
+    "league": "BL1",
+    "status": "refreshed",
+    "matches": 45,
+    "latest_result": "2026-10-11",
+    "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv"
+  },
+  {
+    "league": "FL1",
+    "status": "refreshed",
+    "matches": 54,
+    "latest_result": "2026-10-11",
+    "url": "https://www.football-data.co.uk/mmz4281/2627/F1.csv"
+  },
+  {
+    "league": "DED",
+    "status": "refreshed",
+    "matches": 72,
+    "latest_result": "2026-10-11",
+    "url": "https://www.football-data.co.uk/mmz4281/2627/N1.csv"
+  },
+  {
+    "league": "PPL",
+    "status": "refreshed",
+    "matches": 71,
+    "latest_result": "2026-10-12",
+    "url": "https://www.football-data.co.uk/mmz4281/2627/P1.csv"
+  },
+  {
+    "league": "ELC",
+    "status": "refreshed",
+    "matches": 119,
+    "latest_result": "2026-10-14",
+    "url": "https://www.football-data.co.uk/mmz4281/2627/E1.csv"
+  }
+]

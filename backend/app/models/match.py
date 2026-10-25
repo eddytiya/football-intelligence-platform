@@ -8,8 +8,18 @@ from sqlalchemy import (
     Time,
 )
 from sqlalchemy.orm import relationship
+from sqlalchemy import event
 
 from app.db.base import Base
+from app.services.matching.result_validation import validate_match_record
+
+
+def _validate_match_insert(mapper, connection, target):
+    validate_match_record(target)
+
+
+def _validate_match_update(mapper, connection, target):
+    validate_match_record(target, legacy_update=True)
 
 
 class Match(Base):
@@ -255,3 +265,7 @@ class Match(Base):
         )
 
         return f"<Match({home} vs {away})>"
+
+
+event.listen(Match, "before_insert", _validate_match_insert)
+event.listen(Match, "before_update", _validate_match_update)

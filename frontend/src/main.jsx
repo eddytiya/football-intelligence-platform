@@ -8,9 +8,11 @@ import "./index.css";
 
 import App from "./App.jsx";
 import AppErrorBoundary from "./components/layout/AppErrorBoundary.jsx";
-// Load the route-scoped football visual system after page styles so it can
-// intentionally refine the existing components without touching Dashboard.
+// Preserve the feature layouts, then apply one visual system across all routes.
+import "./styles/feature-layout.css";
 import "./styles/football-theme.css";
+import "./styles/fonts.css";
+import "./styles/stadium-appearance.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>

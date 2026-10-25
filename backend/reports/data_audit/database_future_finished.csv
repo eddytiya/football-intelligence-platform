@@ -1,0 +1,6 @@
+id,api_id,league,home_team,away_team,utc_date,status,home_score,away_score
+2231,558575,SA,Venezia FC,SSC Napoli,2026-10-18 16:30:00,FINISHED,1,0
+3381,564710,PD,RCD Espanyol de Barcelona,Club Atlético de Madrid,2026-10-18 15:00:00,FINISHED,0,1
+3379,564708,PD,Villarreal CF,Elche CF,2026-10-18 15:00:00,FINISHED,0,0
+2229,558573,SA,Frosinone Calcio,US Sassuolo Calcio,2026-10-18 16:30:00,FINISHED,4,2
+3387,564716,PD,RC Deportivo La Coruña,Levante UD,2026-10-18 15:00:00,FINISHED,1,1

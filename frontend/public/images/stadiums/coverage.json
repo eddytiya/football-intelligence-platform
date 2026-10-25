@@ -1,0 +1,1144 @@
+{
+  "reviewDate": "2026-10-18",
+  "stadiumPhotos": 182,
+  "teamRecords": 551,
+  "coveredTeamRecords": 324,
+  "unresolvedTeamRecords": 227,
+  "unresolved": [
+    {
+      "team": "2 de Mayo",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Academica",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Ajaccio",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Ajaccio GFCO",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Albania",
+      "venue": "Air Albania Stadium",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Algeria",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Almere City",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Almeria",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Alverca",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Amiens",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Argentina",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Arles",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Australia",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Austria",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Aves",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "AVS",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Bari",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Barnsley",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Bastia",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Beira Mar",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Belenenses",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Belgium",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Benevento",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Bielefeld",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Blackpool",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Boavista",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Bochum",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Bordeaux",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Bosnia-Herzegovina",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Braunschweig",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Brazil",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Brescia",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Burton",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Cadiz",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Caen",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Canada",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Cape Verde Islands",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "CAR Independiente del Valle",
+      "venue": "Estadio Olímpico Atahualpa",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Carabobo FC",
+      "venue": "Estadio Polideportivo Misael Delgado",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Carpi",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Casa Pia",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Casa Pia AC",
+      "venue": "Estádio Pina Manique",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Catania",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "CD Coquimbo Unido",
+      "venue": "Estadio Bicentenario Francisco Sánchez Rumoroso",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "CD Huachipato",
+      "venue": "Estadio CAP",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "CD Tolima",
+      "venue": "Estadio Manuel Murillo Toro",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Cesena",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Chaves",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Chievo",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Clermont",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Club Always Ready",
+      "venue": "Estadio Municipal El Alto",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Club Brugge KV",
+      "venue": "Jan Breydelstadion",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Club Cerro Porteño",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Club Guaraní",
+      "venue": "Estadio Rogelio Lorenzo Livieres",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Club Libertad Asuncion",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Club The Strongest",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Club Universitario de Deportes",
+      "venue": "Estadio Monumental",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Colombia",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Congo DR",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Cordoba",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "CR Vasco da Gama",
+      "venue": "Estádio Club de Regatas Vasco da Gama",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Cremonese",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Croatia",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Crotone",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "CS Independiente Rivadavia",
+      "venue": "Estadio Juan Bautista Gargantini",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Curaçao",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Cusco FC",
+      "venue": "Estadio Túpac Amaru",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Czechia",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Darmstadt",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Denmark",
+      "venue": "Telia Parken",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Deportivo La Guaira FC",
+      "venue": "Estadio Polideportivo Misael Delgado",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Deportivo Táchira FC",
+      "venue": "Estadio Rafael Agustín Tovar",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Dijon",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Doncaster",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Dordrecht",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Ecuador",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Egypt",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Eibar",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Empoli",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "England",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "ES Troyes AC",
+      "venue": "Stade de l'Aube",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Evian Thonon Gaillard",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Farense",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "FC Alverca",
+      "venue": "Campo Futebol Clube Alverca",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "FC Emmen",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Feirense",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "FK Kairat",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Fortuna Dusseldorf",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "France",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Georgia",
+      "venue": "Boris Paichadzis Dinamo Arena",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Germany",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Ghana",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Girona",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Graafschap",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Granada",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Greuther Furth",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Guingamp",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Haiti",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Hannover",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Heidenheim",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Heracles",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Hercules",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Hertha",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Holstein Kiel",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Huddersfield",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Huesca",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Hungary",
+      "venue": "Puskás Aréna",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Independiente Santa Fe",
+      "venue": "Estadio Nemesio Camacho El Campín",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Ingolstadt",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Iran",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Iraq",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Italy",
+      "venue": "Stadio Artemio Franchi",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Ivory Coast",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Japan",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Jordan",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Juventud de Las Piedras",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Kaiserslautern",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Las Palmas",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Le Mans FC",
+      "venue": "MMArena",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Leganes",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Leicester",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Leiria",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Livorno",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Luton",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Mallorca",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Metz",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Mexico",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Milton Keynes Dons",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Montpellier",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Moreirense",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Moreirense FC",
+      "venue": "P.D. Comendador Joaquim de Almeida Freitas",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Morocco",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "NAC Breda",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Nancy",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Nantes",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Naval",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Netherlands",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "New Zealand",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Nimes",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Norway",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Novara",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Nurnberg",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "O'Higgins FC",
+      "venue": "Estadio CODELCO-El Teniente",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Olhanense",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Oviedo",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Oxford",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Pacos Ferreira",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Palermo",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Panama",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Paraguay",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Penafiel",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Pescara",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Peterboro",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Pisa",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Plymouth",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Poland",
+      "venue": "Stadion Energa Gdańsk",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Portimonense",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Portugal",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Preston",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Preston North End FC",
+      "venue": "Deepdale Stadium",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Qarabağ Ağdam FK",
+      "venue": "Tofiq Bəhramov adına Respublika stadionu",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Qatar",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "RB Bragantino",
+      "venue": "Estádio Nabi Abi Chedid",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Reading",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Reims",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Rio Ave",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Rio Ave FC",
+      "venue": "Estádio do Rio Ave Futebol Clube",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Roda",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Romania",
+      "venue": "Stadionul Ilie Oană",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Rotherham",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Royale Union Saint-Gilloise",
+      "venue": "Stade Joseph Mariën",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Salernitana",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Sampdoria",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Saudi Arabia",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "SC Internacional",
+      "venue": "Estádio José Pinheiro Borba",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Scotland",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Scunthorpe",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Senegal",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Serbia",
+      "venue": "Stadion Rajko Mitić",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Setubal",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Sheffield Weds",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Siena",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Slovakia",
+      "venue": "City Arena Trnava",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Slovenia",
+      "venue": "Stadion Stožice",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Sochaux",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "South Africa",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "South Korea",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Sp Gijon",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Spain",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Spal",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Spezia",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "St Etienne",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "St Pauli",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Swansea",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Swansea City AFC",
+      "venue": "Liberty Stadium",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Sweden",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Switzerland",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Tondela",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Troyes",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Tunisia",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Turkey",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Ukraine",
+      "venue": "NSK Olimpijs'kyj",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Uniao Madeira",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "United States",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Universidad Catolica",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Universidad Central de Venezuela FC",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Uruguay",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Uzbekistan",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Valenciennes",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Valladolid",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Verona",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Vitesse",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Vizela",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Volendam",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "VVV Venlo",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Waalwijk",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Watford",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Watford FC",
+      "venue": "Vicarage Road Stadium",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Wigan",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Willem II",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Willem II Tilburg",
+      "venue": "Koning Willem II Stadion",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Wolfsburg",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Wrexham",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Wrexham AFC",
+      "venue": "Racecourse Ground",
+      "reason": "No reviewed suitable photo or uncertain/current venue"
+    },
+    {
+      "team": "Wycombe",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Yeovil",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    },
+    {
+      "team": "Zaragoza",
+      "venue": null,
+      "reason": "No venue supplied and no reviewed identity mapping"
+    }
+  ]
+}

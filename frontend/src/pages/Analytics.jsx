@@ -33,23 +33,26 @@ function Analytics() {
             setCompetitions(data);
             const preferred = data.find((item) => item.name === "Premier League") || data[0];
             setCompetitionId(preferred ? String(preferred.id) : "");
-        }).catch(() => setError("Competition data is unavailable right now.")).finally(() => setLoading(false));
+            if (!preferred) setLoading(false);
+        }).catch(() => { setError("Competition data is unavailable right now."); setLoading(false); });
     }, []);
 
     useEffect(() => {
         if (!competitionId) return;
+        let active = true;
         setLoading(true); setError(""); setIntelligence(null); setReview([]); setScorerData(null); setSeasonOutlook(null);
         Promise.all([
             getCompetitionIntelligence(competitionId),
             getCompetitionStandings(competitionId),
             getCompetitionMatchweeks(competitionId, "SCHEDULED"),
             getTeams({ competitionId, limit: 100 }),
-            getCompetitionSeasonOutlook(competitionId),
-        ]).then(([intel, table, weeks, clubRows, outlook]) => {
+        ]).then(([intel, table, weeks, clubRows]) => {
+            if (!active) return;
             setIntelligence(intel); setStandings(table.table || []); setMatchweeks(weeks || []); setTeams(clubRows || []);
-            setSeasonOutlook(outlook);
             setMatchweek(String((weeks || [])[0] || ""));
-        }).catch(() => setError("This competition has no analytics dataset available yet.")).finally(() => setLoading(false));
+        }).catch(() => active && setError("This competition’s analytics could not be loaded. Try another competition or refresh the page.")).finally(() => active && setLoading(false));
+        getCompetitionSeasonOutlook(competitionId).then((outlook) => active && setSeasonOutlook(outlook)).catch(() => {});
+        return () => { active = false; };
     }, [competitionId]);
 
     useEffect(() => {

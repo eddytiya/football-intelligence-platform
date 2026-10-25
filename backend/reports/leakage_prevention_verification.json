@@ -1,0 +1,96 @@
+{
+  "model": {
+    "feature_schema_version": 3,
+    "trained_at": "2026-10-18T22:49:44.856690",
+    "validation": {
+      "accuracy": 0.5178052716514255,
+      "balanced_accuracy": 0.4480250807481636,
+      "log_loss": 0.9864726836376926,
+      "evaluation_protocol": "chronological_train_selection_test_v1",
+      "selection_training_matches": 29136,
+      "training_matches": 38443,
+      "validation_matches": 9307,
+      "test_matches": 9295,
+      "selection_start": "2020-07-02",
+      "test_start": "2023-08-11",
+      "test_end": "2026-10-14",
+      "selected_model": "catboost",
+      "model_comparison": [
+        {
+          "model": "catboost",
+          "accuracy": 0.5139142580853121,
+          "balanced_accuracy": 0.43992855866480834,
+          "log_loss": 0.9962550076722322
+        },
+        {
+          "model": "calibrated_logistic_regression",
+          "accuracy": 0.5161706242613087,
+          "balanced_accuracy": 0.44225587643850645,
+          "log_loss": 0.9997127163531335
+        },
+        {
+          "model": "lightgbm",
+          "accuracy": 0.5141291501020737,
+          "balanced_accuracy": 0.4431380572162402,
+          "log_loss": 1.0024054532216775
+        }
+      ],
+      "expected_goals_mae": {
+        "home": 0.9204212354756289,
+        "away": 0.8296136021060463
+      },
+      "website_ensemble": {
+        "accuracy": 0.5178052716514255,
+        "balanced_accuracy": 0.4480250807481636,
+        "log_loss": 0.9864726836376926,
+        "name": "50% outcome classifier + 25% Elo + 25% goal-model Poisson",
+        "evaluation_protocol": "untouched_chronological_test",
+        "test_start": "2023-08-11",
+        "test_matches": 9295,
+        "confusion_matrix_away_draw_home": [
+          [
+            1497,
+            0,
+            1392
+          ],
+          [
+            758,
+            0,
+            1633
+          ],
+          [
+            699,
+            0,
+            3316
+          ]
+        ]
+      }
+    },
+    "leakage_protocol_version": 1,
+    "training_data_through": "2026-10-14",
+    "note": "Model selection and final chronological test periods are separate. Historical reviews use independently fitted earlier-cutoff models."
+  },
+  "fixtures": {
+    "993": {
+      "model_version": "walk-forward-v1-2026-10-01-4596ce93049b91c5",
+      "training_data_through": "2026-09-20",
+      "history_through": "2026-10-12",
+      "training_cutoff": "2026-10-01",
+      "leakage_protocol_version": 1
+    },
+    "998": {
+      "model_version": "walk-forward-v1-2026-10-01-4596ce93049b91c5",
+      "training_data_through": "2026-09-20",
+      "history_through": "2026-10-12",
+      "training_cutoff": "2026-10-01",
+      "leakage_protocol_version": 1
+    },
+    "1012": {
+      "model_version": "historical-season-v3-2026-10-18T22:49:44.856690",
+      "training_data_through": "2026-10-14",
+      "history_through": "2026-10-12",
+      "training_cutoff": null,
+      "leakage_protocol_version": 1
+    }
+  }
+}

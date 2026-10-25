@@ -1,0 +1,164 @@
+[
+  {
+    "outer_season": 2023,
+    "inner_validation_season": 2022,
+    "training_matches": 35441,
+    "validation_matches": 2990,
+    "trials": [
+      {
+        "parameters": {
+          "iterations": 250,
+          "depth": 6,
+          "learning_rate": 0.05,
+          "l2_leaf_reg": 5
+        },
+        "trees": 118,
+        "log_loss": 0.9804678371906834
+      },
+      {
+        "parameters": {
+          "iterations": 700,
+          "depth": 4,
+          "learning_rate": 0.03,
+          "l2_leaf_reg": 10
+        },
+        "trees": 405,
+        "log_loss": 0.9795382115117242
+      },
+      {
+        "parameters": {
+          "iterations": 700,
+          "depth": 6,
+          "learning_rate": 0.03,
+          "l2_leaf_reg": 10
+        },
+        "trees": 236,
+        "log_loss": 0.9796131061743524
+      },
+      {
+        "parameters": {
+          "iterations": 700,
+          "depth": 5,
+          "learning_rate": 0.05,
+          "l2_leaf_reg": 20
+        },
+        "trees": 129,
+        "log_loss": 0.9801090002574029
+      }
+    ],
+    "selected_parameters": {
+      "iterations": 405,
+      "depth": 4,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10
+    }
+  },
+  {
+    "outer_season": 2024,
+    "inner_validation_season": 2023,
+    "training_matches": 38431,
+    "validation_matches": 2916,
+    "trials": [
+      {
+        "parameters": {
+          "iterations": 250,
+          "depth": 6,
+          "learning_rate": 0.05,
+          "l2_leaf_reg": 5
+        },
+        "trees": 191,
+        "log_loss": 0.9703416943174383
+      },
+      {
+        "parameters": {
+          "iterations": 700,
+          "depth": 4,
+          "learning_rate": 0.03,
+          "l2_leaf_reg": 10
+        },
+        "trees": 472,
+        "log_loss": 0.970214343972622
+      },
+      {
+        "parameters": {
+          "iterations": 700,
+          "depth": 6,
+          "learning_rate": 0.03,
+          "l2_leaf_reg": 10
+        },
+        "trees": 510,
+        "log_loss": 0.9698259547404914
+      },
+      {
+        "parameters": {
+          "iterations": 700,
+          "depth": 5,
+          "learning_rate": 0.05,
+          "l2_leaf_reg": 20
+        },
+        "trees": 272,
+        "log_loss": 0.9704616118892554
+      }
+    ],
+    "selected_parameters": {
+      "iterations": 510,
+      "depth": 6,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10
+    }
+  },
+  {
+    "outer_season": 2025,
+    "inner_validation_season": 2024,
+    "training_matches": 41347,
+    "validation_matches": 2916,
+    "trials": [
+      {
+        "parameters": {
+          "iterations": 250,
+          "depth": 6,
+          "learning_rate": 0.05,
+          "l2_leaf_reg": 5
+        },
+        "trees": 214,
+        "log_loss": 0.9808418231559445
+      },
+      {
+        "parameters": {
+          "iterations": 700,
+          "depth": 4,
+          "learning_rate": 0.03,
+          "l2_leaf_reg": 10
+        },
+        "trees": 471,
+        "log_loss": 0.9807381826536118
+      },
+      {
+        "parameters": {
+          "iterations": 700,
+          "depth": 6,
+          "learning_rate": 0.03,
+          "l2_leaf_reg": 10
+        },
+        "trees": 331,
+        "log_loss": 0.980945859562764
+      },
+      {
+        "parameters": {
+          "iterations": 700,
+          "depth": 5,
+          "learning_rate": 0.05,
+          "l2_leaf_reg": 20
+        },
+        "trees": 425,
+        "log_loss": 0.9808420067367497
+      }
+    ],
+    "selected_parameters": {
+      "iterations": 471,
+      "depth": 4,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10
+    }
+  }
+]

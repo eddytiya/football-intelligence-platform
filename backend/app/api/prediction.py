@@ -1,4 +1,5 @@
 from functools import lru_cache
+from datetime import datetime, timezone
 
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
@@ -13,6 +14,7 @@ from app.schemas.prediction import (
 from app.services.prediction.prediction_service import PredictionService
 from app.services.machine_learning.historical_match_model import HistoricalMatchModel
 from app.repositories.match_repository import MatchRepository
+from app.core.paths import MODELS_DIR, DATA_DIR
 
 router = APIRouter(
     prefix="/predictions",
@@ -20,10 +22,39 @@ router = APIRouter(
 )
 
 
-@lru_cache(maxsize=1)
 def get_historical_model() -> HistoricalMatchModel:
-    """Load the CSV-trained artifact once per API process."""
-    return HistoricalMatchModel.load()
+    """Invalidate saved states when either the artifact or accepted history changes."""
+    artifact = MODELS_DIR / "historical_match_model.joblib"
+    sources = tuple((path.name, path.stat().st_mtime_ns) for path in sorted((DATA_DIR / "raw" / "historical").glob("*.csv")))
+    return _load_historical_model(artifact.stat().st_mtime_ns, sources)
+
+
+@lru_cache(maxsize=2)
+def _load_historical_model(artifact_stamp, sources):
+    model = HistoricalMatchModel.load()
+    from app.services.machine_learning.historical_match_model import FEATURE_SCHEMA_VERSION
+    if model.feature_schema_version == FEATURE_SCHEMA_VERSION and any(stamp > artifact_stamp for _, stamp in sources):
+        # Rebuild states from accepted provider results without retraining estimators.
+        training_data_through = model.training_data_through
+        model.build_training_data()
+        model.training_data_through = training_data_through
+    return model
+
+
+@router.get("/model/status")
+def get_prediction_model_status():
+    import joblib
+    path = MODELS_DIR / "historical_match_model.joblib"
+    if not path.exists():
+        raise HTTPException(status_code=503, detail="Prediction model is not available.")
+    artifact = joblib.load(path)
+    if artifact.get('leakage_protocol_version') != 1:
+        raise HTTPException(status_code=503, detail='Model evaluation protocol is unverified. Retraining is required.')
+    return {"feature_schema_version": artifact.get("feature_schema_version", 1),
+            "trained_at": artifact.get("trained_at"), "validation": artifact.get("metrics", {}),
+            "leakage_protocol_version": artifact.get('leakage_protocol_version'),
+            "training_data_through": artifact.get('training_data_through'),
+            "note": "Model selection and final chronological test periods are separate. Historical reviews use independently fitted earlier-cutoff models."}
 
 
 @router.get("/historical/match/{match_id}")
@@ -39,6 +70,11 @@ def get_historical_prediction(
 
     if match.competition is None or match.home_team is None or match.away_team is None:
         raise HTTPException(status_code=422, detail="Match is missing team or competition data.")
+    kickoff = match.utc_date
+    if kickoff is None or match.status not in {"SCHEDULED", "TIMED"}:
+        raise HTTPException(status_code=422, detail="Pre-match forecasts are available only for verified upcoming fixtures.")
+    if kickoff.replace(tzinfo=timezone.utc) <= datetime.now(timezone.utc):
+        raise HTTPException(status_code=422, detail="This fixture has already reached kickoff.")
 
     try:
         prediction = get_historical_model().predict_fixture(
@@ -48,9 +84,13 @@ def get_historical_prediction(
             match_date=match.utc_date,
         )
         prediction["match_id"] = match.id
+        from app.services.prediction.admin_review import save_snapshot
+        save_snapshot(db, match, prediction, 'pre_match')
         return prediction
     except FileNotFoundError as exc:
         raise HTTPException(status_code=503, detail="Historical model has not been trained.") from exc
+    except ValueError as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
 
 # ==========================================================
 # Batch Predictions

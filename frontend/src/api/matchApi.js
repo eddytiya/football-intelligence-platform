@@ -1,4 +1,5 @@
 import apiClient from "./apiClient";
+import { fixtureDate } from "../utils/fixturePresentation";
 
 // ==========================================================
 // Upcoming Matches
@@ -9,7 +10,11 @@ export const getUpcomingMatches = async (limit = null) => {
         params: limit ? { limit } : {},
     });
 
-    return response.data;
+    const upcoming = response.data.filter((match) => {
+        const date = fixtureDate(match.utc_date);
+        return date && date.getTime() > Date.now() && ["SCHEDULED", "TIMED"].includes(match.status);
+    });
+    return upcoming.sort((first, second) => fixtureDate(first.utc_date) - fixtureDate(second.utc_date));
 };
 
 // ==========================================================
@@ -17,9 +22,8 @@ export const getUpcomingMatches = async (limit = null) => {
 // ==========================================================
 
 export const getNextMatch = async () => {
-    const response = await apiClient.get("/matches/next");
-
-    return response.data;
+    const matches = await getUpcomingMatches(50);
+    return matches[0] || null;
 };
 
 // ==========================================================
@@ -36,9 +40,9 @@ export const getTodayMatches = async () => {
 // Match Details
 // ==========================================================
 
-export const getMatch = async (matchId) => {
+export const getMatch = async (matchId, options = {}) => {
     const response = await apiClient.get(
-        `/matches/${matchId}`
+        `/matches/${matchId}`, options
     );
 
     return response.data;

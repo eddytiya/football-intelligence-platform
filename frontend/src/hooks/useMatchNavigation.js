@@ -3,12 +3,13 @@ import { useEffect, useRef, useState } from "react";
 import {
     getLatestMatchDate,
     getNextMatch,
-    getNextMatchDate,
-    getPreviousMatchDate,
 } from "../api/matchApi";
+import { localDateKey, shiftMatchDate, statusForMatchDate } from "../utils/matchDateNavigation";
+import { fixtureDate } from "../utils/fixturePresentation";
 
 function useMatchNavigation(
     selectedStatus = "SCHEDULED",
+    setSelectedStatus,
 ) {
 
     const [selectedDate, setSelectedDate] =
@@ -47,9 +48,7 @@ function useMatchNavigation(
 
             case "SCHEDULED": {
 
-                const today = new Date()
-                    .toISOString()
-                    .split("T")[0];
+                const today = localDateKey();
 
                 setSelectedDate(today);
                 break;
@@ -80,9 +79,7 @@ function useMatchNavigation(
 
             default: {
 
-                const today = new Date()
-                    .toISOString()
-                    .split("T")[0];
+                const today = localDateKey();
 
                 setSelectedDate(today);
 
@@ -106,61 +103,13 @@ function useMatchNavigation(
     // Previous Match Day
     // ==========================================
 
-    const goToPrevious = async () => {
-
-        try {
-
-            const response =
-                await getPreviousMatchDate(
-                    selectedDate,
-                    selectedStatus,
-                );
-
-            if (response?.date) {
-
-                setSelectedDate(
-                    response.date
-                );
-
-            }
-
-        } catch (err) {
-
-            console.error(err);
-
-        }
-
-    };
+    const goToPrevious = () => setCustomDate(shiftMatchDate(selectedDate || localDateKey(), -1));
 
     // ==========================================
     // Next Match Day
     // ==========================================
 
-    const goToNext = async () => {
-
-        try {
-
-            const response =
-                await getNextMatchDate(
-                    selectedDate,
-                    selectedStatus,
-                );
-
-            if (response?.date) {
-
-                setSelectedDate(
-                    response.date
-                );
-
-            }
-
-        } catch (err) {
-
-            console.error(err);
-
-        }
-
-    };
+    const goToNext = () => setCustomDate(shiftMatchDate(selectedDate || localDateKey(), 1));
 
     // ==========================================
     // Today
@@ -168,11 +117,7 @@ function useMatchNavigation(
 
     const goToToday = () => {
 
-        const today = new Date()
-            .toISOString()
-            .split("T")[0];
-
-        setSelectedDate(today);
+        setCustomDate(localDateKey());
 
     };
 
@@ -180,8 +125,9 @@ function useMatchNavigation(
         try {
             const response = await getLatestMatchDate(status);
             if (response?.date) {
-                preserveSelectedDate.current = true;
+                if (selectedStatus !== status) preserveSelectedDate.current = true;
                 setSelectedDate(response.date);
+                setSelectedStatus(status);
             }
         } catch (err) {
             console.error(err);
@@ -194,9 +140,11 @@ function useMatchNavigation(
             // always returns the closest upcoming fixture rather than the
             // final scheduled fixture of the season.
             const match = await getNextMatch();
-            if (match?.utc_date) {
-                preserveSelectedDate.current = true;
-                setSelectedDate(match.utc_date.slice(0, 10));
+            const date = fixtureDate(match?.utc_date);
+            if (date) {
+                if (selectedStatus !== "SCHEDULED") preserveSelectedDate.current = true;
+                setSelectedDate(localDateKey(date));
+                setSelectedStatus("SCHEDULED");
             }
         } catch (err) {
             console.error(err);
@@ -211,7 +159,11 @@ function useMatchNavigation(
         date,
     ) => {
 
+        const status = statusForMatchDate(date);
+        // A date-driven status change must not jump to the latest result date.
+        if (selectedStatus !== status) preserveSelectedDate.current = true;
         setSelectedDate(date);
+        setSelectedStatus(status);
 
     };
 

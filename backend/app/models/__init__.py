@@ -20,6 +20,8 @@ from .betting_odds import BettingOdds
 from .sync_log import SyncLog
 from .player_season_scorer import PlayerSeasonScorer
 from .user import User, UserFavourite, UserWatchlist, Notification
+from .fan_pick import FanPick
+from .forecast_snapshot import ForecastSnapshot
 
 
 __all__ = [
@@ -45,6 +47,7 @@ __all__ = [
     "SyncLog",
     "PlayerSeasonScorer",
     "User",
+    "FanPick",
     "UserFavourite",
     "UserWatchlist",
     "Notification",

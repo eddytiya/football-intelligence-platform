@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 import MainLayout from "../components/layout/MainLayout";
+import "../styles/fan-features.css";
 import FootballLoader from "../components/layout/FootballLoader";
 
 import MatchFilters from "../components/matches/MatchFilters";
@@ -51,11 +52,13 @@ function Matches() {
         goToToday,
 
         goToNearestScheduledDate,
+        goToLatestForStatus,
 
         setCustomDate,
 
     } = useMatchNavigation(
         selectedStatus,
+        setSelectedStatus,
     );
 
     const {
@@ -192,8 +195,7 @@ function Matches() {
                     goToNext={goToNext}
                     goToToday={goToToday}
                     goToNearestScheduledDate={goToNearestScheduledDate}
-                    setSelectedStatus={setSelectedStatus}
-                    selectedStatus={selectedStatus}
+                    goToLatestForStatus={goToLatestForStatus}
                 />}
 
                 <MatchList

@@ -48,7 +48,7 @@ function ClubPicker({ label, value, setValue, selected, setSelected }) {
     </label>;
 }
 
-const TEAMS_PAGE_SIZE = 100;
+const TEAMS_PAGE_SIZE = 24;
 
 function Teams() {
     const [teams, setTeams] = useState([]);

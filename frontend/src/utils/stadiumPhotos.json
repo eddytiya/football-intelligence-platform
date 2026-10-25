@@ -1,0 +1,1505 @@
+{
+  "monza": {
+    "stadium": "Stadio Brianteo",
+    "aliases": [
+      "AC Monza",
+      "Monza"
+    ],
+    "image": "/images/stadiums/monza.jpg"
+  },
+  "parma": {
+    "stadium": "Stadio Ennio Tardini",
+    "aliases": [
+      "Parma Calcio 1913",
+      "Parma"
+    ],
+    "image": "/images/stadiums/parma.jpg"
+  },
+  "manchester-united": {
+    "stadium": "Old Trafford",
+    "aliases": [
+      "Manchester United FC",
+      "Manchester United",
+      "Man United",
+      "Man Utd"
+    ],
+    "image": "/images/stadiums/manchester-united.jpg"
+  },
+  "manchester-city": {
+    "stadium": "Etihad Stadium",
+    "aliases": [
+      "Manchester City FC",
+      "Manchester City",
+      "Man City"
+    ],
+    "image": "/images/stadiums/manchester-city.jpg"
+  },
+  "arsenal": {
+    "stadium": "Emirates Stadium",
+    "aliases": [
+      "Arsenal FC",
+      "Arsenal"
+    ],
+    "image": "/images/stadiums/arsenal.jpg"
+  },
+  "liverpool": {
+    "stadium": "Anfield",
+    "aliases": [
+      "Liverpool FC",
+      "Liverpool"
+    ],
+    "image": "/images/stadiums/liverpool.jpg"
+  },
+  "chelsea": {
+    "stadium": "Stamford Bridge",
+    "aliases": [
+      "Chelsea FC",
+      "Chelsea"
+    ],
+    "image": "/images/stadiums/chelsea.jpg"
+  },
+  "tottenham": {
+    "stadium": "Tottenham Hotspur Stadium",
+    "aliases": [
+      "Tottenham Hotspur FC",
+      "Tottenham Hotspur",
+      "Tottenham",
+      "Spurs"
+    ],
+    "image": "/images/stadiums/tottenham.jpg"
+  },
+  "newcastle": {
+    "stadium": "St James’ Park",
+    "aliases": [
+      "Newcastle United FC",
+      "Newcastle United",
+      "Newcastle"
+    ],
+    "image": "/images/stadiums/newcastle.jpg"
+  },
+  "aston-villa": {
+    "stadium": "Villa Park",
+    "aliases": [
+      "Aston Villa FC",
+      "Aston Villa"
+    ],
+    "image": "/images/stadiums/aston-villa.jpg"
+  },
+  "brighton": {
+    "stadium": "Falmer Stadium",
+    "aliases": [
+      "Brighton & Hove Albion FC",
+      "Brighton & Hove Albion",
+      "Brighton",
+      "Brighton Hove"
+    ],
+    "image": "/images/stadiums/brighton.jpg"
+  },
+  "crystal-palace": {
+    "stadium": "Selhurst Park",
+    "aliases": [
+      "Crystal Palace FC",
+      "Crystal Palace"
+    ],
+    "image": "/images/stadiums/crystal-palace.jpg"
+  },
+  "fulham": {
+    "stadium": "Craven Cottage",
+    "aliases": [
+      "Fulham FC",
+      "Fulham"
+    ],
+    "image": "/images/stadiums/fulham.jpg"
+  },
+  "west-ham": {
+    "stadium": "London Stadium",
+    "aliases": [
+      "West Ham United FC",
+      "West Ham United",
+      "West Ham"
+    ],
+    "image": "/images/stadiums/west-ham.jpg"
+  },
+  "brentford": {
+    "stadium": "Brentford Community Stadium",
+    "aliases": [
+      "Brentford FC",
+      "Brentford"
+    ],
+    "image": "/images/stadiums/brentford.jpg"
+  },
+  "bournemouth": {
+    "stadium": "Dean Court",
+    "aliases": [
+      "AFC Bournemouth",
+      "Bournemouth"
+    ],
+    "image": "/images/stadiums/bournemouth.jpg"
+  },
+  "nottingham-forest": {
+    "stadium": "City Ground",
+    "aliases": [
+      "Nottingham Forest FC",
+      "Nottingham Forest",
+      "Nottm Forest",
+      "Nott'm Forest",
+      "Nottingham"
+    ],
+    "image": "/images/stadiums/nottingham-forest.jpg"
+  },
+  "leeds": {
+    "stadium": "Elland Road",
+    "aliases": [
+      "Leeds United FC",
+      "Leeds United",
+      "Leeds"
+    ],
+    "image": "/images/stadiums/leeds.jpg"
+  },
+  "sunderland": {
+    "stadium": "Stadium of Light",
+    "aliases": [
+      "Sunderland AFC",
+      "Sunderland"
+    ],
+    "image": "/images/stadiums/sunderland.jpg"
+  },
+  "everton": {
+    "stadium": "Hill Dickinson Stadium",
+    "aliases": [
+      "Everton FC",
+      "Everton"
+    ],
+    "image": "/images/stadiums/everton.jpg"
+  },
+  "real-madrid": {
+    "stadium": "Santiago Bernabéu",
+    "aliases": [
+      "Real Madrid CF",
+      "Real Madrid"
+    ],
+    "image": "/images/stadiums/real-madrid.jpg"
+  },
+  "barcelona": {
+    "stadium": "Spotify Camp Nou",
+    "aliases": [
+      "FC Barcelona",
+      "Barcelona"
+    ],
+    "image": "/images/stadiums/barcelona.jpg"
+  },
+  "bayern": {
+    "stadium": "Allianz Arena",
+    "aliases": [
+      "FC Bayern München",
+      "Bayern Munich",
+      "Bayern München",
+      "Bayern"
+    ],
+    "image": "/images/stadiums/bayern.jpg"
+  },
+  "juventus": {
+    "stadium": "Juventus Stadium",
+    "aliases": [
+      "Juventus FC",
+      "Juventus"
+    ],
+    "image": "/images/stadiums/juventus.jpg"
+  },
+  "milan": {
+    "stadium": "San Siro",
+    "aliases": [
+      "AC Milan",
+      "FC Internazionale Milano",
+      "Inter Milan",
+      "Inter",
+      "Milan"
+    ],
+    "image": "/images/stadiums/milan.jpg"
+  },
+  "hull": {
+    "stadium": "MKM Stadium",
+    "aliases": [
+      "Hull City AFC",
+      "Hull City",
+      "Hull"
+    ],
+    "image": "/images/stadiums/hull.jpg"
+  },
+  "venue-144": {
+    "stadium": "Stadion An der Alten Försterei",
+    "aliases": [
+      "1. FC Union Berlin",
+      "Union Berlin"
+    ],
+    "image": "/images/stadiums/venue-144.jpg"
+  },
+  "venue-198": {
+    "stadium": "Estadio Diego Armando Maradona",
+    "aliases": [
+      "AA Argentinos Juniors",
+      "Argentinos Jrs"
+    ],
+    "image": "/images/stadiums/venue-198.jpg"
+  },
+  "venue-149": {
+    "stadium": "Stadio Artemio Franchi",
+    "aliases": [
+      "ACF Fiorentina",
+      "Fiorentina"
+    ],
+    "image": "/images/stadiums/venue-149.jpg"
+  },
+  "venue-171": {
+    "stadium": "Cars Jeans Stadion",
+    "aliases": [
+      "ADO Den Haag",
+      "Den Haag"
+    ],
+    "image": "/images/stadiums/venue-171.jpg"
+  },
+  "venue-86": {
+    "stadium": "Johan Cruyff ArenA",
+    "aliases": [
+      "AFC Ajax",
+      "Ajax"
+    ],
+    "image": "/images/stadiums/venue-86.jpg"
+  },
+  "venue-128": {
+    "stadium": "Stade Raymond Kopa",
+    "aliases": [
+      "Angers SCO",
+      "Angers"
+    ],
+    "image": "/images/stadiums/venue-128.jpg"
+  },
+  "venue-150": {
+    "stadium": "Stadio Olimpico",
+    "aliases": [
+      "AS Roma",
+      "Roma",
+      "SS Lazio",
+      "Lazio"
+    ],
+    "image": "/images/stadiums/venue-150.jpg"
+  },
+  "venue-74": {
+    "stadium": "Stadio Atleti Azzurri d'Italia",
+    "aliases": [
+      "Atalanta BC",
+      "Atalanta"
+    ],
+    "image": "/images/stadiums/venue-74.jpg"
+  },
+  "venue-69": {
+    "stadium": "San Mamés",
+    "aliases": [
+      "Athletic Club",
+      "Athletic",
+      "Ath Bilbao"
+    ],
+    "image": "/images/stadiums/venue-69.jpg"
+  },
+  "venue-172": {
+    "stadium": "AFAS Stadion",
+    "aliases": [
+      "AZ",
+      "AZ Alkmaar"
+    ],
+    "image": "/images/stadiums/venue-172.jpg"
+  },
+  "venue-211": {
+    "stadium": "Estadio Monumental Isidro Romero Carbo",
+    "aliases": [
+      "Barcelona SC"
+    ],
+    "image": "/images/stadiums/venue-211.jpg"
+  },
+  "venue-65": {
+    "stadium": "BayArena",
+    "aliases": [
+      "Bayer 04 Leverkusen",
+      "Leverkusen"
+    ],
+    "image": "/images/stadiums/venue-65.jpg"
+  },
+  "venue-31": {
+    "stadium": "St Andrew's Trillion Trophy Stadium",
+    "aliases": [
+      "Birmingham City FC",
+      "Birmingham"
+    ],
+    "image": "/images/stadiums/venue-31.jpg"
+  },
+  "venue-21": {
+    "stadium": "Ewood Park",
+    "aliases": [
+      "Blackburn Rovers FC",
+      "Blackburn"
+    ],
+    "image": "/images/stadiums/venue-21.jpg"
+  },
+  "venue-151": {
+    "stadium": "Stadio Renato Dall'Ara",
+    "aliases": [
+      "Bologna FC 1909",
+      "Bologna"
+    ],
+    "image": "/images/stadiums/venue-151.jpg"
+  },
+  "venue-22": {
+    "stadium": "University of Bolton Stadium",
+    "aliases": [
+      "Bolton Wanderers FC",
+      "Bolton"
+    ],
+    "image": "/images/stadiums/venue-22.jpg"
+  },
+  "venue-66": {
+    "stadium": "Signal Iduna Park",
+    "aliases": [
+      "Borussia Dortmund",
+      "Dortmund"
+    ],
+    "image": "/images/stadiums/venue-66.jpg"
+  },
+  "venue-143": {
+    "stadium": "Stadion im Borussia-Park",
+    "aliases": [
+      "Borussia Mönchengladbach",
+      "M'gladbach"
+    ],
+    "image": "/images/stadiums/venue-143.jpg"
+  },
+  "venue-6": {
+    "stadium": "Estádio Nilton Santos",
+    "aliases": [
+      "Botafogo FR",
+      "Botafogo"
+    ],
+    "image": "/images/stadiums/venue-6.jpg"
+  },
+  "venue-39": {
+    "stadium": "Ashton Gate Stadium",
+    "aliases": [
+      "Bristol City FC",
+      "Bristol City"
+    ],
+    "image": "/images/stadiums/venue-39.jpg"
+  },
+  "venue-30": {
+    "stadium": "Turf Moor",
+    "aliases": [
+      "Burnley FC",
+      "Burnley"
+    ],
+    "image": "/images/stadiums/venue-30.jpg"
+  },
+  "venue-200": {
+    "stadium": "Estadio Ciudad de Lanús",
+    "aliases": [
+      "CA Lanús",
+      "Lanús"
+    ],
+    "image": "/images/stadiums/venue-200.jpg"
+  },
+  "venue-235": {
+    "stadium": "Estadio El Sadar",
+    "aliases": [
+      "CA Osasuna",
+      "Osasuna"
+    ],
+    "image": "/images/stadiums/venue-235.jpg"
+  },
+  "venue-4": {
+    "stadium": "Estádio Joaquim Américo Guimarães",
+    "aliases": [
+      "CA Paranaense",
+      "Paranaense"
+    ],
+    "image": "/images/stadiums/venue-4.jpg"
+  },
+  "venue-216": {
+    "stadium": "Estadio Campeón del Siglo",
+    "aliases": [
+      "CA Peñarol",
+      "Peñarol"
+    ],
+    "image": "/images/stadiums/venue-216.jpg"
+  },
+  "venue-152": {
+    "stadium": "Sardegna Arena",
+    "aliases": [
+      "Cagliari Calcio",
+      "Cagliari"
+    ],
+    "image": "/images/stadiums/venue-152.jpg"
+  },
+  "venue-42": {
+    "stadium": "Cardiff City Stadium",
+    "aliases": [
+      "Cardiff City FC",
+      "Cardiff"
+    ],
+    "image": "/images/stadiums/venue-42.jpg"
+  },
+  "venue-224": {
+    "stadium": "Estadio Atanasio Girardot",
+    "aliases": [
+      "CD Independiente Medellín",
+      "Independiente"
+    ],
+    "image": "/images/stadiums/venue-224.jpg"
+  },
+  "venue-186": {
+    "stadium": "Estádio da Madeira",
+    "aliases": [
+      "CD Nacional",
+      "Nacional"
+    ],
+    "image": "/images/stadiums/venue-186.jpg"
+  },
+  "venue-221": {
+    "stadium": "Estadio San Carlos de Apoquindo",
+    "aliases": [
+      "CD Universidad Católica",
+      "Univ Católica"
+    ],
+    "image": "/images/stadiums/venue-221.jpg"
+  },
+  "venue-207": {
+    "stadium": "Estadio Metropolitano Roberto Meléndez",
+    "aliases": [
+      "CDP Junior FC",
+      "Junior"
+    ],
+    "image": "/images/stadiums/venue-207.jpg"
+  },
+  "venue-8": {
+    "stadium": "Arena Condá",
+    "aliases": [
+      "Chapecoense AF",
+      "Chapecoense"
+    ],
+    "image": "/images/stadiums/venue-8.jpg"
+  },
+  "venue-218": {
+    "stadium": "Estadio Alejandro Villanueva",
+    "aliases": [
+      "Club Alianza Lima",
+      "Alianza Lima"
+    ],
+    "image": "/images/stadiums/venue-218.jpg"
+  },
+  "venue-70": {
+    "stadium": "Estadio Wanda Metropolitano",
+    "aliases": [
+      "Club Atlético de Madrid",
+      "Atleti",
+      "Ath Madrid"
+    ],
+    "image": "/images/stadiums/venue-70.jpg"
+  },
+  "venue-202": {
+    "stadium": "Estadio Hernando Siles",
+    "aliases": [
+      "Club Bolívar"
+    ],
+    "image": "/images/stadiums/venue-202.jpg"
+  },
+  "venue-222": {
+    "stadium": "Estadio Gran Parque Central",
+    "aliases": [
+      "Club Nacional de Football",
+      "Club Nacional"
+    ],
+    "image": "/images/stadiums/venue-222.jpg"
+  },
+  "venue-203": {
+    "stadium": "Estadio Victor Agustín Ugarte",
+    "aliases": [
+      "Club Nacional Potosí",
+      "Nac. Potosí"
+    ],
+    "image": "/images/stadiums/venue-203.jpg"
+  },
+  "venue-17": {
+    "stadium": "Estádio Estadual Jornalista Edgar Augusto Proença",
+    "aliases": [
+      "Clube do Remo"
+    ],
+    "image": "/images/stadiums/venue-17.jpg"
+  },
+  "venue-163": {
+    "stadium": "Stadio Giuseppe Sinigaglia",
+    "aliases": [
+      "Como 1907",
+      "Como"
+    ],
+    "image": "/images/stadiums/venue-163.jpg"
+  },
+  "venue-15": {
+    "stadium": "Estádio Major Antônio Couto Pereira",
+    "aliases": [
+      "Coritiba FBC",
+      "Coritiba"
+    ],
+    "image": "/images/stadiums/venue-15.jpg"
+  },
+  "venue-7": {
+    "stadium": "Estádio Governador Magalhães Pinto",
+    "aliases": [
+      "Cruzeiro EC",
+      "Cruzeiro"
+    ],
+    "image": "/images/stadiums/venue-7.jpg"
+  },
+  "venue-217": {
+    "stadium": "Estadio Alberto Gallardo",
+    "aliases": [
+      "CS Cristal",
+      "Cristal"
+    ],
+    "image": "/images/stadiums/venue-217.jpg"
+  },
+  "venue-191": {
+    "stadium": "Estádio dos Barreiros",
+    "aliases": [
+      "CS Marítimo",
+      "Marítimo",
+      "Maritimo"
+    ],
+    "image": "/images/stadiums/venue-191.jpg"
+  },
+  "venue-244": {
+    "stadium": "Estadio de Mendizorroza",
+    "aliases": [
+      "Deportivo Alavés",
+      "Alavés",
+      "Alaves"
+    ],
+    "image": "/images/stadiums/venue-244.jpg"
+  },
+  "venue-33": {
+    "stadium": "iPro Stadium",
+    "aliases": [
+      "Derby County FC",
+      "Derby County",
+      "Derby"
+    ],
+    "image": "/images/stadiums/venue-33.jpg"
+  },
+  "venue-13": {
+    "stadium": "Estádio Manoel Barradas",
+    "aliases": [
+      "EC Vitória",
+      "Vitória"
+    ],
+    "image": "/images/stadiums/venue-13.jpg"
+  },
+  "venue-68": {
+    "stadium": "Deutsche Bank Park",
+    "aliases": [
+      "Eintracht Frankfurt",
+      "Frankfurt",
+      "Ein Frankfurt"
+    ],
+    "image": "/images/stadiums/venue-68.jpg"
+  },
+  "venue-245": {
+    "stadium": "Estadio Manuel Martínez Valero",
+    "aliases": [
+      "Elche CF",
+      "Elche"
+    ],
+    "image": "/images/stadiums/venue-245.jpg"
+  },
+  "venue-196": {
+    "stadium": "Estadio Jorge Luis Hirschi",
+    "aliases": [
+      "Estudiantes de La Plata",
+      "Estudiantes LP"
+    ],
+    "image": "/images/stadiums/venue-196.jpg"
+  },
+  "venue-184": {
+    "stadium": "Estádio Municipal de Arouca",
+    "aliases": [
+      "FC Arouca",
+      "Arouca"
+    ],
+    "image": "/images/stadiums/venue-184.jpg"
+  },
+  "venue-141": {
+    "stadium": "WWK Arena",
+    "aliases": [
+      "FC Augsburg",
+      "Augsburg"
+    ],
+    "image": "/images/stadiums/venue-141.jpg"
+  },
+  "venue-188": {
+    "stadium": "Estádio Municipal 22 de Junho",
+    "aliases": [
+      "FC Famalicão",
+      "Famalicão",
+      "Famalicao"
+    ],
+    "image": "/images/stadiums/venue-188.jpg"
+  },
+  "venue-89": {
+    "stadium": "Telia Parken",
+    "aliases": [
+      "FC København",
+      "København"
+    ],
+    "image": "/images/stadiums/venue-89.jpg"
+  },
+  "venue-136": {
+    "stadium": "Veltins-Arena",
+    "aliases": [
+      "FC Schalke 04",
+      "Schalke",
+      "Schalke 04"
+    ],
+    "image": "/images/stadiums/venue-136.jpg"
+  },
+  "venue-164": {
+    "stadium": "De Grolsch Veste",
+    "aliases": [
+      "FC Twente '65",
+      "Twente"
+    ],
+    "image": "/images/stadiums/venue-164.jpg"
+  },
+  "venue-169": {
+    "stadium": "Stadion Galgenwaard",
+    "aliases": [
+      "FC Utrecht",
+      "Utrecht"
+    ],
+    "image": "/images/stadiums/venue-169.jpg"
+  },
+  "venue-168": {
+    "stadium": "Stadion Feijenoord",
+    "aliases": [
+      "Feyenoord Rotterdam",
+      "Feyenoord"
+    ],
+    "image": "/images/stadiums/venue-168.jpg"
+  },
+  "venue-92": {
+    "stadium": "Aspmyra Stadion",
+    "aliases": [
+      "FK Bodø/Glimt",
+      "Bodø/Glimt"
+    ],
+    "image": "/images/stadiums/venue-92.jpg"
+  },
+  "venue-178": {
+    "stadium": "Fortuna Sittard Stadion",
+    "aliases": [
+      "Fortuna Sittard",
+      "Sittard",
+      "For Sittard"
+    ],
+    "image": "/images/stadiums/venue-178.jpg"
+  },
+  "venue-158": {
+    "stadium": "Stadio Benito Stirpe",
+    "aliases": [
+      "Frosinone Calcio",
+      "Frosinone"
+    ],
+    "image": "/images/stadiums/venue-158.jpg"
+  },
+  "venue-82": {
+    "stadium": "Türk Telekom Arena",
+    "aliases": [
+      "Galatasaray SK",
+      "Galatasaray"
+    ],
+    "image": "/images/stadiums/venue-82.jpg"
+  },
+  "venue-182": {
+    "stadium": "Estádio António Coimbra da Mota",
+    "aliases": [
+      "GD Estoril Praia",
+      "Estoril Praia",
+      "Estoril"
+    ],
+    "image": "/images/stadiums/venue-182.jpg"
+  },
+  "venue-237": {
+    "stadium": "Coliseum Alfonso Pérez",
+    "aliases": [
+      "Getafe CF",
+      "Getafe"
+    ],
+    "image": "/images/stadiums/venue-237.jpg"
+  },
+  "venue-189": {
+    "stadium": "Estádio Cidade de Barcelos",
+    "aliases": [
+      "Gil Vicente FC",
+      "Gil Vicente"
+    ],
+    "image": "/images/stadiums/venue-189.jpg"
+  },
+  "venue-174": {
+    "stadium": "De Adelaarshorst",
+    "aliases": [
+      "Go Ahead Eagles",
+      "Go Ahead"
+    ],
+    "image": "/images/stadiums/venue-174.jpg"
+  },
+  "venue-3": {
+    "stadium": "Arena do Grêmio",
+    "aliases": [
+      "Grêmio FBPA",
+      "Grêmio"
+    ],
+    "image": "/images/stadiums/venue-3.jpg"
+  },
+  "venue-137": {
+    "stadium": "Volksparkstadion",
+    "aliases": [
+      "Hamburger SV",
+      "HSV",
+      "Hamburg"
+    ],
+    "image": "/images/stadiums/venue-137.jpg"
+  },
+  "venue-58": {
+    "stadium": "Portman Road Stadium",
+    "aliases": [
+      "Ipswich Town FC",
+      "Ipswich Town",
+      "Ipswich"
+    ],
+    "image": "/images/stadiums/venue-58.jpg"
+  },
+  "venue-212": {
+    "stadium": "Estadio de Liga Deportiva Universitaria",
+    "aliases": [
+      "LDU de Quito"
+    ],
+    "image": "/images/stadiums/venue-212.jpg"
+  },
+  "venue-129": {
+    "stadium": "Stade Océane",
+    "aliases": [
+      "Le Havre AC",
+      "Le Havre"
+    ],
+    "image": "/images/stadiums/venue-129.jpg"
+  },
+  "venue-240": {
+    "stadium": "Estadio Ciudad de Valencia",
+    "aliases": [
+      "Levante UD",
+      "Levante"
+    ],
+    "image": "/images/stadiums/venue-240.jpg"
+  },
+  "venue-122": {
+    "stadium": "Stade Pierre-Mauroy",
+    "aliases": [
+      "Lille OSC",
+      "Lille"
+    ],
+    "image": "/images/stadiums/venue-122.jpg"
+  },
+  "venue-44": {
+    "stadium": "Sincil Bank Stadium",
+    "aliases": [
+      "Lincoln City FC",
+      "Lincoln City"
+    ],
+    "image": "/images/stadiums/venue-44.jpg"
+  },
+  "venue-238": {
+    "stadium": "Estadio La Rosaleda",
+    "aliases": [
+      "Málaga CF",
+      "Málaga",
+      "Malaga"
+    ],
+    "image": "/images/stadiums/venue-238.jpg"
+  },
+  "venue-34": {
+    "stadium": "Riverside Stadium",
+    "aliases": [
+      "Middlesbrough FC",
+      "Middlesbrough"
+    ],
+    "image": "/images/stadiums/venue-34.jpg"
+  },
+  "venue-177": {
+    "stadium": "Goffertstadion",
+    "aliases": [
+      "NEC",
+      "Nijmegen"
+    ],
+    "image": "/images/stadiums/venue-177.jpg"
+  },
+  "venue-23": {
+    "stadium": "Carrow Road",
+    "aliases": [
+      "Norwich City FC",
+      "Norwich"
+    ],
+    "image": "/images/stadiums/venue-23.jpg"
+  },
+  "venue-123": {
+    "stadium": "Stade de Nice",
+    "aliases": [
+      "OGC Nice",
+      "Nice"
+    ],
+    "image": "/images/stadiums/venue-123.jpg"
+  },
+  "venue-124": {
+    "stadium": "Groupama Stadium",
+    "aliases": [
+      "Olympique Lyonnais",
+      "Olympique Lyon",
+      "Lyon"
+    ],
+    "image": "/images/stadiums/venue-124.jpg"
+  },
+  "venue-173": {
+    "stadium": "MAC³PARK Stadion",
+    "aliases": [
+      "PEC Zwolle",
+      "Zwolle"
+    ],
+    "image": "/images/stadiums/venue-173.jpg"
+  },
+  "venue-29": {
+    "stadium": "Fratton Park",
+    "aliases": [
+      "Portsmouth FC",
+      "Portsmouth"
+    ],
+    "image": "/images/stadiums/venue-29.jpg"
+  },
+  "venue-85": {
+    "stadium": "Philips Stadion",
+    "aliases": [
+      "PSV",
+      "PSV Eindhoven"
+    ],
+    "image": "/images/stadiums/venue-85.jpg"
+  },
+  "venue-24": {
+    "stadium": "Kiyan Prince Foundation Stadium",
+    "aliases": [
+      "Queens Park Rangers FC",
+      "QPR"
+    ],
+    "image": "/images/stadiums/venue-24.jpg"
+  },
+  "venue-246": {
+    "stadium": "Estadio de Balaídos",
+    "aliases": [
+      "RC Celta de Vigo",
+      "Celta"
+    ],
+    "image": "/images/stadiums/venue-246.jpg"
+  },
+  "venue-132": {
+    "stadium": "Stade de la Meinau",
+    "aliases": [
+      "RC Strasbourg Alsace",
+      "Strasbourg"
+    ],
+    "image": "/images/stadiums/venue-132.jpg"
+  },
+  "venue-236": {
+    "stadium": "RCDE Stadium",
+    "aliases": [
+      "RCD Espanyol de Barcelona",
+      "Espanyol",
+      "Espanol"
+    ],
+    "image": "/images/stadiums/venue-236.jpg"
+  },
+  "venue-249": {
+    "stadium": "Campos de Sport de El Sardinero",
+    "aliases": [
+      "Real Racing Club de Santander",
+      "Santander"
+    ],
+    "image": "/images/stadiums/venue-249.jpg"
+  },
+  "venue-242": {
+    "stadium": "Estadio Municipal de Anoeta",
+    "aliases": [
+      "Real Sociedad de Fútbol",
+      "Real Sociedad",
+      "Sociedad"
+    ],
+    "image": "/images/stadiums/venue-242.jpg"
+  },
+  "venue-20": {
+    "stadium": "Estádio Urbano Caldeira",
+    "aliases": [
+      "Santos FC",
+      "Santos"
+    ],
+    "image": "/images/stadiums/venue-20.jpg"
+  },
+  "venue-9": {
+    "stadium": "Estádio do Morumbi",
+    "aliases": [
+      "São Paulo FC",
+      "São Paulo"
+    ],
+    "image": "/images/stadiums/venue-9.jpg"
+  },
+  "venue-165": {
+    "stadium": "Van Donge & De Roo Stadion",
+    "aliases": [
+      "SBV Excelsior",
+      "Excelsior"
+    ],
+    "image": "/images/stadiums/venue-165.jpg"
+  },
+  "venue-11": {
+    "stadium": "Neo Química Arena",
+    "aliases": [
+      "SC Corinthians Paulista",
+      "Corinthians"
+    ],
+    "image": "/images/stadiums/venue-11.jpg"
+  },
+  "venue-167": {
+    "stadium": "Abe Lenstra Stadion",
+    "aliases": [
+      "SC Heerenveen",
+      "Heerenveen"
+    ],
+    "image": "/images/stadiums/venue-167.jpg"
+  },
+  "venue-145": {
+    "stadium": "Benteler-Arena",
+    "aliases": [
+      "SC Paderborn 07",
+      "SC Paderborn",
+      "Paderborn"
+    ],
+    "image": "/images/stadiums/venue-145.jpg"
+  },
+  "venue-5": {
+    "stadium": "Allianz Parque",
+    "aliases": [
+      "SE Palmeiras",
+      "Palmeiras"
+    ],
+    "image": "/images/stadiums/venue-5.jpg"
+  },
+  "venue-247": {
+    "stadium": "Estadio Ramón Sánchez Pizjuán",
+    "aliases": [
+      "Sevilla FC",
+      "Sevilla"
+    ],
+    "image": "/images/stadiums/venue-247.jpg"
+  },
+  "venue-37": {
+    "stadium": "Bramall Lane",
+    "aliases": [
+      "Sheffield United FC",
+      "Sheffield Utd",
+      "Sheffield United"
+    ],
+    "image": "/images/stadiums/venue-37.jpg"
+  },
+  "venue-88": {
+    "stadium": "Sinobo Stadium",
+    "aliases": [
+      "SK Slavia Praha",
+      "Slavia Praha"
+    ],
+    "image": "/images/stadiums/venue-88.jpg"
+  },
+  "venue-32": {
+    "stadium": "St. Mary's Stadium",
+    "aliases": [
+      "Southampton FC",
+      "Southampton"
+    ],
+    "image": "/images/stadiums/venue-32.jpg"
+  },
+  "venue-179": {
+    "stadium": "Sparta-Stadion Het Kasteel",
+    "aliases": [
+      "Sparta Rotterdam",
+      "Sparta"
+    ],
+    "image": "/images/stadiums/venue-179.jpg"
+  },
+  "venue-90": {
+    "stadium": "Estádio do Sport Lisboa e Benfica",
+    "aliases": [
+      "Sport Lisboa e Benfica",
+      "SL Benfica",
+      "Benfica"
+    ],
+    "image": "/images/stadiums/venue-90.jpg"
+  },
+  "venue-192": {
+    "stadium": "Estádio Municipal de Braga",
+    "aliases": [
+      "Sporting Clube de Braga",
+      "Braga",
+      "Sp Braga"
+    ],
+    "image": "/images/stadiums/venue-192.jpg"
+  },
+  "venue-78": {
+    "stadium": "Estádio José Alvalade",
+    "aliases": [
+      "Sporting Clube de Portugal",
+      "Sporting CP",
+      "Sp Lisbon"
+    ],
+    "image": "/images/stadiums/venue-78.jpg"
+  },
+  "venue-77": {
+    "stadium": "Stadio San Paolo",
+    "aliases": [
+      "SSC Napoli",
+      "Napoli"
+    ],
+    "image": "/images/stadiums/venue-77.jpg"
+  },
+  "venue-120": {
+    "stadium": "Stade Francis-Le Blé",
+    "aliases": [
+      "Stade Brestois 29",
+      "Brest"
+    ],
+    "image": "/images/stadiums/venue-120.jpg"
+  },
+  "venue-126": {
+    "stadium": "Roazhon Park",
+    "aliases": [
+      "Stade Rennais FC 1901",
+      "Stade Rennais",
+      "Rennes"
+    ],
+    "image": "/images/stadiums/venue-126.jpg"
+  },
+  "venue-25": {
+    "stadium": "Bet365 Stadium",
+    "aliases": [
+      "Stoke City FC",
+      "Stoke"
+    ],
+    "image": "/images/stadiums/venue-25.jpg"
+  },
+  "venue-139": {
+    "stadium": "Weserstadion",
+    "aliases": [
+      "SV Werder Bremen",
+      "Bremen",
+      "Werder Bremen"
+    ],
+    "image": "/images/stadiums/venue-139.jpg"
+  },
+  "venue-176": {
+    "stadium": "Rabobank IJmond Stadion",
+    "aliases": [
+      "Telstar 1963",
+      "Telstar"
+    ],
+    "image": "/images/stadiums/venue-176.jpg"
+  },
+  "venue-160": {
+    "stadium": "Stadio Olimpico di Torino",
+    "aliases": [
+      "Torino FC",
+      "Torino"
+    ],
+    "image": "/images/stadiums/venue-160.jpg"
+  },
+  "venue-119": {
+    "stadium": "Stadium Municipal",
+    "aliases": [
+      "Toulouse FC",
+      "Toulouse"
+    ],
+    "image": "/images/stadiums/venue-119.jpg"
+  },
+  "venue-135": {
+    "stadium": "PreZero Arena",
+    "aliases": [
+      "TSG 1899 Hoffenheim",
+      "Hoffenheim"
+    ],
+    "image": "/images/stadiums/venue-135.jpg"
+  },
+  "venue-156": {
+    "stadium": "Dacia Arena",
+    "aliases": [
+      "Udinese Calcio",
+      "Udinese"
+    ],
+    "image": "/images/stadiums/venue-156.jpg"
+  },
+  "venue-159": {
+    "stadium": "Mapei Stadium - Città del Tricolore",
+    "aliases": [
+      "US Sassuolo Calcio",
+      "Sassuolo"
+    ],
+    "image": "/images/stadiums/venue-159.jpg"
+  },
+  "venue-243": {
+    "stadium": "Estadio de Mestalla",
+    "aliases": [
+      "Valencia CF",
+      "Valencia"
+    ],
+    "image": "/images/stadiums/venue-243.jpg"
+  },
+  "venue-157": {
+    "stadium": "Stadio Pierluigi Penzo",
+    "aliases": [
+      "Venezia FC",
+      "Venezia"
+    ],
+    "image": "/images/stadiums/venue-157.jpg"
+  },
+  "venue-73": {
+    "stadium": "Estadio de la Cerámica",
+    "aliases": [
+      "Villarreal CF",
+      "Villarreal"
+    ],
+    "image": "/images/stadiums/venue-73.jpg"
+  },
+  "venue-190": {
+    "stadium": "Estádio Dom Afonso Henriques",
+    "aliases": [
+      "Vitória SC",
+      "Guimaraes"
+    ],
+    "image": "/images/stadiums/venue-190.jpg"
+  },
+  "venue-28": {
+    "stadium": "Molineux Stadium",
+    "aliases": [
+      "Wolverhampton Wanderers FC",
+      "Wolverhampton",
+      "Wolves"
+    ],
+    "image": "/images/stadiums/venue-28.jpg"
+  },
+  "venue-185": {
+    "stadium": "Estádio do Fontelo",
+    "aliases": [
+      "Académico de Viseu FC",
+      "Acad. Viseu"
+    ],
+    "image": "/images/stadiums/venue-185.jpg"
+  },
+  "venue-81": {
+    "stadium": "Stade Louis II",
+    "aliases": [
+      "AS Monaco FC",
+      "Monaco"
+    ],
+    "image": "/images/stadiums/venue-81.jpg"
+  },
+  "venue-199": {
+    "stadium": "La Bombonera",
+    "aliases": [
+      "CA Boca Juniors",
+      "Boca Juniors"
+    ],
+    "image": "/images/stadiums/venue-199.jpg"
+  },
+  "venue-2": {
+    "stadium": "Arena MRV",
+    "aliases": [
+      "CA Mineiro",
+      "Mineiro"
+    ],
+    "image": "/images/stadiums/venue-2.jpg"
+  },
+  "venue-201": {
+    "stadium": "Estadio Gigante de Arroyito",
+    "aliases": [
+      "CA Rosario Central",
+      "Rosario"
+    ],
+    "image": "/images/stadiums/venue-201.jpg"
+  },
+  "venue-195": {
+    "stadium": "Estádio José Gomes",
+    "aliases": [
+      "CF Estrela da Amadora",
+      "Amadora",
+      "Estrela"
+    ],
+    "image": "/images/stadiums/venue-195.jpg"
+  },
+  "venue-36": {
+    "stadium": "The Valley (London)",
+    "aliases": [
+      "Charlton Athletic FC",
+      "Charlton"
+    ],
+    "image": "/images/stadiums/venue-36.jpg"
+  },
+  "venue-64": {
+    "stadium": "Coventry Building Society Arena",
+    "aliases": [
+      "Coventry City FC",
+      "Coventry City",
+      "Coventry"
+    ],
+    "image": "/images/stadiums/venue-64.jpg"
+  },
+  "venue-14": {
+    "stadium": "Maracanã Stadium",
+    "aliases": [
+      "CR Flamengo",
+      "Flamengo",
+      "Fluminense FC",
+      "Fluminense"
+    ],
+    "image": "/images/stadiums/venue-14.jpg"
+  },
+  "venue-10": {
+    "stadium": "Arena Fonte Nova",
+    "aliases": [
+      "EC Bahia",
+      "Bahia"
+    ],
+    "image": "/images/stadiums/venue-10.jpg"
+  },
+  "venue-170": {
+    "stadium": "Euroborg",
+    "aliases": [
+      "FC Groningen",
+      "Groningen"
+    ],
+    "image": "/images/stadiums/venue-170.jpg"
+  },
+  "venue-125": {
+    "stadium": "Stade du Moustoir",
+    "aliases": [
+      "FC Lorient",
+      "Lorient"
+    ],
+    "image": "/images/stadiums/venue-125.jpg"
+  },
+  "venue-181": {
+    "stadium": "Estádio do Dragão",
+    "aliases": [
+      "FC Porto",
+      "Porto"
+    ],
+    "image": "/images/stadiums/venue-181.jpg"
+  },
+  "venue-153": {
+    "stadium": "Stadio Luigi Ferraris",
+    "aliases": [
+      "Genoa CFC",
+      "Genoa"
+    ],
+    "image": "/images/stadiums/venue-153.jpg"
+  },
+  "venue-84": {
+    "stadium": "Karaiskakis Stadium",
+    "aliases": [
+      "PAE Olympiakos SFP",
+      "Olympiakos"
+    ],
+    "image": "/images/stadiums/venue-84.jpg"
+  },
+  "venue-94": {
+    "stadium": "Stelios Kyriakides Stadium",
+    "aliases": [
+      "Paphos FC"
+    ],
+    "image": "/images/stadiums/venue-94.jpg"
+  },
+  "venue-147": {
+    "stadium": "Red Bull Arena (Leipzig)",
+    "aliases": [
+      "RB Leipzig"
+    ],
+    "image": "/images/stadiums/venue-147.jpg"
+  },
+  "venue-248": {
+    "stadium": "Estadio Riazor",
+    "aliases": [
+      "RC Deportivo La Coruña",
+      "Deportivo",
+      "La Coruna"
+    ],
+    "image": "/images/stadiums/venue-248.jpg"
+  },
+  "venue-175": {
+    "stadium": "Kooi Stadion",
+    "aliases": [
+      "SC Cambuur-Leeuwarden",
+      "Cambuur"
+    ],
+    "image": "/images/stadiums/venue-175.jpg"
+  },
+  "venue-146": {
+    "stadium": "Waldstadion an der Kaiserlinde",
+    "aliases": [
+      "SV 07 Elversberg",
+      "Elversberg"
+    ],
+    "image": "/images/stadiums/venue-146.jpg"
+  },
+  "venue-161": {
+    "stadium": "Stadio Via del mare",
+    "aliases": [
+      "US Lecce",
+      "Lecce"
+    ],
+    "image": "/images/stadiums/venue-161.jpg"
+  },
+  "venue-138": {
+    "stadium": "Neckarstadion",
+    "aliases": [
+      "VfB Stuttgart",
+      "Stuttgart"
+    ],
+    "image": "/images/stadiums/venue-138.jpg"
+  },
+  "venue-80": {
+    "stadium": "Parc des Princes",
+    "aliases": [
+      "Paris Saint-Germain FC",
+      "PSG",
+      "Paris SG"
+    ],
+    "image": "/images/stadiums/venue-80.jpg"
+  },
+  "venue-79": {
+    "stadium": "Stade Vélodrome",
+    "aliases": [
+      "Olympique de Marseille",
+      "Marseille"
+    ],
+    "image": "/images/stadiums/venue-79.jpg"
+  },
+  "venue-131": {
+    "stadium": "Stade Bollaert-Delelis",
+    "aliases": [
+      "Racing Club de Lens",
+      "RC Lens",
+      "Lens"
+    ],
+    "image": "/images/stadiums/venue-131.jpg"
+  },
+  "venue-134": {
+    "stadium": "RheinEnergieStadion",
+    "aliases": [
+      "1. FC Köln",
+      "FC Koln"
+    ],
+    "image": "/images/stadiums/venue-134.jpg"
+  },
+  "venue-27": {
+    "stadium": "The Hawthorns",
+    "aliases": [
+      "West Bromwich Albion FC",
+      "West Brom"
+    ],
+    "image": "/images/stadiums/venue-27.jpg"
+  },
+  "venue-140": {
+    "stadium": "Mewa Arena",
+    "aliases": [
+      "1. FSV Mainz 05",
+      "Mainz"
+    ],
+    "image": "/images/stadiums/venue-140.jpg"
+  },
+  "venue-121": {
+    "stadium": "Stade de l’Abbé-Deschamps",
+    "aliases": [
+      "AJ Auxerre",
+      "Auxerre"
+    ],
+    "image": "/images/stadiums/venue-121.jpg"
+  },
+  "venue-187": {
+    "stadium": "Estádio de São Miguel",
+    "aliases": [
+      "CD Santa Clara",
+      "Santa Clara"
+    ],
+    "image": "/images/stadiums/venue-187.jpg"
+  },
+  "venue-133": {
+    "stadium": "Stade Jean-Bouin",
+    "aliases": [
+      "Paris FC"
+    ],
+    "image": "/images/stadiums/venue-133.jpg"
+  },
+  "venue-241": {
+    "stadium": "Estadio La Cartuja",
+    "aliases": [
+      "Real Betis Balompié",
+      "Real Betis",
+      "Betis"
+    ],
+    "image": "/images/stadiums/venue-241.jpg"
+  },
+  "venue-239": {
+    "stadium": "Campo de Fútbol de Vallecas",
+    "aliases": [
+      "Rayo Vallecano de Madrid",
+      "Rayo Vallecano",
+      "Vallecano"
+    ],
+    "image": "/images/stadiums/venue-239.jpg"
+  },
+  "venue-38": {
+    "stadium": "The Den",
+    "aliases": [
+      "Millwall FC",
+      "Millwall"
+    ],
+    "image": "/images/stadiums/venue-38.jpg"
+  },
+  "venue-225": {
+    "stadium": "Estadio Ciudad de Vicente López",
+    "aliases": [
+      "CA Platense",
+      "Platense"
+    ],
+    "image": "/images/stadiums/venue-225.jpg"
+  },
+  "venue-18": {
+    "stadium": "Estádio José Maria de Campos Maia",
+    "aliases": [
+      "Mirassol FC",
+      "Mirassol"
+    ],
+    "image": "/images/stadiums/venue-18.jpg"
+  },
+  "venue-142": {
+    "stadium": "Europa-Park Stadion",
+    "aliases": [
+      "SC Freiburg",
+      "Freiburg"
+    ],
+    "image": "/images/stadiums/venue-142.jpg"
+  }
+}

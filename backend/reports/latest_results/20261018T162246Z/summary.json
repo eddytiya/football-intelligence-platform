@@ -1,0 +1,181 @@
+{
+  "start": "2026-07-29",
+  "until": "2026-10-18",
+  "completed_at": "2026-10-18T16:24:19.614450+00:00",
+  "counts": {
+    "received": 797,
+    "rejected": 41,
+    "unchanged": 48,
+    "outside_local_date": 7,
+    "updated": 693,
+    "finished_results_saved": 688,
+    "created": 8
+  },
+  "issues": [
+    {
+      "api_id": "575342",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575341",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575348",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575344",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575346",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575343",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575349",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575345",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575347",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575350",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575351",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575358",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575354",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575356",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575352",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575353",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575355",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575357",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575323",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575324",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575325",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575327",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575326",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575328",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "557183",
+      "reason": "Provider match ID belongs to a different stored fixture"
+    },
+    {
+      "api_id": "575329",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575330",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575331",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575333",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575334",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575332",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "557182",
+      "reason": "Provider match ID belongs to a different stored fixture"
+    },
+    {
+      "api_id": "575335",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575336",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575339",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575337",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575340",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "575338",
+      "reason": "Missing local competition, season or team mapping"
+    },
+    {
+      "api_id": "559713",
+      "reason": "Provider match ID belongs to a different stored fixture"
+    },
+    {
+      "api_id": "567263",
+      "reason": "Existing record is quarantined; manual review required"
+    },
+    {
+      "api_id": "567264",
+      "reason": "Existing record is quarantined; manual review required"
+    }
+  ],
+  "report_directory": "D:\\football-intelligence-platform\\backend\\reports\\latest_results\\20261018T162246Z"
+}

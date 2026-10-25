@@ -49,6 +49,14 @@ backend/models/trained_models/extra_trees.joblib
 # Historical prediction exports
 backend/reports/historical_predictions_*.csv
 
+# Local model recovery artifacts and database quarantine snapshots.
+backend/reports/data_repairs/*.joblib
+backend/reports/data_repairs/quarantine_*.json
+backend/reports/form_feature_experiment/*.joblib
+backend/reports/shot_feature_experiment/*.joblib
+backend/reports/tuned_shot_stack_experiment/*.joblib
+backend/reports/shot_context_experiment/*.joblib
+
 # Large local datasets
 data/
 backend/data/
@@ -66,3 +74,10 @@ historical_data/
 .DS_Store
 Thumbs.db
 .claude/
+
+# Local agent state, caches, and model recovery copies
+.codex/
+.vite/
+backend/reports/leakage_prevention_backup/
+backend/reports/**/*.joblib
+backend/reports/data_repairs/history_backup/

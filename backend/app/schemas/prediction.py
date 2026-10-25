@@ -53,6 +53,7 @@ class PredictionDetail(BaseModel):
     away_probability: float
 
     predicted_at: datetime
+    verification_status: str = 'legacy_unverified'
 
     class Config:
 

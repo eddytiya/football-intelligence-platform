@@ -1,0 +1,71 @@
+{
+  "snapshots": 47738,
+  "invalid_positions": 0,
+  "verified_mappings": 457,
+  "unresolved_mapping_count": 0,
+  "unresolved_mappings": [],
+  "database_status_counts": {
+    "POSTPONED": 5,
+    "FINISHED": 47866,
+    "QUARANTINED": 8,
+    "CANCELLED": 1,
+    "IN_PLAY": 4,
+    "SCHEDULED": 2977,
+    "TIMED": 95
+  },
+  "future_finished_remaining": 0,
+  "smoke_forecasts": [
+    {
+      "match_id": 2621,
+      "league": "DED",
+      "home_team": "Sparta Rotterdam",
+      "away_team": "Willem II Tilburg",
+      "history_through": "2026-10-11"
+    },
+    {
+      "match_id": 2622,
+      "league": "DED",
+      "home_team": "PEC Zwolle",
+      "away_team": "Go Ahead Eagles",
+      "history_through": "2026-10-11"
+    },
+    {
+      "match_id": 2624,
+      "league": "DED",
+      "home_team": "FC Twente '65",
+      "away_team": "FC Utrecht",
+      "history_through": "2026-10-11"
+    },
+    {
+      "match_id": 2623,
+      "league": "DED",
+      "home_team": "SC Cambuur-Leeuwarden",
+      "away_team": "AZ",
+      "history_through": "2026-10-11"
+    }
+  ],
+  "website_validation": {
+    "name": "50% outcome classifier + 25% Elo + 25% goal-model Poisson",
+    "validation_start": "2023-05-12",
+    "validation_matches": 9551,
+    "accuracy": 0.5183750392629044,
+    "log_loss": 0.9859980907286142,
+    "confusion_matrix_away_draw_home": [
+      [
+        1532,
+        0,
+        1418
+      ],
+      [
+        773,
+        0,
+        1678
+      ],
+      [
+        731,
+        0,
+        3419
+      ]
+    ]
+  }
+}

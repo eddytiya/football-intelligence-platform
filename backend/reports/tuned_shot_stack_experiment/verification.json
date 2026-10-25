@@ -1,0 +1,7 @@
+{
+  "controls_reproduce_previous_experiment": true,
+  "active_model_unchanged": true,
+  "rolling_comparisons": 15,
+  "tuning_periods": 3,
+  "selected_variant": "shots_with_shot_goals"
+}

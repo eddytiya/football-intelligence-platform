@@ -1,0 +1,254 @@
+{
+  "cost": "No paid data, API subscriptions or additional downloads; existing local provider archive only.",
+  "matches": 47738,
+  "feature_counts": {
+    "baseline": 31,
+    "opponent_adjusted": 40,
+    "recent_strength": 53,
+    "match_balance": 39,
+    "all_three": 70
+  },
+  "protocol": "Expanding training windows; validate 2023, 2024, 2025 seasons; select by pooled website log loss; evaluate selected variant and baseline on partial 2026 season.",
+  "fixed_components": "Same baseline-feature goal regressors and Elo signals for every variant within a fold; additions affect outcome classifier only.",
+  "rolling_results": {
+    "baseline": {
+      "overall": {
+        "matches": 8748,
+        "accuracy": 0.5193187014174668,
+        "balanced_accuracy": 0.4482275193445395,
+        "log_loss": 0.9861717127031986,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 1140,
+        "accuracy": 0.5307017543859649,
+        "balanced_accuracy": 0.4548328816621499,
+        "log_loss": 0.9830426044127192,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 594,
+        "accuracy": 0.5858585858585859,
+        "balanced_accuracy": 0.4919240669240669,
+        "log_loss": 0.9244384651446858,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "opponent_adjusted": {
+      "overall": {
+        "matches": 8748,
+        "accuracy": 0.5171467764060357,
+        "balanced_accuracy": 0.44749930126877135,
+        "log_loss": 0.9863182684769668,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 1140,
+        "accuracy": 0.5298245614035088,
+        "balanced_accuracy": 0.45573622402890696,
+        "log_loss": 0.9839848654469674,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 594,
+        "accuracy": 0.5824915824915825,
+        "balanced_accuracy": 0.49076576576576575,
+        "log_loss": 0.9279081408849046,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "recent_strength": {
+      "overall": {
+        "matches": 8748,
+        "accuracy": 0.5180612711476908,
+        "balanced_accuracy": 0.44739955203348303,
+        "log_loss": 0.9864853217312376,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 1140,
+        "accuracy": 0.531578947368421,
+        "balanced_accuracy": 0.4561878952122855,
+        "log_loss": 0.9835383338338257,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 594,
+        "accuracy": 0.5875420875420876,
+        "balanced_accuracy": 0.4943371943371943,
+        "log_loss": 0.9246296694575404,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "match_balance": {
+      "overall": {
+        "matches": 8748,
+        "accuracy": 0.5164609053497943,
+        "balanced_accuracy": 0.44602817035184134,
+        "log_loss": 0.9865030651614859,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 1140,
+        "accuracy": 0.5280701754385965,
+        "balanced_accuracy": 0.45302619692863594,
+        "log_loss": 0.9829584326392775,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 594,
+        "accuracy": 0.5841750841750841,
+        "balanced_accuracy": 0.49134491634491634,
+        "log_loss": 0.9248321823223459,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    },
+    "all_three": {
+      "overall": {
+        "matches": 8748,
+        "accuracy": 0.5184042066758117,
+        "balanced_accuracy": 0.4487115707555873,
+        "log_loss": 0.9865590546375094,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league": {
+        "matches": 1140,
+        "accuracy": 0.5289473684210526,
+        "balanced_accuracy": 0.45551038843721764,
+        "log_loss": 0.9830161899830333,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      },
+      "premier_league_prior_top_six": {
+        "matches": 594,
+        "accuracy": 0.5841750841750841,
+        "balanced_accuracy": 0.4925675675675676,
+        "log_loss": 0.9257568282307737,
+        "predicted_draws": 0,
+        "correct_draws": 0,
+        "draw_recall": 0.0
+      }
+    }
+  },
+  "chosen_variant": "baseline",
+  "rolling_winner_uncertainty": {
+    "log_loss_delta_95_interval": [
+      0.0,
+      0.0
+    ],
+    "accuracy_delta_95_interval": [
+      0.0,
+      0.0
+    ],
+    "note": "Paired calendar-week bootstrap; descriptive, not adjusted for selecting among variants."
+  },
+  "final_2026": {
+    "baseline": {
+      "classifier": {
+        "overall": {
+          "matches": 559,
+          "accuracy": 0.49731663685152055,
+          "balanced_accuracy": 0.4401021711366539,
+          "log_loss": 0.9878232171922858,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league": {
+          "matches": 60,
+          "accuracy": 0.45,
+          "balanced_accuracy": 0.4355877616747182,
+          "log_loss": 1.0159469397074155,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league_prior_top_six": {
+          "matches": 31,
+          "accuracy": 0.4838709677419355,
+          "balanced_accuracy": 0.5016835016835017,
+          "log_loss": 0.9261083970974298,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        }
+      },
+      "website_ensemble": {
+        "overall": {
+          "matches": 559,
+          "accuracy": 0.5008944543828264,
+          "balanced_accuracy": 0.44297573435504467,
+          "log_loss": 0.9868178460854028,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league": {
+          "matches": 60,
+          "accuracy": 0.45,
+          "balanced_accuracy": 0.43156199677938806,
+          "log_loss": 1.0226414756831381,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        },
+        "premier_league_prior_top_six": {
+          "matches": 31,
+          "accuracy": 0.4838709677419355,
+          "balanced_accuracy": 0.5016835016835017,
+          "log_loss": 0.9441916848759117,
+          "predicted_draws": 0,
+          "correct_draws": 0,
+          "draw_recall": 0.0
+        }
+      }
+    }
+  },
+  "final_2026_start": "2026-08-07",
+  "final_2026_end": "2026-10-14",
+  "final_winner_uncertainty": {
+    "log_loss_delta_95_interval": [
+      0.0,
+      0.0
+    ],
+    "accuracy_delta_95_interval": [
+      0.0,
+      0.0
+    ],
+    "note": "Paired calendar-week bootstrap; descriptive, not adjusted for selecting among variants."
+  },
+  "limitations": [
+    "2026 data is partial and already included in the deployed model's earlier training; it is held out only for this experiment.",
+    "Historical evaluation data has been inspected in previous experiments; not a pristine holdout.",
+    "Prior-season top-six labels reconstruct on-pitch standings without disciplinary deductions.",
+    "Goal regressors do not yet use the new features; production model unchanged."
+  ],
+  "active_model_unchanged": true
+}

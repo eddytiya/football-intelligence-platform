@@ -31,6 +31,9 @@ from app.api.team import (
     router as team_router,
 )
 from app.api.auth import router as auth_router
+from app.api.fan_game import router as fan_game_router
+from app.models.fan_pick import FanPick
+from app.models.forecast_snapshot import ForecastSnapshot
 from app.api.notifications import router as notifications_router
 from app.api.news import router as news_router
 from app.api.players import router as players_router
@@ -41,6 +44,7 @@ from app.models.user import Notification, User, UserFavourite, UserWatchlist
 from app.db.session import SessionLocal
 from app.services.etl.live_score_sync import FutureFixtureSync, LiveScoreSync
 from app.services.etl.api_football_squad_sync import APIFootballSquadSync
+from app.services.etl.prediction_history_sync import refresh_history
 from app.services.notifications.email_sender import send_email
 from app.services.notifications.notification_service import create_notification
 
@@ -76,6 +80,17 @@ async def future_fixture_sync_loop():
         finally:
             db.close()
         await asyncio.sleep(interval_seconds)
+
+
+async def prediction_history_sync_loop():
+    """Refresh accepted CSV history daily; inference reloads states on source changes."""
+    while True:
+        try:
+            result = await asyncio.to_thread(refresh_history)
+            logger.info("Prediction history refresh complete: %s", result)
+        except Exception:
+            logger.exception("Prediction history refresh failed; retaining last accepted history")
+        await asyncio.sleep(max(settings.PREDICTION_HISTORY_SYNC_INTERVAL_HOURS, 1) * 3600)
 
 
 async def api_football_squad_sync_loop():
@@ -160,9 +175,15 @@ async def lifespan(_: FastAPI):
     # The existing project does not use Alembic migrations at runtime. Create
     # only the new account table safely if it is not already present.
     User.__table__.create(bind=engine, checkfirst=True)
+    ForecastSnapshot.__table__.create(bind=engine, checkfirst=True)
     UserFavourite.__table__.create(bind=engine, checkfirst=True)
     UserWatchlist.__table__.create(bind=engine, checkfirst=True)
+    FanPick.__table__.create(bind=engine, checkfirst=True)
     Notification.__table__.create(bind=engine, checkfirst=True)
+    if settings.ADMIN_EMAIL and settings.ADMIN_PASSWORD:
+        from app.services.admin_account import ensure_admin_account
+        with SessionLocal() as db:
+            ensure_admin_account(db, settings.ADMIN_EMAIL, settings.ADMIN_PASSWORD)
     task = None
     if settings.LIVE_SCORE_SYNC_ENABLED:
         task = asyncio.create_task(live_score_sync_loop())
@@ -173,6 +194,7 @@ async def lifespan(_: FastAPI):
         settings.API_FOOTBALL_SQUAD_SYNC_ENABLED and settings.API_FOOTBALL_KEY
     ) else None
     notification_task = asyncio.create_task(watchlist_notification_loop())
+    history_task = asyncio.create_task(prediction_history_sync_loop()) if settings.PREDICTION_HISTORY_SYNC_ENABLED else None
     yield
     if task:
         task.cancel()
@@ -189,6 +211,10 @@ async def lifespan(_: FastAPI):
     notification_task.cancel()
     with contextlib.suppress(asyncio.CancelledError):
         await notification_task
+    if history_task:
+        history_task.cancel()
+        with contextlib.suppress(asyncio.CancelledError):
+            await history_task
 app = FastAPI(
     title="Football Intelligence Platform API",
     version="1.0.0",
@@ -199,9 +225,13 @@ app = FastAPI(
 # CORS Configuration
 # ==========================================================
 
+browser_origins = [origin.strip() for origin in settings.CORS_ORIGINS.split(",") if origin.strip()]
+if "http://localhost:5173" in browser_origins and "http://127.0.0.1:5173" not in browser_origins:
+    browser_origins.append("http://127.0.0.1:5173")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[origin.strip() for origin in settings.CORS_ORIGINS.split(",") if origin.strip()],
+    allow_origins=browser_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -211,6 +241,8 @@ app.add_middleware(
 # API Routers
 # ==========================================================
 
+from app.api.admin_predictions import router as admin_predictions_router
+app.include_router(admin_predictions_router)
 app.include_router(prediction_router)
 app.include_router(prediction_evaluation_router)
 app.include_router(prediction_analytics_router)
@@ -219,6 +251,7 @@ app.include_router(match_router)
 app.include_router(competition_router)
 app.include_router(team_router)
 app.include_router(auth_router)
+app.include_router(fan_game_router)
 app.include_router(notifications_router)
 app.include_router(news_router)
 app.include_router(players_router)

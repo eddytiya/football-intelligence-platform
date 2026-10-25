@@ -8,9 +8,10 @@ function MainLayout({ children }) {
 
     return (
         <div className={isDashboard ? "app-shell dashboard-shell" : "app-shell football-shell"}>
+            <a className="flood-skip" href="#main-content">Skip to content</a>
             <Navbar />
 
-            <main>
+            <main id="main-content">
                 {children}
             </main>
 

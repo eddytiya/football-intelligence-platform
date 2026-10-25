@@ -6,6 +6,13 @@ import { getCompetitionSeasonOutlook } from "../../api/matchApi";
 import { getTeamComparison } from "../../api/teamApi";
 import { removeWatchlist, saveWatchlist } from "../../api/accountApi";
 import "./Matches.css";
+import { FiStar, FiArrowUpRight } from "react-icons/fi";
+import ClubCrest from "../ClubCrest";
+import { archiveForecast } from "../../utils/forecastTracker";
+import { fixtureDate } from "../../utils/fixturePresentation";
+import CalendarExport from "./CalendarExport";
+import { stadiumPhotoFor } from "../../utils/stadiumPhotos";
+import { recordObservation } from "../../utils/forecastEvidence";
 
 function AnimatedNumber({ value, decimals = 1, suffix = "" }) {
     const [displayValue, setDisplayValue] = useState(0);
@@ -32,7 +39,7 @@ function MatchCountdown({ utcDate, isFinished, isLive }) {
 
     useEffect(() => {
         const update = () => {
-            const difference = new Date(utcDate).getTime() - Date.now();
+            const difference = (fixtureDate(utcDate)?.getTime() || 0) - Date.now();
             if (difference <= 0) return setRemaining("");
             const hours = Math.floor(difference / 3_600_000);
             const days = Math.floor(hours / 24);
@@ -47,10 +54,10 @@ function MatchCountdown({ utcDate, isFinished, isLive }) {
     return <span className="match-countdown">{remaining}</span>;
 }
 
-function TeamIdentity({ id, crest, name, away = false }) {
+function TeamIdentity({ id, crest, name, away = false, broadcast = false }) {
     const content = away
-        ? <><span>{name}</span><img src={crest} alt="" /></>
-        : <><img src={crest} alt="" /><span>{name}</span></>;
+        ? <><span>{name}</span><ClubCrest name={name} src={crest} variant={broadcast ? "broadcast" : "colour"} /></>
+        : <><ClubCrest name={name} src={crest} variant={broadcast ? "broadcast" : "colour"} /><span>{name}</span></>;
     if (!id) return <div className={`match-card-team${away ? " match-card-away" : " match-card-home"}`}>{content}</div>;
     return <Link className={`match-card-team match-team-link${away ? " match-card-away" : " match-card-home"}`} to={`/teams/${id}`} title={`Open ${name} team profile`}>{content}</Link>;
 }
@@ -58,6 +65,7 @@ function TeamIdentity({ id, crest, name, away = false }) {
 const poisson = (goals, expected) => (Math.exp(-expected) * (expected ** goals)) / factorial(goals);
 const factorial = (number) => number <= 1 ? 1 : number * factorial(number - 1);
 const percentage = (value) => `${(value * 100).toFixed(1)}%`;
+const coverageLabel = (value) => value === "not_connected" ? "not connected" : [true, "available", "connected"].includes(value) ? "available" : "not supplied";
 
 function PredictionExtras({ match, prediction }) {
     const score = prediction.score_prediction;
@@ -85,13 +93,16 @@ function PredictionExtras({ match, prediction }) {
         <section className="prediction-consensus-panel"><header><span>Prediction comparison</span><small>Independent model signals</small></header><div><article><b>{prediction.predicted_outcome}</b><span>Historical ML</span></article><article><b>{formOutcome}</b><span>Recent five-match form</span></article><article><b>{prediction.team_comparison?.home.attack > prediction.team_comparison?.away.attack ? match.home_team_name : match.away_team_name}</b><span>Attack-strength signal</span></article></div><p>Signals are shown side-by-side to explain agreement or disagreement; they are not separate betting models.</p></section>
         {ensemble && <section className="prediction-ensemble-panel"><header><span>Forecast ensemble</span><small>{ensemble.name}</small></header><strong>{ensemble.agreement}</strong><div>{Object.entries(ensemble.signals || {}).map(([name, values]) => <article key={name}><b>{name.replaceAll("_", " ")}</b><span>{match.home_team_name} {percentage(values.home)} · Draw {percentage(values.draw)} · {match.away_team_name} {percentage(values.away)}</span></article>)}</div></section>}
         <section className="prediction-similar-panel"><header><span>Similar historical fixtures</span><small>Same league · pre-match profile</small></header>{similarMatches.length ? <div>{similarMatches.map((fixture) => <article key={`${fixture.date}-${fixture.home_team}-${fixture.away_team}`}><small>{new Date(fixture.date).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" })} · {Math.round(fixture.similarity * 100)}% similar</small><b>{fixture.home_team} {fixture.score} {fixture.away_team}</b></article>)}</div> : <p>Similar-fixture history will appear after the refreshed historical artifact is trained.</p>}</section>
-        <section className="prediction-coverage-panel"><header><span>Forecast coverage</span><small>What the model can verify</small></header><p>{prediction.data_coverage?.basis || "Historical form and fixture context."}</p><div><span>Team mapping: {percentage(prediction.data_coverage?.historical_team_mapping || 0)}</span><span>Player availability: {prediction.data_coverage?.player_availability === "not_connected" ? "not connected" : "available"}</span><span>Venue/referee: {prediction.data_coverage?.venue_and_referee === "not_connected" ? "not connected" : "available"}</span></div></section>
+        <section className="prediction-coverage-panel"><header><span>Forecast coverage</span><small>What the model can verify</small></header><p>{prediction.data_coverage?.basis || "Historical form and fixture context."}</p><div><span>Team mapping: {prediction.data_coverage?.historical_team_mapping == null ? "not supplied" : percentage(prediction.data_coverage.historical_team_mapping)}</span><span>Player availability: {coverageLabel(prediction.data_coverage?.player_availability)}</span><span>Venue/referee: {coverageLabel(prediction.data_coverage?.venue_and_referee)}</span></div></section>
         <div className="prediction-extra-actions"><button type="button" onClick={sharePrediction}>Share prediction</button><small>Saving happens automatically while this prediction is open.</small></div>
     </div>;
 }
 
-function MatchCard({ match, autoShowPrediction = false, onPredictionSaved }) {
-    const [prediction, setPrediction] = useState(null);
+function MatchCard({ match, autoShowPrediction = false, onPredictionSaved, initialPrediction = null, analysisOnly = false, broadcast = false }) {
+    const [failedStadium, setFailedStadium] = useState(null);
+    const homeStadium = broadcast ? stadiumPhotoFor(match.home_team_name) : null;
+    const stadiumPhoto = homeStadium && failedStadium !== homeStadium.image ? homeStadium : null;
+    const [prediction, setPrediction] = useState(initialPrediction);
     const [predictionError, setPredictionError] = useState(null);
     const [isLoadingPrediction, setIsLoadingPrediction] = useState(false);
     const [showDetails, setShowDetails] = useState(false);
@@ -105,6 +116,7 @@ function MatchCard({ match, autoShowPrediction = false, onPredictionSaved }) {
     const [scoreChanged, setScoreChanged] = useState(false);
     const isFinished = match.status === "FINISHED";
     const isLive = ["LIVE", "IN_PLAY", "PAUSED"].includes(match.status);
+    const verifiedUpcoming = fixtureDate(match.utc_date)?.getTime() > Date.now() && ["SCHEDULED", "TIMED"].includes(match.status);
 
     useEffect(() => {
         const currentScore = `${match.home_score}-${match.away_score}`;
@@ -116,24 +128,24 @@ function MatchCard({ match, autoShowPrediction = false, onPredictionSaved }) {
     }, [match.home_score, match.away_score]);
 
     useEffect(() => {
-        if (!prediction || !match.home_team_id || !match.away_team_id) { setHeadToHead(null); return undefined; }
+        if (!prediction || prediction.evaluation_protocol === "monthly_walk_forward_v1" || !match.home_team_id || !match.away_team_id) { setHeadToHead(null); return undefined; }
         let active = true;
         getTeamComparison(match.home_team_id, match.away_team_id).then((data) => active && setHeadToHead(data)).catch(() => active && setHeadToHead(null));
         return () => { active = false; };
     }, [prediction, match.home_team_id, match.away_team_id]);
 
     useEffect(() => {
-        if (!prediction || !match.competition_id) { setLeagueOutlook(null); return undefined; }
+        if (!prediction || prediction.evaluation_protocol === "monthly_walk_forward_v1" || !match.competition_id) { setLeagueOutlook(null); return undefined; }
         let active = true;
         getCompetitionSeasonOutlook(match.competition_id).then((data) => active && setLeagueOutlook(data)).catch(() => active && setLeagueOutlook(null));
         return () => { active = false; };
     }, [prediction, match.competition_id]);
-    const kickoff = new Date(match.utc_date).toLocaleTimeString([], {
+    const kickoff = fixtureDate(match.utc_date)?.toLocaleTimeString([], {
         hour: "2-digit",
         minute: "2-digit",
-    });
+    }) || "TBC";
     const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone?.replace("_", " ") || "local time";
-    const statusLabel = isFinished ? "Full time" : isLive ? "Live" : "Upcoming";
+    const statusLabel = match.status === "QUARANTINED" ? "Data under review" : isFinished ? "Full time" : isLive ? "Live" : verifiedUpcoming ? "Upcoming" : ["SCHEDULED", "TIMED"].includes(match.status) ? "Result unverified" : match.status?.replaceAll("_", " ") || "Status unavailable";
     const predictedOutcomeLabel = prediction?.predicted_outcome === "Home Win"
         ? match.home_team_name
         : prediction?.predicted_outcome === "Away Win"
@@ -149,11 +161,26 @@ function MatchCard({ match, autoShowPrediction = false, onPredictionSaved }) {
         try {
             setIsLoadingPrediction(true);
             setPredictionError(null);
+            if (!fixtureDate(match.utc_date) || fixtureDate(match.utc_date).getTime() <= Date.now() || !["SCHEDULED", "TIMED"].includes(match.status)) {
+                setPredictionError("New forecasts are available only before verified kickoff.");
+                return;
+            }
             const result = await predictionApi.getHistoricalPrediction(match.id);
+            if (result.prediction_status !== "ready") {
+                setPredictionError("Verified team history is unavailable for this fixture.");
+                return;
+            }
             setPrediction(result);
-            const history = JSON.parse(localStorage.getItem("prediction-history") || "[]").filter((item) => item.match_id !== match.id);
-            history.unshift({ match_id: match.id, home_team: match.home_team_name, away_team: match.away_team_name, utc_date: match.utc_date, predicted_outcome: result.predicted_outcome, likely_score: result.score_prediction?.most_likely_score?.score || null, saved_at: new Date().toISOString() });
-            localStorage.setItem("prediction-history", JSON.stringify(history.slice(0, 30)));
+            if (Date.now() < fixtureDate(match.utc_date).getTime()) {
+                const snapshot = { match_id: match.id, home_team_id: match.home_team_id, away_team_id: match.away_team_id, home_team: match.home_team_name, away_team: match.away_team_name, utc_date: match.utc_date, predicted_outcome: result.predicted_outcome, likely_score: result.score_prediction?.most_likely_score?.score || null, saved_at: new Date().toISOString(), model_version: result.model_version, leakage_protocol_version: result.leakage_protocol_version, training_data_through: result.training_data_through, history_through: result.history_through, probabilities: { home: result.home_win_probability, draw: result.draw_probability, away: result.away_win_probability } };
+                archiveForecast(snapshot);
+                recordObservation(snapshot);
+                try {
+                    const parsed = JSON.parse(localStorage.getItem("prediction-history") || "[]");
+                    const history = Array.isArray(parsed) ? parsed : [];
+                    if (!history.some((item) => String(item.match_id) === String(match.id))) localStorage.setItem("prediction-history", JSON.stringify([snapshot, ...history].slice(0, 30)));
+                } catch { /* The forecast stays readable when local storage is unavailable. */ }
+            }
             onPredictionSaved?.();
         } catch (error) {
             setPredictionError(error.response?.data?.detail || "Prediction is unavailable right now.");
@@ -189,7 +216,8 @@ function MatchCard({ match, autoShowPrediction = false, onPredictionSaved }) {
     ));
 
     return (
-        <article className={`match-card${prediction ? " has-prediction" : ""}${prediction?.confidence?.level === "High" ? " high-confidence" : ""}`}>
+        <article className={`match-card${broadcast ? " match-broadcast-card" : ""}${analysisOnly ? " flood-analysis-only" : ""}${prediction ? " has-prediction" : ""}${prediction?.confidence?.level === "High" ? " high-confidence" : ""}`}>
+            {stadiumPhoto && <div className="match-stadium-backdrop" aria-hidden="true"><img src={stadiumPhoto.image} alt="" loading="lazy" decoding="async" onError={() => setFailedStadium(stadiumPhoto.image)} /></div>}
             <div className="match-card-status">
                 <span className={`match-status-pill${isLive ? " is-live" : ""}`}>
                     {isLive && <span className="live-indicator" />}
@@ -198,27 +226,30 @@ function MatchCard({ match, autoShowPrediction = false, onPredictionSaved }) {
                 {match.match_week && <span className="matchweek-pill">MW {match.match_week}</span>}
             </div>
             <button type="button" className={`match-favourite-btn${isFavourite ? " is-favourite" : ""}${favouriteBurst ? " favourite-burst" : ""}`} onClick={toggleFavourite} aria-label={isFavourite ? "Remove from favourites" : "Add to favourites"}>
-                {isFavourite ? "★" : "☆"}
+                <FiStar fill={isFavourite ? "currentColor" : "none"} />
             </button>
 
-            <TeamIdentity id={match.home_team_id} crest={match.home_team_crest} name={match.home_team_name} />
+            <TeamIdentity id={match.home_team_id} crest={match.home_team_crest} name={match.home_team_name} broadcast={broadcast} />
 
             <div className="match-card-score">
-                <strong className={scoreChanged ? "score-updated" : ""}>{isFinished ? `${match.home_score} – ${match.away_score}` : kickoff}</strong>
-                <span>{isFinished ? "Final score" : `Kick-off · ${timezone}`}</span>
+                <strong className={scoreChanged ? "score-updated" : ""}>{isFinished || isLive ? `${match.home_score ?? "—"} – ${match.away_score ?? "—"}` : kickoff}</strong>
+                <span>{isFinished ? "Final score" : isLive ? "Live score" : `Kick-off · ${timezone}`}</span>
                 <MatchCountdown utcDate={match.utc_date} isFinished={isFinished} isLive={isLive} />
-                {!isFinished && (
+                {verifiedUpcoming && (
                     <button type="button" className="match-prediction-btn" onClick={showPrediction} disabled={isLoadingPrediction}>
-                        {isLoadingPrediction ? "Loading…" : prediction ? "Hide prediction" : "✦ Prediction →"}
+                        {isLoadingPrediction ? "Loading…" : prediction ? "Hide prediction" : <>Forecast <FiArrowUpRight /></>}
                     </button>
                 )}
                 <Link className="match-details-btn" to={`/matches/${match.id}`}>Match centre</Link>
+                {broadcast && <CalendarExport fixtures={[match]} />}
+                {broadcast && match.home_team_id && match.away_team_id && <Link className="match-details-btn" to={`/compare?first=${match.home_team_id}&second=${match.away_team_id}`}>Compare clubs</Link>}
                 <button type="button" className="match-details-btn" onClick={() => setShowDetails((shown) => !shown)}>
                     {showDetails ? "Hide details" : "Quick details"}
                 </button>
             </div>
 
-            <TeamIdentity id={match.away_team_id} crest={match.away_team_crest} name={match.away_team_name} away />
+            <TeamIdentity id={match.away_team_id} crest={match.away_team_crest} name={match.away_team_name} away broadcast={broadcast} />
+            {broadcast && <div className="match-stadium-credit">{stadiumPhoto ? <><span>Home ground · {stadiumPhoto.stadium}</span><a href={`/images/stadiums/credits.html#${stadiumPhoto.key}`} target="_blank" rel="noopener noreferrer">Photo credit & licence</a></> : <span>Home stadium photo not available</span>}</div>}
 
             {prediction && (
                 <div className="match-prediction-panel">

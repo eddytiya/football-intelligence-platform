@@ -1,0 +1,87 @@
+{
+  "tune_start": "2020-01-22",
+  "test_start": "2023-04-07",
+  "test_end": "2026-05-24",
+  "tuning_matches": 9439,
+  "test_matches": 9437,
+  "previous_saved_metrics": {
+    "training_matches": 37743,
+    "validation_matches": 9436,
+    "selected_model": "catboost",
+    "model_comparison": [
+      {
+        "model": "catboost",
+        "accuracy": 0.5177,
+        "balanced_accuracy": 0.4481,
+        "log_loss": 0.9873
+      },
+      {
+        "model": "calibrated_logistic_regression",
+        "accuracy": 0.5175,
+        "balanced_accuracy": 0.4509,
+        "log_loss": 0.9909
+      },
+      {
+        "model": "lightgbm",
+        "accuracy": 0.515,
+        "balanced_accuracy": 0.4427,
+        "log_loss": 0.9989
+      }
+    ],
+    "accuracy": 0.5177,
+    "balanced_accuracy": 0.4481,
+    "log_loss": 0.9873,
+    "expected_goals_mae": {
+      "home": 0.923,
+      "away": 0.83
+    }
+  },
+  "winner_on_tuning": {
+    "strategy": "all_history",
+    "parameters": {
+      "iterations": 700,
+      "depth": 4,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10
+    },
+    "trees": 399,
+    "training_matches": 28303,
+    "log_loss": 0.9963025463251037,
+    "accuracy": 0.5099057103506728,
+    "balanced_accuracy": 0.4394812990079097
+  },
+  "test_results": {
+    "baseline": {
+      "strategy": "all_history",
+      "parameters": {
+        "iterations": 250,
+        "depth": 6,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 5
+      },
+      "training_matches": 37742,
+      "log_loss": 0.9871394033158665,
+      "accuracy": 0.5161597965455124,
+      "balanced_accuracy": 0.44658559392019176
+    },
+    "tuning_winner": {
+      "strategy": "all_history",
+      "parameters": {
+        "iterations": 399,
+        "depth": 4,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 10
+      },
+      "training_matches": 37742,
+      "log_loss": 0.9866942349488134,
+      "accuracy": 0.5160538306665253,
+      "balanced_accuracy": 0.4464894532210379
+    }
+  },
+  "limitations": [
+    "Final test overlaps the previously reported validation period; it is not new unseen data.",
+    "Single chronological tuning period; confirm with rolling evaluation before deployment.",
+    "Same-day fixtures remain together. Features use prior results as matches unfold.",
+    "Production model was not modified."
+  ]
+}

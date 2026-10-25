@@ -28,7 +28,7 @@ const predictionApi = {
 
     async getHistoricalPrediction(matchId) {
         const response = await apiClient.get(
-            `/predictions/historical/match/${matchId}`
+            `/predictions/historical/match/${matchId}`, { timeout: 45000 }
         );
 
         return response.data;

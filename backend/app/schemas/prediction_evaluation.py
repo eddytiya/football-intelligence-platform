@@ -30,6 +30,7 @@ class PredictionEvaluationDetail(BaseModel):
     actual_result: str
     correct: bool
     evaluated_at: datetime
+    verification_status: str = 'legacy_unverified'
 
     model_config = ConfigDict(
         from_attributes=True,

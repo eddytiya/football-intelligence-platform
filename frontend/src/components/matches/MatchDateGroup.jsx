@@ -1,10 +1,12 @@
 import MatchCard from "./MatchCard";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import "./Matches.css";
 
 function MatchDateGroup({ date, competitions, hideCompetitionHeading = false, autoShowPrediction = false }) {
     const groupRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
+    const [collapsedLeagues, setCollapsedLeagues] = useState({});
+    const groupId = useId();
 
     useEffect(() => {
         const observer = new IntersectionObserver(([entry]) => {
@@ -41,27 +43,42 @@ function MatchDateGroup({ date, competitions, hideCompetitionHeading = false, au
                             className="competition-logo"
                         />
 
-                        <h3>
-
-                            {competition.competition_name}
-
-                        </h3>
-
-                        <span className="competition-match-count">
+                        <h3 className="competition-toggle-heading">
+                            <button
+                                type="button"
+                                className="competition-toggle"
+                                aria-expanded={!collapsedLeagues[competition.competition_id]}
+                                aria-controls={`${groupId}-${competition.competition_id}`}
+                                aria-label={`${collapsedLeagues[competition.competition_id] ? "Expand" : "Collapse"} ${competition.competition_name}`}
+                                onClick={() => setCollapsedLeagues((previous) => ({
+                                    ...previous,
+                                    [competition.competition_id]: !previous[competition.competition_id],
+                                }))}
+                            >
+                                <span className="competition-toggle-name">{competition.competition_name}</span>
+                                <span className="competition-match-count">
                             {competition.matches.length} {competition.matches.length === 1 ? "match" : "matches"}
-                        </span>
+                                </span>
+                                <svg className="competition-toggle-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                                    <path d={collapsedLeagues[competition.competition_id] ? "m9 5 7 7-7 7" : "m5 9 7 7 7-7"} />
+                                </svg>
+                            </button>
+                        </h3>
 
                     </div>}
 
+                    <div id={`${groupId}-${competition.competition_id}`} hidden={!hideCompetitionHeading && Boolean(collapsedLeagues[competition.competition_id])}>
                     {competition.matches.map((match) => (
 
                         <MatchCard
                             key={match.id}
                             match={match}
+                            broadcast
                             autoShowPrediction={autoShowPrediction}
                         />
 
                     ))}
+                    </div>
 
                 </div>
 

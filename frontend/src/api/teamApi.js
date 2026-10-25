@@ -5,8 +5,8 @@ export const getTeams = async ({ query = "", competitionId = "", limit = "", off
     return response.data;
 };
 
-export const getTeamProfile = async (teamId) => {
-    const response = await apiClient.get(`/teams/${teamId}`);
+export const getTeamProfile = async (teamId, options = {}) => {
+    const response = await apiClient.get(`/teams/${teamId}`, options);
     return response.data;
 };
 
